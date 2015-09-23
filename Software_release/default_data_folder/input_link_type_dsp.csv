@@ -1,0 +1,11 @@
+link_type,link_type_name,type_code,default_lane_capacity,default_speed_limit,default_number_of_lanes
+1,Freeway,f,1800,65,3
+2,Freeway with Detector,f,1800,65,3
+3,On Ramp,r,1400,35,2
+4,Off Ramp,r,1300,35,2
+5,Arterial,a,1000,40,2
+6,HOT,h,1500,50,3
+7,Highway,h,1500,50,3
+8,HOV,h,1500,50,3
+9,Freeway HOT,f,1800,65,3
+10,Freeway HOV,f,1800,65,3

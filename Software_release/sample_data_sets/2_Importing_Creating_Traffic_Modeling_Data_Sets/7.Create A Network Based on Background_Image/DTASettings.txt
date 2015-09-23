@@ -1,0 +1,7 @@
+[safety_planning]
+default_AADT_conversion_factor=0.10000
+[GUI]
+long_lat_coordinate_flag=1.00000
+[movement]
+prohibit_non_specified_movement_on_freeway_and_ramp=1.00000
+hide_non_specified_movement_on_freeway_and_ramp=1.00000

@@ -1,0 +1,65 @@
+section,key,value,required_or_optional,allowed_values,notes
+file_name,node,SLC_Network_Node.shp,desired,,if no node layer is provided
+file_name,link,SLC_Network_Link.shp,required,,this is the required data layer 
+file_name,zone,SLC_90thSouth_Zone.shp,desired,,if no zone layer is provided
+file_name,centroid,,,,additional centroid layer can help us build the activity location file
+file_name,connector,,,,additional connector layer can help us build the activity location file that links centroid to physical nodes
+configuration,with_decimal_long_lat,yes,,yes;no,
+configuration,length_unit,mile,,km;mile,
+configuration,number_of_lanes_oneway_vs_twoway,oneway,,oneway;twoway,
+configuration,lane_capacity_vs_link_capacity,lane,,lane;link,
+configuration,conversion_factor_for_obtaining_hourly_capacity,1,,,
+configuration,direction_0_as_oneway_vs_twoway,oneway,,oneway;twoway,
+configuration,default_link_direction,oneway,,oneway;twoway,
+configuration,node_number_threshold_as_centroid,0,,default 0,
+configuration,use_default_speed_limit_from_link_type,no,,yes;no,
+configuration,use_default_lane_capacity_from_link_type,no,,yes;no,
+configuration,use_default_number_of_lanes_from_link_type,no,,yes;no,
+configuration,identify_from_node_id_and_to_node_id_based_on_geometry,no,,yes;no,
+configuration,create_connectors_for_isolated_nodes,no,,yes;no,create connectors for isolalted nodes
+configuration,identify_signal_intersection,yes,,yes;no,
+configuration,minimum_speed_limit_for_signals,28,,,
+configuration,maximum_speed_limit_for_signals,60,,,
+configuration,default_cycle_length_in_second,110,,,
+configuration,minimum_length_for_importing_links,0.00001,,,
+node,node_id,N,required when node file is provided,,
+node,name,,,,for display only
+node,TAZ,TAZID,desired,,if no TAZ id is provided
+node,control_type,,,,used only when users have signal control type already
+link,from_node_id,A,desired,,if from_node_id is empty
+link,to_node_id,B,desired,,if to_node_id is empty
+link,name,STREET,,,for display only
+link,link_id,,,,
+link,TMC,,,,used for integrating sensor data
+link,link_type,FT,,,default value = 1
+link,mode_code,,,,reserved for transit modeling
+link,direction,ONEWAY,,,two comments here: if direction field is not available
+link,length,DISTANCE,desired,,if data is available
+link,number_of_lanes,LANES,desired,,users can specify use_default_number_of_lanes_from_link_type based on link type
+link,hourly_capacity,CAP1HR1LN,desired,,users can specify use_default_lane_capacity_from_link_type based on link type
+link,speed_limit,SFF,desired,,users can specify use_default_speed_limit_from_link_type based on link type
+link,r_number_of_lanes,,,,used only when data for reserved links are given
+link,r_hourly_capacity,,,,
+link,r_speed_limit,,,,
+link,r_link_type,,,,
+zone,zone_id,Id,desired,,required only if zone file is given in section file_name
+centroid,name,,,,display only
+centroid,node_id,,,,
+centroid,TAZ,,,,provide mapping for activity locations
+connector,zone_end,,,,provide mapping for activity locations
+connector,node_end,,,,
+connector,length,,,,
+connector,number_of_lanes,,,,
+connector,hourly_capacity,,,,
+connector,default_speed_limit,,,,
+connector,default_link_type,,,,
+connector,defaut_direction,0,,,
+connector,defaut_direction,0,,,
+connector,default_speed_limit,60,,,
+connector,default_link_type,99,,,
+connector,defaut_direction,0,,,
+connector,default_number_of_lanes,7,,,
+final_output,offset_link,yes,,,
+[movement]
+prohibit_non_specified_movement_on_freeway_and_ramp=1.00000
+hide_non_specified_movement_on_freeway_and_ramp=1.00000

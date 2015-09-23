@@ -1,0 +1,300 @@
+--- Current Directory: C:\NEXTA_OpenSource\Software_release\sample_data_sets\2_Importing_Creating_Traffic_Modeling_Data_Sets\0.Import_Excel_files ---
+
+---DTALite: A Fast Open-Source DTA Simulation Engine---
+Version 1.1.0, Release Date Jan  8 2014.
+Simulation Horizon (min) = 300
+Departure Time Interval (min) = 15
+Number of Iterations = 1
+Traffic Flow Model =  Newell's Cumulative Flow Count Model + Emissions Output
+Step 1: Reading file input_node.csv...
+Step 2: Reading file input_link_type.csv..
+Step 3: Reading file input_link.csv...
+Step 5: Reading file input_activity_location.csv...
+Step 6: Reading file input_vehicle_type.csv...
+Step 7.1: Reading file input_demand_type.csv...
+Step 7.2: Reading file input_pricing_type.csv...
+Step 9: Reading file input_VOT.csv...
+The following freeway/highway bottlenecks are identified.
+Reading file sensor_count.csv with 20 valid sensors.
+Step 10: Reading files  based on user settings in  meta database file...
+Reading file Scenario_Incident.csv
+incident records = 0
+Reading file Scenario_Link_Based_Toll.csv
+Reading file Scenario_Work_Zone.csv
+work zone records = 0
+Reading file Scenario_Dynamic_Message_Sign.csv
+VMS records = 0
+Total demand volume = 24876.531
+Total number of vehicles to be simulated = 24556
+ -- zone-specific demand data -- 
+Zone 2,demand =841.008, agent count =802
+Zone 4,demand =1307.236, agent count =1213
+Zone 6,demand =852.036, agent count =831
+Zone 8,demand =1073.018, agent count =1008
+Zone 10,demand =1245.323, agent count =1207
+Zone 12,demand =1277.594, agent count =1231
+Zone 14,demand =1923.301, agent count =1923
+Zone 16,demand =1363.394, agent count =1363
+Zone 18,demand =1552.113, agent count =1553
+Zone 20,demand =1202.454, agent count =1204
+Zone 22,demand =1345.167, agent count =1344
+Zone 24,demand =1452.889, agent count =1452
+Zone 26,demand =1456.600, agent count =1456
+Zone 28,demand =1512.234, agent count =1498
+Zone 31,demand =1413.150, agent count =1413
+Zone 33,demand =1453.591, agent count =1453
+Zone 35,demand =985.425, agent count =985
+Zone 37,demand =1049.938, agent count =1052
+Zone 39,demand =894.606, agent count =894
+Zone 41,demand =675.458, agent count =674
+Number of Zones = 41
+Number of Nodes = 153
+Number of Links = 391
+Number of Vehicles to be Simulated = 24556
+Demand Loading Period = 420 min -> 1050 min.
+Number of Vehicle Types = 5
+Number of Demand Types = 4
+Number of VOT records = 47
+Number of iterations = 0
+:: start assignment CPU Clock: 00:00:00 --
+:: complete assignment CPU Clock: 00:00:00 --
+simulation clock:  7:00, # of vehicles  -- Generated: 0, In network: 0
+simulation clock:  7:05, # of vehicles  -- Generated: 65, In network: 64
+simulation clock:  7:10, # of vehicles  -- Generated: 257, In network: 246
+simulation clock:  7:15, # of vehicles  -- Generated: 420, In network: 389
+simulation clock:  7:20, # of vehicles  -- Generated: 635, In network: 556
+simulation clock:  7:25, # of vehicles  -- Generated: 825, In network: 690
+simulation clock:  7:30, # of vehicles  -- Generated: 1026, In network: 797
+simulation clock:  7:35, # of vehicles  -- Generated: 1227, In network: 923
+simulation clock:  7:40, # of vehicles  -- Generated: 1417, In network: 994
+simulation clock:  7:45, # of vehicles  -- Generated: 1618, In network: 1110
+simulation clock:  7:50, # of vehicles  -- Generated: 1814, In network: 1181
+simulation clock:  7:55, # of vehicles  -- Generated: 2020, In network: 1290
+simulation clock:  8:00, # of vehicles  -- Generated: 2212, In network: 1352
+simulation clock:  8:05, # of vehicles  -- Generated: 2400, In network: 1442
+simulation clock:  8:10, # of vehicles  -- Generated: 2619, In network: 1536
+simulation clock:  8:15, # of vehicles  -- Generated: 2799, In network: 1619
+simulation clock:  8:20, # of vehicles  -- Generated: 2990, In network: 1674
+simulation clock:  8:25, # of vehicles  -- Generated: 3193, In network: 1796
+simulation clock:  8:30, # of vehicles  -- Generated: 3412, In network: 1888
+simulation clock:  8:35, # of vehicles  -- Generated: 3589, In network: 1971
+simulation clock:  8:40, # of vehicles  -- Generated: 3794, In network: 2045
+simulation clock:  8:45, # of vehicles  -- Generated: 4001, In network: 2164
+simulation clock:  8:50, # of vehicles  -- Generated: 4194, In network: 2231
+simulation clock:  8:55, # of vehicles  -- Generated: 4389, In network: 2333
+simulation clock:  9:00, # of vehicles  -- Generated: 4591, In network: 2412
+simulation clock:  9:05, # of vehicles  -- Generated: 4782, In network: 2521
+simulation clock:  9:10, # of vehicles  -- Generated: 4977, In network: 2602
+simulation clock:  9:15, # of vehicles  -- Generated: 5175, In network: 2719
+simulation clock:  9:20, # of vehicles  -- Generated: 5398, In network: 2832
+simulation clock:  9:25, # of vehicles  -- Generated: 5566, In network: 2919
+simulation clock:  9:30, # of vehicles  -- Generated: 5777, In network: 3027
+simulation clock:  9:35, # of vehicles  -- Generated: 5960, In network: 3124
+simulation clock:  9:40, # of vehicles  -- Generated: 6154, In network: 3208
+simulation clock:  9:45, # of vehicles  -- Generated: 6364, In network: 3341
+simulation clock:  9:50, # of vehicles  -- Generated: 6556, In network: 3425
+simulation clock:  9:55, # of vehicles  -- Generated: 6759, In network: 3552
+simulation clock: 10:00, # of vehicles  -- Generated: 6968, In network: 3638
+simulation clock: 10:05, # of vehicles  -- Generated: 7141, In network: 3727
+simulation clock: 10:10, # of vehicles  -- Generated: 7347, In network: 3823
+simulation clock: 10:15, # of vehicles  -- Generated: 7537, In network: 3931
+simulation clock: 10:20, # of vehicles  -- Generated: 7745, In network: 4024
+simulation clock: 10:25, # of vehicles  -- Generated: 7932, In network: 4142
+simulation clock: 10:30, # of vehicles  -- Generated: 8188, In network: 4291
+simulation clock: 10:35, # of vehicles  -- Generated: 8322, In network: 4357
+simulation clock: 10:40, # of vehicles  -- Generated: 8528, In network: 4459
+simulation clock: 10:45, # of vehicles  -- Generated: 8727, In network: 4581
+simulation clock: 10:50, # of vehicles  -- Generated: 8925, In network: 4675
+simulation clock: 10:55, # of vehicles  -- Generated: 9112, In network: 4788
+simulation clock: 11:00, # of vehicles  -- Generated: 9321, In network: 4890
+simulation clock: 11:05, # of vehicles  -- Generated: 9514, In network: 5013
+simulation clock: 11:10, # of vehicles  -- Generated: 9707, In network: 5108
+simulation clock: 11:15, # of vehicles  -- Generated: 9907, In network: 5235
+simulation clock: 11:20, # of vehicles  -- Generated: 10104, In network: 5339
+simulation clock: 11:25, # of vehicles  -- Generated: 10294, In network: 5448
+simulation clock: 11:30, # of vehicles  -- Generated: 10517, In network: 5568
+simulation clock: 11:35, # of vehicles  -- Generated: 10695, In network: 5677
+simulation clock: 11:40, # of vehicles  -- Generated: 10911, In network: 5786
+simulation clock: 11:45, # of vehicles  -- Generated: 11085, In network: 5894
+simulation clock: 11:50, # of vehicles  -- Generated: 11284, In network: 5984
+simulation clock: 11:55, # of vehicles  -- Generated: 11483, In network: 6112
+simulation clock: 12:00, # of vehicles  -- Generated: 11687, In network: 6224
+simulation clock: 12:05, # of vehicles  -- Generated: 11884, In network: 6354
+simulation clock: 12:10, # of vehicles  -- Generated: 12077, In network: 6458
+simulation clock: 12:15, # of vehicles  -- Generated: 12312, In network: 6623
+simulation clock: 12:20, # of vehicles  -- Generated: 12466, In network: 6688
+simulation clock: 12:25, # of vehicles  -- Generated: 12654, In network: 6821
+simulation clock: 12:30, # of vehicles  -- Generated: 12867, In network: 6947
+simulation clock: 12:35, # of vehicles  -- Generated: 13055, In network: 7075
+simulation clock: 12:40, # of vehicles  -- Generated: 13260, In network: 7191
+simulation clock: 12:45, # of vehicles  -- Generated: 13458, In network: 7330
+simulation clock: 12:50, # of vehicles  -- Generated: 13664, In network: 7452
+simulation clock: 12:55, # of vehicles  -- Generated: 13848, In network: 7579
+simulation clock: 13:00, # of vehicles  -- Generated: 14065, In network: 7714
+simulation clock: 13:05, # of vehicles  -- Generated: 14246, In network: 7836
+simulation clock: 13:10, # of vehicles  -- Generated: 14441, In network: 7954
+simulation clock: 13:15, # of vehicles  -- Generated: 14640, In network: 8097
+simulation clock: 13:20, # of vehicles  -- Generated: 14840, In network: 8223
+simulation clock: 13:25, # of vehicles  -- Generated: 15039, In network: 8366
+simulation clock: 13:30, # of vehicles  -- Generated: 15237, In network: 8503
+simulation clock: 13:35, # of vehicles  -- Generated: 15431, In network: 8649
+simulation clock: 13:40, # of vehicles  -- Generated: 15625, In network: 8788
+simulation clock: 13:45, # of vehicles  -- Generated: 15828, In network: 8954
+simulation clock: 13:50, # of vehicles  -- Generated: 16021, In network: 9103
+simulation clock: 13:55, # of vehicles  -- Generated: 16222, In network: 9264
+simulation clock: 14:00, # of vehicles  -- Generated: 16469, In network: 9467
+simulation clock: 14:05, # of vehicles  -- Generated: 16616, In network: 9585
+simulation clock: 14:10, # of vehicles  -- Generated: 16808, In network: 9735
+simulation clock: 14:15, # of vehicles  -- Generated: 17015, In network: 9912
+simulation clock: 14:20, # of vehicles  -- Generated: 17207, In network: 10059
+simulation clock: 14:25, # of vehicles  -- Generated: 17412, In network: 10233
+simulation clock: 14:30, # of vehicles  -- Generated: 17626, In network: 10406
+simulation clock: 14:35, # of vehicles  -- Generated: 17809, In network: 10560
+simulation clock: 14:40, # of vehicles  -- Generated: 18006, In network: 10718
+simulation clock: 14:45, # of vehicles  -- Generated: 18198, In network: 10881
+simulation clock: 14:50, # of vehicles  -- Generated: 18408, In network: 11053
+simulation clock: 14:55, # of vehicles  -- Generated: 18597, In network: 11215
+simulation clock: 15:00, # of vehicles  -- Generated: 18796, In network: 11378
+simulation clock: 15:05, # of vehicles  -- Generated: 18992, In network: 11546
+simulation clock: 15:10, # of vehicles  -- Generated: 19196, In network: 11714
+simulation clock: 15:15, # of vehicles  -- Generated: 19398, In network: 11885
+simulation clock: 15:20, # of vehicles  -- Generated: 19589, In network: 12040
+simulation clock: 15:25, # of vehicles  -- Generated: 19780, In network: 12199
+simulation clock: 15:30, # of vehicles  -- Generated: 19989, In network: 12371
+simulation clock: 15:35, # of vehicles  -- Generated: 20170, In network: 12528
+simulation clock: 15:40, # of vehicles  -- Generated: 20366, In network: 12683
+simulation clock: 15:45, # of vehicles  -- Generated: 20587, In network: 12879
+simulation clock: 15:50, # of vehicles  -- Generated: 20763, In network: 13018
+simulation clock: 15:55, # of vehicles  -- Generated: 20964, In network: 13194
+simulation clock: 16:00, # of vehicles  -- Generated: 21178, In network: 13377
+simulation clock: 16:05, # of vehicles  -- Generated: 21359, In network: 13535
+simulation clock: 16:10, # of vehicles  -- Generated: 21565, In network: 13710
+simulation clock: 16:15, # of vehicles  -- Generated: 21757, In network: 13879
+simulation clock: 16:20, # of vehicles  -- Generated: 21967, In network: 14056
+simulation clock: 16:25, # of vehicles  -- Generated: 22150, In network: 14218
+simulation clock: 16:30, # of vehicles  -- Generated: 22354, In network: 14391
+simulation clock: 16:35, # of vehicles  -- Generated: 22530, In network: 14543
+simulation clock: 16:40, # of vehicles  -- Generated: 22741, In network: 14726
+simulation clock: 16:45, # of vehicles  -- Generated: 22944, In network: 14904
+simulation clock: 16:50, # of vehicles  -- Generated: 23143, In network: 15070
+simulation clock: 16:55, # of vehicles  -- Generated: 23339, In network: 15243
+simulation clock: 17:00, # of vehicles  -- Generated: 23547, In network: 15420
+simulation clock: 17:05, # of vehicles  -- Generated: 23735, In network: 15582
+simulation clock: 17:10, # of vehicles  -- Generated: 23928, In network: 15738
+simulation clock: 17:15, # of vehicles  -- Generated: 24142, In network: 15927
+simulation clock: 17:20, # of vehicles  -- Generated: 24306, In network: 16055
+simulation clock: 17:25, # of vehicles  -- Generated: 24493, In network: 16217
+simulation clock: 17:30, # of vehicles  -- Generated: 24556, In network: 16249
+simulation clock: 17:35, # of vehicles  -- Generated: 24556, In network: 16233
+simulation clock: 17:40, # of vehicles  -- Generated: 24556, In network: 16215
+simulation clock: 17:45, # of vehicles  -- Generated: 24556, In network: 16201
+simulation clock: 17:50, # of vehicles  -- Generated: 24556, In network: 16185
+simulation clock: 17:55, # of vehicles  -- Generated: 24556, In network: 16177
+simulation clock: 18:00, # of vehicles  -- Generated: 24556, In network: 16161
+simulation clock: 18:05, # of vehicles  -- Generated: 24556, In network: 16153
+simulation clock: 18:10, # of vehicles  -- Generated: 24556, In network: 16140
+simulation clock: 18:15, # of vehicles  -- Generated: 24556, In network: 16130
+simulation clock: 18:20, # of vehicles  -- Generated: 24556, In network: 16119
+simulation clock: 18:25, # of vehicles  -- Generated: 24556, In network: 16112
+simulation clock: 18:30, # of vehicles  -- Generated: 24556, In network: 16099
+simulation clock: 18:35, # of vehicles  -- Generated: 24556, In network: 16061
+simulation clock: 18:40, # of vehicles  -- Generated: 24556, In network: 15975
+simulation clock: 18:45, # of vehicles  -- Generated: 24556, In network: 15890
+simulation clock: 18:50, # of vehicles  -- Generated: 24556, In network: 15757
+simulation clock: 18:55, # of vehicles  -- Generated: 24556, In network: 15662
+simulation clock: 19:00, # of vehicles  -- Generated: 24556, In network: 15526
+simulation clock: 19:05, # of vehicles  -- Generated: 24556, In network: 15427
+simulation clock: 19:10, # of vehicles  -- Generated: 24556, In network: 15290
+simulation clock: 19:15, # of vehicles  -- Generated: 24556, In network: 15181
+simulation clock: 19:20, # of vehicles  -- Generated: 24556, In network: 15038
+simulation clock: 19:25, # of vehicles  -- Generated: 24556, In network: 14927
+simulation clock: 19:30, # of vehicles  -- Generated: 24556, In network: 14791
+simulation clock: 19:35, # of vehicles  -- Generated: 24556, In network: 14699
+simulation clock: 19:40, # of vehicles  -- Generated: 24556, In network: 14567
+simulation clock: 19:45, # of vehicles  -- Generated: 24556, In network: 14476
+simulation clock: 19:50, # of vehicles  -- Generated: 24556, In network: 14341
+simulation clock: 19:55, # of vehicles  -- Generated: 24556, In network: 14245
+simulation clock: 20:00, # of vehicles  -- Generated: 24556, In network: 14106
+simulation clock: 20:05, # of vehicles  -- Generated: 24556, In network: 13997
+simulation clock: 20:10, # of vehicles  -- Generated: 24556, In network: 13852
+simulation clock: 20:15, # of vehicles  -- Generated: 24556, In network: 13751
+simulation clock: 20:20, # of vehicles  -- Generated: 24556, In network: 13606
+simulation clock: 20:25, # of vehicles  -- Generated: 24556, In network: 13497
+simulation clock: 20:30, # of vehicles  -- Generated: 24556, In network: 13355
+simulation clock: 20:35, # of vehicles  -- Generated: 24556, In network: 13258
+simulation clock: 20:40, # of vehicles  -- Generated: 24556, In network: 13100
+simulation clock: 20:45, # of vehicles  -- Generated: 24556, In network: 13000
+simulation clock: 20:50, # of vehicles  -- Generated: 24556, In network: 12865
+simulation clock: 20:55, # of vehicles  -- Generated: 24556, In network: 12764
+simulation clock: 21:00, # of vehicles  -- Generated: 24556, In network: 12623
+simulation clock: 21:05, # of vehicles  -- Generated: 24556, In network: 12525
+simulation clock: 21:10, # of vehicles  -- Generated: 24556, In network: 12393
+simulation clock: 21:15, # of vehicles  -- Generated: 24556, In network: 12302
+simulation clock: 21:20, # of vehicles  -- Generated: 24556, In network: 12168
+simulation clock: 21:25, # of vehicles  -- Generated: 24556, In network: 12064
+simulation clock: 21:30, # of vehicles  -- Generated: 24556, In network: 11937
+simulation clock: 21:35, # of vehicles  -- Generated: 24556, In network: 11847
+simulation clock: 21:40, # of vehicles  -- Generated: 24556, In network: 11726
+simulation clock: 21:45, # of vehicles  -- Generated: 24556, In network: 11633
+simulation clock: 21:50, # of vehicles  -- Generated: 24556, In network: 11510
+simulation clock: 21:55, # of vehicles  -- Generated: 24556, In network: 11426
+simulation clock: 22:00, # of vehicles  -- Generated: 24556, In network: 11304
+simulation clock: 22:05, # of vehicles  -- Generated: 24556, In network: 11216
+simulation clock: 22:10, # of vehicles  -- Generated: 24556, In network: 11094
+simulation clock: 22:15, # of vehicles  -- Generated: 24556, In network: 11016
+simulation clock: 22:20, # of vehicles  -- Generated: 24556, In network: 10905
+simulation clock: 22:25, # of vehicles  -- Generated: 24556, In network: 10823
+simulation clock: 22:30, # of vehicles  -- Generated: 24556, In network: 10713
+CPU Clock: 00:00:02 --Iteration: 0, Average Trip Time: 186.227, Travel Time Index: 52.189, Average Distance: 2.610, Switch %:100.000, Number of Vehicles Complete Their Trips: 13843, 56.373%
+--- MOE for vehicles completing trips ---
+ # of Vehicles = 13843 AvgTripTime = 220.266 (min), AvgDistance = 2.610 (miles), AvgSpeed =  0.711 (mph)
+--- MOE for Each Information Class ---
+Hist Knowledge (VMS non-responsive): # of Vehicles = 13843 ,AvgTripTime = 220.266 (min), AvgDistance = 2.610 (miles), AvgSpeed =  0.711 (mph)
+
+--- MOE for Each Vehicle Type ---
+SOV Passenger Car: # of Vehicles = 13843 ,AvgTripTime = 220.266 (min), AvgDistance = 2.610 (miles), AvgSpeed =  0.711 (mph)
+
+--- MOE for Each Departure Time Interval ---
+Time:420 min, # of Vehicles = 415 ,AvgTripTime = 37.383 (min), AvgDistance = 3.050 (miles), AvgSpeed =  4.895 (mph)
+Time:435 min, # of Vehicles = 595 ,AvgTripTime = 77.280 (min), AvgDistance = 2.999 (miles), AvgSpeed =  2.328 (mph)
+Time:450 min, # of Vehicles = 597 ,AvgTripTime = 143.230 (min), AvgDistance = 2.992 (miles), AvgSpeed =  1.253 (mph)
+Time:465 min, # of Vehicles = 549 ,AvgTripTime = 164.407 (min), AvgDistance = 2.901 (miles), AvgSpeed =  1.059 (mph)
+Time:480 min, # of Vehicles = 520 ,AvgTripTime = 160.016 (min), AvgDistance = 2.794 (miles), AvgSpeed =  1.048 (mph)
+Time:495 min, # of Vehicles = 471 ,AvgTripTime = 178.986 (min), AvgDistance = 2.785 (miles), AvgSpeed =  0.933 (mph)
+Time:510 min, # of Vehicles = 438 ,AvgTripTime = 157.344 (min), AvgDistance = 2.721 (miles), AvgSpeed =  1.038 (mph)
+Time:525 min, # of Vehicles = 432 ,AvgTripTime = 167.080 (min), AvgDistance = 2.703 (miles), AvgSpeed =  0.971 (mph)
+Time:540 min, # of Vehicles = 404 ,AvgTripTime = 189.221 (min), AvgDistance = 2.737 (miles), AvgSpeed =  0.868 (mph)
+Time:555 min, # of Vehicles = 409 ,AvgTripTime = 188.191 (min), AvgDistance = 2.665 (miles), AvgSpeed =  0.850 (mph)
+Time:570 min, # of Vehicles = 404 ,AvgTripTime = 211.464 (min), AvgDistance = 2.709 (miles), AvgSpeed =  0.769 (mph)
+Time:585 min, # of Vehicles = 375 ,AvgTripTime = 202.372 (min), AvgDistance = 2.737 (miles), AvgSpeed =  0.812 (mph)
+Time:600 min, # of Vehicles = 405 ,AvgTripTime = 212.254 (min), AvgDistance = 2.715 (miles), AvgSpeed =  0.768 (mph)
+Time:615 min, # of Vehicles = 357 ,AvgTripTime = 213.498 (min), AvgDistance = 2.721 (miles), AvgSpeed =  0.765 (mph)
+Time:630 min, # of Vehicles = 416 ,AvgTripTime = 236.650 (min), AvgDistance = 2.695 (miles), AvgSpeed =  0.683 (mph)
+Time:645 min, # of Vehicles = 377 ,AvgTripTime = 239.437 (min), AvgDistance = 2.742 (miles), AvgSpeed =  0.687 (mph)
+Time:660 min, # of Vehicles = 380 ,AvgTripTime = 249.143 (min), AvgDistance = 2.716 (miles), AvgSpeed =  0.654 (mph)
+Time:675 min, # of Vehicles = 366 ,AvgTripTime = 257.755 (min), AvgDistance = 2.731 (miles), AvgSpeed =  0.636 (mph)
+Time:690 min, # of Vehicles = 388 ,AvgTripTime = 297.932 (min), AvgDistance = 2.678 (miles), AvgSpeed =  0.539 (mph)
+Time:705 min, # of Vehicles = 371 ,AvgTripTime = 301.134 (min), AvgDistance = 2.710 (miles), AvgSpeed =  0.540 (mph)
+Time:720 min, # of Vehicles = 336 ,AvgTripTime = 297.269 (min), AvgDistance = 2.662 (miles), AvgSpeed =  0.537 (mph)
+Time:735 min, # of Vehicles = 354 ,AvgTripTime = 290.981 (min), AvgDistance = 2.545 (miles), AvgSpeed =  0.525 (mph)
+Time:750 min, # of Vehicles = 337 ,AvgTripTime = 305.341 (min), AvgDistance = 2.562 (miles), AvgSpeed =  0.503 (mph)
+Time:765 min, # of Vehicles = 295 ,AvgTripTime = 308.970 (min), AvgDistance = 2.445 (miles), AvgSpeed =  0.475 (mph)
+Time:780 min, # of Vehicles = 297 ,AvgTripTime = 307.089 (min), AvgDistance = 2.398 (miles), AvgSpeed =  0.469 (mph)
+Time:795 min, # of Vehicles = 267 ,AvgTripTime = 316.408 (min), AvgDistance = 2.325 (miles), AvgSpeed =  0.441 (mph)
+Time:810 min, # of Vehicles = 272 ,AvgTripTime = 313.136 (min), AvgDistance = 2.302 (miles), AvgSpeed =  0.441 (mph)
+Time:825 min, # of Vehicles = 250 ,AvgTripTime = 313.013 (min), AvgDistance = 2.251 (miles), AvgSpeed =  0.431 (mph)
+Time:840 min, # of Vehicles = 295 ,AvgTripTime = 310.410 (min), AvgDistance = 2.287 (miles), AvgSpeed =  0.442 (mph)
+Time:855 min, # of Vehicles = 249 ,AvgTripTime = 299.752 (min), AvgDistance = 2.301 (miles), AvgSpeed =  0.461 (mph)
+Time:870 min, # of Vehicles = 238 ,AvgTripTime = 292.231 (min), AvgDistance = 2.292 (miles), AvgSpeed =  0.471 (mph)
+Time:885 min, # of Vehicles = 213 ,AvgTripTime = 272.527 (min), AvgDistance = 2.202 (miles), AvgSpeed =  0.485 (mph)
+Time:900 min, # of Vehicles = 216 ,AvgTripTime = 258.286 (min), AvgDistance = 2.150 (miles), AvgSpeed =  0.499 (mph)
+Time:915 min, # of Vehicles = 203 ,AvgTripTime = 269.908 (min), AvgDistance = 2.255 (miles), AvgSpeed =  0.501 (mph)
+Time:930 min, # of Vehicles = 200 ,AvgTripTime = 245.093 (min), AvgDistance = 2.105 (miles), AvgSpeed =  0.515 (mph)
+Time:945 min, # of Vehicles = 182 ,AvgTripTime = 235.211 (min), AvgDistance = 2.141 (miles), AvgSpeed =  0.546 (mph)
+Time:960 min, # of Vehicles = 175 ,AvgTripTime = 211.098 (min), AvgDistance = 2.082 (miles), AvgSpeed =  0.592 (mph)
+Time:975 min, # of Vehicles = 180 ,AvgTripTime = 208.855 (min), AvgDistance = 2.139 (miles), AvgSpeed =  0.615 (mph)
+Time:990 min, # of Vehicles = 170 ,AvgTripTime = 198.280 (min), AvgDistance = 2.115 (miles), AvgSpeed =  0.640 (mph)
+Time:1005 min, # of Vehicles = 176 ,AvgTripTime = 196.796 (min), AvgDistance = 2.206 (miles), AvgSpeed =  0.673 (mph)
+Time:1020 min, # of Vehicles = 159 ,AvgTripTime = 176.206 (min), AvgDistance = 2.136 (miles), AvgSpeed =  0.727 (mph)
+Time:1035 min, # of Vehicles = 110 ,AvgTripTime = 165.004 (min), AvgDistance = 2.096 (miles), AvgSpeed =  0.762 (mph)
+

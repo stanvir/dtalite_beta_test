@@ -1,0 +1,2610 @@
+ReadInputNodeCSV function called!
+Sumary: All together 149 links have been read!
+ReadInputLinkTypeCSV function called!
+ReadInputSignalCSV function called!
+ReadInputSignalCSV function ended with 0 SCs and 0 SGs!
+ClassifyNodes function called!
+ClassifyNodes function ended with 149 nodes!
+NodeID:0 NodeNumber:1285 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5018 toAppr: 1
+outLinkID:1285 fmAppr: 0
+NodeID:1 NodeNumber:1286 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11125 toAppr: 1
+outLinkID:1286 fmAppr: 0
+NodeID:2 NodeNumber:1289 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11124 toAppr: 1
+inLinkID: 4952 toAppr: 1
+outLinkID:1289 fmAppr: 0
+NodeID:3 NodeNumber:1290 ProcsType: 0 inLink 0 outLink 1
+outLinkID:1290 fmAppr: 0
+NodeID:4 NodeNumber:1296 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5240 toAppr: 1
+outLinkID:1296 fmAppr: 0
+NodeID:5 NodeNumber:1299 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11129 toAppr: 1
+inLinkID: 4958 toAppr: 1
+outLinkID:1299 fmAppr: 0
+NodeID:6 NodeNumber:1314 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11146 toAppr: 1
+outLinkID:1314 fmAppr: 0
+NodeID:7 NodeNumber:1316 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11148 toAppr: 1
+outLinkID:1316 fmAppr: 0
+NodeID:8 NodeNumber:1318 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11160 toAppr: 1
+outLinkID:1318 fmAppr: 0
+NodeID:9 NodeNumber:1319 ProcsType: 0 inLink 0 outLink 1
+outLinkID:1319 fmAppr: 0
+NodeID:10 NodeNumber:1320 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5820 toAppr: 1
+outLinkID:1320 fmAppr: 0
+NodeID:11 NodeNumber:1322 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5589 toAppr: 1
+inLinkID: 11161 toAppr: 1
+outLinkID:1322 fmAppr: 0
+NodeID:12 NodeNumber:1323 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5592 toAppr: 1
+outLinkID:1323 fmAppr: 0
+NodeID:13 NodeNumber:1325 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 10853 toAppr: 1
+outLinkID:1325 fmAppr: 0
+NodeID:14 NodeNumber:1346 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11172 toAppr: 1
+outLinkID:1346 fmAppr: 0
+NodeID:15 NodeNumber:1348 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5210 toAppr: 1
+outLinkID:1348 fmAppr: 0
+NodeID:16 NodeNumber:1349 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11181 toAppr: 1
+inLinkID: 5219 toAppr: 1
+outLinkID:1349 fmAppr: 0
+NodeID:17 NodeNumber:1351 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5209 toAppr: 1
+outLinkID:1351 fmAppr: 0
+NodeID:18 NodeNumber:1352 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11261 toAppr: 1
+inLinkID: 6256 toAppr: 1
+outLinkID:1352 fmAppr: 0
+NodeID:19 NodeNumber:1353 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11173 toAppr: 1
+outLinkID:1353 fmAppr: 0
+NodeID:20 NodeNumber:1354 ProcsType: 0 inLink 0 outLink 1
+outLinkID:1354 fmAppr: 0
+NodeID:21 NodeNumber:1355 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11183 toAppr: 1
+outLinkID:1355 fmAppr: 0
+NodeID:22 NodeNumber:1356 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11259 toAppr: 1
+inLinkID: 6255 toAppr: 1
+outLinkID:1356 fmAppr: 0
+NodeID:23 NodeNumber:1357 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5174 toAppr: 1
+inLinkID: 5588 toAppr: 1
+outLinkID:1357 fmAppr: 0
+NodeID:24 NodeNumber:1358 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 3000 toAppr: 1
+inLinkID: 3002 toAppr: 1
+outLinkID:1358 fmAppr: 0
+NodeID:25 NodeNumber:1359 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 6185 toAppr: 1
+outLinkID:1359 fmAppr: 0
+NodeID:26 NodeNumber:1360 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11489 toAppr: 1
+inLinkID: 10850 toAppr: 1
+outLinkID:1360 fmAppr: 0
+NodeID:27 NodeNumber:1361 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5728 toAppr: 1
+outLinkID:1361 fmAppr: 0
+NodeID:28 NodeNumber:1397 ProcsType: 0 inLink 0 outLink 1
+outLinkID:1397 fmAppr: 0
+NodeID:29 NodeNumber:1404 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11257 toAppr: 1
+outLinkID:1404 fmAppr: 0
+NodeID:30 NodeNumber:3689 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11507 toAppr: 1
+outLinkID:3689 fmAppr: 0
+NodeID:31 NodeNumber:4156 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 10849 toAppr: 1
+outLinkID:4156 fmAppr: 0
+NodeID:32 NodeNumber:4804 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5106 toAppr: 1
+inLinkID: 5109 toAppr: 1
+outLinkID:4804 fmAppr: 0
+NodeID:33 NodeNumber:4899 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5030 toAppr: 1
+outLinkID:4899 fmAppr: 0
+NodeID:34 NodeNumber:4952 ProcsType: 5 inLink 4 outLink 1
+inLinkID: 1289 toAppr: 1
+inLinkID: 5022 toAppr: 1
+inLinkID: 1290 toAppr: 1
+inLinkID: 5440 toAppr: 1
+outLinkID:4952 fmAppr: 0
+NodeID:35 NodeNumber:4958 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5010 toAppr: 1
+inLinkID: 1299 toAppr: 1
+outLinkID:4958 fmAppr: 0
+NodeID:36 NodeNumber:5009 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5863 toAppr: 1
+inLinkID: 5027 toAppr: 1
+outLinkID:5009 fmAppr: 0
+NodeID:37 NodeNumber:5010 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5010 fmAppr: 0
+NodeID:38 NodeNumber:5017 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11123 toAppr: 1
+outLinkID:5017 fmAppr: 0
+NodeID:39 NodeNumber:5018 ProcsType: 5 inLink 3 outLink 1
+inLinkID: 1285 toAppr: 1
+inLinkID: 5017 toAppr: 1
+inLinkID: 5436 toAppr: 1
+outLinkID:5018 fmAppr: 0
+NodeID:40 NodeNumber:5022 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11147 toAppr: 1
+inLinkID: 5524 toAppr: 1
+outLinkID:5022 fmAppr: 0
+NodeID:41 NodeNumber:5027 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5009 toAppr: 1
+inLinkID: 11150 toAppr: 1
+outLinkID:5027 fmAppr: 0
+NodeID:42 NodeNumber:5030 ProcsType: 5 inLink 3 outLink 1
+inLinkID: 11128 toAppr: 1
+inLinkID: 4899 toAppr: 1
+inLinkID: 10872 toAppr: 1
+outLinkID:5030 fmAppr: 0
+NodeID:43 NodeNumber:5034 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5034 fmAppr: 0
+NodeID:44 NodeNumber:5037 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5037 fmAppr: 0
+NodeID:45 NodeNumber:5103 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5103 fmAppr: 0
+NodeID:46 NodeNumber:5106 ProcsType: 5 inLink 3 outLink 1
+inLinkID: 5117 toAppr: 1
+inLinkID: 10852 toAppr: 1
+inLinkID: 4804 toAppr: 1
+outLinkID:5106 fmAppr: 0
+NodeID:47 NodeNumber:5109 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11151 toAppr: 1
+outLinkID:5109 fmAppr: 0
+NodeID:48 NodeNumber:5112 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11159 toAppr: 1
+outLinkID:5112 fmAppr: 0
+NodeID:49 NodeNumber:5113 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 8002 toAppr: 1
+outLinkID:5113 fmAppr: 0
+NodeID:50 NodeNumber:5114 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5114 fmAppr: 0
+NodeID:51 NodeNumber:5117 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5 toAppr: 1
+inLinkID: 11255 toAppr: 1
+outLinkID:5117 fmAppr: 0
+NodeID:52 NodeNumber:5118 ProcsType: 5 inLink 3 outLink 1
+inLinkID: 10854 toAppr: 1
+inLinkID: 5727 toAppr: 1
+inLinkID: 11910 toAppr: 1
+outLinkID:5118 fmAppr: 0
+NodeID:53 NodeNumber:5119 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5119 fmAppr: 0
+NodeID:54 NodeNumber:5174 ProcsType: 5 inLink 3 outLink 1
+inLinkID: 5868 toAppr: 1
+inLinkID: 1357 toAppr: 1
+inLinkID: 5587 toAppr: 1
+outLinkID:5174 fmAppr: 0
+NodeID:55 NodeNumber:5175 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5729 toAppr: 1
+outLinkID:5175 fmAppr: 0
+NodeID:56 NodeNumber:5208 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11282 toAppr: 1
+inLinkID: 5238 toAppr: 1
+outLinkID:5208 fmAppr: 0
+NodeID:57 NodeNumber:5209 ProcsType: 5 inLink 4 outLink 1
+inLinkID: 1351 toAppr: 1
+inLinkID: 5208 toAppr: 1
+inLinkID: 1352 toAppr: 1
+inLinkID: 5211 toAppr: 1
+outLinkID:5209 fmAppr: 0
+NodeID:58 NodeNumber:5210 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 1348 toAppr: 1
+inLinkID: 1349 toAppr: 1
+outLinkID:5210 fmAppr: 0
+NodeID:59 NodeNumber:5211 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11180 toAppr: 1
+outLinkID:5211 fmAppr: 0
+NodeID:60 NodeNumber:5214 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11281 toAppr: 1
+outLinkID:5214 fmAppr: 0
+NodeID:61 NodeNumber:5215 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5215 fmAppr: 0
+NodeID:62 NodeNumber:5216 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 10847 toAppr: 1
+inLinkID: 5356 toAppr: 1
+outLinkID:5216 fmAppr: 0
+NodeID:63 NodeNumber:5219 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5232 toAppr: 1
+inLinkID: 1355 toAppr: 1
+outLinkID:5219 fmAppr: 0
+NodeID:64 NodeNumber:5232 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 11182 toAppr: 1
+outLinkID:5232 fmAppr: 0
+NodeID:65 NodeNumber:5238 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5238 fmAppr: 0
+NodeID:66 NodeNumber:5240 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1296 toAppr: 1
+outLinkID:5240 fmAppr: 0
+NodeID:67 NodeNumber:5356 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5216 toAppr: 1
+outLinkID:5356 fmAppr: 0
+NodeID:68 NodeNumber:5436 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5577 toAppr: 1
+inLinkID: 5578 toAppr: 1
+outLinkID:5436 fmAppr: 0
+NodeID:69 NodeNumber:5440 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11127 toAppr: 1
+inLinkID: 11827 toAppr: 1
+outLinkID:5440 fmAppr: 0
+NodeID:70 NodeNumber:5441 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5861 toAppr: 1
+inLinkID: 11126 toAppr: 1
+outLinkID:5441 fmAppr: 0
+NodeID:71 NodeNumber:5524 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5524 fmAppr: 0
+NodeID:72 NodeNumber:5577 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5577 fmAppr: 0
+NodeID:73 NodeNumber:5578 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5578 fmAppr: 0
+NodeID:74 NodeNumber:5587 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 10857 toAppr: 1
+outLinkID:5587 fmAppr: 0
+NodeID:75 NodeNumber:5588 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 11184 toAppr: 1
+inLinkID: 5215 toAppr: 1
+outLinkID:5588 fmAppr: 0
+NodeID:76 NodeNumber:5589 ProcsType: 5 inLink 4 outLink 1
+inLinkID: 5112 toAppr: 1
+inLinkID: 1353 toAppr: 1
+inLinkID: 5114 toAppr: 1
+inLinkID: 1322 toAppr: 1
+outLinkID:5589 fmAppr: 0
+NodeID:77 NodeNumber:5592 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 1354 toAppr: 1
+inLinkID: 1323 toAppr: 1
+outLinkID:5592 fmAppr: 0
+NodeID:78 NodeNumber:5727 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5118 toAppr: 1
+inLinkID: 5119 toAppr: 1
+outLinkID:5727 fmAppr: 0
+NodeID:79 NodeNumber:5728 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 7984 toAppr: 1
+inLinkID: 1361 toAppr: 1
+outLinkID:5728 fmAppr: 0
+NodeID:80 NodeNumber:5729 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 5175 toAppr: 1
+inLinkID: 5929 toAppr: 1
+outLinkID:5729 fmAppr: 0
+NodeID:81 NodeNumber:5730 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 8172 toAppr: 1
+inLinkID: 11763 toAppr: 1
+outLinkID:5730 fmAppr: 0
+NodeID:82 NodeNumber:5736 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 8116 toAppr: 1
+outLinkID:5736 fmAppr: 0
+NodeID:83 NodeNumber:5820 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 1320 toAppr: 1
+inLinkID: 5103 toAppr: 1
+outLinkID:5820 fmAppr: 0
+NodeID:84 NodeNumber:5861 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5441 toAppr: 1
+outLinkID:5861 fmAppr: 0
+NodeID:85 NodeNumber:5863 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5863 fmAppr: 0
+NodeID:86 NodeNumber:5868 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 6253 toAppr: 1
+outLinkID:5868 fmAppr: 0
+NodeID:87 NodeNumber:5929 ProcsType: 0 inLink 0 outLink 1
+outLinkID:5929 fmAppr: 0
+NodeID:88 NodeNumber:6185 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1359 toAppr: 1
+outLinkID:6185 fmAppr: 0
+NodeID:89 NodeNumber:6253 ProcsType: 0 inLink 0 outLink 1
+outLinkID:6253 fmAppr: 0
+NodeID:90 NodeNumber:6255 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1356 toAppr: 1
+outLinkID:6255 fmAppr: 0
+NodeID:91 NodeNumber:6256 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5214 toAppr: 1
+outLinkID:6256 fmAppr: 0
+NodeID:92 NodeNumber:6270 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 6273 toAppr: 1
+outLinkID:6270 fmAppr: 0
+NodeID:93 NodeNumber:6273 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 6270 toAppr: 1
+inLinkID: 10851 toAppr: 1
+outLinkID:6273 fmAppr: 0
+NodeID:94 NodeNumber:7210 ProcsType: 0 inLink 0 outLink 1
+outLinkID:7210 fmAppr: 0
+NodeID:95 NodeNumber:7984 ProcsType: 0 inLink 0 outLink 1
+outLinkID:7984 fmAppr: 0
+NodeID:96 NodeNumber:8002 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5113 toAppr: 1
+outLinkID:8002 fmAppr: 0
+NodeID:97 NodeNumber:8116 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5736 toAppr: 1
+outLinkID:8116 fmAppr: 0
+NodeID:98 NodeNumber:8172 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5730 toAppr: 1
+outLinkID:8172 fmAppr: 0
+NodeID:99 NodeNumber:10847 ProcsType: 0 inLink 0 outLink 1
+outLinkID:10847 fmAppr: 0
+NodeID:100 NodeNumber:10849 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 4156 toAppr: 1
+outLinkID:10849 fmAppr: 0
+NodeID:101 NodeNumber:10850 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 1360 toAppr: 1
+inLinkID: 7210 toAppr: 1
+outLinkID:10850 fmAppr: 0
+NodeID:102 NodeNumber:10851 ProcsType: 0 inLink 0 outLink 1
+outLinkID:10851 fmAppr: 0
+NodeID:103 NodeNumber:10852 ProcsType: 0 inLink 0 outLink 1
+outLinkID:10852 fmAppr: 0
+NodeID:104 NodeNumber:10853 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1325 toAppr: 1
+outLinkID:10853 fmAppr: 0
+NodeID:105 NodeNumber:10854 ProcsType: 0 inLink 0 outLink 1
+outLinkID:10854 fmAppr: 0
+NodeID:106 NodeNumber:10857 ProcsType: 0 inLink 0 outLink 1
+outLinkID:10857 fmAppr: 0
+NodeID:107 NodeNumber:10872 ProcsType: 0 inLink 0 outLink 1
+outLinkID:10872 fmAppr: 0
+NodeID:108 NodeNumber:11123 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11123 fmAppr: 0
+NodeID:109 NodeNumber:11124 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1319 toAppr: 1
+outLinkID:11124 fmAppr: 0
+NodeID:110 NodeNumber:11125 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1286 toAppr: 1
+outLinkID:11125 fmAppr: 0
+NodeID:111 NodeNumber:11126 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11126 fmAppr: 0
+NodeID:112 NodeNumber:11127 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11127 fmAppr: 0
+NodeID:113 NodeNumber:11128 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5037 toAppr: 1
+outLinkID:11128 fmAppr: 0
+NodeID:114 NodeNumber:11129 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 5034 toAppr: 1
+outLinkID:11129 fmAppr: 0
+NodeID:115 NodeNumber:11146 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1314 toAppr: 1
+outLinkID:11146 fmAppr: 0
+NodeID:116 NodeNumber:11147 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11147 fmAppr: 0
+NodeID:117 NodeNumber:11148 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1316 toAppr: 1
+outLinkID:11148 fmAppr: 0
+NodeID:118 NodeNumber:11150 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11150 fmAppr: 0
+NodeID:119 NodeNumber:11151 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11151 fmAppr: 0
+NodeID:120 NodeNumber:11159 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11159 fmAppr: 0
+NodeID:121 NodeNumber:11160 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1318 toAppr: 1
+outLinkID:11160 fmAppr: 0
+NodeID:122 NodeNumber:11161 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11161 fmAppr: 0
+NodeID:123 NodeNumber:11172 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1346 toAppr: 1
+outLinkID:11172 fmAppr: 0
+NodeID:124 NodeNumber:11173 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11173 fmAppr: 0
+NodeID:125 NodeNumber:11180 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11180 fmAppr: 0
+NodeID:126 NodeNumber:11181 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11181 fmAppr: 0
+NodeID:127 NodeNumber:11182 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11182 fmAppr: 0
+NodeID:128 NodeNumber:11183 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11183 fmAppr: 0
+NodeID:129 NodeNumber:11184 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11184 fmAppr: 0
+NodeID:130 NodeNumber:11255 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11255 fmAppr: 0
+NodeID:131 NodeNumber:11257 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1404 toAppr: 1
+outLinkID:11257 fmAppr: 0
+NodeID:132 NodeNumber:11259 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11259 fmAppr: 0
+NodeID:133 NodeNumber:11261 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1397 toAppr: 1
+outLinkID:11261 fmAppr: 0
+NodeID:134 NodeNumber:11281 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11281 fmAppr: 0
+NodeID:135 NodeNumber:11282 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11282 fmAppr: 0
+NodeID:136 NodeNumber:11489 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11489 fmAppr: 0
+NodeID:137 NodeNumber:11507 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 3689 toAppr: 1
+outLinkID:11507 fmAppr: 0
+NodeID:138 NodeNumber:11763 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11763 fmAppr: 0
+NodeID:139 NodeNumber:11827 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11827 fmAppr: 0
+NodeID:140 NodeNumber:11910 ProcsType: 0 inLink 0 outLink 1
+outLinkID:11910 fmAppr: 0
+NodeID:141 NodeNumber:3000 ProcsType: 5 inLink 2 outLink 1
+inLinkID: 3001 toAppr: 1
+inLinkID: 1358 toAppr: 1
+outLinkID:3000 fmAppr: 0
+NodeID:142 NodeNumber:3001 ProcsType: 0 inLink 0 outLink 1
+outLinkID:3001 fmAppr: 0
+NodeID:143 NodeNumber:3002 ProcsType: 0 inLink 0 outLink 1
+outLinkID:3002 fmAppr: 0
+NodeID:144 NodeNumber:1 ProcsType: 0 inLink 0 outLink 1
+outLinkID:1 fmAppr: 0
+NodeID:145 NodeNumber:2 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 1 toAppr: 1
+outLinkID:2 fmAppr: 0
+NodeID:146 NodeNumber:3 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 2 toAppr: 1
+outLinkID:3 fmAppr: 0
+NodeID:147 NodeNumber:4 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 3 toAppr: 1
+outLinkID:4 fmAppr: 0
+NodeID:148 NodeNumber:5 ProcsType: 2 inLink 1 outLink 1
+inLinkID: 4 toAppr: 1
+outLinkID:5 fmAppr: 0
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [5018] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1285] out, linkID: [1285] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [11125] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1286] out, linkID: [1286] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [11124] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [4952] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1289] out, linkID: [1289] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1290] out, linkID: [1290] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [5240] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1296] out, linkID: [1296] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [11129] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [4958] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1299] out, linkID: [1299] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [11146] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1314] out, linkID: [1314] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [11148] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1316] out, linkID: [1316] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [11160] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1318] out, linkID: [1318] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1319] out, linkID: [1319] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [5820] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1320] out, linkID: [1320] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [5589] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [11161] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1322] out, linkID: [1322] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [5592] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1323] out, linkID: [1323] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [10853] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1325] out, linkID: [1325] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [11172] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1346] out, linkID: [1346] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [5210] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1348] out, linkID: [1348] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [11181] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [5219] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1349] out, linkID: [1349] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [5209] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1351] out, linkID: [1351] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [11261] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [6256] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1352] out, linkID: [1352] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [11173] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1353] out, linkID: [1353] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1354] out, linkID: [1354] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [11183] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1355] out, linkID: [1355] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [11259] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [6255] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1356] out, linkID: [1356] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5174] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [5588] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1357] out, linkID: [1357] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3000] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [3002] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1358] out, linkID: [1358] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [6185] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1359] out, linkID: [1359] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [11489] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [10850] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1360] out, linkID: [1360] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [5728] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1361] out, linkID: [1361] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1397] out, linkID: [1397] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [11257] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1404] out, linkID: [1404] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3689] out, linkID: [11507] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[3689] out, linkID: [11507] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[3689] out, linkID: [3689] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3689] out, linkID: [3689] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4156] out, linkID: [10849] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[4156] out, linkID: [4156] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4804] out, linkID: [5106] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[4804] out, linkID: [5109] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[4804] out, linkID: [4804] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4899] out, linkID: [5030] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[4899] out, linkID: [5030] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[4899] out, linkID: [4899] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4899] out, linkID: [4899] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1289] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [5022] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [1290] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [5440] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4952] out, linkID: [4952] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [5010] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [5010] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [1299] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4958] out, linkID: [4958] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5009] out, linkID: [5863] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5009] out, linkID: [5863] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5009] out, linkID: [5027] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5009] out, linkID: [5027] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5009] out, linkID: [5009] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5009] out, linkID: [5009] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5010] out, linkID: [5010] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5010] out, linkID: [5010] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5017] out, linkID: [11123] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5017] out, linkID: [11123] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5017] out, linkID: [5017] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5017] out, linkID: [5017] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5017] out, linkID: [5017] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [1285] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5017] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5017] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5017] index: 3 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5436] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5436] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5436] index: 3 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5018] out, linkID: [5018] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5022] out, linkID: [11147] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5022] out, linkID: [5524] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5022] out, linkID: [5524] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5022] out, linkID: [5022] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5027] out, linkID: [5009] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5027] out, linkID: [5009] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5027] out, linkID: [11150] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5027] out, linkID: [5027] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5027] out, linkID: [5027] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [11128] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [11128] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [4899] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [4899] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [10872] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [10872] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [5030] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5030] out, linkID: [5030] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5034] out, linkID: [5034] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5034] out, linkID: [5034] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5037] out, linkID: [5037] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5037] out, linkID: [5037] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5103] out, linkID: [5103] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5106] out, linkID: [5117] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5106] out, linkID: [10852] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5106] out, linkID: [4804] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5106] out, linkID: [5106] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5109] out, linkID: [11151] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5109] out, linkID: [5109] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5112] out, linkID: [11159] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5112] out, linkID: [11159] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5112] out, linkID: [5112] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5112] out, linkID: [5112] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5113] out, linkID: [8002] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5113] out, linkID: [5113] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5114] out, linkID: [5114] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5114] out, linkID: [5114] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5117] out, linkID: [5] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5117] out, linkID: [5] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5117] out, linkID: [11255] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5117] out, linkID: [11255] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5117] out, linkID: [5117] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5118] out, linkID: [10854] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5118] out, linkID: [5727] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5118] out, linkID: [5727] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5118] out, linkID: [11910] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5118] out, linkID: [5118] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5118] out, linkID: [5118] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5119] out, linkID: [5119] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5119] out, linkID: [5119] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5868] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5868] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [1357] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5587] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5587] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5174] out, linkID: [5174] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5175] out, linkID: [5729] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5175] out, linkID: [5175] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5208] out, linkID: [11282] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5208] out, linkID: [5238] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5208] out, linkID: [5208] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5208] out, linkID: [5208] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1351] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5208] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5208] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [1352] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5211] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5211] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5209] out, linkID: [5209] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1348] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [1349] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5210] out, linkID: [5210] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5211] out, linkID: [11180] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5211] out, linkID: [5211] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5211] out, linkID: [5211] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5214] out, linkID: [11281] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5214] out, linkID: [5214] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5215] out, linkID: [5215] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5216] out, linkID: [10847] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5216] out, linkID: [10847] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5216] out, linkID: [5356] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5216] out, linkID: [5356] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5216] out, linkID: [5216] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5216] out, linkID: [5216] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5232] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [1355] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5219] out, linkID: [5219] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5232] out, linkID: [11182] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5232] out, linkID: [5232] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5238] out, linkID: [5238] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [1296] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5240] out, linkID: [5240] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5356] out, linkID: [5216] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5356] out, linkID: [5216] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5356] out, linkID: [5356] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5356] out, linkID: [5356] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5577] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5577] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5578] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5578] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5578] index: 3 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5436] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5436] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5436] out, linkID: [5436] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5440] out, linkID: [11127] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5440] out, linkID: [11127] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5440] out, linkID: [11827] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5440] out, linkID: [5440] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5441] out, linkID: [5861] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5441] out, linkID: [5861] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5441] out, linkID: [11126] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5441] out, linkID: [11126] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5441] out, linkID: [5441] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5441] out, linkID: [5441] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5524] out, linkID: [5524] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5524] out, linkID: [5524] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5577] out, linkID: [5577] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5577] out, linkID: [5577] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5578] out, linkID: [5578] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5578] out, linkID: [5578] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5578] out, linkID: [5578] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5587] out, linkID: [10857] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5587] out, linkID: [5587] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5587] out, linkID: [5587] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [11184] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5215] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5588] out, linkID: [5588] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5112] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5112] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1353] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5114] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5114] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [1322] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5589] out, linkID: [5589] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1354] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [1323] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5592] out, linkID: [5592] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5727] out, linkID: [5118] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5727] out, linkID: [5118] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5727] out, linkID: [5119] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5727] out, linkID: [5119] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5727] out, linkID: [5727] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5727] out, linkID: [5727] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [7984] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [1361] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5728] out, linkID: [5728] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5729] out, linkID: [5175] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5729] out, linkID: [5929] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5729] out, linkID: [5929] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5729] out, linkID: [5729] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5730] out, linkID: [8172] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5730] out, linkID: [11763] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5730] out, linkID: [5730] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5736] out, linkID: [8116] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5736] out, linkID: [5736] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [1320] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5103] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5820] out, linkID: [5820] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5861] out, linkID: [5441] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5861] out, linkID: [5441] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5861] out, linkID: [5861] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5861] out, linkID: [5861] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5863] out, linkID: [5863] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5863] out, linkID: [5863] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5868] out, linkID: [6253] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[5868] out, linkID: [5868] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5868] out, linkID: [5868] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5929] out, linkID: [5929] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5929] out, linkID: [5929] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [1359] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6185] out, linkID: [6185] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6253] out, linkID: [6253] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [1356] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6255] out, linkID: [6255] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [5214] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6256] out, linkID: [6256] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6270] out, linkID: [6273] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[6270] out, linkID: [6270] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[6273] out, linkID: [6270] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[6273] out, linkID: [10851] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[6273] out, linkID: [6273] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[7210] out, linkID: [7210] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[7984] out, linkID: [7984] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[8002] out, linkID: [5113] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[8002] out, linkID: [8002] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[8116] out, linkID: [5736] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[8116] out, linkID: [8116] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[8172] out, linkID: [5730] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[8172] out, linkID: [8172] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10847] out, linkID: [10847] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10847] out, linkID: [10847] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10849] out, linkID: [4156] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[10849] out, linkID: [10849] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [1360] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [7210] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10850] out, linkID: [10850] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10851] out, linkID: [10851] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10852] out, linkID: [10852] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [1325] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10853] out, linkID: [10853] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10854] out, linkID: [10854] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10857] out, linkID: [10857] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10872] out, linkID: [10872] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[10872] out, linkID: [10872] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11123] out, linkID: [11123] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11123] out, linkID: [11123] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [1319] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11124] out, linkID: [11124] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [1286] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11125] out, linkID: [11125] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11126] out, linkID: [11126] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11126] out, linkID: [11126] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11127] out, linkID: [11127] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11127] out, linkID: [11127] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11128] out, linkID: [5037] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11128] out, linkID: [5037] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11128] out, linkID: [11128] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11128] out, linkID: [11128] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [5034] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [5034] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11129] out, linkID: [11129] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [1314] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11146] out, linkID: [11146] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11147] out, linkID: [11147] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [1316] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11148] out, linkID: [11148] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11150] out, linkID: [11150] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11151] out, linkID: [11151] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11159] out, linkID: [11159] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11159] out, linkID: [11159] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [1318] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11160] out, linkID: [11160] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11161] out, linkID: [11161] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [1346] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11172] out, linkID: [11172] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11173] out, linkID: [11173] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11180] out, linkID: [11180] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11181] out, linkID: [11181] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11182] out, linkID: [11182] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11183] out, linkID: [11183] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11184] out, linkID: [11184] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11255] out, linkID: [11255] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11255] out, linkID: [11255] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [1404] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11257] out, linkID: [11257] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11259] out, linkID: [11259] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 2 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 3 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 4 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 5 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 6 RTL [0,1,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [1397] index: 7 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11261] out, linkID: [11261] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11281] out, linkID: [11281] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11282] out, linkID: [11282] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11489] out, linkID: [11489] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11507] out, linkID: [3689] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[11507] out, linkID: [3689] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[11507] out, linkID: [11507] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11507] out, linkID: [11507] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11763] out, linkID: [11763] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11827] out, linkID: [11827] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[11910] out, linkID: [11910] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3000] out, linkID: [3001] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[3000] out, linkID: [1358] index: 1 RTL [1,1,1] pocket: 0.000
+Lane created: NodeNumber[3000] out, linkID: [3000] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3001] out, linkID: [3001] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 3 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 4 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 5 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 6 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3002] out, linkID: [3002] index: 7 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1] out, linkID: [1] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[1] out, linkID: [1] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[2] out, linkID: [1] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[2] out, linkID: [1] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[2] out, linkID: [2] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[2] out, linkID: [2] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3] out, linkID: [2] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[3] out, linkID: [2] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[3] out, linkID: [3] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[3] out, linkID: [3] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4] out, linkID: [3] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[4] out, linkID: [3] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[4] out, linkID: [4] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[4] out, linkID: [4] index: 2 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5] out, linkID: [4] index: 1 RTL [1,1,0] pocket: 0.000
+Lane created: NodeNumber[5] out, linkID: [4] index: 2 RTL [0,1,1] pocket: 0.000
+Lane created: NodeNumber[5] out, linkID: [5] index: 1 RTL [0,0,0] pocket: 0.000
+Lane created: NodeNumber[5] out, linkID: [5] index: 2 RTL [0,0,0] pocket: 0.000
+
+NodeNumber: 1285 LaneTurns: [7]
+RTL=2 FromLink 5018 Lane 1 ToLink 1285 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5018 Lane 2 ToLink 1285 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5018 Lane 3 ToLink 1285 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5018 Lane 4 ToLink 1285 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5018 Lane 5 ToLink 1285 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5018 Lane 6 ToLink 1285 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5018 Lane 7 ToLink 1285 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1286 LaneTurns: [7]
+RTL=2 FromLink 11125 Lane 1 ToLink 1286 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11125 Lane 2 ToLink 1286 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11125 Lane 3 ToLink 1286 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11125 Lane 4 ToLink 1286 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11125 Lane 5 ToLink 1286 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11125 Lane 6 ToLink 1286 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11125 Lane 7 ToLink 1286 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1289 LaneTurns: [14]
+RTL=0 FromLink 11124 Lane 1 ToLink 1289 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11124 Lane 2 ToLink 1289 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11124 Lane 3 ToLink 1289 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11124 Lane 4 ToLink 1289 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11124 Lane 5 ToLink 1289 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11124 Lane 6 ToLink 1289 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11124 Lane 7 ToLink 1289 Lane 7SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 1 ToLink 1289 Lane 1SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 2 ToLink 1289 Lane 2SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 3 ToLink 1289 Lane 3SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 4 ToLink 1289 Lane 4SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 5 ToLink 1289 Lane 5SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 6 ToLink 1289 Lane 6SC [0] SG[0]
+RTL=0 FromLink 4952 Lane 7 ToLink 1289 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1290 LaneTurns: [0]
+
+
+NodeNumber: 1296 LaneTurns: [7]
+RTL=2 FromLink 5240 Lane 1 ToLink 1296 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5240 Lane 2 ToLink 1296 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5240 Lane 3 ToLink 1296 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5240 Lane 4 ToLink 1296 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5240 Lane 5 ToLink 1296 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5240 Lane 6 ToLink 1296 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5240 Lane 7 ToLink 1296 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1299 LaneTurns: [14]
+RTL=0 FromLink 11129 Lane 1 ToLink 1299 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11129 Lane 2 ToLink 1299 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11129 Lane 3 ToLink 1299 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11129 Lane 4 ToLink 1299 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11129 Lane 5 ToLink 1299 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11129 Lane 6 ToLink 1299 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11129 Lane 7 ToLink 1299 Lane 7SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 1 ToLink 1299 Lane 1SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 2 ToLink 1299 Lane 2SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 3 ToLink 1299 Lane 3SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 4 ToLink 1299 Lane 4SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 5 ToLink 1299 Lane 5SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 6 ToLink 1299 Lane 6SC [0] SG[0]
+RTL=0 FromLink 4958 Lane 7 ToLink 1299 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1314 LaneTurns: [7]
+RTL=2 FromLink 11146 Lane 1 ToLink 1314 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11146 Lane 2 ToLink 1314 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11146 Lane 3 ToLink 1314 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11146 Lane 4 ToLink 1314 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11146 Lane 5 ToLink 1314 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11146 Lane 6 ToLink 1314 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11146 Lane 7 ToLink 1314 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1316 LaneTurns: [7]
+RTL=2 FromLink 11148 Lane 1 ToLink 1316 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11148 Lane 2 ToLink 1316 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11148 Lane 3 ToLink 1316 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11148 Lane 4 ToLink 1316 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11148 Lane 5 ToLink 1316 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11148 Lane 6 ToLink 1316 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11148 Lane 7 ToLink 1316 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1318 LaneTurns: [7]
+RTL=2 FromLink 11160 Lane 1 ToLink 1318 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11160 Lane 2 ToLink 1318 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11160 Lane 3 ToLink 1318 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11160 Lane 4 ToLink 1318 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11160 Lane 5 ToLink 1318 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11160 Lane 6 ToLink 1318 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11160 Lane 7 ToLink 1318 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1319 LaneTurns: [0]
+
+
+NodeNumber: 1320 LaneTurns: [7]
+RTL=2 FromLink 5820 Lane 1 ToLink 1320 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5820 Lane 2 ToLink 1320 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5820 Lane 3 ToLink 1320 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5820 Lane 4 ToLink 1320 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5820 Lane 5 ToLink 1320 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5820 Lane 6 ToLink 1320 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5820 Lane 7 ToLink 1320 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1322 LaneTurns: [14]
+RTL=0 FromLink 5589 Lane 1 ToLink 1322 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5589 Lane 2 ToLink 1322 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5589 Lane 3 ToLink 1322 Lane 3SC [0] SG[0]
+RTL=0 FromLink 5589 Lane 4 ToLink 1322 Lane 4SC [0] SG[0]
+RTL=0 FromLink 5589 Lane 5 ToLink 1322 Lane 5SC [0] SG[0]
+RTL=0 FromLink 5589 Lane 6 ToLink 1322 Lane 6SC [0] SG[0]
+RTL=0 FromLink 5589 Lane 7 ToLink 1322 Lane 7SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 1 ToLink 1322 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 2 ToLink 1322 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 3 ToLink 1322 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 4 ToLink 1322 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 5 ToLink 1322 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 6 ToLink 1322 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11161 Lane 7 ToLink 1322 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1323 LaneTurns: [7]
+RTL=2 FromLink 5592 Lane 1 ToLink 1323 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5592 Lane 2 ToLink 1323 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5592 Lane 3 ToLink 1323 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5592 Lane 4 ToLink 1323 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5592 Lane 5 ToLink 1323 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5592 Lane 6 ToLink 1323 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5592 Lane 7 ToLink 1323 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1325 LaneTurns: [7]
+RTL=2 FromLink 10853 Lane 1 ToLink 1325 Lane 1SC [0] SG[0]
+RTL=2 FromLink 10853 Lane 2 ToLink 1325 Lane 2SC [0] SG[0]
+RTL=2 FromLink 10853 Lane 3 ToLink 1325 Lane 3SC [0] SG[0]
+RTL=2 FromLink 10853 Lane 4 ToLink 1325 Lane 4SC [0] SG[0]
+RTL=2 FromLink 10853 Lane 5 ToLink 1325 Lane 5SC [0] SG[0]
+RTL=2 FromLink 10853 Lane 6 ToLink 1325 Lane 6SC [0] SG[0]
+RTL=2 FromLink 10853 Lane 7 ToLink 1325 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1346 LaneTurns: [7]
+RTL=2 FromLink 11172 Lane 1 ToLink 1346 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11172 Lane 2 ToLink 1346 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11172 Lane 3 ToLink 1346 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11172 Lane 4 ToLink 1346 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11172 Lane 5 ToLink 1346 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11172 Lane 6 ToLink 1346 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11172 Lane 7 ToLink 1346 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1348 LaneTurns: [7]
+RTL=2 FromLink 5210 Lane 1 ToLink 1348 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5210 Lane 2 ToLink 1348 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5210 Lane 3 ToLink 1348 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5210 Lane 4 ToLink 1348 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5210 Lane 5 ToLink 1348 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5210 Lane 6 ToLink 1348 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5210 Lane 7 ToLink 1348 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1349 LaneTurns: [14]
+RTL=0 FromLink 11181 Lane 1 ToLink 1349 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11181 Lane 2 ToLink 1349 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11181 Lane 3 ToLink 1349 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11181 Lane 4 ToLink 1349 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11181 Lane 5 ToLink 1349 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11181 Lane 6 ToLink 1349 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11181 Lane 7 ToLink 1349 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 1 ToLink 1349 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 2 ToLink 1349 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 3 ToLink 1349 Lane 3SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 4 ToLink 1349 Lane 4SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 5 ToLink 1349 Lane 5SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 6 ToLink 1349 Lane 6SC [0] SG[0]
+RTL=0 FromLink 5219 Lane 7 ToLink 1349 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1351 LaneTurns: [7]
+RTL=2 FromLink 5209 Lane 1 ToLink 1351 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5209 Lane 2 ToLink 1351 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5209 Lane 3 ToLink 1351 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5209 Lane 4 ToLink 1351 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5209 Lane 5 ToLink 1351 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5209 Lane 6 ToLink 1351 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5209 Lane 7 ToLink 1351 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1352 LaneTurns: [14]
+RTL=0 FromLink 11261 Lane 1 ToLink 1352 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11261 Lane 2 ToLink 1352 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11261 Lane 3 ToLink 1352 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11261 Lane 4 ToLink 1352 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11261 Lane 5 ToLink 1352 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11261 Lane 6 ToLink 1352 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11261 Lane 7 ToLink 1352 Lane 7SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 1 ToLink 1352 Lane 1SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 2 ToLink 1352 Lane 2SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 3 ToLink 1352 Lane 3SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 4 ToLink 1352 Lane 4SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 5 ToLink 1352 Lane 5SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 6 ToLink 1352 Lane 6SC [0] SG[0]
+RTL=0 FromLink 6256 Lane 7 ToLink 1352 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1353 LaneTurns: [7]
+RTL=2 FromLink 11173 Lane 1 ToLink 1353 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11173 Lane 2 ToLink 1353 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11173 Lane 3 ToLink 1353 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11173 Lane 4 ToLink 1353 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11173 Lane 5 ToLink 1353 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11173 Lane 6 ToLink 1353 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11173 Lane 7 ToLink 1353 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1354 LaneTurns: [0]
+
+
+NodeNumber: 1355 LaneTurns: [7]
+RTL=2 FromLink 11183 Lane 1 ToLink 1355 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11183 Lane 2 ToLink 1355 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11183 Lane 3 ToLink 1355 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11183 Lane 4 ToLink 1355 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11183 Lane 5 ToLink 1355 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11183 Lane 6 ToLink 1355 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11183 Lane 7 ToLink 1355 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1356 LaneTurns: [14]
+RTL=0 FromLink 11259 Lane 1 ToLink 1356 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11259 Lane 2 ToLink 1356 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11259 Lane 3 ToLink 1356 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11259 Lane 4 ToLink 1356 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11259 Lane 5 ToLink 1356 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11259 Lane 6 ToLink 1356 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11259 Lane 7 ToLink 1356 Lane 7SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 1 ToLink 1356 Lane 1SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 2 ToLink 1356 Lane 2SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 3 ToLink 1356 Lane 3SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 4 ToLink 1356 Lane 4SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 5 ToLink 1356 Lane 5SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 6 ToLink 1356 Lane 6SC [0] SG[0]
+RTL=0 FromLink 6255 Lane 7 ToLink 1356 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1357 LaneTurns: [14]
+RTL=0 FromLink 5174 Lane 1 ToLink 1357 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5174 Lane 2 ToLink 1357 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5174 Lane 3 ToLink 1357 Lane 3SC [0] SG[0]
+RTL=0 FromLink 5174 Lane 4 ToLink 1357 Lane 4SC [0] SG[0]
+RTL=0 FromLink 5174 Lane 5 ToLink 1357 Lane 5SC [0] SG[0]
+RTL=0 FromLink 5174 Lane 6 ToLink 1357 Lane 6SC [0] SG[0]
+RTL=0 FromLink 5174 Lane 7 ToLink 1357 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 1 ToLink 1357 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 2 ToLink 1357 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 3 ToLink 1357 Lane 3SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 4 ToLink 1357 Lane 4SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 5 ToLink 1357 Lane 5SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 6 ToLink 1357 Lane 6SC [0] SG[0]
+RTL=0 FromLink 5588 Lane 7 ToLink 1357 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1358 LaneTurns: [2]
+RTL=0 FromLink 3000 Lane 1 ToLink 1358 Lane 1SC [0] SG[0]
+RTL=0 FromLink 3002 Lane 1 ToLink 1358 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 1359 LaneTurns: [7]
+RTL=2 FromLink 6185 Lane 1 ToLink 1359 Lane 1SC [0] SG[0]
+RTL=2 FromLink 6185 Lane 2 ToLink 1359 Lane 2SC [0] SG[0]
+RTL=2 FromLink 6185 Lane 3 ToLink 1359 Lane 3SC [0] SG[0]
+RTL=2 FromLink 6185 Lane 4 ToLink 1359 Lane 4SC [0] SG[0]
+RTL=2 FromLink 6185 Lane 5 ToLink 1359 Lane 5SC [0] SG[0]
+RTL=2 FromLink 6185 Lane 6 ToLink 1359 Lane 6SC [0] SG[0]
+RTL=2 FromLink 6185 Lane 7 ToLink 1359 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1360 LaneTurns: [14]
+RTL=0 FromLink 11489 Lane 1 ToLink 1360 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11489 Lane 2 ToLink 1360 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11489 Lane 3 ToLink 1360 Lane 3SC [0] SG[0]
+RTL=0 FromLink 11489 Lane 4 ToLink 1360 Lane 4SC [0] SG[0]
+RTL=0 FromLink 11489 Lane 5 ToLink 1360 Lane 5SC [0] SG[0]
+RTL=0 FromLink 11489 Lane 6 ToLink 1360 Lane 6SC [0] SG[0]
+RTL=0 FromLink 11489 Lane 7 ToLink 1360 Lane 7SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 1 ToLink 1360 Lane 1SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 2 ToLink 1360 Lane 2SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 3 ToLink 1360 Lane 3SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 4 ToLink 1360 Lane 4SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 5 ToLink 1360 Lane 5SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 6 ToLink 1360 Lane 6SC [0] SG[0]
+RTL=0 FromLink 10850 Lane 7 ToLink 1360 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1361 LaneTurns: [7]
+RTL=2 FromLink 5728 Lane 1 ToLink 1361 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5728 Lane 2 ToLink 1361 Lane 2SC [0] SG[0]
+RTL=2 FromLink 5728 Lane 3 ToLink 1361 Lane 3SC [0] SG[0]
+RTL=2 FromLink 5728 Lane 4 ToLink 1361 Lane 4SC [0] SG[0]
+RTL=2 FromLink 5728 Lane 5 ToLink 1361 Lane 5SC [0] SG[0]
+RTL=2 FromLink 5728 Lane 6 ToLink 1361 Lane 6SC [0] SG[0]
+RTL=2 FromLink 5728 Lane 7 ToLink 1361 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 1397 LaneTurns: [0]
+
+
+NodeNumber: 1404 LaneTurns: [7]
+RTL=2 FromLink 11257 Lane 1 ToLink 1404 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11257 Lane 2 ToLink 1404 Lane 2SC [0] SG[0]
+RTL=2 FromLink 11257 Lane 3 ToLink 1404 Lane 3SC [0] SG[0]
+RTL=2 FromLink 11257 Lane 4 ToLink 1404 Lane 4SC [0] SG[0]
+RTL=2 FromLink 11257 Lane 5 ToLink 1404 Lane 5SC [0] SG[0]
+RTL=2 FromLink 11257 Lane 6 ToLink 1404 Lane 6SC [0] SG[0]
+RTL=2 FromLink 11257 Lane 7 ToLink 1404 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 3689 LaneTurns: [2]
+RTL=2 FromLink 11507 Lane 1 ToLink 3689 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11507 Lane 2 ToLink 3689 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 4156 LaneTurns: [1]
+RTL=2 FromLink 10849 Lane 1 ToLink 4156 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 4804 LaneTurns: [2]
+RTL=0 FromLink 5106 Lane 1 ToLink 4804 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5109 Lane 1 ToLink 4804 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 4899 LaneTurns: [2]
+RTL=2 FromLink 5030 Lane 1 ToLink 4899 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5030 Lane 2 ToLink 4899 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 4952 LaneTurns: [16]
+RTL=0 FromLink 1289 Lane 1 ToLink 4952 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1289 Lane 2 ToLink 4952 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1289 Lane 3 ToLink 4952 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1289 Lane 4 ToLink 4952 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1289 Lane 5 ToLink 4952 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1289 Lane 6 ToLink 4952 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1289 Lane 7 ToLink 4952 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5022 Lane 1 ToLink 4952 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 1 ToLink 4952 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 2 ToLink 4952 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 3 ToLink 4952 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 4 ToLink 4952 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 5 ToLink 4952 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 6 ToLink 4952 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1290 Lane 7 ToLink 4952 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5440 Lane 1 ToLink 4952 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 4958 LaneTurns: [9]
+RTL=0 FromLink 5010 Lane 1 ToLink 4958 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5010 Lane 2 ToLink 4958 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 1 ToLink 4958 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 2 ToLink 4958 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 3 ToLink 4958 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 4 ToLink 4958 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 5 ToLink 4958 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 6 ToLink 4958 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1299 Lane 7 ToLink 4958 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5009 LaneTurns: [4]
+RTL=0 FromLink 5863 Lane 1 ToLink 5009 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5863 Lane 2 ToLink 5009 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5027 Lane 1 ToLink 5009 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5027 Lane 2 ToLink 5009 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5010 LaneTurns: [0]
+
+
+NodeNumber: 5017 LaneTurns: [2]
+RTL=2 FromLink 11123 Lane 1 ToLink 5017 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11123 Lane 2 ToLink 5017 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5018 LaneTurns: [13]
+RTL=0 FromLink 1285 Lane 1 ToLink 5018 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1285 Lane 2 ToLink 5018 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1285 Lane 3 ToLink 5018 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1285 Lane 4 ToLink 5018 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1285 Lane 5 ToLink 5018 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1285 Lane 6 ToLink 5018 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1285 Lane 7 ToLink 5018 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5017 Lane 1 ToLink 5018 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5017 Lane 2 ToLink 5018 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5017 Lane 3 ToLink 5018 Lane 3SC [0] SG[0]
+RTL=0 FromLink 5436 Lane 1 ToLink 5018 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5436 Lane 2 ToLink 5018 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5436 Lane 3 ToLink 5018 Lane 3SC [0] SG[0]
+
+
+NodeNumber: 5022 LaneTurns: [2]
+RTL=0 FromLink 11147 Lane 1 ToLink 5022 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5524 Lane 1 ToLink 5022 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5027 LaneTurns: [3]
+RTL=0 FromLink 5009 Lane 1 ToLink 5027 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5009 Lane 2 ToLink 5027 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11150 Lane 1 ToLink 5027 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5030 LaneTurns: [6]
+RTL=0 FromLink 11128 Lane 1 ToLink 5030 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11128 Lane 2 ToLink 5030 Lane 2SC [0] SG[0]
+RTL=0 FromLink 4899 Lane 1 ToLink 5030 Lane 1SC [0] SG[0]
+RTL=0 FromLink 4899 Lane 2 ToLink 5030 Lane 2SC [0] SG[0]
+RTL=0 FromLink 10872 Lane 1 ToLink 5030 Lane 1SC [0] SG[0]
+RTL=0 FromLink 10872 Lane 2 ToLink 5030 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5034 LaneTurns: [0]
+
+
+NodeNumber: 5037 LaneTurns: [0]
+
+
+NodeNumber: 5103 LaneTurns: [0]
+
+
+NodeNumber: 5106 LaneTurns: [3]
+RTL=0 FromLink 5117 Lane 1 ToLink 5106 Lane 1SC [0] SG[0]
+RTL=0 FromLink 10852 Lane 1 ToLink 5106 Lane 1SC [0] SG[0]
+RTL=0 FromLink 4804 Lane 1 ToLink 5106 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5109 LaneTurns: [1]
+RTL=2 FromLink 11151 Lane 1 ToLink 5109 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5112 LaneTurns: [2]
+RTL=2 FromLink 11159 Lane 1 ToLink 5112 Lane 1SC [0] SG[0]
+RTL=2 FromLink 11159 Lane 2 ToLink 5112 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5113 LaneTurns: [1]
+RTL=2 FromLink 8002 Lane 1 ToLink 5113 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5114 LaneTurns: [0]
+
+
+NodeNumber: 5117 LaneTurns: [2]
+RTL=0 FromLink 5 Lane 1 ToLink 5117 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11255 Lane 1 ToLink 5117 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5118 LaneTurns: [4]
+RTL=0 FromLink 10854 Lane 1 ToLink 5118 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5727 Lane 1 ToLink 5118 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5727 Lane 2 ToLink 5118 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11910 Lane 1 ToLink 5118 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5119 LaneTurns: [0]
+
+
+NodeNumber: 5174 LaneTurns: [11]
+RTL=0 FromLink 5868 Lane 1 ToLink 5174 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5868 Lane 2 ToLink 5174 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 1 ToLink 5174 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 2 ToLink 5174 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 3 ToLink 5174 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 4 ToLink 5174 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 5 ToLink 5174 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 6 ToLink 5174 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1357 Lane 7 ToLink 5174 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5587 Lane 1 ToLink 5174 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5587 Lane 2 ToLink 5174 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5175 LaneTurns: [1]
+RTL=2 FromLink 5729 Lane 1 ToLink 5175 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5208 LaneTurns: [2]
+RTL=0 FromLink 11282 Lane 1 ToLink 5208 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5238 Lane 1 ToLink 5208 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5209 LaneTurns: [18]
+RTL=0 FromLink 1351 Lane 1 ToLink 5209 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1351 Lane 2 ToLink 5209 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1351 Lane 3 ToLink 5209 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1351 Lane 4 ToLink 5209 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1351 Lane 5 ToLink 5209 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1351 Lane 6 ToLink 5209 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1351 Lane 7 ToLink 5209 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5208 Lane 1 ToLink 5209 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5208 Lane 2 ToLink 5209 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 1 ToLink 5209 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 2 ToLink 5209 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 3 ToLink 5209 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 4 ToLink 5209 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 5 ToLink 5209 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 6 ToLink 5209 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1352 Lane 7 ToLink 5209 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5211 Lane 1 ToLink 5209 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5211 Lane 2 ToLink 5209 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5210 LaneTurns: [14]
+RTL=0 FromLink 1348 Lane 1 ToLink 5210 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1348 Lane 2 ToLink 5210 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1348 Lane 3 ToLink 5210 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1348 Lane 4 ToLink 5210 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1348 Lane 5 ToLink 5210 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1348 Lane 6 ToLink 5210 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1348 Lane 7 ToLink 5210 Lane 7SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 1 ToLink 5210 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 2 ToLink 5210 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 3 ToLink 5210 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 4 ToLink 5210 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 5 ToLink 5210 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 6 ToLink 5210 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1349 Lane 7 ToLink 5210 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5211 LaneTurns: [1]
+RTL=2 FromLink 11180 Lane 1 ToLink 5211 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5214 LaneTurns: [1]
+RTL=2 FromLink 11281 Lane 1 ToLink 5214 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5215 LaneTurns: [0]
+
+
+NodeNumber: 5216 LaneTurns: [4]
+RTL=0 FromLink 10847 Lane 1 ToLink 5216 Lane 1SC [0] SG[0]
+RTL=0 FromLink 10847 Lane 2 ToLink 5216 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5356 Lane 1 ToLink 5216 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5356 Lane 2 ToLink 5216 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5219 LaneTurns: [8]
+RTL=0 FromLink 5232 Lane 1 ToLink 5219 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 1 ToLink 5219 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 2 ToLink 5219 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 3 ToLink 5219 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 4 ToLink 5219 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 5 ToLink 5219 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 6 ToLink 5219 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1355 Lane 7 ToLink 5219 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5232 LaneTurns: [1]
+RTL=2 FromLink 11182 Lane 1 ToLink 5232 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5238 LaneTurns: [0]
+
+
+NodeNumber: 5240 LaneTurns: [7]
+RTL=2 FromLink 1296 Lane 1 ToLink 5240 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1296 Lane 2 ToLink 5240 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1296 Lane 3 ToLink 5240 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1296 Lane 4 ToLink 5240 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1296 Lane 5 ToLink 5240 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1296 Lane 6 ToLink 5240 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1296 Lane 7 ToLink 5240 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5356 LaneTurns: [2]
+RTL=2 FromLink 5216 Lane 1 ToLink 5356 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5216 Lane 2 ToLink 5356 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5436 LaneTurns: [5]
+RTL=0 FromLink 5577 Lane 1 ToLink 5436 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5577 Lane 2 ToLink 5436 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5578 Lane 1 ToLink 5436 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5578 Lane 2 ToLink 5436 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5578 Lane 3 ToLink 5436 Lane 3SC [0] SG[0]
+
+
+NodeNumber: 5440 LaneTurns: [2]
+RTL=0 FromLink 11127 Lane 1 ToLink 5440 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11827 Lane 1 ToLink 5440 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5441 LaneTurns: [4]
+RTL=0 FromLink 5861 Lane 1 ToLink 5441 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5861 Lane 2 ToLink 5441 Lane 2SC [0] SG[0]
+RTL=0 FromLink 11126 Lane 1 ToLink 5441 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11126 Lane 2 ToLink 5441 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5524 LaneTurns: [0]
+
+
+NodeNumber: 5577 LaneTurns: [0]
+
+
+NodeNumber: 5578 LaneTurns: [0]
+
+
+NodeNumber: 5587 LaneTurns: [1]
+RTL=2 FromLink 10857 Lane 1 ToLink 5587 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5588 LaneTurns: [2]
+RTL=0 FromLink 11184 Lane 1 ToLink 5588 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5215 Lane 1 ToLink 5588 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5589 LaneTurns: [18]
+RTL=0 FromLink 5112 Lane 1 ToLink 5589 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5112 Lane 2 ToLink 5589 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 1 ToLink 5589 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 2 ToLink 5589 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 3 ToLink 5589 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 4 ToLink 5589 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 5 ToLink 5589 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 6 ToLink 5589 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1353 Lane 7 ToLink 5589 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5114 Lane 1 ToLink 5589 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5114 Lane 2 ToLink 5589 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 1 ToLink 5589 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 2 ToLink 5589 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 3 ToLink 5589 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 4 ToLink 5589 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 5 ToLink 5589 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 6 ToLink 5589 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1322 Lane 7 ToLink 5589 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5592 LaneTurns: [14]
+RTL=0 FromLink 1354 Lane 1 ToLink 5592 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1354 Lane 2 ToLink 5592 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1354 Lane 3 ToLink 5592 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1354 Lane 4 ToLink 5592 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1354 Lane 5 ToLink 5592 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1354 Lane 6 ToLink 5592 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1354 Lane 7 ToLink 5592 Lane 7SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 1 ToLink 5592 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 2 ToLink 5592 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 3 ToLink 5592 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 4 ToLink 5592 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 5 ToLink 5592 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 6 ToLink 5592 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1323 Lane 7 ToLink 5592 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5727 LaneTurns: [4]
+RTL=0 FromLink 5118 Lane 1 ToLink 5727 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5118 Lane 2 ToLink 5727 Lane 2SC [0] SG[0]
+RTL=0 FromLink 5119 Lane 1 ToLink 5727 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5119 Lane 2 ToLink 5727 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5728 LaneTurns: [8]
+RTL=0 FromLink 7984 Lane 1 ToLink 5728 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 1 ToLink 5728 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 2 ToLink 5728 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 3 ToLink 5728 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 4 ToLink 5728 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 5 ToLink 5728 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 6 ToLink 5728 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1361 Lane 7 ToLink 5728 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 5729 LaneTurns: [2]
+RTL=0 FromLink 5175 Lane 1 ToLink 5729 Lane 1SC [0] SG[0]
+RTL=0 FromLink 5929 Lane 1 ToLink 5729 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5730 LaneTurns: [2]
+RTL=0 FromLink 8172 Lane 1 ToLink 5730 Lane 1SC [0] SG[0]
+RTL=0 FromLink 11763 Lane 1 ToLink 5730 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5736 LaneTurns: [1]
+RTL=2 FromLink 8116 Lane 1 ToLink 5736 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5820 LaneTurns: [8]
+RTL=0 FromLink 1320 Lane 1 ToLink 5820 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1320 Lane 2 ToLink 5820 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1320 Lane 3 ToLink 5820 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1320 Lane 4 ToLink 5820 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1320 Lane 5 ToLink 5820 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1320 Lane 6 ToLink 5820 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1320 Lane 7 ToLink 5820 Lane 7SC [0] SG[0]
+RTL=0 FromLink 5103 Lane 1 ToLink 5820 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5861 LaneTurns: [2]
+RTL=2 FromLink 5441 Lane 1 ToLink 5861 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5441 Lane 2 ToLink 5861 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5863 LaneTurns: [0]
+
+
+NodeNumber: 5868 LaneTurns: [1]
+RTL=2 FromLink 6253 Lane 1 ToLink 5868 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 5929 LaneTurns: [0]
+
+
+NodeNumber: 6185 LaneTurns: [7]
+RTL=2 FromLink 1359 Lane 1 ToLink 6185 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1359 Lane 2 ToLink 6185 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1359 Lane 3 ToLink 6185 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1359 Lane 4 ToLink 6185 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1359 Lane 5 ToLink 6185 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1359 Lane 6 ToLink 6185 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1359 Lane 7 ToLink 6185 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 6253 LaneTurns: [0]
+
+
+NodeNumber: 6255 LaneTurns: [7]
+RTL=2 FromLink 1356 Lane 1 ToLink 6255 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1356 Lane 2 ToLink 6255 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1356 Lane 3 ToLink 6255 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1356 Lane 4 ToLink 6255 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1356 Lane 5 ToLink 6255 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1356 Lane 6 ToLink 6255 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1356 Lane 7 ToLink 6255 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 6256 LaneTurns: [1]
+RTL=2 FromLink 5214 Lane 1 ToLink 6256 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 6270 LaneTurns: [1]
+RTL=2 FromLink 6273 Lane 1 ToLink 6270 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 6273 LaneTurns: [2]
+RTL=0 FromLink 6270 Lane 1 ToLink 6273 Lane 1SC [0] SG[0]
+RTL=0 FromLink 10851 Lane 1 ToLink 6273 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 7210 LaneTurns: [0]
+
+
+NodeNumber: 7984 LaneTurns: [0]
+
+
+NodeNumber: 8002 LaneTurns: [1]
+RTL=2 FromLink 5113 Lane 1 ToLink 8002 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 8116 LaneTurns: [1]
+RTL=2 FromLink 5736 Lane 1 ToLink 8116 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 8172 LaneTurns: [1]
+RTL=2 FromLink 5730 Lane 1 ToLink 8172 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 10847 LaneTurns: [0]
+
+
+NodeNumber: 10849 LaneTurns: [1]
+RTL=2 FromLink 4156 Lane 1 ToLink 10849 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 10850 LaneTurns: [8]
+RTL=0 FromLink 1360 Lane 1 ToLink 10850 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1360 Lane 2 ToLink 10850 Lane 2SC [0] SG[0]
+RTL=0 FromLink 1360 Lane 3 ToLink 10850 Lane 3SC [0] SG[0]
+RTL=0 FromLink 1360 Lane 4 ToLink 10850 Lane 4SC [0] SG[0]
+RTL=0 FromLink 1360 Lane 5 ToLink 10850 Lane 5SC [0] SG[0]
+RTL=0 FromLink 1360 Lane 6 ToLink 10850 Lane 6SC [0] SG[0]
+RTL=0 FromLink 1360 Lane 7 ToLink 10850 Lane 7SC [0] SG[0]
+RTL=0 FromLink 7210 Lane 1 ToLink 10850 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 10851 LaneTurns: [0]
+
+
+NodeNumber: 10852 LaneTurns: [0]
+
+
+NodeNumber: 10853 LaneTurns: [7]
+RTL=2 FromLink 1325 Lane 1 ToLink 10853 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1325 Lane 2 ToLink 10853 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1325 Lane 3 ToLink 10853 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1325 Lane 4 ToLink 10853 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1325 Lane 5 ToLink 10853 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1325 Lane 6 ToLink 10853 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1325 Lane 7 ToLink 10853 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 10854 LaneTurns: [0]
+
+
+NodeNumber: 10857 LaneTurns: [0]
+
+
+NodeNumber: 10872 LaneTurns: [0]
+
+
+NodeNumber: 11123 LaneTurns: [0]
+
+
+NodeNumber: 11124 LaneTurns: [7]
+RTL=2 FromLink 1319 Lane 1 ToLink 11124 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1319 Lane 2 ToLink 11124 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1319 Lane 3 ToLink 11124 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1319 Lane 4 ToLink 11124 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1319 Lane 5 ToLink 11124 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1319 Lane 6 ToLink 11124 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1319 Lane 7 ToLink 11124 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11125 LaneTurns: [7]
+RTL=2 FromLink 1286 Lane 1 ToLink 11125 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1286 Lane 2 ToLink 11125 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1286 Lane 3 ToLink 11125 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1286 Lane 4 ToLink 11125 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1286 Lane 5 ToLink 11125 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1286 Lane 6 ToLink 11125 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1286 Lane 7 ToLink 11125 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11126 LaneTurns: [0]
+
+
+NodeNumber: 11127 LaneTurns: [0]
+
+
+NodeNumber: 11128 LaneTurns: [2]
+RTL=2 FromLink 5037 Lane 1 ToLink 11128 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5037 Lane 2 ToLink 11128 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 11129 LaneTurns: [2]
+RTL=2 FromLink 5034 Lane 1 ToLink 11129 Lane 1SC [0] SG[0]
+RTL=2 FromLink 5034 Lane 2 ToLink 11129 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 11146 LaneTurns: [7]
+RTL=2 FromLink 1314 Lane 1 ToLink 11146 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1314 Lane 2 ToLink 11146 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1314 Lane 3 ToLink 11146 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1314 Lane 4 ToLink 11146 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1314 Lane 5 ToLink 11146 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1314 Lane 6 ToLink 11146 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1314 Lane 7 ToLink 11146 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11147 LaneTurns: [0]
+
+
+NodeNumber: 11148 LaneTurns: [7]
+RTL=2 FromLink 1316 Lane 1 ToLink 11148 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1316 Lane 2 ToLink 11148 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1316 Lane 3 ToLink 11148 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1316 Lane 4 ToLink 11148 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1316 Lane 5 ToLink 11148 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1316 Lane 6 ToLink 11148 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1316 Lane 7 ToLink 11148 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11150 LaneTurns: [0]
+
+
+NodeNumber: 11151 LaneTurns: [0]
+
+
+NodeNumber: 11159 LaneTurns: [0]
+
+
+NodeNumber: 11160 LaneTurns: [7]
+RTL=2 FromLink 1318 Lane 1 ToLink 11160 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1318 Lane 2 ToLink 11160 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1318 Lane 3 ToLink 11160 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1318 Lane 4 ToLink 11160 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1318 Lane 5 ToLink 11160 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1318 Lane 6 ToLink 11160 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1318 Lane 7 ToLink 11160 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11161 LaneTurns: [0]
+
+
+NodeNumber: 11172 LaneTurns: [7]
+RTL=2 FromLink 1346 Lane 1 ToLink 11172 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1346 Lane 2 ToLink 11172 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1346 Lane 3 ToLink 11172 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1346 Lane 4 ToLink 11172 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1346 Lane 5 ToLink 11172 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1346 Lane 6 ToLink 11172 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1346 Lane 7 ToLink 11172 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11173 LaneTurns: [0]
+
+
+NodeNumber: 11180 LaneTurns: [0]
+
+
+NodeNumber: 11181 LaneTurns: [0]
+
+
+NodeNumber: 11182 LaneTurns: [0]
+
+
+NodeNumber: 11183 LaneTurns: [0]
+
+
+NodeNumber: 11184 LaneTurns: [0]
+
+
+NodeNumber: 11255 LaneTurns: [0]
+
+
+NodeNumber: 11257 LaneTurns: [7]
+RTL=2 FromLink 1404 Lane 1 ToLink 11257 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1404 Lane 2 ToLink 11257 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1404 Lane 3 ToLink 11257 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1404 Lane 4 ToLink 11257 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1404 Lane 5 ToLink 11257 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1404 Lane 6 ToLink 11257 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1404 Lane 7 ToLink 11257 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11259 LaneTurns: [0]
+
+
+NodeNumber: 11261 LaneTurns: [7]
+RTL=2 FromLink 1397 Lane 1 ToLink 11261 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1397 Lane 2 ToLink 11261 Lane 2SC [0] SG[0]
+RTL=2 FromLink 1397 Lane 3 ToLink 11261 Lane 3SC [0] SG[0]
+RTL=2 FromLink 1397 Lane 4 ToLink 11261 Lane 4SC [0] SG[0]
+RTL=2 FromLink 1397 Lane 5 ToLink 11261 Lane 5SC [0] SG[0]
+RTL=2 FromLink 1397 Lane 6 ToLink 11261 Lane 6SC [0] SG[0]
+RTL=2 FromLink 1397 Lane 7 ToLink 11261 Lane 7SC [0] SG[0]
+
+
+NodeNumber: 11281 LaneTurns: [0]
+
+
+NodeNumber: 11282 LaneTurns: [0]
+
+
+NodeNumber: 11489 LaneTurns: [0]
+
+
+NodeNumber: 11507 LaneTurns: [2]
+RTL=2 FromLink 3689 Lane 1 ToLink 11507 Lane 1SC [0] SG[0]
+RTL=2 FromLink 3689 Lane 2 ToLink 11507 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 11763 LaneTurns: [0]
+
+
+NodeNumber: 11827 LaneTurns: [0]
+
+
+NodeNumber: 11910 LaneTurns: [0]
+
+
+NodeNumber: 3000 LaneTurns: [2]
+RTL=0 FromLink 3001 Lane 1 ToLink 3000 Lane 1SC [0] SG[0]
+RTL=0 FromLink 1358 Lane 1 ToLink 3000 Lane 1SC [0] SG[0]
+
+
+NodeNumber: 3001 LaneTurns: [0]
+
+
+NodeNumber: 3002 LaneTurns: [0]
+
+
+NodeNumber: 1 LaneTurns: [0]
+
+
+NodeNumber: 2 LaneTurns: [2]
+RTL=2 FromLink 1 Lane 1 ToLink 2 Lane 1SC [0] SG[0]
+RTL=2 FromLink 1 Lane 2 ToLink 2 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 3 LaneTurns: [2]
+RTL=2 FromLink 2 Lane 1 ToLink 3 Lane 1SC [0] SG[0]
+RTL=2 FromLink 2 Lane 2 ToLink 3 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 4 LaneTurns: [2]
+RTL=2 FromLink 3 Lane 1 ToLink 4 Lane 1SC [0] SG[0]
+RTL=2 FromLink 3 Lane 2 ToLink 4 Lane 2SC [0] SG[0]
+
+
+NodeNumber: 5 LaneTurns: [2]
+RTL=2 FromLink 4 Lane 1 ToLink 5 Lane 1SC [0] SG[0]
+RTL=2 FromLink 4 Lane 2 ToLink 5 Lane 2SC [0] SG[0]
+
+output_od_flow.csv reading....
+Sumary: All together 0 od flows have been read!
+output_path_flow.csv reading....
+Sumary: All together 0 links have been read!

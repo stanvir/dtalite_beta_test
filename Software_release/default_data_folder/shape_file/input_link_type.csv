@@ -1,0 +1,18 @@
+link_type,link_type_name,type_code,default_lane_capacity,default_speed_limit,default_number_of_lanes
+1,Interstate freeway,f,1800.000000,65.00,3
+2,Other (non-interstate) freeway,f,1800.000000,65.00,3
+3,Wide-median divided-highway principal arterial (not always used),h,1000.000000,40.00,3
+4,Other principal arterial,a,900.000000,35.00,3
+5,Minor arterial,a,900.000000,35.00,3
+6,Collector,a,900.000000,35.00,3
+7,Local road,a,900.000000,35.00,3
+8,Ramp,r,1000.000000,45.00,2
+11,Freeway-to-freeway connector,f,1800.000000,65.00,3
+12,Gravel road (not always used),a,900.000000,35.00,3
+81,Detroit People Mover link,t,1000.000000,40.00,1
+82,Ann Arbor–Detroit commuter-rail link,t,1000.000000,5.00,1
+83,WALLY commuter-rail link,t,1000.000000,30.00,1
+84,Woodward light-rail link,t,1000.000000,65.00,1
+90,External-station connector,c,10000.000000,60.00,1
+96,Walk-only link,w,1000.000000,5.00,1
+99,Centroid connector,c,10000.000000,60.00,1

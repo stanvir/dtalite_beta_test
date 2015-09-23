@@ -1,0 +1,11 @@
+  4  3
+  0 vehicles    923    878   1091
+  1 vehicles    766    735    878
+  2 vehicles    621    600    692
+  3 vehicles    514    500    563
+              Through  Left  Right
+
+all way stop discharge rates (veh/hr/lane) 
+The number of vehicles refer to the total number of vehicles at stop signs in other approaches
+That is if there is a virtual queue in one approach (other than the approach in question), 
+then use the second row of discharge rates.

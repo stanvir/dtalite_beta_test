@@ -1,0 +1,85 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Jun  8 2015
+Simulation Date =,year: 2015,month:06,day:8,hour:17,min: 5
+----------------------test1----------------------
+Signal Control Representation =,Continuous Flow with Link Capacity Constraint
+Traffic Flow Model =,Newell's Cumulative Flow Count Model  + Emissions Output
+Assignment method=,Fixed Switching Rate
+Percentage of considering to switch routes=,15
+Travel time difference for route switching=,5
+Relative Travel Time Indifference Band (%) for route switching=,15
+ 
+
+Default Assignment Intervals==,28
+No.1=,15:30-> 15:45
+No.2=,15:45-> 16:00
+No.3=,16:00-> 16:15
+No.4=,16:15-> 16:30
+No.5=,16:30-> 16:45
+No.6=,16:45-> 17:00
+No.7=,17:00-> 17:15
+No.8=,17:15-> 17:30
+No.9=,17:30-> 17:45
+No.10=,17:45-> 18:00
+No.11=,18:00-> 18:15
+No.12=,18:15-> 18:30
+No.13=,18:30-> 18:45
+No.14=,18:45-> 19:00
+No.15=,19:00-> 19:15
+No.16=,19:15-> 19:30
+No.17=,19:30-> 19:45
+No.18=,19:45-> 20:00
+No.19=,20:00-> 20:15
+No.20=,20:15-> 20:30
+No.21=,20:30-> 20:45
+No.22=,20:45-> 21:00
+No.23=,21:00-> 21:15
+No.24=,21:15-> 21:30
+No.25=,21:30-> 21:45
+No.26=,21:45-> 22:00
+No.27=,22:00-> 22:15
+No.28=,22:15-> 22:30
+
+# of Nodes=,149
+# of Link Types=,11
+# of Links=,378
+# of Prohibited Movements=,0
+# of Pretimed Signals=,16
+# of Actuated Signals=,0
+# of Zones=,41
+# of Activity Locations=,51
+# of Vehicle Types=,5
+# of Demand Types=,4
+Demand Load Mode=,demand meta database
+Demand multiplier in setting file=,1
+# of Vehicles to be simulated=,12638
+# of Intra-zone Vehicles (not be simulated)=,0
+Starting Time of Demand Loading (min)=,930
+Ending Time of Demand Loading (min)=,1050
+Output Emission data=,YES
+Output second by second speed data=,NO
+Vehicle ID with second by second speed data=,0
+
+--Link Type Statistics--
+link_type,link_type_name,link_type_code,number_of_links,avg_lane_capacity,avg_number_of_lanes,avg_speed_limit,avg_link_length,avg_K_jam,total_link_length,
+1,Zonal connector,c,114,1428.6,7,20.386,0.260518,120,29.699,
+2,Principal arterial,a,58,404.186,2.27586,37.4138,0.250786,120,14.5456,
+3,Major arterial,a,80,469.397,1.8,34.875,0.206148,120,16.4919,
+4,Minor arterial,a,112,607.55,1.125,27.4107,0.231265,120,25.9017,
+5,Collector,a,14,514.5,1,26,0.277057,120,3.8788,
+7,Local,a,0,0,0,0,0,0,0,
+8,Frontage road,a,0,0,0,0,0,0,0,
+9,Ramp,r,0,0,0,0,0,0,0,
+10,Freeway,f,0,0,0,0,0,0,0,
+100,Transit link,t,0,0,0,0,0,0,0,
+200,Walking link,w,0,0,0,0,0,0,0,
+
+# of incident records=0
+# of demand type code based toll records=0
+# of work zone records=0
+# of ramp meter records=0
+# of VMS records=0
+# of movement records=0
+Routing method=,Individual agent-based routing

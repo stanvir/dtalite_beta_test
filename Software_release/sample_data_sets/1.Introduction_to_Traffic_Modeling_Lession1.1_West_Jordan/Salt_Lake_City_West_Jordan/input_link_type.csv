@@ -1,0 +1,12 @@
+link_type,link_type_name,type_code,default_lane_capacity
+1,Zonal connector,c,1000.000000
+2,Principal arterial,a,1000.000000
+3,Major arterial,a,1000.000000
+4,Minor arterial,a,1000.000000
+5,Collector,a,1000.000000
+7,Local,a,1000.000000
+8,Frontage road,a,1000.000000
+9,Ramp,r,1000.000000
+10,Freeway,f,1000.000000
+100,Transit link,t,1000.000000
+200,Walking link,w,1000.000000

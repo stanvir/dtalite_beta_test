@@ -1,0 +1,26 @@
+DTALite:
+A Fast Open Source DTA Engine
+Software Version =,1.1.0
+Release Date=,Jan 11 2014
+Simulation Date =,year: 2015,month:06,day:7,hour:13,min:14
+----------------------test1----------------------
+Traffic Flow Model =,Newell's Cumulative Flow Count Model
+Assignment method=,Fixed Switching Rate
+Percentage of considering to switch routes=,15
+Travel time difference for route switching=,1
+Relative Travel Time Indifference Band (%) for route switching=,15
+ 
+# of Nodes=,8
+# of Prohibited Movements=,0
+# of Pretimed Signals=,0
+# of Actuated Signals=,0
+# of Link Types=,17
+# of Links=,8
+# of Zones=,8
+# of Activity Locations=,8
+# of Vehicle Types=,5
+# of Demand Types=,4
+# of Pricing Types=,0
+# of VOT Records=,47
+Demand Load Mode=,demand meta database
+# of incident records=0

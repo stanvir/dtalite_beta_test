@@ -1,0 +1,3 @@
+[movement]
+prohibit_non_specified_movement_on_freeway_and_ramp=1.00000
+hide_non_specified_movement_on_freeway_and_ramp=1.00000

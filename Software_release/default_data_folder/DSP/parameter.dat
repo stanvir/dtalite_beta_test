@@ -1,0 +1,60 @@
+800 =                                     Freeway
+500 =                                     Arterials
+500 =                                     On ramp
+500 =                                     off ramp
+ 1.0 :                                    Reduce PCE during 1st half of iterations. DF: 1.0
+80000 =                                   Maximum entry volume rate per lane-mile
+0 =                                       Interval for vehicle position info. 0 to number of iteration
+ 1.0 :                                    Factor to adjust multi factor in demand.dat. Default: 1.0
+1 =                                       1 - vehtrajectory.dat written at the VehJO interval, 0: no
+1 =                                       0 - Original meso: 1- AMS
+0 =                                       0 - Keeps the initial path, 1- discard initial path
+ 0.99 :                                   1 - Max Percent of capacity filled by newly gen vehicles. 
+0 =                                       1 - Check network connectivity. 1: check, 0: no	
+ 1.0  :                                   Ratio of number ite reduced mtnum will be restored.
+0 =                                       1 - Activate jam switch rule; 0: no
+ 0.95 :                                   Threshold for switch (% of jam density)
+ 1.00 :                                   Jam switch participation rate
+1 =                                       IterSub
+0 =                                       GenCheck 
+1 =                                       keepcls. keep veh cls in vehicle.dat. 0: new class, 1: original 
+1 =                                       keeptype. keep veh cls in vehicle.dat. 0: new class, 1: original 
+1000000 =                                 tmparysize - size of the temp arrays 
+ 1.05 :                                   nv_vebuffer
+0 =                                       logout - flag to write to runlog.dat. 1: write
+1 =                                       trajalt - flag to write AltVeh.dat, AltPath.dat, AltEnQ.dat, AltTime.dat
+0 =                                       IncClsFlag. 0: capacity reduction, 1: closure upstream node
+200 =                                     Average bay length
+1800 =                                    Left-turn saturation flow rate
+1800 =                                    Right-turn saturation flow rate
+ 5.00 :                                   critical gap for left-turn vehicles (sec)
+ 2.00 :                                   Scaling factor for GFV assignment approach
+ 0.50 :                                   max factor for each iteration
+1 =                                       0 = MSA 1 = GFV
+0 =                                       1: write UE Traveltime
+0 =                                       1: read UE Traveltime
+0 =                                       0: no shelter.dat to be used. 1: with shelter
+8 =                                       Thread
+0 =                                       Write fuel consumption
+0 =                                       Demand format. 0: old 6-column format
+0 =                                       Read Transit flag. 0: no read
+0 =                                       1: Generate Transit from TransitRouteSchedule.dat
+0 =                                       Traffic flow model switch. 0: old format. 1: new format with 3 number in 1st line of each model
+0 =                                       Read habitual path node arrival time. This activates the diversion if vehicle is delayed when comparing with the baseline case.
+0 =                                       DLLFlagRM. 0: Use static library; 1: Fortran DLL; 2: CDLL
+15.00 :                                   Delay tolerance mean (min)
+ 2.00 :                                   Delay tolerance std (min)
+1000 =                                    # of sim intervals without vehicle existing before sim stops
+300 =                                     (maxnu_pa) size of temporary veh path array
+0 =                                       Capacity Aware  
+122.00 :                                  Start Time of Pre-trip and en-route information
+ 1.00 :                                   percent (100) willing to divert to transit
+0 =                                  	    Peak spread modeling switch 0: no departure tiem choice, 1: with departure time choice
+0 =                                  	    # of departure time choice iterations
+0 =                                       skim output switch: 0: no skim table, 1: with skim table
+30 =                                      Time period (min) over which skim is reported
+0 =                                       output switch for mixed vehicle geneartion id mapping
+0 =                                       Switch for MOVES outputs. 0: no output, 1: output MOVES related outputs
+0 =                                       VehFormat
+100 = 																		VehArray Increase Size
+0 =                                       Reliability Flag

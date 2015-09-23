@@ -1,0 +1,10 @@
+[estimation]
+measurement_type=1
+adjustment_step_size= 0.05
+weight_on_hist_oddemand= 1.00
+estimation_start_time_in_min=0
+estimation_end_time_in_min=1440
+weight_on_ue_gap= 1.00
+starting_iteration=20
+number_of_iterations_per_sequential_adjustment=10
+time_period_in_min_per_sequential_adjustment=60

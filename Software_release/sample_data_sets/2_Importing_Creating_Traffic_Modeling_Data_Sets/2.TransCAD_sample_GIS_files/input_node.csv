@@ -1,0 +1,9 @@
+name,node_id,QEM_reference_node_id,control_type,control_type_name,cycle_length_in_second,offset_in_second,x,y,geometry
+,14705,0,0,unknown_control,0,0,-83.316215,42.427608,"<Point><coordinates>-83.316215,42.427608</coordinates></Point>"
+,14799,0,0,unknown_control,0,0,-83.316522,42.434779,"<Point><coordinates>-83.316522,42.434779</coordinates></Point>"
+,14704,0,0,unknown_control,0,0,-83.326129,42.427398,"<Point><coordinates>-83.326129,42.427398</coordinates></Point>"
+,15704,0,0,unknown_control,0,0,-83.310319,42.427845,"<Point><coordinates>-83.310319,42.427845</coordinates></Point>"
+,15204,0,0,unknown_control,0,0,-83.315911,42.420486,"<Point><coordinates>-83.315911,42.420486</coordinates></Point>"
+,20663,0,0,unknown_control,0,0,-83.325722,42.420129,"<Point><coordinates>-83.325722,42.420129</coordinates></Point>"
+,20179,0,0,unknown_control,0,0,-83.306934,42.435124,"<Point><coordinates>-83.306934,42.435124</coordinates></Point>"
+,20175,0,0,unknown_control,0,0,-83.320887,42.436008,"<Point><coordinates>-83.320887,42.436008</coordinates></Point>"

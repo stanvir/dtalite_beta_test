@@ -1,0 +1,26 @@
+section,key,value,required_or_optional,allowed_values,notes
+file_name,node,,desired,,if no node layer is provided
+file_name,link,TMC_sample.shp,required,,this is the required data layer 
+configuration,with_decimal_long_lat,yes,,yes;no,
+configuration,length_unit,mile,,km;mile,
+configuration,number_of_lanes_oneway_vs_twoway,twoway,,oneway;twoway,
+configuration,default_link_direction,twoway,,oneway;twoway,
+configuration,use_default_speed_limit_from_link_type,yes,,yes;no,
+configuration,use_default_lane_capacity_from_link_type,yes,,yes;no,
+configuration,use_default_number_of_lanes_from_link_type,yes,,yes;no,
+configuration,identify_from_node_id_and_to_node_id_based_on_geometry,yes,,yes;no,
+link,from_node_id,,desired,,if from_node_id is empty
+link,to_node_id,,desired,,if to_node_id is empty
+link,name,TMC,,,for display only
+link,link_id,objectid,,,
+link,TMC,TMC,,,used for integrating sensor data
+link,link_type,FRC,,,default value = 1
+link,direction,,,,two comments here: if direction field is not available
+link,length,Miles,desired,,if data is available
+link,number_of_lanes,,desired,,users can specify use_default_number_of_lanes_from_link_type based on link type
+link,hourly_capacity,,desired,,users can specify use_default_lane_capacity_from_link_type based on link type
+link,speed_limit,,desired,,users can specify use_default_speed_limit_from_link_type based on link type
+link,r_number_of_lanes,,,,used only when data for reserved links are given
+link,r_hourly_capacity,,,,
+link,r_speed_limit,,,,
+link,r_link_type,,,,

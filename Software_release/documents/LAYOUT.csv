@@ -1,0 +1,7 @@
+Layout Data,,,,,,,,,,,,
+INTID,INTNAME,TYPE,X,Y,NID,SID,EID,WID,NNAME,SNAME,ENAME,WNAME
+1,External #1,1,1857339,861336,,,,7381,,,,400 S
+2,External #2,1,1854618,858956,7381,,,,State St,,,
+3,External #3,1,1851885,861370,,,7381,,,,400 S,
+4,External #4,1,1854625,863756,,7381,,,,State St,,
+7381,400 S & State St,0,1854612,861356,4,2,1,3,State St,State St,400 S,400 S

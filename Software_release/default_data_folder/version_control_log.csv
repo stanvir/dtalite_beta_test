@@ -1,0 +1,6 @@
+revision_no,file_name,change,new_field1,new_field2,new_field3,new_field4,new_field5,new_field6,new_field7,new_field8,new_field9,new_field10
+2,input_sensor.csv,"change field link_count to count, add lane_count as sensor_type",,,,,,,,,,
+2,input_vehicle_emission_rate.csv,,age,,,,,,,,,
+2,input_scenario_settings.csv,,agent_demand_input_mode,calibration_data_start_time_in_min,calibration_data_end_time_in_min,accessibility_calculationg_mode,routing_movement_delay_mode,,,,,
+2,input_vehicle_type.csv,change single unit long-haul truck to single unit short-haul truck,percentage_of_age_0,,,,,,,,,
+2,agent.bin,,age,,,,,,,,,

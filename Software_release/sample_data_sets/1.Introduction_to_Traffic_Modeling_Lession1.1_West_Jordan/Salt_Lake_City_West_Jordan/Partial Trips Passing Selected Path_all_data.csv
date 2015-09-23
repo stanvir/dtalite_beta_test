@@ -1,0 +1,6929 @@
+Vehicle Selection Mode,--,Partial Trips Passing Selected Path,--
+Category,All Vehicles/Agents,Number of Vehicles,164.00
+Category,All Vehicles/Agents,Cumulative Number of Vehicles,164.00
+Category,All Vehicles/Agents,Total Travel Time (min),1788.30
+Category,All Vehicles/Agents,Total Travel Distance (mile),248.28
+Category,All Vehicles/Agents,Avg Travel Time (min),10.90
+Category,All Vehicles/Agents,Avg Travel Distance (mile), 1.51
+Category,All Vehicles/Agents,Avg Speed (mile/hour), 8.33
+Category,All Vehicles/Agents,Avg Travel Time Per Mile (min/mile), 7.20
+Category,All Vehicles/Agents,Travel Time Index: mean/FFTT, 4.32
+Category,All Vehicles/Agents,Avg Travel Time STD (min), 8.18
+Category,All Vehicles/Agents,95th Percentile Travel Time (min),26.00
+Category,All Vehicles/Agents,90th Percentile Travel Time (min),21.00
+Category,All Vehicles/Agents,80th Percentile Travel Time (min),15.00
+Category,All Vehicles/Agents,Planning Time Index: 95th percentile/FFTT,10.30
+Category,All Vehicles/Agents,Buffer Index: (95th percentile - mean)/mean, 1.38
+Category,All Vehicles/Agents,Skew Index: (90th %ile-median)/(median-10th %ile),1400.00
+Category,All Vehicles/Agents,Travel Time Per Mile STD (min/mile), 5.40
+Category,All Vehicles/Agents,95th Percentile Travel Time Per Mile (min/mile),17.17
+Category,All Vehicles/Agents,90th Percentile Travel Time Per Mile (min/mile),13.87
+Category,All Vehicles/Agents,80th Percentile Travel Time Per Mile (min/mile), 9.91
+Category,All Vehicles/Agents,Total Generalized Time:TT+Toll/VOT (min),26293.57
+Category,All Vehicles/Agents,Avg Generalized Travel Time:TT+Toll/VOT (min),160.33
+Category,All Vehicles/Agents,Total Energy (KJ),24748060.00
+Category,All Vehicles/Agents,Total CO2 (g),1778560.00
+Category,All Vehicles/Agents,Total NOx (g),98.75
+Category,All Vehicles/Agents,Total CO (g),4721.61
+Category,All Vehicles/Agents,Total HC (g),33.94
+Category,All Vehicles/Agents,Total Gallon,203.35
+Category,All Vehicles/Agents,Avg Energy (KJ/vehicle/mile),99678.14
+Category,All Vehicles/Agents,Avg CO2 (g/vehicle/mile),7163.53
+Category,All Vehicles/Agents,Avg NOx (g/vehicle/mile), 0.40
+Category,All Vehicles/Agents,Avg CO (g/vehicle/mile),19.02
+Category,All Vehicles/Agents,Avg HC (g/vehicle/mile), 0.14
+Category,All Vehicles/Agents,Avg Miles per Gallon, 1.22
+Category,SOV  HOV  Truck,Number of Vehicles,164.00
+Category,SOV  HOV  Truck,Cumulative Number of Vehicles,164.00
+Category,SOV  HOV  Truck,Total Travel Time (min),1788.30
+Category,SOV  HOV  Truck,Total Travel Distance (mile),248.28
+Category,SOV  HOV  Truck,Avg Travel Time (min),10.90
+Category,SOV  HOV  Truck,Avg Travel Distance (mile), 1.51
+Category,SOV  HOV  Truck,Avg Speed (mile/hour), 8.33
+Category,SOV  HOV  Truck,Avg Travel Time Per Mile (min/mile), 7.20
+Category,SOV  HOV  Truck,Travel Time Index: mean/FFTT, 4.32
+Category,SOV  HOV  Truck,Avg Travel Time STD (min), 8.18
+Category,SOV  HOV  Truck,95th Percentile Travel Time (min),26.00
+Category,SOV  HOV  Truck,90th Percentile Travel Time (min),21.00
+Category,SOV  HOV  Truck,80th Percentile Travel Time (min),15.00
+Category,SOV  HOV  Truck,Planning Time Index: 95th percentile/FFTT,10.30
+Category,SOV  HOV  Truck,Buffer Index: (95th percentile - mean)/mean, 1.38
+Category,SOV  HOV  Truck,Skew Index: (90th %ile-median)/(median-10th %ile),1400.00
+Category,SOV  HOV  Truck,Travel Time Per Mile STD (min/mile), 5.40
+Category,SOV  HOV  Truck,95th Percentile Travel Time Per Mile (min/mile),17.17
+Category,SOV  HOV  Truck,90th Percentile Travel Time Per Mile (min/mile),13.87
+Category,SOV  HOV  Truck,80th Percentile Travel Time Per Mile (min/mile), 9.91
+Category,SOV  HOV  Truck,Total Generalized Time:TT+Toll/VOT (min),26293.57
+Category,SOV  HOV  Truck,Avg Generalized Travel Time:TT+Toll/VOT (min),160.33
+Category,SOV  HOV  Truck,Total Energy (KJ),24748060.00
+Category,SOV  HOV  Truck,Total CO2 (g),1778560.00
+Category,SOV  HOV  Truck,Total NOx (g),98.75
+Category,SOV  HOV  Truck,Total CO (g),4721.61
+Category,SOV  HOV  Truck,Total HC (g),33.94
+Category,SOV  HOV  Truck,Total Gallon,203.35
+Category,SOV  HOV  Truck,Avg Energy (KJ/vehicle/mile),99678.14
+Category,SOV  HOV  Truck,Avg CO2 (g/vehicle/mile),7163.53
+Category,SOV  HOV  Truck,Avg NOx (g/vehicle/mile), 0.40
+Category,SOV  HOV  Truck,Avg CO (g/vehicle/mile),19.02
+Category,SOV  HOV  Truck,Avg HC (g/vehicle/mile), 0.14
+Category,SOV  HOV  Truck,Avg Miles per Gallon, 1.22
+Category,15-min Departure Time Interval,Number of Vehicles,
+,,15:30_15:45,32.00
+,,15:45_16:00,28.00
+,,16:00_16:15,23.00
+,,16:15_16:30,24.00
+,,16:30_16:45,21.00
+,,16:45_17:00,20.00
+,,17:00_17:15,10.00
+,,17:15_17:30, 6.00
+Category,15-min Departure Time Interval,Cumulative Number of Vehicles,
+,,15:30_15:45,32.00
+,,15:45_16:00,60.00
+,,16:00_16:15,83.00
+,,16:15_16:30,107.00
+,,16:30_16:45,128.00
+,,16:45_17:00,148.00
+,,17:00_17:15,158.00
+,,17:15_17:30,164.00
+Category,15-min Departure Time Interval,Total Travel Time (min),
+,,15:30_15:45,397.70
+,,15:45_16:00,379.90
+,,16:00_16:15,213.80
+,,16:15_16:30,227.10
+,,16:30_16:45,237.00
+,,16:45_17:00,215.90
+,,17:00_17:15,73.00
+,,17:15_17:30,43.90
+Category,15-min Departure Time Interval,Total Travel Distance (mile),
+,,15:30_15:45,48.44
+,,15:45_16:00,42.39
+,,16:00_16:15,34.82
+,,16:15_16:30,36.33
+,,16:30_16:45,31.79
+,,16:45_17:00,30.28
+,,17:00_17:15,15.14
+,,17:15_17:30, 9.08
+Category,15-min Departure Time Interval,Avg Travel Time (min),
+,,15:30_15:45,12.43
+,,15:45_16:00,13.57
+,,16:00_16:15, 9.30
+,,16:15_16:30, 9.46
+,,16:30_16:45,11.29
+,,16:45_17:00,10.80
+,,17:00_17:15, 7.30
+,,17:15_17:30, 7.32
+Category,15-min Departure Time Interval,Avg Travel Distance (mile),
+,,15:30_15:45, 1.51
+,,15:45_16:00, 1.51
+,,16:00_16:15, 1.51
+,,16:15_16:30, 1.51
+,,16:30_16:45, 1.51
+,,16:45_17:00, 1.51
+,,17:00_17:15, 1.51
+,,17:15_17:30, 1.51
+Category,15-min Departure Time Interval,Avg Speed (mile/hour),
+,,15:30_15:45, 7.31
+,,15:45_16:00, 6.69
+,,16:00_16:15, 9.77
+,,16:15_16:30, 9.60
+,,16:30_16:45, 8.05
+,,16:45_17:00, 8.41
+,,17:00_17:15,12.44
+,,17:15_17:30,12.41
+Category,15-min Departure Time Interval,Avg Travel Time Per Mile (min/mile),
+,,15:30_15:45, 8.21
+,,15:45_16:00, 8.96
+,,16:00_16:15, 6.14
+,,16:15_16:30, 6.25
+,,16:30_16:45, 7.45
+,,16:45_17:00, 7.13
+,,17:00_17:15, 4.82
+,,17:15_17:30, 4.83
+Category,15-min Departure Time Interval,Travel Time Index: mean/FFTT,
+,,15:30_15:45, 4.93
+,,15:45_16:00, 5.38
+,,16:00_16:15, 3.68
+,,16:15_16:30, 3.75
+,,16:30_16:45, 4.47
+,,16:45_17:00, 4.28
+,,17:00_17:15, 2.89
+,,17:15_17:30, 2.90
+Category,15-min Departure Time Interval,Avg Travel Time STD (min),
+,,15:30_15:45, 5.65
+,,15:45_16:00,11.29
+,,16:00_16:15, 4.63
+,,16:15_16:30, 5.49
+,,16:30_16:45, 8.54
+,,16:45_17:00,12.31
+,,17:00_17:15, 0.46
+,,17:15_17:30, 0.48
+Category,15-min Departure Time Interval,95th Percentile Travel Time (min),
+,,15:30_15:45,22.00
+,,15:45_16:00,27.00
+,,16:00_16:15,21.00
+,,16:15_16:30,21.00
+,,16:30_16:45,27.00
+,,16:45_17:00,62.00
+,,17:00_17:15, 8.00
+,,17:15_17:30, 8.00
+Category,15-min Departure Time Interval,90th Percentile Travel Time (min),
+,,15:30_15:45,21.00
+,,15:45_16:00,26.00
+,,16:00_16:15,17.90
+,,16:15_16:30,20.10
+,,16:30_16:45,26.10
+,,16:45_17:00,24.00
+,,17:00_17:15, 8.00
+,,17:15_17:30, 8.00
+Category,15-min Departure Time Interval,80th Percentile Travel Time (min),
+,,15:30_15:45,17.00
+,,15:45_16:00,18.00
+,,16:00_16:15, 8.00
+,,16:15_16:30, 8.00
+,,16:30_16:45, 8.00
+,,16:45_17:00, 8.00
+,,17:00_17:15, 8.00
+,,17:15_17:30, 8.00
+Category,15-min Departure Time Interval,Planning Time Index: 95th percentile/FFTT,
+,,15:30_15:45, 8.72
+,,15:45_16:00,10.70
+,,16:00_16:15, 8.32
+,,16:15_16:30, 8.32
+,,16:30_16:45,10.70
+,,16:45_17:00,24.57
+,,17:00_17:15, 3.17
+,,17:15_17:30, 3.17
+Category,15-min Departure Time Interval,Buffer Index: (95th percentile - mean)/mean,
+,,15:30_15:45, 0.77
+,,15:45_16:00, 0.99
+,,16:00_16:15, 1.26
+,,16:15_16:30, 1.22
+,,16:30_16:45, 1.39
+,,16:45_17:00, 4.74
+,,17:00_17:15, 0.10
+,,17:15_17:30, 0.09
+Category,15-min Departure Time Interval,Skew Index: (90th %ile-median)/(median-10th %ile),
+,,15:30_15:45, 2.50
+,,15:45_16:00,18.00
+,,16:00_16:15,1090.00
+,,16:15_16:30,1310.00
+,,16:30_16:45,1910.00
+,,16:45_17:00,1700.00
+,,17:00_17:15,100.00
+,,17:15_17:30,10.00
+Category,15-min Departure Time Interval,Travel Time Per Mile STD (min/mile),
+,,15:30_15:45, 3.73
+,,15:45_16:00, 7.46
+,,16:00_16:15, 3.06
+,,16:15_16:30, 3.63
+,,16:30_16:45, 5.64
+,,16:45_17:00, 8.13
+,,17:00_17:15, 0.30
+,,17:15_17:30, 0.32
+Category,15-min Departure Time Interval,95th Percentile Travel Time Per Mile (min/mile),
+,,15:30_15:45,14.53
+,,15:45_16:00,17.83
+,,16:00_16:15,13.87
+,,16:15_16:30,13.87
+,,16:30_16:45,17.83
+,,16:45_17:00,40.95
+,,17:00_17:15, 5.28
+,,17:15_17:30, 5.28
+Category,15-min Departure Time Interval,90th Percentile Travel Time Per Mile (min/mile),
+,,15:30_15:45,13.87
+,,15:45_16:00,17.17
+,,16:00_16:15,11.82
+,,16:15_16:30,13.28
+,,16:30_16:45,17.24
+,,16:45_17:00,15.85
+,,17:00_17:15, 5.28
+,,17:15_17:30, 5.28
+Category,15-min Departure Time Interval,80th Percentile Travel Time Per Mile (min/mile),
+,,15:30_15:45,11.23
+,,15:45_16:00,11.89
+,,16:00_16:15, 5.28
+,,16:15_16:30, 5.28
+,,16:30_16:45, 5.28
+,,16:45_17:00, 5.28
+,,17:00_17:15, 5.28
+,,17:15_17:30, 5.28
+Category,15-min Departure Time Interval,Total Generalized Time:TT+Toll/VOT (min),
+,,15:30_15:45,1477.82
+,,15:45_16:00,3648.82
+,,16:00_16:15,4268.89
+,,16:15_16:30,5166.10
+,,16:30_16:45,4609.23
+,,16:45_17:00,4430.34
+,,17:00_17:15,1899.87
+,,17:15_17:30,792.50
+Category,15-min Departure Time Interval,Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,15:30_15:45,46.18
+,,15:45_16:00,130.31
+,,16:00_16:15,185.60
+,,16:15_16:30,215.25
+,,16:30_16:45,219.49
+,,16:45_17:00,221.52
+,,17:00_17:15,189.99
+,,17:15_17:30,132.08
+Category,15-min Departure Time Interval,Total Energy (KJ),
+,,15:30_15:45,2154251.50
+,,15:45_16:00,3592586.00
+,,16:00_16:15,3991957.25
+,,16:15_16:30,4552942.50
+,,16:30_16:45,4045673.25
+,,16:45_17:00,3958986.75
+,,17:00_17:15,1677478.13
+,,17:15_17:30,774186.00
+Category,15-min Departure Time Interval,Total CO2 (g),
+,,15:30_15:45,154818.86
+,,15:45_16:00,258187.14
+,,16:00_16:15,286888.56
+,,16:15_16:30,327204.72
+,,16:30_16:45,290749.03
+,,16:45_17:00,284519.13
+,,17:00_17:15,120554.76
+,,17:15_17:30,55638.16
+Category,15-min Departure Time Interval,Total NOx (g),
+,,15:30_15:45,19.16
+,,15:45_16:00,16.01
+,,16:00_16:15,20.80
+,,16:15_16:30,12.84
+,,16:30_16:45, 9.34
+,,16:45_17:00,14.12
+,,17:00_17:15, 3.02
+,,17:15_17:30, 3.46
+Category,15-min Departure Time Interval,Total CO (g),
+,,15:30_15:45,837.13
+,,15:45_16:00,778.37
+,,16:00_16:15,676.35
+,,16:15_16:30,748.01
+,,16:30_16:45,662.42
+,,16:45_17:00,615.21
+,,17:00_17:15,268.13
+,,17:15_17:30,135.98
+Category,15-min Departure Time Interval,Total HC (g),
+,,15:30_15:45, 6.72
+,,15:45_16:00, 5.73
+,,16:00_16:15, 6.84
+,,16:15_16:30, 4.38
+,,16:30_16:45, 3.38
+,,16:45_17:00, 4.70
+,,17:00_17:15, 1.07
+,,17:15_17:30, 1.12
+Category,15-min Departure Time Interval,Total Gallon,
+,,15:30_15:45,17.70
+,,15:45_16:00,29.52
+,,16:00_16:15,32.80
+,,16:15_16:30,37.41
+,,16:30_16:45,33.24
+,,16:45_17:00,32.53
+,,17:00_17:15,13.78
+,,17:15_17:30, 6.36
+Category,15-min Departure Time Interval,Avg Energy (KJ/vehicle/mile),
+,,15:30_15:45,44468.16
+,,15:45_16:00,84752.37
+,,16:00_16:15,114646.49
+,,16:15_16:30,125309.40
+,,16:30_16:45,127254.82
+,,16:45_17:00,130754.54
+,,17:00_17:15,110805.09
+,,17:15_17:30,85230.86
+Category,15-min Departure Time Interval,Avg CO2 (g/vehicle/mile),
+,,15:30_15:45,3195.78
+,,15:45_16:00,6090.87
+,,16:00_16:15,8239.26
+,,16:15_16:30,9005.57
+,,16:30_16:45,9145.38
+,,16:45_17:00,9396.89
+,,17:00_17:15,7963.19
+,,17:15_17:30,6125.26
+Category,15-min Departure Time Interval,Avg NOx (g/vehicle/mile),
+,,15:30_15:45, 0.40
+,,15:45_16:00, 0.38
+,,16:00_16:15, 0.60
+,,16:15_16:30, 0.35
+,,16:30_16:45, 0.29
+,,16:45_17:00, 0.47
+,,17:00_17:15, 0.20
+,,17:15_17:30, 0.38
+Category,15-min Departure Time Interval,Avg CO (g/vehicle/mile),
+,,15:30_15:45,17.28
+,,15:45_16:00,18.36
+,,16:00_16:15,19.42
+,,16:15_16:30,20.59
+,,16:30_16:45,20.84
+,,16:45_17:00,20.32
+,,17:00_17:15,17.71
+,,17:15_17:30,14.97
+Category,15-min Departure Time Interval,Avg HC (g/vehicle/mile),
+,,15:30_15:45, 0.14
+,,15:45_16:00, 0.14
+,,16:00_16:15, 0.20
+,,16:15_16:30, 0.12
+,,16:30_16:45, 0.11
+,,16:45_17:00, 0.16
+,,17:00_17:15, 0.07
+,,17:15_17:30, 0.12
+Category,15-min Departure Time Interval,Avg Miles per Gallon,
+,,15:30_15:45, 2.74
+,,15:45_16:00, 1.44
+,,16:00_16:15, 1.06
+,,16:15_16:30, 0.97
+,,16:30_16:45, 0.96
+,,16:45_17:00, 0.93
+,,17:00_17:15, 1.10
+,,17:15_17:30, 1.43
+Category,30-min Departure Time Interval,Number of Vehicles,
+,,15:30_16:00,60.00
+,,16:00_16:30,47.00
+,,16:30_17:00,41.00
+,,17:00_17:30,16.00
+Category,30-min Departure Time Interval,Cumulative Number of Vehicles,
+,,15:30_16:00,60.00
+,,16:00_16:30,107.00
+,,16:30_17:00,148.00
+,,17:00_17:30,164.00
+Category,30-min Departure Time Interval,Total Travel Time (min),
+,,15:30_16:00,777.60
+,,16:00_16:30,440.90
+,,16:30_17:00,452.90
+,,17:00_17:30,116.90
+Category,30-min Departure Time Interval,Total Travel Distance (mile),
+,,15:30_16:00,90.83
+,,16:00_16:30,71.15
+,,16:30_17:00,62.07
+,,17:00_17:30,24.22
+Category,30-min Departure Time Interval,Avg Travel Time (min),
+,,15:30_16:00,12.96
+,,16:00_16:30, 9.38
+,,16:30_17:00,11.05
+,,17:00_17:30, 7.31
+Category,30-min Departure Time Interval,Avg Travel Distance (mile),
+,,15:30_16:00, 1.51
+,,16:00_16:30, 1.51
+,,16:30_17:00, 1.51
+,,17:00_17:30, 1.51
+Category,30-min Departure Time Interval,Avg Speed (mile/hour),
+,,15:30_16:00, 7.01
+,,16:00_16:30, 9.68
+,,16:30_17:00, 8.22
+,,17:00_17:30,12.43
+Category,30-min Departure Time Interval,Avg Travel Time Per Mile (min/mile),
+,,15:30_16:00, 8.56
+,,16:00_16:30, 6.20
+,,16:30_17:00, 7.30
+,,17:00_17:30, 4.83
+Category,30-min Departure Time Interval,Travel Time Index: mean/FFTT,
+,,15:30_16:00, 5.14
+,,16:00_16:30, 3.72
+,,16:30_17:00, 4.38
+,,17:00_17:30, 2.90
+Category,30-min Departure Time Interval,Avg Travel Time STD (min),
+,,15:30_16:00, 8.76
+,,16:00_16:30, 5.09
+,,16:30_17:00,10.55
+,,17:00_17:30, 0.47
+Category,30-min Departure Time Interval,95th Percentile Travel Time (min),
+,,15:30_16:00,26.00
+,,16:00_16:30,21.00
+,,16:30_17:00,27.00
+,,17:00_17:30, 8.00
+Category,30-min Departure Time Interval,90th Percentile Travel Time (min),
+,,15:30_16:00,22.00
+,,16:00_16:30,20.10
+,,16:30_17:00,26.10
+,,17:00_17:30, 8.00
+Category,30-min Departure Time Interval,80th Percentile Travel Time (min),
+,,15:30_16:00,18.00
+,,16:00_16:30, 8.00
+,,16:30_17:00, 8.00
+,,17:00_17:30, 8.00
+Category,30-min Departure Time Interval,Planning Time Index: 95th percentile/FFTT,
+,,15:30_16:00,10.30
+,,16:00_16:30, 8.32
+,,16:30_17:00,10.70
+,,17:00_17:30, 3.17
+Category,30-min Departure Time Interval,Buffer Index: (95th percentile - mean)/mean,
+,,15:30_16:00, 1.01
+,,16:00_16:30, 1.24
+,,16:30_17:00, 1.44
+,,17:00_17:30, 0.09
+Category,30-min Departure Time Interval,Skew Index: (90th %ile-median)/(median-10th %ile),
+,,15:30_16:00, 2.75
+,,16:00_16:30,1310.00
+,,16:30_17:00,1910.00
+,,17:00_17:30,100.00
+Category,30-min Departure Time Interval,Travel Time Per Mile STD (min/mile),
+,,15:30_16:00, 5.79
+,,16:00_16:30, 3.36
+,,16:30_17:00, 6.97
+,,17:00_17:30, 0.31
+Category,30-min Departure Time Interval,95th Percentile Travel Time Per Mile (min/mile),
+,,15:30_16:00,17.17
+,,16:00_16:30,13.87
+,,16:30_17:00,17.83
+,,17:00_17:30, 5.28
+Category,30-min Departure Time Interval,90th Percentile Travel Time Per Mile (min/mile),
+,,15:30_16:00,14.53
+,,16:00_16:30,13.28
+,,16:30_17:00,17.24
+,,17:00_17:30, 5.28
+Category,30-min Departure Time Interval,80th Percentile Travel Time Per Mile (min/mile),
+,,15:30_16:00,11.89
+,,16:00_16:30, 5.28
+,,16:30_17:00, 5.28
+,,17:00_17:30, 5.28
+Category,30-min Departure Time Interval,Total Generalized Time:TT+Toll/VOT (min),
+,,15:30_16:00,5126.63
+,,16:00_16:30,9434.99
+,,16:30_17:00,9039.57
+,,17:00_17:30,2692.37
+Category,30-min Departure Time Interval,Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,15:30_16:00,85.44
+,,16:00_16:30,200.74
+,,16:30_17:00,220.48
+,,17:00_17:30,168.27
+Category,30-min Departure Time Interval,Total Energy (KJ),
+,,15:30_16:00,5746837.00
+,,16:00_16:30,8544899.00
+,,16:30_17:00,8004660.50
+,,17:00_17:30,2451664.00
+Category,30-min Departure Time Interval,Total CO2 (g),
+,,15:30_16:00,413005.97
+,,16:00_16:30,614093.25
+,,16:30_17:00,575268.19
+,,17:00_17:30,176192.91
+Category,30-min Departure Time Interval,Total NOx (g),
+,,15:30_16:00,35.18
+,,16:00_16:30,33.64
+,,16:30_17:00,23.46
+,,17:00_17:30, 6.47
+Category,30-min Departure Time Interval,Total CO (g),
+,,15:30_16:00,1615.50
+,,16:00_16:30,1424.36
+,,16:30_17:00,1277.64
+,,17:00_17:30,404.11
+Category,30-min Departure Time Interval,Total HC (g),
+,,15:30_16:00,12.45
+,,16:00_16:30,11.22
+,,16:30_17:00, 8.08
+,,17:00_17:30, 2.20
+Category,30-min Departure Time Interval,Total Gallon,
+,,15:30_16:00,47.22
+,,16:00_16:30,70.21
+,,16:30_17:00,65.77
+,,17:00_17:30,20.15
+Category,30-min Departure Time Interval,Avg Energy (KJ/vehicle/mile),
+,,15:30_16:00,63267.45
+,,16:00_16:30,120091.36
+,,16:30_17:00,128961.99
+,,17:00_17:30,101214.73
+Category,30-min Departure Time Interval,Avg CO2 (g/vehicle/mile),
+,,15:30_16:00,4546.82
+,,16:00_16:30,8630.56
+,,16:30_17:00,9268.07
+,,17:00_17:30,7273.96
+Category,30-min Departure Time Interval,Avg NOx (g/vehicle/mile),
+,,15:30_16:00, 0.39
+,,16:00_16:30, 0.47
+,,16:30_17:00, 0.38
+,,17:00_17:30, 0.27
+Category,30-min Departure Time Interval,Avg CO (g/vehicle/mile),
+,,15:30_16:00,17.79
+,,16:00_16:30,20.02
+,,16:30_17:00,20.58
+,,17:00_17:30,16.68
+Category,30-min Departure Time Interval,Avg HC (g/vehicle/mile),
+,,15:30_16:00, 0.14
+,,16:00_16:30, 0.16
+,,16:30_17:00, 0.13
+,,17:00_17:30, 0.09
+Category,30-min Departure Time Interval,Avg Miles per Gallon,
+,,15:30_16:00, 1.92
+,,16:00_16:30, 1.01
+,,16:30_17:00, 0.94
+,,17:00_17:30, 1.20
+Category,1-hour Departure Time Interval,Number of Vehicles,
+,,15:00_16:00,60.00
+,,16:00_17:00,88.00
+,,17:00_18:00,16.00
+Category,1-hour Departure Time Interval,Cumulative Number of Vehicles,
+,,15:00_16:00,60.00
+,,16:00_17:00,148.00
+,,17:00_18:00,164.00
+Category,1-hour Departure Time Interval,Total Travel Time (min),
+,,15:00_16:00,777.60
+,,16:00_17:00,893.80
+,,17:00_18:00,116.90
+Category,1-hour Departure Time Interval,Total Travel Distance (mile),
+,,15:00_16:00,90.83
+,,16:00_17:00,133.22
+,,17:00_18:00,24.22
+Category,1-hour Departure Time Interval,Avg Travel Time (min),
+,,15:00_16:00,12.96
+,,16:00_17:00,10.16
+,,17:00_18:00, 7.31
+Category,1-hour Departure Time Interval,Avg Travel Distance (mile),
+,,15:00_16:00, 1.51
+,,16:00_17:00, 1.51
+,,17:00_18:00, 1.51
+Category,1-hour Departure Time Interval,Avg Speed (mile/hour),
+,,15:00_16:00, 7.01
+,,16:00_17:00, 8.94
+,,17:00_18:00,12.43
+Category,1-hour Departure Time Interval,Avg Travel Time Per Mile (min/mile),
+,,15:00_16:00, 8.56
+,,16:00_17:00, 6.71
+,,17:00_18:00, 4.83
+Category,1-hour Departure Time Interval,Travel Time Index: mean/FFTT,
+,,15:00_16:00, 5.14
+,,16:00_17:00, 4.03
+,,17:00_18:00, 2.90
+Category,1-hour Departure Time Interval,Avg Travel Time STD (min),
+,,15:00_16:00, 8.76
+,,16:00_17:00, 8.15
+,,17:00_18:00, 0.47
+Category,1-hour Departure Time Interval,95th Percentile Travel Time (min),
+,,15:00_16:00,26.00
+,,16:00_17:00,26.10
+,,17:00_18:00, 8.00
+Category,1-hour Departure Time Interval,90th Percentile Travel Time (min),
+,,15:00_16:00,22.00
+,,16:00_17:00,21.00
+,,17:00_18:00, 8.00
+Category,1-hour Departure Time Interval,80th Percentile Travel Time (min),
+,,15:00_16:00,18.00
+,,16:00_17:00, 8.00
+,,17:00_18:00, 8.00
+Category,1-hour Departure Time Interval,Planning Time Index: 95th percentile/FFTT,
+,,15:00_16:00,10.30
+,,16:00_17:00,10.34
+,,17:00_18:00, 3.17
+Category,1-hour Departure Time Interval,Buffer Index: (95th percentile - mean)/mean,
+,,15:00_16:00, 1.01
+,,16:00_17:00, 1.57
+,,17:00_18:00, 0.09
+Category,1-hour Departure Time Interval,Skew Index: (90th %ile-median)/(median-10th %ile),
+,,15:00_16:00, 2.75
+,,16:00_17:00,1400.00
+,,17:00_18:00,100.00
+Category,1-hour Departure Time Interval,Travel Time Per Mile STD (min/mile),
+,,15:00_16:00, 5.79
+,,16:00_17:00, 5.38
+,,17:00_18:00, 0.31
+Category,1-hour Departure Time Interval,95th Percentile Travel Time Per Mile (min/mile),
+,,15:00_16:00,17.17
+,,16:00_17:00,17.24
+,,17:00_18:00, 5.28
+Category,1-hour Departure Time Interval,90th Percentile Travel Time Per Mile (min/mile),
+,,15:00_16:00,14.53
+,,16:00_17:00,13.87
+,,17:00_18:00, 5.28
+Category,1-hour Departure Time Interval,80th Percentile Travel Time Per Mile (min/mile),
+,,15:00_16:00,11.89
+,,16:00_17:00, 5.28
+,,17:00_18:00, 5.28
+Category,1-hour Departure Time Interval,Total Generalized Time:TT+Toll/VOT (min),
+,,15:00_16:00,5126.63
+,,16:00_17:00,18474.56
+,,17:00_18:00,2692.37
+Category,1-hour Departure Time Interval,Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,15:00_16:00,85.44
+,,16:00_17:00,209.94
+,,17:00_18:00,168.27
+Category,1-hour Departure Time Interval,Total Energy (KJ),
+,,15:00_16:00,5746837.00
+,,16:00_17:00,16549562.00
+,,17:00_18:00,2451664.00
+Category,1-hour Departure Time Interval,Total CO2 (g),
+,,15:00_16:00,413005.97
+,,16:00_17:00,1189361.38
+,,17:00_18:00,176192.91
+Category,1-hour Departure Time Interval,Total NOx (g),
+,,15:00_16:00,35.18
+,,16:00_17:00,57.10
+,,17:00_18:00, 6.47
+Category,1-hour Departure Time Interval,Total CO (g),
+,,15:00_16:00,1615.50
+,,16:00_17:00,2702.00
+,,17:00_18:00,404.11
+Category,1-hour Departure Time Interval,Total HC (g),
+,,15:00_16:00,12.45
+,,16:00_17:00,19.30
+,,17:00_18:00, 2.20
+Category,1-hour Departure Time Interval,Total Gallon,
+,,15:00_16:00,47.22
+,,16:00_17:00,135.99
+,,17:00_18:00,20.15
+Category,1-hour Departure Time Interval,Avg Energy (KJ/vehicle/mile),
+,,15:00_16:00,63267.45
+,,16:00_17:00,124224.27
+,,17:00_18:00,101214.73
+Category,1-hour Departure Time Interval,Avg CO2 (g/vehicle/mile),
+,,15:00_16:00,4546.82
+,,16:00_17:00,8927.58
+,,17:00_18:00,7273.96
+Category,1-hour Departure Time Interval,Avg NOx (g/vehicle/mile),
+,,15:00_16:00, 0.39
+,,16:00_17:00, 0.43
+,,17:00_18:00, 0.27
+Category,1-hour Departure Time Interval,Avg CO (g/vehicle/mile),
+,,15:00_16:00,17.79
+,,16:00_17:00,20.28
+,,17:00_18:00,16.68
+Category,1-hour Departure Time Interval,Avg HC (g/vehicle/mile),
+,,15:00_16:00, 0.14
+,,16:00_17:00, 0.14
+,,17:00_18:00, 0.09
+Category,1-hour Departure Time Interval,Avg Miles per Gallon,
+,,15:00_16:00, 1.92
+,,16:00_17:00, 0.98
+,,17:00_18:00, 1.20
+Category,2-hour Departure Time Interval,Number of Vehicles,
+,,14:00_16:00,60.00
+,,16:00_18:00,104.00
+Category,2-hour Departure Time Interval,Cumulative Number of Vehicles,
+,,14:00_16:00,60.00
+,,16:00_18:00,164.00
+Category,2-hour Departure Time Interval,Total Travel Time (min),
+,,14:00_16:00,777.60
+,,16:00_18:00,1010.70
+Category,2-hour Departure Time Interval,Total Travel Distance (mile),
+,,14:00_16:00,90.83
+,,16:00_18:00,157.45
+Category,2-hour Departure Time Interval,Avg Travel Time (min),
+,,14:00_16:00,12.96
+,,16:00_18:00, 9.72
+Category,2-hour Departure Time Interval,Avg Travel Distance (mile),
+,,14:00_16:00, 1.51
+,,16:00_18:00, 1.51
+Category,2-hour Departure Time Interval,Avg Speed (mile/hour),
+,,14:00_16:00, 7.01
+,,16:00_18:00, 9.35
+Category,2-hour Departure Time Interval,Avg Travel Time Per Mile (min/mile),
+,,14:00_16:00, 8.56
+,,16:00_18:00, 6.42
+Category,2-hour Departure Time Interval,Travel Time Index: mean/FFTT,
+,,14:00_16:00, 5.14
+,,16:00_18:00, 3.85
+Category,2-hour Departure Time Interval,Avg Travel Time STD (min),
+,,14:00_16:00, 8.76
+,,16:00_18:00, 7.57
+Category,2-hour Departure Time Interval,95th Percentile Travel Time (min),
+,,14:00_16:00,26.00
+,,16:00_18:00,26.10
+Category,2-hour Departure Time Interval,90th Percentile Travel Time (min),
+,,14:00_16:00,22.00
+,,16:00_18:00,20.10
+Category,2-hour Departure Time Interval,80th Percentile Travel Time (min),
+,,14:00_16:00,18.00
+,,16:00_18:00, 8.00
+Category,2-hour Departure Time Interval,Planning Time Index: 95th percentile/FFTT,
+,,14:00_16:00,10.30
+,,16:00_18:00,10.34
+Category,2-hour Departure Time Interval,Buffer Index: (95th percentile - mean)/mean,
+,,14:00_16:00, 1.01
+,,16:00_18:00, 1.69
+Category,2-hour Departure Time Interval,Skew Index: (90th %ile-median)/(median-10th %ile),
+,,14:00_16:00, 2.75
+,,16:00_18:00,1310.00
+Category,2-hour Departure Time Interval,Travel Time Per Mile STD (min/mile),
+,,14:00_16:00, 5.79
+,,16:00_18:00, 5.00
+Category,2-hour Departure Time Interval,95th Percentile Travel Time Per Mile (min/mile),
+,,14:00_16:00,17.17
+,,16:00_18:00,17.24
+Category,2-hour Departure Time Interval,90th Percentile Travel Time Per Mile (min/mile),
+,,14:00_16:00,14.53
+,,16:00_18:00,13.28
+Category,2-hour Departure Time Interval,80th Percentile Travel Time Per Mile (min/mile),
+,,14:00_16:00,11.89
+,,16:00_18:00, 5.28
+Category,2-hour Departure Time Interval,Total Generalized Time:TT+Toll/VOT (min),
+,,14:00_16:00,5126.63
+,,16:00_18:00,21166.94
+Category,2-hour Departure Time Interval,Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,14:00_16:00,85.44
+,,16:00_18:00,203.53
+Category,2-hour Departure Time Interval,Total Energy (KJ),
+,,14:00_16:00,5746837.00
+,,16:00_18:00,19001226.00
+Category,2-hour Departure Time Interval,Total CO2 (g),
+,,14:00_16:00,413005.97
+,,16:00_18:00,1365554.13
+Category,2-hour Departure Time Interval,Total NOx (g),
+,,14:00_16:00,35.18
+,,16:00_18:00,63.57
+Category,2-hour Departure Time Interval,Total CO (g),
+,,14:00_16:00,1615.50
+,,16:00_18:00,3106.11
+Category,2-hour Departure Time Interval,Total HC (g),
+,,14:00_16:00,12.45
+,,16:00_18:00,21.49
+Category,2-hour Departure Time Interval,Total Gallon,
+,,14:00_16:00,47.22
+,,16:00_18:00,156.13
+Category,2-hour Departure Time Interval,Avg Energy (KJ/vehicle/mile),
+,,14:00_16:00,63267.45
+,,16:00_18:00,120684.34
+Category,2-hour Departure Time Interval,Avg CO2 (g/vehicle/mile),
+,,14:00_16:00,4546.82
+,,16:00_18:00,8673.18
+Category,2-hour Departure Time Interval,Avg NOx (g/vehicle/mile),
+,,14:00_16:00, 0.39
+,,16:00_18:00, 0.40
+Category,2-hour Departure Time Interval,Avg CO (g/vehicle/mile),
+,,14:00_16:00,17.79
+,,16:00_18:00,19.73
+Category,2-hour Departure Time Interval,Avg HC (g/vehicle/mile),
+,,14:00_16:00, 0.14
+,,16:00_18:00, 0.14
+Category,2-hour Departure Time Interval,Avg Miles per Gallon,
+,,14:00_16:00, 1.92
+,,16:00_18:00, 1.01
+Category,4-hour Departure Time Interval,Number of Vehicles,
+,,12:00_16:00,60.00
+,,16:00_20:00,104.00
+Category,4-hour Departure Time Interval,Cumulative Number of Vehicles,
+,,12:00_16:00,60.00
+,,16:00_20:00,164.00
+Category,4-hour Departure Time Interval,Total Travel Time (min),
+,,12:00_16:00,777.60
+,,16:00_20:00,1010.70
+Category,4-hour Departure Time Interval,Total Travel Distance (mile),
+,,12:00_16:00,90.83
+,,16:00_20:00,157.45
+Category,4-hour Departure Time Interval,Avg Travel Time (min),
+,,12:00_16:00,12.96
+,,16:00_20:00, 9.72
+Category,4-hour Departure Time Interval,Avg Travel Distance (mile),
+,,12:00_16:00, 1.51
+,,16:00_20:00, 1.51
+Category,4-hour Departure Time Interval,Avg Speed (mile/hour),
+,,12:00_16:00, 7.01
+,,16:00_20:00, 9.35
+Category,4-hour Departure Time Interval,Avg Travel Time Per Mile (min/mile),
+,,12:00_16:00, 8.56
+,,16:00_20:00, 6.42
+Category,4-hour Departure Time Interval,Travel Time Index: mean/FFTT,
+,,12:00_16:00, 5.14
+,,16:00_20:00, 3.85
+Category,4-hour Departure Time Interval,Avg Travel Time STD (min),
+,,12:00_16:00, 8.76
+,,16:00_20:00, 7.57
+Category,4-hour Departure Time Interval,95th Percentile Travel Time (min),
+,,12:00_16:00,26.00
+,,16:00_20:00,26.10
+Category,4-hour Departure Time Interval,90th Percentile Travel Time (min),
+,,12:00_16:00,22.00
+,,16:00_20:00,20.10
+Category,4-hour Departure Time Interval,80th Percentile Travel Time (min),
+,,12:00_16:00,18.00
+,,16:00_20:00, 8.00
+Category,4-hour Departure Time Interval,Planning Time Index: 95th percentile/FFTT,
+,,12:00_16:00,10.30
+,,16:00_20:00,10.34
+Category,4-hour Departure Time Interval,Buffer Index: (95th percentile - mean)/mean,
+,,12:00_16:00, 1.01
+,,16:00_20:00, 1.69
+Category,4-hour Departure Time Interval,Skew Index: (90th %ile-median)/(median-10th %ile),
+,,12:00_16:00, 2.75
+,,16:00_20:00,1310.00
+Category,4-hour Departure Time Interval,Travel Time Per Mile STD (min/mile),
+,,12:00_16:00, 5.79
+,,16:00_20:00, 5.00
+Category,4-hour Departure Time Interval,95th Percentile Travel Time Per Mile (min/mile),
+,,12:00_16:00,17.17
+,,16:00_20:00,17.24
+Category,4-hour Departure Time Interval,90th Percentile Travel Time Per Mile (min/mile),
+,,12:00_16:00,14.53
+,,16:00_20:00,13.28
+Category,4-hour Departure Time Interval,80th Percentile Travel Time Per Mile (min/mile),
+,,12:00_16:00,11.89
+,,16:00_20:00, 5.28
+Category,4-hour Departure Time Interval,Total Generalized Time:TT+Toll/VOT (min),
+,,12:00_16:00,5126.63
+,,16:00_20:00,21166.94
+Category,4-hour Departure Time Interval,Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,12:00_16:00,85.44
+,,16:00_20:00,203.53
+Category,4-hour Departure Time Interval,Total Energy (KJ),
+,,12:00_16:00,5746837.00
+,,16:00_20:00,19001226.00
+Category,4-hour Departure Time Interval,Total CO2 (g),
+,,12:00_16:00,413005.97
+,,16:00_20:00,1365554.13
+Category,4-hour Departure Time Interval,Total NOx (g),
+,,12:00_16:00,35.18
+,,16:00_20:00,63.57
+Category,4-hour Departure Time Interval,Total CO (g),
+,,12:00_16:00,1615.50
+,,16:00_20:00,3106.11
+Category,4-hour Departure Time Interval,Total HC (g),
+,,12:00_16:00,12.45
+,,16:00_20:00,21.49
+Category,4-hour Departure Time Interval,Total Gallon,
+,,12:00_16:00,47.22
+,,16:00_20:00,156.13
+Category,4-hour Departure Time Interval,Avg Energy (KJ/vehicle/mile),
+,,12:00_16:00,63267.45
+,,16:00_20:00,120684.34
+Category,4-hour Departure Time Interval,Avg CO2 (g/vehicle/mile),
+,,12:00_16:00,4546.82
+,,16:00_20:00,8673.18
+Category,4-hour Departure Time Interval,Avg NOx (g/vehicle/mile),
+,,12:00_16:00, 0.39
+,,16:00_20:00, 0.40
+Category,4-hour Departure Time Interval,Avg CO (g/vehicle/mile),
+,,12:00_16:00,17.79
+,,16:00_20:00,19.73
+Category,4-hour Departure Time Interval,Avg HC (g/vehicle/mile),
+,,12:00_16:00, 0.14
+,,16:00_20:00, 0.14
+Category,4-hour Departure Time Interval,Avg Miles per Gallon,
+,,12:00_16:00, 1.92
+,,16:00_20:00, 1.01
+Category,Distance Bin (0.2 ml Interval),Number of Vehicles,
+,,2.0_2.2,18.00
+,,2.2_2.4, 5.00
+,,2.4_2.6, 6.00
+,,2.6_2.8,27.00
+,,2.8_3.0, 6.00
+,,3.0_3.2, 2.00
+,,3.2_3.4,17.00
+,,3.4_3.6, 4.00
+,,3.6_3.8,66.00
+,,3.8_4.0, 1.00
+,,4.0_4.2, 1.00
+,,4.2_4.4, 2.00
+,,4.4_4.6, 3.00
+,,5.0_5.2, 3.00
+,,5.4_5.6, 2.00
+,,5.8_6.0, 1.00
+Category,Distance Bin (0.2 ml Interval),Cumulative Number of Vehicles,
+,,2.0_2.2,18.00
+,,2.2_2.4,23.00
+,,2.4_2.6,29.00
+,,2.6_2.8,56.00
+,,2.8_3.0,62.00
+,,3.0_3.2,64.00
+,,3.2_3.4,81.00
+,,3.4_3.6,85.00
+,,3.6_3.8,151.00
+,,3.8_4.0,152.00
+,,4.0_4.2,153.00
+,,4.2_4.4,155.00
+,,4.4_4.6,158.00
+,,5.0_5.2,161.00
+,,5.4_5.6,163.00
+,,5.8_6.0,164.00
+Category,Distance Bin (0.2 ml Interval),Total Travel Time (min),
+,,2.0_2.2,161.00
+,,2.2_2.4,57.00
+,,2.4_2.6,136.10
+,,2.6_2.8,320.50
+,,2.8_3.0,111.20
+,,3.0_3.2,28.00
+,,3.2_3.4,165.90
+,,3.4_3.6,40.00
+,,3.6_3.8,587.60
+,,3.8_4.0, 7.00
+,,4.0_4.2, 7.00
+,,4.2_4.4,33.00
+,,4.4_4.6,36.00
+,,5.0_5.2,43.00
+,,5.4_5.6,33.00
+,,5.8_6.0,22.00
+Category,Distance Bin (0.2 ml Interval),Total Travel Distance (mile),
+,,2.0_2.2,27.25
+,,2.2_2.4, 7.57
+,,2.4_2.6, 9.08
+,,2.6_2.8,40.88
+,,2.8_3.0, 9.08
+,,3.0_3.2, 3.03
+,,3.2_3.4,25.74
+,,3.4_3.6, 6.06
+,,3.6_3.8,99.92
+,,3.8_4.0, 1.51
+,,4.0_4.2, 1.51
+,,4.2_4.4, 3.03
+,,4.4_4.6, 4.54
+,,5.0_5.2, 4.54
+,,5.4_5.6, 3.03
+,,5.8_6.0, 1.51
+Category,Distance Bin (0.2 ml Interval),Avg Travel Time (min),
+,,2.0_2.2, 8.94
+,,2.2_2.4,11.40
+,,2.4_2.6,22.68
+,,2.6_2.8,11.87
+,,2.8_3.0,18.53
+,,3.0_3.2,14.00
+,,3.2_3.4, 9.76
+,,3.4_3.6,10.00
+,,3.6_3.8, 8.90
+,,3.8_4.0, 7.00
+,,4.0_4.2, 7.00
+,,4.2_4.4,16.50
+,,4.4_4.6,12.00
+,,5.0_5.2,14.33
+,,5.4_5.6,16.50
+,,5.8_6.0,22.00
+Category,Distance Bin (0.2 ml Interval),Avg Travel Distance (mile),
+,,2.0_2.2, 1.51
+,,2.2_2.4, 1.51
+,,2.4_2.6, 1.51
+,,2.6_2.8, 1.51
+,,2.8_3.0, 1.51
+,,3.0_3.2, 1.51
+,,3.2_3.4, 1.51
+,,3.4_3.6, 1.51
+,,3.6_3.8, 1.51
+,,3.8_4.0, 1.51
+,,4.0_4.2, 1.51
+,,4.2_4.4, 1.51
+,,4.4_4.6, 1.51
+,,5.0_5.2, 1.51
+,,5.4_5.6, 1.51
+,,5.8_6.0, 1.51
+Category,Distance Bin (0.2 ml Interval),Avg Speed (mile/hour),
+,,2.0_2.2,10.16
+,,2.2_2.4, 7.97
+,,2.4_2.6, 4.00
+,,2.6_2.8, 7.65
+,,2.8_3.0, 4.90
+,,3.0_3.2, 6.49
+,,3.2_3.4, 9.31
+,,3.4_3.6, 9.08
+,,3.6_3.8,10.20
+,,3.8_4.0,12.98
+,,4.0_4.2,12.98
+,,4.2_4.4, 5.51
+,,4.4_4.6, 7.57
+,,5.0_5.2, 6.34
+,,5.4_5.6, 5.51
+,,5.8_6.0, 4.13
+Category,Distance Bin (0.2 ml Interval),Avg Travel Time Per Mile (min/mile),
+,,2.0_2.2, 5.91
+,,2.2_2.4, 7.53
+,,2.4_2.6,14.98
+,,2.6_2.8, 7.84
+,,2.8_3.0,12.24
+,,3.0_3.2, 9.25
+,,3.2_3.4, 6.45
+,,3.4_3.6, 6.61
+,,3.6_3.8, 5.88
+,,3.8_4.0, 4.62
+,,4.0_4.2, 4.62
+,,4.2_4.4,10.90
+,,4.4_4.6, 7.93
+,,5.0_5.2, 9.47
+,,5.4_5.6,10.90
+,,5.8_6.0,14.53
+Category,Distance Bin (0.2 ml Interval),Travel Time Index: mean/FFTT,
+,,2.0_2.2, 3.54
+,,2.2_2.4, 4.52
+,,2.4_2.6, 8.99
+,,2.6_2.8, 4.70
+,,2.8_3.0, 7.35
+,,3.0_3.2, 5.55
+,,3.2_3.4, 3.87
+,,3.4_3.6, 3.96
+,,3.6_3.8, 3.53
+,,3.8_4.0, 2.77
+,,4.0_4.2, 2.77
+,,4.2_4.4, 6.54
+,,4.4_4.6, 4.76
+,,5.0_5.2, 5.68
+,,5.4_5.6, 6.54
+,,5.8_6.0, 8.72
+Category,Distance Bin (0.2 ml Interval),Avg Travel Time STD (min),
+,,2.0_2.2, 5.16
+,,2.2_2.4, 7.31
+,,2.4_2.6,18.56
+,,2.6_2.8, 7.04
+,,2.8_3.0, 8.44
+,,3.0_3.2, 7.00
+,,3.2_3.4, 4.50
+,,3.4_3.6, 3.32
+,,3.6_3.8, 7.56
+,,4.2_4.4, 4.50
+,,4.4_4.6, 4.08
+,,5.0_5.2, 5.73
+,,5.4_5.6, 4.50
+Category,Distance Bin (0.2 ml Interval),95th Percentile Travel Time (min),
+,,2.0_2.2,27.00
+,,2.2_2.4,26.00
+,,2.4_2.6,62.00
+,,2.6_2.8,27.00
+,,2.8_3.0,27.00
+,,3.0_3.2,21.00
+,,3.2_3.4,21.00
+,,3.4_3.6,15.00
+,,3.6_3.8,17.00
+,,3.8_4.0, 7.00
+,,4.0_4.2, 7.00
+,,4.2_4.4,21.00
+,,4.4_4.6,17.00
+,,5.0_5.2,21.00
+,,5.4_5.6,21.00
+,,5.8_6.0,22.00
+Category,Distance Bin (0.2 ml Interval),90th Percentile Travel Time (min),
+,,2.0_2.2,19.00
+,,2.2_2.4,26.00
+,,2.4_2.6,62.00
+,,2.6_2.8,22.00
+,,2.8_3.0,27.00
+,,3.0_3.2,21.00
+,,3.2_3.4,18.00
+,,3.4_3.6,15.00
+,,3.6_3.8,12.90
+,,3.8_4.0, 7.00
+,,4.0_4.2, 7.00
+,,4.2_4.4,21.00
+,,4.4_4.6,17.00
+,,5.0_5.2,21.00
+,,5.4_5.6,21.00
+,,5.8_6.0,22.00
+Category,Distance Bin (0.2 ml Interval),80th Percentile Travel Time (min),
+,,2.0_2.2, 8.00
+,,2.2_2.4,26.00
+,,2.4_2.6,26.10
+,,2.6_2.8,17.00
+,,2.8_3.0,26.10
+,,3.0_3.2,21.00
+,,3.2_3.4,13.00
+,,3.4_3.6,15.00
+,,3.6_3.8, 7.00
+,,3.8_4.0, 7.00
+,,4.0_4.2, 7.00
+,,4.2_4.4,21.00
+,,4.4_4.6,17.00
+,,5.0_5.2,21.00
+,,5.4_5.6,21.00
+,,5.8_6.0,22.00
+Category,Distance Bin (0.2 ml Interval),Planning Time Index: 95th percentile/FFTT,
+,,2.0_2.2,10.70
+,,2.2_2.4,10.30
+,,2.4_2.6,24.57
+,,2.6_2.8,10.70
+,,2.8_3.0,10.70
+,,3.0_3.2, 8.32
+,,3.2_3.4, 8.32
+,,3.4_3.6, 5.94
+,,3.6_3.8, 6.74
+,,3.8_4.0, 2.77
+,,4.0_4.2, 2.77
+,,4.2_4.4, 8.32
+,,4.4_4.6, 6.74
+,,5.0_5.2, 8.32
+,,5.4_5.6, 8.32
+,,5.8_6.0, 8.72
+Category,Distance Bin (0.2 ml Interval),Buffer Index: (95th percentile - mean)/mean,
+,,2.0_2.2, 2.02
+,,2.2_2.4, 1.28
+,,2.4_2.6, 1.73
+,,2.6_2.8, 1.27
+,,2.8_3.0, 0.46
+,,3.0_3.2, 0.50
+,,3.2_3.4, 1.15
+,,3.4_3.6, 0.50
+,,3.6_3.8, 0.91
+,,4.2_4.4, 0.27
+,,4.4_4.6, 0.42
+,,5.0_5.2, 0.47
+,,5.4_5.6, 0.27
+Category,Distance Bin (0.2 ml Interval),Skew Index: (90th %ile-median)/(median-10th %ile),
+,,2.0_2.2,1200.00
+,,2.2_2.4,18.00
+,,2.4_2.6, 4.50
+,,2.6_2.8,140.03
+,,2.8_3.0, 0.18
+,,3.2_3.4,1100.00
+,,3.4_3.6, 1.00
+,,3.6_3.8,590.00
+,,4.4_4.6, 1.00
+,,5.0_5.2, 0.75
+Category,Distance Bin (0.2 ml Interval),Travel Time Per Mile STD (min/mile),
+,,2.0_2.2, 3.41
+,,2.2_2.4, 4.83
+,,2.4_2.6,12.26
+,,2.6_2.8, 4.65
+,,2.8_3.0, 5.57
+,,3.0_3.2, 4.62
+,,3.2_3.4, 2.97
+,,3.4_3.6, 2.19
+,,3.6_3.8, 4.99
+,,4.2_4.4, 2.97
+,,4.4_4.6, 2.70
+,,5.0_5.2, 3.79
+,,5.4_5.6, 2.97
+Category,Distance Bin (0.2 ml Interval),95th Percentile Travel Time Per Mile (min/mile),
+,,2.0_2.2,17.83
+,,2.2_2.4,17.17
+,,2.4_2.6,40.95
+,,2.6_2.8,17.83
+,,2.8_3.0,17.83
+,,3.0_3.2,13.87
+,,3.2_3.4,13.87
+,,3.4_3.6, 9.91
+,,3.6_3.8,11.23
+,,3.8_4.0, 4.62
+,,4.0_4.2, 4.62
+,,4.2_4.4,13.87
+,,4.4_4.6,11.23
+,,5.0_5.2,13.87
+,,5.4_5.6,13.87
+,,5.8_6.0,14.53
+Category,Distance Bin (0.2 ml Interval),90th Percentile Travel Time Per Mile (min/mile),
+,,2.0_2.2,12.55
+,,2.2_2.4,17.17
+,,2.4_2.6,40.95
+,,2.6_2.8,14.53
+,,2.8_3.0,17.83
+,,3.0_3.2,13.87
+,,3.2_3.4,11.89
+,,3.4_3.6, 9.91
+,,3.6_3.8, 8.52
+,,3.8_4.0, 4.62
+,,4.0_4.2, 4.62
+,,4.2_4.4,13.87
+,,4.4_4.6,11.23
+,,5.0_5.2,13.87
+,,5.4_5.6,13.87
+,,5.8_6.0,14.53
+Category,Distance Bin (0.2 ml Interval),80th Percentile Travel Time Per Mile (min/mile),
+,,2.0_2.2, 5.28
+,,2.2_2.4,17.17
+,,2.4_2.6,17.24
+,,2.6_2.8,11.23
+,,2.8_3.0,17.24
+,,3.0_3.2,13.87
+,,3.2_3.4, 8.59
+,,3.4_3.6, 9.91
+,,3.6_3.8, 4.62
+,,3.8_4.0, 4.62
+,,4.0_4.2, 4.62
+,,4.2_4.4,13.87
+,,4.4_4.6,11.23
+,,5.0_5.2,13.87
+,,5.4_5.6,13.87
+,,5.8_6.0,14.53
+Category,Distance Bin (0.2 ml Interval),Total Generalized Time:TT+Toll/VOT (min),
+,,2.0_2.2,3347.71
+,,2.2_2.4,1014.13
+,,2.4_2.6,282.46
+,,2.6_2.8,2966.40
+,,2.8_3.0,362.21
+,,3.0_3.2,143.37
+,,3.2_3.4,1763.22
+,,3.4_3.6,289.07
+,,3.6_3.8,14722.95
+,,3.8_4.0,270.73
+,,4.0_4.2,25.71
+,,4.2_4.4,99.00
+,,4.4_4.6,385.27
+,,5.0_5.2,421.08
+,,5.4_5.6,124.00
+,,5.8_6.0,76.25
+Category,Distance Bin (0.2 ml Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,2.0_2.2,185.98
+,,2.2_2.4,202.83
+,,2.4_2.6,47.08
+,,2.6_2.8,109.87
+,,2.8_3.0,60.37
+,,3.0_3.2,71.68
+,,3.2_3.4,103.72
+,,3.4_3.6,72.27
+,,3.6_3.8,223.08
+,,3.8_4.0,270.73
+,,4.0_4.2,25.71
+,,4.2_4.4,49.50
+,,4.4_4.6,128.42
+,,5.0_5.2,140.36
+,,5.4_5.6,62.00
+,,5.8_6.0,76.25
+Category,Distance Bin (0.2 ml Interval),Total Energy (KJ),
+,,2.0_2.2,2883891.50
+,,2.2_2.4,840416.00
+,,2.4_2.6,324909.13
+,,2.6_2.8,3076421.00
+,,2.8_3.0,429064.38
+,,3.0_3.2,150199.72
+,,3.2_3.4,1771558.63
+,,3.4_3.6,337151.94
+,,3.6_3.8,13318268.00
+,,3.8_4.0,229640.78
+,,4.0_4.2,43398.62
+,,4.2_4.4,147764.25
+,,4.4_4.6,414401.31
+,,5.0_5.2,446610.44
+,,5.4_5.6,189241.38
+,,5.8_6.0,145125.19
+Category,Distance Bin (0.2 ml Interval),Total CO2 (g),
+,,2.0_2.2,207255.67
+,,2.2_2.4,60397.90
+,,2.4_2.6,23350.13
+,,2.6_2.8,221092.14
+,,2.8_3.0,30835.42
+,,3.0_3.2,10794.35
+,,3.2_3.4,127315.98
+,,3.4_3.6,24229.98
+,,3.6_3.8,957139.38
+,,3.8_4.0,16503.52
+,,4.0_4.2,3118.91
+,,4.2_4.4,10619.32
+,,4.4_4.6,29781.64
+,,5.0_5.2,32096.41
+,,5.4_5.6,13600.15
+,,5.8_6.0,10429.65
+Category,Distance Bin (0.2 ml Interval),Total NOx (g),
+,,2.0_2.2, 7.53
+,,2.2_2.4, 0.97
+,,2.4_2.6, 1.92
+,,2.6_2.8,13.38
+,,2.8_3.0, 2.74
+,,3.0_3.2, 0.53
+,,3.2_3.4, 9.00
+,,3.4_3.6, 2.42
+,,3.6_3.8,51.18
+,,3.8_4.0, 0.33
+,,4.0_4.2, 0.29
+,,4.2_4.4, 0.99
+,,4.4_4.6, 1.62
+,,5.0_5.2, 1.74
+,,5.4_5.6, 1.24
+,,5.8_6.0, 2.86
+Category,Distance Bin (0.2 ml Interval),Total CO (g),
+,,2.0_2.2,423.40
+,,2.2_2.4,112.19
+,,2.4_2.6,95.24
+,,2.6_2.8,643.64
+,,2.8_3.0,126.62
+,,3.0_3.2,35.89
+,,3.2_3.4,396.31
+,,3.4_3.6,83.54
+,,3.6_3.8,2309.17
+,,3.8_4.0,34.59
+,,4.0_4.2,18.48
+,,4.2_4.4,62.02
+,,4.4_4.6,115.34
+,,5.0_5.2,123.94
+,,5.4_5.6,77.36
+,,5.8_6.0,63.88
+Category,Distance Bin (0.2 ml Interval),Total HC (g),
+,,2.0_2.2, 2.59
+,,2.2_2.4, 0.34
+,,2.4_2.6, 0.68
+,,2.6_2.8, 4.43
+,,2.8_3.0, 0.97
+,,3.0_3.2, 0.20
+,,3.2_3.4, 3.16
+,,3.4_3.6, 0.82
+,,3.6_3.8,17.36
+,,3.8_4.0, 0.12
+,,4.0_4.2, 0.13
+,,4.2_4.4, 0.42
+,,4.4_4.6, 0.68
+,,5.0_5.2, 0.73
+,,5.4_5.6, 0.52
+,,5.8_6.0, 0.80
+Category,Distance Bin (0.2 ml Interval),Total Gallon,
+,,2.0_2.2,23.70
+,,2.2_2.4, 6.91
+,,2.4_2.6, 2.67
+,,2.6_2.8,25.28
+,,2.8_3.0, 3.53
+,,3.0_3.2, 1.23
+,,3.2_3.4,14.56
+,,3.4_3.6, 2.77
+,,3.6_3.8,109.44
+,,3.8_4.0, 1.89
+,,4.0_4.2, 0.36
+,,4.2_4.4, 1.21
+,,4.4_4.6, 3.41
+,,5.0_5.2, 3.67
+,,5.4_5.6, 1.55
+,,5.8_6.0, 1.19
+Category,Distance Bin (0.2 ml Interval),Avg Energy (KJ/vehicle/mile),
+,,2.0_2.2,105830.09
+,,2.2_2.4,111026.63
+,,2.4_2.6,35769.55
+,,2.6_2.8,75263.55
+,,2.8_3.0,47236.10
+,,3.0_3.2,49606.89
+,,3.2_3.4,68835.01
+,,3.4_3.6,55676.06
+,,3.6_3.8,133292.73
+,,3.8_4.0,151688.22
+,,4.0_4.2,28666.77
+,,4.2_4.4,48802.52
+,,4.4_4.6,91243.66
+,,5.0_5.2,98335.52
+,,5.4_5.6,62501.28
+,,5.8_6.0,95861.81
+Category,Distance Bin (0.2 ml Interval),Avg CO2 (g/vehicle/mile),
+,,2.0_2.2,7605.66
+,,2.2_2.4,7979.11
+,,2.4_2.6,2570.64
+,,2.6_2.8,5408.94
+,,2.8_3.0,3394.70
+,,3.0_3.2,3565.08
+,,3.2_3.4,4946.94
+,,3.4_3.6,4001.25
+,,3.6_3.8,9579.30
+,,3.8_4.0,10901.33
+,,4.0_4.2,2060.19
+,,4.2_4.4,3507.27
+,,4.4_4.6,6557.38
+,,5.0_5.2,7067.05
+,,5.4_5.6,4491.76
+,,5.8_6.0,6889.26
+Category,Distance Bin (0.2 ml Interval),Avg NOx (g/vehicle/mile),
+,,2.0_2.2, 0.28
+,,2.2_2.4, 0.13
+,,2.4_2.6, 0.21
+,,2.6_2.8, 0.33
+,,2.8_3.0, 0.30
+,,3.0_3.2, 0.17
+,,3.2_3.4, 0.35
+,,3.4_3.6, 0.40
+,,3.6_3.8, 0.51
+,,3.8_4.0, 0.22
+,,4.0_4.2, 0.19
+,,4.2_4.4, 0.33
+,,4.4_4.6, 0.36
+,,5.0_5.2, 0.38
+,,5.4_5.6, 0.41
+,,5.8_6.0, 1.89
+Category,Distance Bin (0.2 ml Interval),Avg CO (g/vehicle/mile),
+,,2.0_2.2,15.54
+,,2.2_2.4,14.82
+,,2.4_2.6,10.49
+,,2.6_2.8,15.75
+,,2.8_3.0,13.94
+,,3.0_3.2,11.85
+,,3.2_3.4,15.40
+,,3.4_3.6,13.80
+,,3.6_3.8,23.11
+,,3.8_4.0,22.85
+,,4.0_4.2,12.20
+,,4.2_4.4,20.48
+,,4.4_4.6,25.40
+,,5.0_5.2,27.29
+,,5.4_5.6,25.55
+,,5.8_6.0,42.19
+Category,Distance Bin (0.2 ml Interval),Avg HC (g/vehicle/mile),
+,,2.0_2.2, 0.10
+,,2.2_2.4, 0.04
+,,2.4_2.6, 0.07
+,,2.6_2.8, 0.11
+,,2.8_3.0, 0.11
+,,3.0_3.2, 0.07
+,,3.2_3.4, 0.12
+,,3.4_3.6, 0.13
+,,3.6_3.8, 0.17
+,,3.8_4.0, 0.08
+,,4.0_4.2, 0.08
+,,4.2_4.4, 0.14
+,,4.4_4.6, 0.15
+,,5.0_5.2, 0.16
+,,5.4_5.6, 0.17
+,,5.8_6.0, 0.53
+Category,Distance Bin (0.2 ml Interval),Avg Miles per Gallon,
+,,2.0_2.2, 1.15
+,,2.2_2.4, 1.10
+,,2.4_2.6, 3.40
+,,2.6_2.8, 1.62
+,,2.8_3.0, 2.58
+,,3.0_3.2, 2.45
+,,3.2_3.4, 1.77
+,,3.4_3.6, 2.19
+,,3.6_3.8, 0.91
+,,3.8_4.0, 0.80
+,,4.0_4.2, 1.51
+,,4.2_4.4, 2.49
+,,4.4_4.6, 1.33
+,,5.0_5.2, 1.24
+,,5.4_5.6, 1.95
+,,5.8_6.0, 1.27
+Category,Distance Bin (1 ml Interval),Number of Vehicles,
+,,2_3,62.00
+,,3_4,90.00
+,,4_5, 6.00
+,,5_6, 6.00
+Category,Distance Bin (1 ml Interval),Cumulative Number of Vehicles,
+,,2_3,62.00
+,,3_4,152.00
+,,4_5,158.00
+,,5_6,164.00
+Category,Distance Bin (1 ml Interval),Total Travel Time (min),
+,,2_3,785.80
+,,3_4,828.50
+,,4_5,76.00
+,,5_6,98.00
+Category,Distance Bin (1 ml Interval),Total Travel Distance (mile),
+,,2_3,93.86
+,,3_4,136.25
+,,4_5, 9.08
+,,5_6, 9.08
+Category,Distance Bin (1 ml Interval),Avg Travel Time (min),
+,,2_3,12.67
+,,3_4, 9.21
+,,4_5,12.67
+,,5_6,16.33
+Category,Distance Bin (1 ml Interval),Avg Travel Distance (mile),
+,,2_3, 1.51
+,,3_4, 1.51
+,,4_5, 1.51
+,,5_6, 1.51
+Category,Distance Bin (1 ml Interval),Avg Speed (mile/hour),
+,,2_3, 7.17
+,,3_4, 9.87
+,,4_5, 7.17
+,,5_6, 5.56
+Category,Distance Bin (1 ml Interval),Avg Travel Time Per Mile (min/mile),
+,,2_3, 8.37
+,,3_4, 6.08
+,,4_5, 8.37
+,,5_6,10.79
+Category,Distance Bin (1 ml Interval),Travel Time Index: mean/FFTT,
+,,2_3, 5.02
+,,3_4, 3.65
+,,4_5, 5.02
+,,5_6, 6.47
+Category,Distance Bin (1 ml Interval),Avg Travel Time STD (min),
+,,2_3, 9.55
+,,3_4, 6.93
+,,4_5, 5.06
+,,5_6, 5.53
+Category,Distance Bin (1 ml Interval),95th Percentile Travel Time (min),
+,,2_3,27.00
+,,3_4,21.00
+,,4_5,21.00
+,,5_6,22.00
+Category,Distance Bin (1 ml Interval),90th Percentile Travel Time (min),
+,,2_3,26.10
+,,3_4,17.00
+,,4_5,21.00
+,,5_6,22.00
+Category,Distance Bin (1 ml Interval),80th Percentile Travel Time (min),
+,,2_3,19.00
+,,3_4, 7.00
+,,4_5,17.00
+,,5_6,21.00
+Category,Distance Bin (1 ml Interval),Planning Time Index: 95th percentile/FFTT,
+,,2_3,10.70
+,,3_4, 8.32
+,,4_5, 8.32
+,,5_6, 8.72
+Category,Distance Bin (1 ml Interval),Buffer Index: (95th percentile - mean)/mean,
+,,2_3, 1.13
+,,3_4, 1.28
+,,4_5, 0.66
+,,5_6, 0.35
+Category,Distance Bin (1 ml Interval),Skew Index: (90th %ile-median)/(median-10th %ile),
+,,2_3,18.10
+,,3_4,1000.00
+,,4_5, 1.80
+,,5_6, 0.07
+Category,Distance Bin (1 ml Interval),Travel Time Per Mile STD (min/mile),
+,,2_3, 6.31
+,,3_4, 4.58
+,,4_5, 3.34
+,,5_6, 3.65
+Category,Distance Bin (1 ml Interval),95th Percentile Travel Time Per Mile (min/mile),
+,,2_3,17.83
+,,3_4,13.87
+,,4_5,13.87
+,,5_6,14.53
+Category,Distance Bin (1 ml Interval),90th Percentile Travel Time Per Mile (min/mile),
+,,2_3,17.24
+,,3_4,11.23
+,,4_5,13.87
+,,5_6,14.53
+Category,Distance Bin (1 ml Interval),80th Percentile Travel Time Per Mile (min/mile),
+,,2_3,12.55
+,,3_4, 4.62
+,,4_5,11.23
+,,5_6,13.87
+Category,Distance Bin (1 ml Interval),Total Generalized Time:TT+Toll/VOT (min),
+,,2_3,7972.92
+,,3_4,17189.33
+,,4_5,509.99
+,,5_6,621.33
+Category,Distance Bin (1 ml Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,2_3,128.60
+,,3_4,190.99
+,,4_5,85.00
+,,5_6,103.55
+Category,Distance Bin (1 ml Interval),Total Energy (KJ),
+,,2_3,7554702.50
+,,3_4,15806820.00
+,,4_5,605564.19
+,,5_6,780977.00
+Category,Distance Bin (1 ml Interval),Total CO2 (g),
+,,2_3,542931.19
+,,3_4,1135982.88
+,,4_5,43519.88
+,,5_6,56126.21
+Category,Distance Bin (1 ml Interval),Total NOx (g),
+,,2_3,26.54
+,,3_4,63.46
+,,4_5, 2.91
+,,5_6, 5.84
+Category,Distance Bin (1 ml Interval),Total CO (g),
+,,2_3,1401.09
+,,3_4,2859.51
+,,4_5,195.84
+,,5_6,265.17
+Category,Distance Bin (1 ml Interval),Total HC (g),
+,,2_3, 9.02
+,,3_4,21.66
+,,4_5, 1.22
+,,5_6, 2.05
+Category,Distance Bin (1 ml Interval),Total Gallon,
+,,2_3,62.08
+,,3_4,129.88
+,,4_5, 4.98
+,,5_6, 6.42
+Category,Distance Bin (1 ml Interval),Avg Energy (KJ/vehicle/mile),
+,,2_3,80487.48
+,,3_4,116012.46
+,,4_5,66667.13
+,,5_6,85978.49
+Category,Distance Bin (1 ml Interval),Avg CO2 (g/vehicle/mile),
+,,2_3,5784.37
+,,3_4,8337.42
+,,4_5,4791.14
+,,5_6,6178.99
+Category,Distance Bin (1 ml Interval),Avg NOx (g/vehicle/mile),
+,,2_3, 0.28
+,,3_4, 0.47
+,,4_5, 0.32
+,,5_6, 0.64
+Category,Distance Bin (1 ml Interval),Avg CO (g/vehicle/mile),
+,,2_3,14.93
+,,3_4,20.99
+,,4_5,21.56
+,,5_6,29.19
+Category,Distance Bin (1 ml Interval),Avg HC (g/vehicle/mile),
+,,2_3, 0.10
+,,3_4, 0.16
+,,4_5, 0.13
+,,5_6, 0.23
+Category,Distance Bin (1 ml Interval),Avg Miles per Gallon,
+,,2_3, 1.51
+,,3_4, 1.05
+,,4_5, 1.83
+,,5_6, 1.42
+Category,Distance Bin (2 ml Interval),Number of Vehicles,
+,,2_4,152.00
+,,4_6,12.00
+Category,Distance Bin (2 ml Interval),Cumulative Number of Vehicles,
+,,2_4,152.00
+,,4_6,164.00
+Category,Distance Bin (2 ml Interval),Total Travel Time (min),
+,,2_4,1614.30
+,,4_6,174.00
+Category,Distance Bin (2 ml Interval),Total Travel Distance (mile),
+,,2_4,230.11
+,,4_6,18.17
+Category,Distance Bin (2 ml Interval),Avg Travel Time (min),
+,,2_4,10.62
+,,4_6,14.50
+Category,Distance Bin (2 ml Interval),Avg Travel Distance (mile),
+,,2_4, 1.51
+,,4_6, 1.51
+Category,Distance Bin (2 ml Interval),Avg Speed (mile/hour),
+,,2_4, 8.55
+,,4_6, 6.26
+Category,Distance Bin (2 ml Interval),Avg Travel Time Per Mile (min/mile),
+,,2_4, 7.02
+,,4_6, 9.58
+Category,Distance Bin (2 ml Interval),Travel Time Index: mean/FFTT,
+,,2_4, 4.21
+,,4_6, 5.75
+Category,Distance Bin (2 ml Interval),Avg Travel Time STD (min),
+,,2_4, 8.28
+,,4_6, 5.61
+Category,Distance Bin (2 ml Interval),95th Percentile Travel Time (min),
+,,2_4,26.10
+,,4_6,22.00
+Category,Distance Bin (2 ml Interval),90th Percentile Travel Time (min),
+,,2_4,21.00
+,,4_6,21.00
+Category,Distance Bin (2 ml Interval),80th Percentile Travel Time (min),
+,,2_4,12.90
+,,4_6,21.00
+Category,Distance Bin (2 ml Interval),Planning Time Index: 95th percentile/FFTT,
+,,2_4,10.34
+,,4_6, 8.72
+Category,Distance Bin (2 ml Interval),Buffer Index: (95th percentile - mean)/mean,
+,,2_4, 1.46
+,,4_6, 0.52
+Category,Distance Bin (2 ml Interval),Skew Index: (90th %ile-median)/(median-10th %ile),
+,,2_4,1400.00
+,,4_6, 0.75
+Category,Distance Bin (2 ml Interval),Travel Time Per Mile STD (min/mile),
+,,2_4, 5.47
+,,4_6, 3.70
+Category,Distance Bin (2 ml Interval),95th Percentile Travel Time Per Mile (min/mile),
+,,2_4,17.24
+,,4_6,14.53
+Category,Distance Bin (2 ml Interval),90th Percentile Travel Time Per Mile (min/mile),
+,,2_4,13.87
+,,4_6,13.87
+Category,Distance Bin (2 ml Interval),80th Percentile Travel Time Per Mile (min/mile),
+,,2_4, 8.52
+,,4_6,13.87
+Category,Distance Bin (2 ml Interval),Total Generalized Time:TT+Toll/VOT (min),
+,,2_4,25162.25
+,,4_6,1131.32
+Category,Distance Bin (2 ml Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,2_4,165.54
+,,4_6,94.28
+Category,Distance Bin (2 ml Interval),Total Energy (KJ),
+,,2_4,23361522.00
+,,4_6,1386541.25
+Category,Distance Bin (2 ml Interval),Total CO2 (g),
+,,2_4,1678913.88
+,,4_6,99646.08
+Category,Distance Bin (2 ml Interval),Total NOx (g),
+,,2_4,90.00
+,,4_6, 8.75
+Category,Distance Bin (2 ml Interval),Total CO (g),
+,,2_4,4260.60
+,,4_6,461.01
+Category,Distance Bin (2 ml Interval),Total HC (g),
+,,2_4,30.68
+,,4_6, 3.27
+Category,Distance Bin (2 ml Interval),Total Gallon,
+,,2_4,191.96
+,,4_6,11.39
+Category,Distance Bin (2 ml Interval),Avg Energy (KJ/vehicle/mile),
+,,2_4,101522.00
+,,4_6,76322.81
+Category,Distance Bin (2 ml Interval),Avg CO2 (g/vehicle/mile),
+,,2_4,7296.04
+,,4_6,5485.06
+Category,Distance Bin (2 ml Interval),Avg NOx (g/vehicle/mile),
+,,2_4, 0.39
+,,4_6, 0.48
+Category,Distance Bin (2 ml Interval),Avg CO (g/vehicle/mile),
+,,2_4,18.52
+,,4_6,25.38
+Category,Distance Bin (2 ml Interval),Avg HC (g/vehicle/mile),
+,,2_4, 0.13
+,,4_6, 0.18
+Category,Distance Bin (2 ml Interval),Avg Miles per Gallon,
+,,2_4, 1.20
+,,4_6, 1.59
+Category,Distance Bin (5 ml Interval),Number of Vehicles,
+,,0_5,158.00
+,,5_10, 6.00
+Category,Distance Bin (5 ml Interval),Cumulative Number of Vehicles,
+,,0_5,158.00
+,,5_10,164.00
+Category,Distance Bin (5 ml Interval),Total Travel Time (min),
+,,0_5,1690.30
+,,5_10,98.00
+Category,Distance Bin (5 ml Interval),Total Travel Distance (mile),
+,,0_5,239.20
+,,5_10, 9.08
+Category,Distance Bin (5 ml Interval),Avg Travel Time (min),
+,,0_5,10.70
+,,5_10,16.33
+Category,Distance Bin (5 ml Interval),Avg Travel Distance (mile),
+,,0_5, 1.51
+,,5_10, 1.51
+Category,Distance Bin (5 ml Interval),Avg Speed (mile/hour),
+,,0_5, 8.49
+,,5_10, 5.56
+Category,Distance Bin (5 ml Interval),Avg Travel Time Per Mile (min/mile),
+,,0_5, 7.07
+,,5_10,10.79
+Category,Distance Bin (5 ml Interval),Travel Time Index: mean/FFTT,
+,,0_5, 4.24
+,,5_10, 6.47
+Category,Distance Bin (5 ml Interval),Avg Travel Time STD (min),
+,,0_5, 8.19
+,,5_10, 5.53
+Category,Distance Bin (5 ml Interval),95th Percentile Travel Time (min),
+,,0_5,26.10
+,,5_10,22.00
+Category,Distance Bin (5 ml Interval),90th Percentile Travel Time (min),
+,,0_5,21.00
+,,5_10,22.00
+Category,Distance Bin (5 ml Interval),80th Percentile Travel Time (min),
+,,0_5,13.00
+,,5_10,21.00
+Category,Distance Bin (5 ml Interval),Planning Time Index: 95th percentile/FFTT,
+,,0_5,10.34
+,,5_10, 8.72
+Category,Distance Bin (5 ml Interval),Buffer Index: (95th percentile - mean)/mean,
+,,0_5, 1.44
+,,5_10, 0.35
+Category,Distance Bin (5 ml Interval),Skew Index: (90th %ile-median)/(median-10th %ile),
+,,0_5,1400.00
+,,5_10, 0.07
+Category,Distance Bin (5 ml Interval),Travel Time Per Mile STD (min/mile),
+,,0_5, 5.41
+,,5_10, 3.65
+Category,Distance Bin (5 ml Interval),95th Percentile Travel Time Per Mile (min/mile),
+,,0_5,17.24
+,,5_10,14.53
+Category,Distance Bin (5 ml Interval),90th Percentile Travel Time Per Mile (min/mile),
+,,0_5,13.87
+,,5_10,14.53
+Category,Distance Bin (5 ml Interval),80th Percentile Travel Time Per Mile (min/mile),
+,,0_5, 8.59
+,,5_10,13.87
+Category,Distance Bin (5 ml Interval),Total Generalized Time:TT+Toll/VOT (min),
+,,0_5,25672.24
+,,5_10,621.33
+Category,Distance Bin (5 ml Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,0_5,162.48
+,,5_10,103.55
+Category,Distance Bin (5 ml Interval),Total Energy (KJ),
+,,0_5,23967084.00
+,,5_10,780977.00
+Category,Distance Bin (5 ml Interval),Total CO2 (g),
+,,0_5,1722433.75
+,,5_10,56126.21
+Category,Distance Bin (5 ml Interval),Total NOx (g),
+,,0_5,92.91
+,,5_10, 5.84
+Category,Distance Bin (5 ml Interval),Total CO (g),
+,,0_5,4456.44
+,,5_10,265.17
+Category,Distance Bin (5 ml Interval),Total HC (g),
+,,0_5,31.90
+,,5_10, 2.05
+Category,Distance Bin (5 ml Interval),Total Gallon,
+,,0_5,196.94
+,,5_10, 6.42
+Category,Distance Bin (5 ml Interval),Avg Energy (KJ/vehicle/mile),
+,,0_5,100198.39
+,,5_10,85978.49
+Category,Distance Bin (5 ml Interval),Avg CO2 (g/vehicle/mile),
+,,0_5,7200.92
+,,5_10,6178.99
+Category,Distance Bin (5 ml Interval),Avg NOx (g/vehicle/mile),
+,,0_5, 0.39
+,,5_10, 0.64
+Category,Distance Bin (5 ml Interval),Avg CO (g/vehicle/mile),
+,,0_5,18.63
+,,5_10,29.19
+Category,Distance Bin (5 ml Interval),Avg HC (g/vehicle/mile),
+,,0_5, 0.13
+,,5_10, 0.23
+Category,Distance Bin (5 ml Interval),Avg Miles per Gallon,
+,,0_5, 1.21
+,,5_10, 1.42
+Category,Distance Bin (10 ml Interval),Number of Vehicles,164.00
+Category,Distance Bin (10 ml Interval),Cumulative Number of Vehicles,164.00
+Category,Distance Bin (10 ml Interval),Total Travel Time (min),1788.30
+Category,Distance Bin (10 ml Interval),Total Travel Distance (mile),248.28
+Category,Distance Bin (10 ml Interval),Avg Travel Time (min),10.90
+Category,Distance Bin (10 ml Interval),Avg Travel Distance (mile), 1.51
+Category,Distance Bin (10 ml Interval),Avg Speed (mile/hour), 8.33
+Category,Distance Bin (10 ml Interval),Avg Travel Time Per Mile (min/mile), 7.20
+Category,Distance Bin (10 ml Interval),Travel Time Index: mean/FFTT, 4.32
+Category,Distance Bin (10 ml Interval),Avg Travel Time STD (min), 8.18
+Category,Distance Bin (10 ml Interval),95th Percentile Travel Time (min),26.00
+Category,Distance Bin (10 ml Interval),90th Percentile Travel Time (min),21.00
+Category,Distance Bin (10 ml Interval),80th Percentile Travel Time (min),15.00
+Category,Distance Bin (10 ml Interval),Planning Time Index: 95th percentile/FFTT,10.30
+Category,Distance Bin (10 ml Interval),Buffer Index: (95th percentile - mean)/mean, 1.38
+Category,Distance Bin (10 ml Interval),Skew Index: (90th %ile-median)/(median-10th %ile),1400.00
+Category,Distance Bin (10 ml Interval),Travel Time Per Mile STD (min/mile), 5.40
+Category,Distance Bin (10 ml Interval),95th Percentile Travel Time Per Mile (min/mile),17.17
+Category,Distance Bin (10 ml Interval),90th Percentile Travel Time Per Mile (min/mile),13.87
+Category,Distance Bin (10 ml Interval),80th Percentile Travel Time Per Mile (min/mile), 9.91
+Category,Distance Bin (10 ml Interval),Total Generalized Time:TT+Toll/VOT (min),26293.57
+Category,Distance Bin (10 ml Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),160.33
+Category,Distance Bin (10 ml Interval),Total Energy (KJ),24748060.00
+Category,Distance Bin (10 ml Interval),Total CO2 (g),1778560.00
+Category,Distance Bin (10 ml Interval),Total NOx (g),98.75
+Category,Distance Bin (10 ml Interval),Total CO (g),4721.61
+Category,Distance Bin (10 ml Interval),Total HC (g),33.94
+Category,Distance Bin (10 ml Interval),Total Gallon,203.35
+Category,Distance Bin (10 ml Interval),Avg Energy (KJ/vehicle/mile),99678.14
+Category,Distance Bin (10 ml Interval),Avg CO2 (g/vehicle/mile),7163.53
+Category,Distance Bin (10 ml Interval),Avg NOx (g/vehicle/mile), 0.40
+Category,Distance Bin (10 ml Interval),Avg CO (g/vehicle/mile),19.02
+Category,Distance Bin (10 ml Interval),Avg HC (g/vehicle/mile), 0.14
+Category,Distance Bin (10 ml Interval),Avg Miles per Gallon, 1.22
+Category,Travel Time Bin (2 min Interval),Number of Vehicles,
+,,10_12, 1.00
+,,12_14, 4.00
+,,14_16, 3.00
+,,16_18, 1.00
+,,18_20, 1.00
+,,20_22, 1.00
+,,22_24, 4.00
+,,24_26, 1.00
+,,26_28, 6.00
+,,30_32, 1.00
+,,32_34, 3.00
+,,34_36, 3.00
+,,36_38, 2.00
+,,38_40, 1.00
+,,40_42, 1.00
+,,42_44, 5.00
+,,46_48, 3.00
+,,48_50, 2.00
+,,56_58, 3.00
+,,58_60, 1.00
+,,60_62, 1.00
+,,64_66, 1.00
+,,74_76, 1.00
+,,76_78, 2.00
+,,80_82, 2.00
+,,82_84, 2.00
+,,94_96, 3.00
+,,100_102, 1.00
+,,104_106, 2.00
+,,106_108, 2.00
+,,110_112, 1.00
+,,112_114, 1.00
+,,114_116, 1.00
+,,142_144, 1.00
+,,144_146, 1.00
+,,146_148, 2.00
+,,148_150, 1.00
+,,150_152, 2.00
+,,152_154, 3.00
+,,154_156, 1.00
+,,156_158, 1.00
+,,158_160, 2.00
+,,160_162, 2.00
+,,172_174, 2.00
+,,178_180, 1.00
+,,180_182, 1.00
+,,182_184, 1.00
+,,184_186, 1.00
+,,186_188, 2.00
+,,190_192, 2.00
+,,192_194, 2.00
+,,194_196, 1.00
+,,196_198, 1.00
+,,198_200, 1.00
+,,202_204, 2.00
+,,206_208, 2.00
+,,210_212, 2.00
+,,212_214, 1.00
+,,216_218, 2.00
+,,218_220, 1.00
+,,220_222, 1.00
+,,222_224, 1.00
+,,224_226, 1.00
+,,228_230, 2.00
+,,230_232, 2.00
+,,234_236, 1.00
+,,238_240, 2.00
+,,240_242, 1.00
+,,242_244, 1.00
+,,244_246, 2.00
+,,248_250, 2.00
+,,252_254, 1.00
+,,256_258, 1.00
+,,258_260, 1.00
+,,260_262, 1.00
+,,262_264, 1.00
+,,264_266, 1.00
+,,266_268, 1.00
+,,268_270, 1.00
+,,270_272, 1.00
+,,272_274, 2.00
+,,276_278, 1.00
+,,280_282, 1.00
+,,282_284, 1.00
+,,284_286, 3.00
+,,286_288, 1.00
+,,288_290, 1.00
+,,290_292, 1.00
+,,292_294, 1.00
+,,296_298, 1.00
+,,298_300, 2.00
+,,302_304, 1.00
+,,306_308, 1.00
+,,308_310, 2.00
+,,310_312, 1.00
+,,312_314, 1.00
+,,314_316, 1.00
+,,318_320, 1.00
+,,322_324, 2.00
+,,324_326, 2.00
+,,328_330, 1.00
+,,336_338, 1.00
+,,352_354, 1.00
+,,356_358, 1.00
+Category,Travel Time Bin (2 min Interval),Cumulative Number of Vehicles,
+,,10_12, 1.00
+,,12_14, 5.00
+,,14_16, 8.00
+,,16_18, 9.00
+,,18_20,10.00
+,,20_22,11.00
+,,22_24,15.00
+,,24_26,16.00
+,,26_28,22.00
+,,30_32,23.00
+,,32_34,26.00
+,,34_36,29.00
+,,36_38,31.00
+,,38_40,32.00
+,,40_42,33.00
+,,42_44,38.00
+,,46_48,41.00
+,,48_50,43.00
+,,56_58,46.00
+,,58_60,47.00
+,,60_62,48.00
+,,64_66,49.00
+,,74_76,50.00
+,,76_78,52.00
+,,80_82,54.00
+,,82_84,56.00
+,,94_96,59.00
+,,100_102,60.00
+,,104_106,62.00
+,,106_108,64.00
+,,110_112,65.00
+,,112_114,66.00
+,,114_116,67.00
+,,142_144,68.00
+,,144_146,69.00
+,,146_148,71.00
+,,148_150,72.00
+,,150_152,74.00
+,,152_154,77.00
+,,154_156,78.00
+,,156_158,79.00
+,,158_160,81.00
+,,160_162,83.00
+,,172_174,85.00
+,,178_180,86.00
+,,180_182,87.00
+,,182_184,88.00
+,,184_186,89.00
+,,186_188,91.00
+,,190_192,93.00
+,,192_194,95.00
+,,194_196,96.00
+,,196_198,97.00
+,,198_200,98.00
+,,202_204,100.00
+,,206_208,102.00
+,,210_212,104.00
+,,212_214,105.00
+,,216_218,107.00
+,,218_220,108.00
+,,220_222,109.00
+,,222_224,110.00
+,,224_226,111.00
+,,228_230,113.00
+,,230_232,115.00
+,,234_236,116.00
+,,238_240,118.00
+,,240_242,119.00
+,,242_244,120.00
+,,244_246,122.00
+,,248_250,124.00
+,,252_254,125.00
+,,256_258,126.00
+,,258_260,127.00
+,,260_262,128.00
+,,262_264,129.00
+,,264_266,130.00
+,,266_268,131.00
+,,268_270,132.00
+,,270_272,133.00
+,,272_274,135.00
+,,276_278,136.00
+,,280_282,137.00
+,,282_284,138.00
+,,284_286,141.00
+,,286_288,142.00
+,,288_290,143.00
+,,290_292,144.00
+,,292_294,145.00
+,,296_298,146.00
+,,298_300,148.00
+,,302_304,149.00
+,,306_308,150.00
+,,308_310,152.00
+,,310_312,153.00
+,,312_314,154.00
+,,314_316,155.00
+,,318_320,156.00
+,,322_324,158.00
+,,324_326,160.00
+,,328_330,161.00
+,,336_338,162.00
+,,352_354,163.00
+,,356_358,164.00
+Category,Travel Time Bin (2 min Interval),Total Travel Time (min),
+,,10_12, 7.00
+,,12_14,31.00
+,,14_16,22.00
+,,16_18,11.00
+,,18_20, 7.00
+,,20_22,13.00
+,,22_24,39.90
+,,24_26, 7.00
+,,26_28,76.90
+,,30_32,26.10
+,,32_34,45.00
+,,34_36,39.90
+,,36_38,48.00
+,,38_40,12.90
+,,40_42,18.00
+,,42_44,88.10
+,,46_48,79.00
+,,48_50,32.00
+,,56_58,56.10
+,,58_60,17.00
+,,60_62,22.00
+,,64_66,21.00
+,,74_76,22.00
+,,76_78,48.00
+,,80_82,47.00
+,,82_84,48.00
+,,94_96,76.00
+,,100_102, 7.00
+,,104_106,14.00
+,,106_108,31.00
+,,110_112, 7.00
+,,112_114, 7.00
+,,114_116, 7.00
+,,142_144, 8.00
+,,144_146, 8.00
+,,146_148,16.00
+,,148_150, 8.00
+,,150_152,15.90
+,,152_154,23.90
+,,154_156, 7.90
+,,156_158, 8.00
+,,158_160,16.00
+,,160_162,15.90
+,,172_174,70.00
+,,178_180, 7.00
+,,180_182, 7.00
+,,182_184, 7.00
+,,184_186, 8.00
+,,186_188,14.90
+,,190_192,14.00
+,,192_194,13.90
+,,194_196, 7.00
+,,196_198, 7.00
+,,198_200, 7.00
+,,202_204,14.00
+,,206_208,14.00
+,,210_212,14.00
+,,212_214, 7.00
+,,216_218,14.00
+,,218_220, 7.00
+,,220_222, 7.00
+,,222_224, 7.00
+,,224_226, 7.00
+,,228_230,14.00
+,,230_232,14.00
+,,234_236, 7.00
+,,238_240,15.00
+,,240_242, 7.00
+,,242_244, 7.00
+,,244_246,14.00
+,,248_250,14.00
+,,252_254, 7.00
+,,256_258, 7.00
+,,258_260, 7.00
+,,260_262, 7.00
+,,262_264, 7.00
+,,264_266, 7.00
+,,266_268, 7.00
+,,268_270, 7.00
+,,270_272, 7.00
+,,272_274,14.00
+,,276_278, 7.00
+,,280_282, 7.00
+,,282_284, 7.00
+,,284_286,21.00
+,,286_288, 7.00
+,,288_290, 7.00
+,,290_292, 7.00
+,,292_294, 7.00
+,,296_298, 7.00
+,,298_300,14.00
+,,302_304, 7.00
+,,306_308, 7.00
+,,308_310,14.00
+,,310_312, 7.00
+,,312_314, 7.00
+,,314_316, 7.00
+,,318_320, 7.00
+,,322_324,14.00
+,,324_326,14.00
+,,328_330, 7.00
+,,336_338, 7.00
+,,352_354, 7.00
+,,356_358, 8.00
+Category,Travel Time Bin (2 min Interval),Total Travel Distance (mile),
+,,10_12, 1.51
+,,12_14, 6.06
+,,14_16, 4.54
+,,16_18, 1.51
+,,18_20, 1.51
+,,20_22, 1.51
+,,22_24, 6.06
+,,24_26, 1.51
+,,26_28, 9.08
+,,30_32, 1.51
+,,32_34, 4.54
+,,34_36, 4.54
+,,36_38, 3.03
+,,38_40, 1.51
+,,40_42, 1.51
+,,42_44, 7.57
+,,46_48, 4.54
+,,48_50, 3.03
+,,56_58, 4.54
+,,58_60, 1.51
+,,60_62, 1.51
+,,64_66, 1.51
+,,74_76, 1.51
+,,76_78, 3.03
+,,80_82, 3.03
+,,82_84, 3.03
+,,94_96, 4.54
+,,100_102, 1.51
+,,104_106, 3.03
+,,106_108, 3.03
+,,110_112, 1.51
+,,112_114, 1.51
+,,114_116, 1.51
+,,142_144, 1.51
+,,144_146, 1.51
+,,146_148, 3.03
+,,148_150, 1.51
+,,150_152, 3.03
+,,152_154, 4.54
+,,154_156, 1.51
+,,156_158, 1.51
+,,158_160, 3.03
+,,160_162, 3.03
+,,172_174, 3.03
+,,178_180, 1.51
+,,180_182, 1.51
+,,182_184, 1.51
+,,184_186, 1.51
+,,186_188, 3.03
+,,190_192, 3.03
+,,192_194, 3.03
+,,194_196, 1.51
+,,196_198, 1.51
+,,198_200, 1.51
+,,202_204, 3.03
+,,206_208, 3.03
+,,210_212, 3.03
+,,212_214, 1.51
+,,216_218, 3.03
+,,218_220, 1.51
+,,220_222, 1.51
+,,222_224, 1.51
+,,224_226, 1.51
+,,228_230, 3.03
+,,230_232, 3.03
+,,234_236, 1.51
+,,238_240, 3.03
+,,240_242, 1.51
+,,242_244, 1.51
+,,244_246, 3.03
+,,248_250, 3.03
+,,252_254, 1.51
+,,256_258, 1.51
+,,258_260, 1.51
+,,260_262, 1.51
+,,262_264, 1.51
+,,264_266, 1.51
+,,266_268, 1.51
+,,268_270, 1.51
+,,270_272, 1.51
+,,272_274, 3.03
+,,276_278, 1.51
+,,280_282, 1.51
+,,282_284, 1.51
+,,284_286, 4.54
+,,286_288, 1.51
+,,288_290, 1.51
+,,290_292, 1.51
+,,292_294, 1.51
+,,296_298, 1.51
+,,298_300, 3.03
+,,302_304, 1.51
+,,306_308, 1.51
+,,308_310, 3.03
+,,310_312, 1.51
+,,312_314, 1.51
+,,314_316, 1.51
+,,318_320, 1.51
+,,322_324, 3.03
+,,324_326, 3.03
+,,328_330, 1.51
+,,336_338, 1.51
+,,352_354, 1.51
+,,356_358, 1.51
+Category,Travel Time Bin (2 min Interval),Avg Travel Time (min),
+,,10_12, 7.00
+,,12_14, 7.75
+,,14_16, 7.33
+,,16_18,11.00
+,,18_20, 7.00
+,,20_22,13.00
+,,22_24, 9.98
+,,24_26, 7.00
+,,26_28,12.82
+,,30_32,26.10
+,,32_34,15.00
+,,34_36,13.30
+,,36_38,24.00
+,,38_40,12.90
+,,40_42,18.00
+,,42_44,17.62
+,,46_48,26.33
+,,48_50,16.00
+,,56_58,18.70
+,,58_60,17.00
+,,60_62,22.00
+,,64_66,21.00
+,,74_76,22.00
+,,76_78,24.00
+,,80_82,23.50
+,,82_84,24.00
+,,94_96,25.33
+,,100_102, 7.00
+,,104_106, 7.00
+,,106_108,15.50
+,,110_112, 7.00
+,,112_114, 7.00
+,,114_116, 7.00
+,,142_144, 8.00
+,,144_146, 8.00
+,,146_148, 8.00
+,,148_150, 8.00
+,,150_152, 7.95
+,,152_154, 7.97
+,,154_156, 7.90
+,,156_158, 8.00
+,,158_160, 8.00
+,,160_162, 7.95
+,,172_174,35.00
+,,178_180, 7.00
+,,180_182, 7.00
+,,182_184, 7.00
+,,184_186, 8.00
+,,186_188, 7.45
+,,190_192, 7.00
+,,192_194, 6.95
+,,194_196, 7.00
+,,196_198, 7.00
+,,198_200, 7.00
+,,202_204, 7.00
+,,206_208, 7.00
+,,210_212, 7.00
+,,212_214, 7.00
+,,216_218, 7.00
+,,218_220, 7.00
+,,220_222, 7.00
+,,222_224, 7.00
+,,224_226, 7.00
+,,228_230, 7.00
+,,230_232, 7.00
+,,234_236, 7.00
+,,238_240, 7.50
+,,240_242, 7.00
+,,242_244, 7.00
+,,244_246, 7.00
+,,248_250, 7.00
+,,252_254, 7.00
+,,256_258, 7.00
+,,258_260, 7.00
+,,260_262, 7.00
+,,262_264, 7.00
+,,264_266, 7.00
+,,266_268, 7.00
+,,268_270, 7.00
+,,270_272, 7.00
+,,272_274, 7.00
+,,276_278, 7.00
+,,280_282, 7.00
+,,282_284, 7.00
+,,284_286, 7.00
+,,286_288, 7.00
+,,288_290, 7.00
+,,290_292, 7.00
+,,292_294, 7.00
+,,296_298, 7.00
+,,298_300, 7.00
+,,302_304, 7.00
+,,306_308, 7.00
+,,308_310, 7.00
+,,310_312, 7.00
+,,312_314, 7.00
+,,314_316, 7.00
+,,318_320, 7.00
+,,322_324, 7.00
+,,324_326, 7.00
+,,328_330, 7.00
+,,336_338, 7.00
+,,352_354, 7.00
+,,356_358, 8.00
+Category,Travel Time Bin (2 min Interval),Avg Travel Distance (mile),
+,,10_12, 1.51
+,,12_14, 1.51
+,,14_16, 1.51
+,,16_18, 1.51
+,,18_20, 1.51
+,,20_22, 1.51
+,,22_24, 1.51
+,,24_26, 1.51
+,,26_28, 1.51
+,,30_32, 1.51
+,,32_34, 1.51
+,,34_36, 1.51
+,,36_38, 1.51
+,,38_40, 1.51
+,,40_42, 1.51
+,,42_44, 1.51
+,,46_48, 1.51
+,,48_50, 1.51
+,,56_58, 1.51
+,,58_60, 1.51
+,,60_62, 1.51
+,,64_66, 1.51
+,,74_76, 1.51
+,,76_78, 1.51
+,,80_82, 1.51
+,,82_84, 1.51
+,,94_96, 1.51
+,,100_102, 1.51
+,,104_106, 1.51
+,,106_108, 1.51
+,,110_112, 1.51
+,,112_114, 1.51
+,,114_116, 1.51
+,,142_144, 1.51
+,,144_146, 1.51
+,,146_148, 1.51
+,,148_150, 1.51
+,,150_152, 1.51
+,,152_154, 1.51
+,,154_156, 1.51
+,,156_158, 1.51
+,,158_160, 1.51
+,,160_162, 1.51
+,,172_174, 1.51
+,,178_180, 1.51
+,,180_182, 1.51
+,,182_184, 1.51
+,,184_186, 1.51
+,,186_188, 1.51
+,,190_192, 1.51
+,,192_194, 1.51
+,,194_196, 1.51
+,,196_198, 1.51
+,,198_200, 1.51
+,,202_204, 1.51
+,,206_208, 1.51
+,,210_212, 1.51
+,,212_214, 1.51
+,,216_218, 1.51
+,,218_220, 1.51
+,,220_222, 1.51
+,,222_224, 1.51
+,,224_226, 1.51
+,,228_230, 1.51
+,,230_232, 1.51
+,,234_236, 1.51
+,,238_240, 1.51
+,,240_242, 1.51
+,,242_244, 1.51
+,,244_246, 1.51
+,,248_250, 1.51
+,,252_254, 1.51
+,,256_258, 1.51
+,,258_260, 1.51
+,,260_262, 1.51
+,,262_264, 1.51
+,,264_266, 1.51
+,,266_268, 1.51
+,,268_270, 1.51
+,,270_272, 1.51
+,,272_274, 1.51
+,,276_278, 1.51
+,,280_282, 1.51
+,,282_284, 1.51
+,,284_286, 1.51
+,,286_288, 1.51
+,,288_290, 1.51
+,,290_292, 1.51
+,,292_294, 1.51
+,,296_298, 1.51
+,,298_300, 1.51
+,,302_304, 1.51
+,,306_308, 1.51
+,,308_310, 1.51
+,,310_312, 1.51
+,,312_314, 1.51
+,,314_316, 1.51
+,,318_320, 1.51
+,,322_324, 1.51
+,,324_326, 1.51
+,,328_330, 1.51
+,,336_338, 1.51
+,,352_354, 1.51
+,,356_358, 1.51
+Category,Travel Time Bin (2 min Interval),Avg Speed (mile/hour),
+,,10_12,12.98
+,,12_14,11.72
+,,14_16,12.39
+,,16_18, 8.26
+,,18_20,12.98
+,,20_22, 6.99
+,,22_24, 9.11
+,,24_26,12.98
+,,26_28, 7.09
+,,30_32, 3.48
+,,32_34, 6.06
+,,34_36, 6.83
+,,36_38, 3.78
+,,38_40, 7.04
+,,40_42, 5.05
+,,42_44, 5.16
+,,46_48, 3.45
+,,48_50, 5.68
+,,56_58, 4.86
+,,58_60, 5.34
+,,60_62, 4.13
+,,64_66, 4.33
+,,74_76, 4.13
+,,76_78, 3.78
+,,80_82, 3.87
+,,82_84, 3.78
+,,94_96, 3.59
+,,100_102,12.98
+,,104_106,12.98
+,,106_108, 5.86
+,,110_112,12.98
+,,112_114,12.98
+,,114_116,12.98
+,,142_144,11.35
+,,144_146,11.35
+,,146_148,11.35
+,,148_150,11.35
+,,150_152,11.43
+,,152_154,11.40
+,,154_156,11.50
+,,156_158,11.35
+,,158_160,11.35
+,,160_162,11.43
+,,172_174, 2.60
+,,178_180,12.98
+,,180_182,12.98
+,,182_184,12.98
+,,184_186,11.35
+,,186_188,12.19
+,,190_192,12.98
+,,192_194,13.07
+,,194_196,12.98
+,,196_198,12.98
+,,198_200,12.98
+,,202_204,12.98
+,,206_208,12.98
+,,210_212,12.98
+,,212_214,12.98
+,,216_218,12.98
+,,218_220,12.98
+,,220_222,12.98
+,,222_224,12.98
+,,224_226,12.98
+,,228_230,12.98
+,,230_232,12.98
+,,234_236,12.98
+,,238_240,12.11
+,,240_242,12.98
+,,242_244,12.98
+,,244_246,12.98
+,,248_250,12.98
+,,252_254,12.98
+,,256_258,12.98
+,,258_260,12.98
+,,260_262,12.98
+,,262_264,12.98
+,,264_266,12.98
+,,266_268,12.98
+,,268_270,12.98
+,,270_272,12.98
+,,272_274,12.98
+,,276_278,12.98
+,,280_282,12.98
+,,282_284,12.98
+,,284_286,12.98
+,,286_288,12.98
+,,288_290,12.98
+,,290_292,12.98
+,,292_294,12.98
+,,296_298,12.98
+,,298_300,12.98
+,,302_304,12.98
+,,306_308,12.98
+,,308_310,12.98
+,,310_312,12.98
+,,312_314,12.98
+,,314_316,12.98
+,,318_320,12.98
+,,322_324,12.98
+,,324_326,12.98
+,,328_330,12.98
+,,336_338,12.98
+,,352_354,12.98
+,,356_358,11.35
+Category,Travel Time Bin (2 min Interval),Avg Travel Time Per Mile (min/mile),
+,,10_12, 4.62
+,,12_14, 5.12
+,,14_16, 4.84
+,,16_18, 7.27
+,,18_20, 4.62
+,,20_22, 8.59
+,,22_24, 6.59
+,,24_26, 4.62
+,,26_28, 8.47
+,,30_32,17.24
+,,32_34, 9.91
+,,34_36, 8.79
+,,36_38,15.85
+,,38_40, 8.52
+,,40_42,11.89
+,,42_44,11.64
+,,46_48,17.39
+,,48_50,10.57
+,,56_58,12.35
+,,58_60,11.23
+,,60_62,14.53
+,,64_66,13.87
+,,74_76,14.53
+,,76_78,15.85
+,,80_82,15.52
+,,82_84,15.85
+,,94_96,16.73
+,,100_102, 4.62
+,,104_106, 4.62
+,,106_108,10.24
+,,110_112, 4.62
+,,112_114, 4.62
+,,114_116, 4.62
+,,142_144, 5.28
+,,144_146, 5.28
+,,146_148, 5.28
+,,148_150, 5.28
+,,150_152, 5.25
+,,152_154, 5.26
+,,154_156, 5.22
+,,156_158, 5.28
+,,158_160, 5.28
+,,160_162, 5.25
+,,172_174,23.12
+,,178_180, 4.62
+,,180_182, 4.62
+,,182_184, 4.62
+,,184_186, 5.28
+,,186_188, 4.92
+,,190_192, 4.62
+,,192_194, 4.59
+,,194_196, 4.62
+,,196_198, 4.62
+,,198_200, 4.62
+,,202_204, 4.62
+,,206_208, 4.62
+,,210_212, 4.62
+,,212_214, 4.62
+,,216_218, 4.62
+,,218_220, 4.62
+,,220_222, 4.62
+,,222_224, 4.62
+,,224_226, 4.62
+,,228_230, 4.62
+,,230_232, 4.62
+,,234_236, 4.62
+,,238_240, 4.95
+,,240_242, 4.62
+,,242_244, 4.62
+,,244_246, 4.62
+,,248_250, 4.62
+,,252_254, 4.62
+,,256_258, 4.62
+,,258_260, 4.62
+,,260_262, 4.62
+,,262_264, 4.62
+,,264_266, 4.62
+,,266_268, 4.62
+,,268_270, 4.62
+,,270_272, 4.62
+,,272_274, 4.62
+,,276_278, 4.62
+,,280_282, 4.62
+,,282_284, 4.62
+,,284_286, 4.62
+,,286_288, 4.62
+,,288_290, 4.62
+,,290_292, 4.62
+,,292_294, 4.62
+,,296_298, 4.62
+,,298_300, 4.62
+,,302_304, 4.62
+,,306_308, 4.62
+,,308_310, 4.62
+,,310_312, 4.62
+,,312_314, 4.62
+,,314_316, 4.62
+,,318_320, 4.62
+,,322_324, 4.62
+,,324_326, 4.62
+,,328_330, 4.62
+,,336_338, 4.62
+,,352_354, 4.62
+,,356_358, 5.28
+Category,Travel Time Bin (2 min Interval),Travel Time Index: mean/FFTT,
+,,10_12, 2.77
+,,12_14, 3.07
+,,14_16, 2.91
+,,16_18, 4.36
+,,18_20, 2.77
+,,20_22, 5.15
+,,22_24, 3.95
+,,24_26, 2.77
+,,26_28, 5.08
+,,30_32,10.34
+,,32_34, 5.94
+,,34_36, 5.27
+,,36_38, 9.51
+,,38_40, 5.11
+,,40_42, 7.13
+,,42_44, 6.98
+,,46_48,10.44
+,,48_50, 6.34
+,,56_58, 7.41
+,,58_60, 6.74
+,,60_62, 8.72
+,,64_66, 8.32
+,,74_76, 8.72
+,,76_78, 9.51
+,,80_82, 9.31
+,,82_84, 9.51
+,,94_96,10.04
+,,100_102, 2.77
+,,104_106, 2.77
+,,106_108, 6.14
+,,110_112, 2.77
+,,112_114, 2.77
+,,114_116, 2.77
+,,142_144, 3.17
+,,144_146, 3.17
+,,146_148, 3.17
+,,148_150, 3.17
+,,150_152, 3.15
+,,152_154, 3.16
+,,154_156, 3.13
+,,156_158, 3.17
+,,158_160, 3.17
+,,160_162, 3.15
+,,172_174,13.87
+,,178_180, 2.77
+,,180_182, 2.77
+,,182_184, 2.77
+,,184_186, 3.17
+,,186_188, 2.95
+,,190_192, 2.77
+,,192_194, 2.75
+,,194_196, 2.77
+,,196_198, 2.77
+,,198_200, 2.77
+,,202_204, 2.77
+,,206_208, 2.77
+,,210_212, 2.77
+,,212_214, 2.77
+,,216_218, 2.77
+,,218_220, 2.77
+,,220_222, 2.77
+,,222_224, 2.77
+,,224_226, 2.77
+,,228_230, 2.77
+,,230_232, 2.77
+,,234_236, 2.77
+,,238_240, 2.97
+,,240_242, 2.77
+,,242_244, 2.77
+,,244_246, 2.77
+,,248_250, 2.77
+,,252_254, 2.77
+,,256_258, 2.77
+,,258_260, 2.77
+,,260_262, 2.77
+,,262_264, 2.77
+,,264_266, 2.77
+,,266_268, 2.77
+,,268_270, 2.77
+,,270_272, 2.77
+,,272_274, 2.77
+,,276_278, 2.77
+,,280_282, 2.77
+,,282_284, 2.77
+,,284_286, 2.77
+,,286_288, 2.77
+,,288_290, 2.77
+,,290_292, 2.77
+,,292_294, 2.77
+,,296_298, 2.77
+,,298_300, 2.77
+,,302_304, 2.77
+,,306_308, 2.77
+,,308_310, 2.77
+,,310_312, 2.77
+,,312_314, 2.77
+,,314_316, 2.77
+,,318_320, 2.77
+,,322_324, 2.77
+,,324_326, 2.77
+,,328_330, 2.77
+,,336_338, 2.77
+,,352_354, 2.77
+,,356_358, 3.17
+Category,Travel Time Bin (2 min Interval),Avg Travel Time STD (min),
+,,12_14, 0.43
+,,14_16, 0.47
+,,22_24, 4.14
+,,26_28, 3.74
+,,32_34, 4.32
+,,34_36, 1.26
+,,36_38, 3.00
+,,42_44, 5.42
+,,46_48, 7.36
+,,48_50, 1.00
+,,56_58, 1.28
+,,76_78, 2.00
+,,80_82, 2.50
+,,82_84, 3.00
+,,94_96,25.93
+,,106_108, 8.50
+,,150_152, 0.05
+,,152_154, 0.05
+,,160_162, 0.05
+,,172_174,28.00
+,,186_188, 0.55
+,,192_194, 0.05
+,,238_240, 0.50
+Category,Travel Time Bin (2 min Interval),95th Percentile Travel Time (min),
+,,10_12, 7.00
+,,12_14, 8.00
+,,14_16, 8.00
+,,16_18,11.00
+,,18_20, 7.00
+,,20_22,13.00
+,,22_24,17.00
+,,24_26, 7.00
+,,26_28,17.90
+,,30_32,26.10
+,,32_34,21.00
+,,34_36,15.00
+,,36_38,27.00
+,,38_40,12.90
+,,40_42,18.00
+,,42_44,26.10
+,,46_48,35.00
+,,48_50,17.00
+,,56_58,20.10
+,,58_60,17.00
+,,60_62,22.00
+,,64_66,21.00
+,,74_76,22.00
+,,76_78,26.00
+,,80_82,26.00
+,,82_84,27.00
+,,94_96,62.00
+,,100_102, 7.00
+,,104_106, 7.00
+,,106_108,24.00
+,,110_112, 7.00
+,,112_114, 7.00
+,,114_116, 7.00
+,,142_144, 8.00
+,,144_146, 8.00
+,,146_148, 8.00
+,,148_150, 8.00
+,,150_152, 8.00
+,,152_154, 8.00
+,,154_156, 7.90
+,,156_158, 8.00
+,,158_160, 8.00
+,,160_162, 8.00
+,,172_174,63.00
+,,178_180, 7.00
+,,180_182, 7.00
+,,182_184, 7.00
+,,184_186, 8.00
+,,186_188, 8.00
+,,190_192, 7.00
+,,192_194, 7.00
+,,194_196, 7.00
+,,196_198, 7.00
+,,198_200, 7.00
+,,202_204, 7.00
+,,206_208, 7.00
+,,210_212, 7.00
+,,212_214, 7.00
+,,216_218, 7.00
+,,218_220, 7.00
+,,220_222, 7.00
+,,222_224, 7.00
+,,224_226, 7.00
+,,228_230, 7.00
+,,230_232, 7.00
+,,234_236, 7.00
+,,238_240, 8.00
+,,240_242, 7.00
+,,242_244, 7.00
+,,244_246, 7.00
+,,248_250, 7.00
+,,252_254, 7.00
+,,256_258, 7.00
+,,258_260, 7.00
+,,260_262, 7.00
+,,262_264, 7.00
+,,264_266, 7.00
+,,266_268, 7.00
+,,268_270, 7.00
+,,270_272, 7.00
+,,272_274, 7.00
+,,276_278, 7.00
+,,280_282, 7.00
+,,282_284, 7.00
+,,284_286, 7.00
+,,286_288, 7.00
+,,288_290, 7.00
+,,290_292, 7.00
+,,292_294, 7.00
+,,296_298, 7.00
+,,298_300, 7.00
+,,302_304, 7.00
+,,306_308, 7.00
+,,308_310, 7.00
+,,310_312, 7.00
+,,312_314, 7.00
+,,314_316, 7.00
+,,318_320, 7.00
+,,322_324, 7.00
+,,324_326, 7.00
+,,328_330, 7.00
+,,336_338, 7.00
+,,352_354, 7.00
+,,356_358, 8.00
+Category,Travel Time Bin (2 min Interval),90th Percentile Travel Time (min),
+,,10_12, 7.00
+,,12_14, 8.00
+,,14_16, 8.00
+,,16_18,11.00
+,,18_20, 7.00
+,,20_22,13.00
+,,22_24,17.00
+,,24_26, 7.00
+,,26_28,17.90
+,,30_32,26.10
+,,32_34,21.00
+,,34_36,15.00
+,,36_38,27.00
+,,38_40,12.90
+,,40_42,18.00
+,,42_44,26.10
+,,46_48,35.00
+,,48_50,17.00
+,,56_58,20.10
+,,58_60,17.00
+,,60_62,22.00
+,,64_66,21.00
+,,74_76,22.00
+,,76_78,26.00
+,,80_82,26.00
+,,82_84,27.00
+,,94_96,62.00
+,,100_102, 7.00
+,,104_106, 7.00
+,,106_108,24.00
+,,110_112, 7.00
+,,112_114, 7.00
+,,114_116, 7.00
+,,142_144, 8.00
+,,144_146, 8.00
+,,146_148, 8.00
+,,148_150, 8.00
+,,150_152, 8.00
+,,152_154, 8.00
+,,154_156, 7.90
+,,156_158, 8.00
+,,158_160, 8.00
+,,160_162, 8.00
+,,172_174,63.00
+,,178_180, 7.00
+,,180_182, 7.00
+,,182_184, 7.00
+,,184_186, 8.00
+,,186_188, 8.00
+,,190_192, 7.00
+,,192_194, 7.00
+,,194_196, 7.00
+,,196_198, 7.00
+,,198_200, 7.00
+,,202_204, 7.00
+,,206_208, 7.00
+,,210_212, 7.00
+,,212_214, 7.00
+,,216_218, 7.00
+,,218_220, 7.00
+,,220_222, 7.00
+,,222_224, 7.00
+,,224_226, 7.00
+,,228_230, 7.00
+,,230_232, 7.00
+,,234_236, 7.00
+,,238_240, 8.00
+,,240_242, 7.00
+,,242_244, 7.00
+,,244_246, 7.00
+,,248_250, 7.00
+,,252_254, 7.00
+,,256_258, 7.00
+,,258_260, 7.00
+,,260_262, 7.00
+,,262_264, 7.00
+,,264_266, 7.00
+,,266_268, 7.00
+,,268_270, 7.00
+,,270_272, 7.00
+,,272_274, 7.00
+,,276_278, 7.00
+,,280_282, 7.00
+,,282_284, 7.00
+,,284_286, 7.00
+,,286_288, 7.00
+,,288_290, 7.00
+,,290_292, 7.00
+,,292_294, 7.00
+,,296_298, 7.00
+,,298_300, 7.00
+,,302_304, 7.00
+,,306_308, 7.00
+,,308_310, 7.00
+,,310_312, 7.00
+,,312_314, 7.00
+,,314_316, 7.00
+,,318_320, 7.00
+,,322_324, 7.00
+,,324_326, 7.00
+,,328_330, 7.00
+,,336_338, 7.00
+,,352_354, 7.00
+,,356_358, 8.00
+Category,Travel Time Bin (2 min Interval),80th Percentile Travel Time (min),
+,,10_12, 7.00
+,,12_14, 8.00
+,,14_16, 8.00
+,,16_18,11.00
+,,18_20, 7.00
+,,20_22,13.00
+,,22_24,17.00
+,,24_26, 7.00
+,,26_28,17.00
+,,30_32,26.10
+,,32_34,21.00
+,,34_36,15.00
+,,36_38,27.00
+,,38_40,12.90
+,,40_42,18.00
+,,42_44,26.10
+,,46_48,35.00
+,,48_50,17.00
+,,56_58,20.10
+,,58_60,17.00
+,,60_62,22.00
+,,64_66,21.00
+,,74_76,22.00
+,,76_78,26.00
+,,80_82,26.00
+,,82_84,27.00
+,,94_96,62.00
+,,100_102, 7.00
+,,104_106, 7.00
+,,106_108,24.00
+,,110_112, 7.00
+,,112_114, 7.00
+,,114_116, 7.00
+,,142_144, 8.00
+,,144_146, 8.00
+,,146_148, 8.00
+,,148_150, 8.00
+,,150_152, 8.00
+,,152_154, 8.00
+,,154_156, 7.90
+,,156_158, 8.00
+,,158_160, 8.00
+,,160_162, 8.00
+,,172_174,63.00
+,,178_180, 7.00
+,,180_182, 7.00
+,,182_184, 7.00
+,,184_186, 8.00
+,,186_188, 8.00
+,,190_192, 7.00
+,,192_194, 7.00
+,,194_196, 7.00
+,,196_198, 7.00
+,,198_200, 7.00
+,,202_204, 7.00
+,,206_208, 7.00
+,,210_212, 7.00
+,,212_214, 7.00
+,,216_218, 7.00
+,,218_220, 7.00
+,,220_222, 7.00
+,,222_224, 7.00
+,,224_226, 7.00
+,,228_230, 7.00
+,,230_232, 7.00
+,,234_236, 7.00
+,,238_240, 8.00
+,,240_242, 7.00
+,,242_244, 7.00
+,,244_246, 7.00
+,,248_250, 7.00
+,,252_254, 7.00
+,,256_258, 7.00
+,,258_260, 7.00
+,,260_262, 7.00
+,,262_264, 7.00
+,,264_266, 7.00
+,,266_268, 7.00
+,,268_270, 7.00
+,,270_272, 7.00
+,,272_274, 7.00
+,,276_278, 7.00
+,,280_282, 7.00
+,,282_284, 7.00
+,,284_286, 7.00
+,,286_288, 7.00
+,,288_290, 7.00
+,,290_292, 7.00
+,,292_294, 7.00
+,,296_298, 7.00
+,,298_300, 7.00
+,,302_304, 7.00
+,,306_308, 7.00
+,,308_310, 7.00
+,,310_312, 7.00
+,,312_314, 7.00
+,,314_316, 7.00
+,,318_320, 7.00
+,,322_324, 7.00
+,,324_326, 7.00
+,,328_330, 7.00
+,,336_338, 7.00
+,,352_354, 7.00
+,,356_358, 8.00
+Category,Travel Time Bin (2 min Interval),Planning Time Index: 95th percentile/FFTT,
+,,10_12, 2.77
+,,12_14, 3.17
+,,14_16, 3.17
+,,16_18, 4.36
+,,18_20, 2.77
+,,20_22, 5.15
+,,22_24, 6.74
+,,24_26, 2.77
+,,26_28, 7.09
+,,30_32,10.34
+,,32_34, 8.32
+,,34_36, 5.94
+,,36_38,10.70
+,,38_40, 5.11
+,,40_42, 7.13
+,,42_44,10.34
+,,46_48,13.87
+,,48_50, 6.74
+,,56_58, 7.97
+,,58_60, 6.74
+,,60_62, 8.72
+,,64_66, 8.32
+,,74_76, 8.72
+,,76_78,10.30
+,,80_82,10.30
+,,82_84,10.70
+,,94_96,24.57
+,,100_102, 2.77
+,,104_106, 2.77
+,,106_108, 9.51
+,,110_112, 2.77
+,,112_114, 2.77
+,,114_116, 2.77
+,,142_144, 3.17
+,,144_146, 3.17
+,,146_148, 3.17
+,,148_150, 3.17
+,,150_152, 3.17
+,,152_154, 3.17
+,,154_156, 3.13
+,,156_158, 3.17
+,,158_160, 3.17
+,,160_162, 3.17
+,,172_174,24.97
+,,178_180, 2.77
+,,180_182, 2.77
+,,182_184, 2.77
+,,184_186, 3.17
+,,186_188, 3.17
+,,190_192, 2.77
+,,192_194, 2.77
+,,194_196, 2.77
+,,196_198, 2.77
+,,198_200, 2.77
+,,202_204, 2.77
+,,206_208, 2.77
+,,210_212, 2.77
+,,212_214, 2.77
+,,216_218, 2.77
+,,218_220, 2.77
+,,220_222, 2.77
+,,222_224, 2.77
+,,224_226, 2.77
+,,228_230, 2.77
+,,230_232, 2.77
+,,234_236, 2.77
+,,238_240, 3.17
+,,240_242, 2.77
+,,242_244, 2.77
+,,244_246, 2.77
+,,248_250, 2.77
+,,252_254, 2.77
+,,256_258, 2.77
+,,258_260, 2.77
+,,260_262, 2.77
+,,262_264, 2.77
+,,264_266, 2.77
+,,266_268, 2.77
+,,268_270, 2.77
+,,270_272, 2.77
+,,272_274, 2.77
+,,276_278, 2.77
+,,280_282, 2.77
+,,282_284, 2.77
+,,284_286, 2.77
+,,286_288, 2.77
+,,288_290, 2.77
+,,290_292, 2.77
+,,292_294, 2.77
+,,296_298, 2.77
+,,298_300, 2.77
+,,302_304, 2.77
+,,306_308, 2.77
+,,308_310, 2.77
+,,310_312, 2.77
+,,312_314, 2.77
+,,314_316, 2.77
+,,318_320, 2.77
+,,322_324, 2.77
+,,324_326, 2.77
+,,328_330, 2.77
+,,336_338, 2.77
+,,352_354, 2.77
+,,356_358, 3.17
+Category,Travel Time Bin (2 min Interval),Buffer Index: (95th percentile - mean)/mean,
+,,12_14, 0.03
+,,14_16, 0.09
+,,22_24, 0.70
+,,26_28, 0.40
+,,32_34, 0.40
+,,34_36, 0.13
+,,36_38, 0.13
+,,42_44, 0.48
+,,46_48, 0.33
+,,48_50, 0.06
+,,56_58, 0.07
+,,76_78, 0.08
+,,80_82, 0.11
+,,82_84, 0.13
+,,94_96, 1.45
+,,106_108, 0.55
+,,172_174, 0.80
+,,186_188, 0.07
+,,238_240, 0.07
+Category,Travel Time Bin (2 min Interval),Skew Index: (90th %ile-median)/(median-10th %ile),
+,,14_16,100.00
+,,22_24, 3.81
+,,26_28, 0.82
+,,32_34, 4.00
+,,34_36, 2.33
+,,42_44, 1.82
+,,46_48, 0.80
+,,56_58, 0.55
+,,94_96,5500.00
+Category,Travel Time Bin (2 min Interval),Travel Time Per Mile STD (min/mile),
+,,12_14, 0.29
+,,14_16, 0.31
+,,22_24, 2.74
+,,26_28, 2.47
+,,32_34, 2.85
+,,34_36, 0.83
+,,36_38, 1.98
+,,42_44, 3.58
+,,46_48, 4.86
+,,48_50, 0.66
+,,56_58, 0.85
+,,76_78, 1.32
+,,80_82, 1.65
+,,82_84, 1.98
+,,94_96,17.13
+,,106_108, 5.61
+,,150_152, 0.03
+,,152_154, 0.03
+,,160_162, 0.03
+,,172_174,18.50
+,,186_188, 0.36
+,,192_194, 0.03
+,,238_240, 0.33
+Category,Travel Time Bin (2 min Interval),95th Percentile Travel Time Per Mile (min/mile),
+,,10_12, 4.62
+,,12_14, 5.28
+,,14_16, 5.28
+,,16_18, 7.27
+,,18_20, 4.62
+,,20_22, 8.59
+,,22_24,11.23
+,,24_26, 4.62
+,,26_28,11.82
+,,30_32,17.24
+,,32_34,13.87
+,,34_36, 9.91
+,,36_38,17.83
+,,38_40, 8.52
+,,40_42,11.89
+,,42_44,17.24
+,,46_48,23.12
+,,48_50,11.23
+,,56_58,13.28
+,,58_60,11.23
+,,60_62,14.53
+,,64_66,13.87
+,,74_76,14.53
+,,76_78,17.17
+,,80_82,17.17
+,,82_84,17.83
+,,94_96,40.95
+,,100_102, 4.62
+,,104_106, 4.62
+,,106_108,15.85
+,,110_112, 4.62
+,,112_114, 4.62
+,,114_116, 4.62
+,,142_144, 5.28
+,,144_146, 5.28
+,,146_148, 5.28
+,,148_150, 5.28
+,,150_152, 5.28
+,,152_154, 5.28
+,,154_156, 5.22
+,,156_158, 5.28
+,,158_160, 5.28
+,,160_162, 5.28
+,,172_174,41.61
+,,178_180, 4.62
+,,180_182, 4.62
+,,182_184, 4.62
+,,184_186, 5.28
+,,186_188, 5.28
+,,190_192, 4.62
+,,192_194, 4.62
+,,194_196, 4.62
+,,196_198, 4.62
+,,198_200, 4.62
+,,202_204, 4.62
+,,206_208, 4.62
+,,210_212, 4.62
+,,212_214, 4.62
+,,216_218, 4.62
+,,218_220, 4.62
+,,220_222, 4.62
+,,222_224, 4.62
+,,224_226, 4.62
+,,228_230, 4.62
+,,230_232, 4.62
+,,234_236, 4.62
+,,238_240, 5.28
+,,240_242, 4.62
+,,242_244, 4.62
+,,244_246, 4.62
+,,248_250, 4.62
+,,252_254, 4.62
+,,256_258, 4.62
+,,258_260, 4.62
+,,260_262, 4.62
+,,262_264, 4.62
+,,264_266, 4.62
+,,266_268, 4.62
+,,268_270, 4.62
+,,270_272, 4.62
+,,272_274, 4.62
+,,276_278, 4.62
+,,280_282, 4.62
+,,282_284, 4.62
+,,284_286, 4.62
+,,286_288, 4.62
+,,288_290, 4.62
+,,290_292, 4.62
+,,292_294, 4.62
+,,296_298, 4.62
+,,298_300, 4.62
+,,302_304, 4.62
+,,306_308, 4.62
+,,308_310, 4.62
+,,310_312, 4.62
+,,312_314, 4.62
+,,314_316, 4.62
+,,318_320, 4.62
+,,322_324, 4.62
+,,324_326, 4.62
+,,328_330, 4.62
+,,336_338, 4.62
+,,352_354, 4.62
+,,356_358, 5.28
+Category,Travel Time Bin (2 min Interval),90th Percentile Travel Time Per Mile (min/mile),
+,,10_12, 4.62
+,,12_14, 5.28
+,,14_16, 5.28
+,,16_18, 7.27
+,,18_20, 4.62
+,,20_22, 8.59
+,,22_24,11.23
+,,24_26, 4.62
+,,26_28,11.82
+,,30_32,17.24
+,,32_34,13.87
+,,34_36, 9.91
+,,36_38,17.83
+,,38_40, 8.52
+,,40_42,11.89
+,,42_44,17.24
+,,46_48,23.12
+,,48_50,11.23
+,,56_58,13.28
+,,58_60,11.23
+,,60_62,14.53
+,,64_66,13.87
+,,74_76,14.53
+,,76_78,17.17
+,,80_82,17.17
+,,82_84,17.83
+,,94_96,40.95
+,,100_102, 4.62
+,,104_106, 4.62
+,,106_108,15.85
+,,110_112, 4.62
+,,112_114, 4.62
+,,114_116, 4.62
+,,142_144, 5.28
+,,144_146, 5.28
+,,146_148, 5.28
+,,148_150, 5.28
+,,150_152, 5.28
+,,152_154, 5.28
+,,154_156, 5.22
+,,156_158, 5.28
+,,158_160, 5.28
+,,160_162, 5.28
+,,172_174,41.61
+,,178_180, 4.62
+,,180_182, 4.62
+,,182_184, 4.62
+,,184_186, 5.28
+,,186_188, 5.28
+,,190_192, 4.62
+,,192_194, 4.62
+,,194_196, 4.62
+,,196_198, 4.62
+,,198_200, 4.62
+,,202_204, 4.62
+,,206_208, 4.62
+,,210_212, 4.62
+,,212_214, 4.62
+,,216_218, 4.62
+,,218_220, 4.62
+,,220_222, 4.62
+,,222_224, 4.62
+,,224_226, 4.62
+,,228_230, 4.62
+,,230_232, 4.62
+,,234_236, 4.62
+,,238_240, 5.28
+,,240_242, 4.62
+,,242_244, 4.62
+,,244_246, 4.62
+,,248_250, 4.62
+,,252_254, 4.62
+,,256_258, 4.62
+,,258_260, 4.62
+,,260_262, 4.62
+,,262_264, 4.62
+,,264_266, 4.62
+,,266_268, 4.62
+,,268_270, 4.62
+,,270_272, 4.62
+,,272_274, 4.62
+,,276_278, 4.62
+,,280_282, 4.62
+,,282_284, 4.62
+,,284_286, 4.62
+,,286_288, 4.62
+,,288_290, 4.62
+,,290_292, 4.62
+,,292_294, 4.62
+,,296_298, 4.62
+,,298_300, 4.62
+,,302_304, 4.62
+,,306_308, 4.62
+,,308_310, 4.62
+,,310_312, 4.62
+,,312_314, 4.62
+,,314_316, 4.62
+,,318_320, 4.62
+,,322_324, 4.62
+,,324_326, 4.62
+,,328_330, 4.62
+,,336_338, 4.62
+,,352_354, 4.62
+,,356_358, 5.28
+Category,Travel Time Bin (2 min Interval),80th Percentile Travel Time Per Mile (min/mile),
+,,10_12, 4.62
+,,12_14, 5.28
+,,14_16, 5.28
+,,16_18, 7.27
+,,18_20, 4.62
+,,20_22, 8.59
+,,22_24,11.23
+,,24_26, 4.62
+,,26_28,11.23
+,,30_32,17.24
+,,32_34,13.87
+,,34_36, 9.91
+,,36_38,17.83
+,,38_40, 8.52
+,,40_42,11.89
+,,42_44,17.24
+,,46_48,23.12
+,,48_50,11.23
+,,56_58,13.28
+,,58_60,11.23
+,,60_62,14.53
+,,64_66,13.87
+,,74_76,14.53
+,,76_78,17.17
+,,80_82,17.17
+,,82_84,17.83
+,,94_96,40.95
+,,100_102, 4.62
+,,104_106, 4.62
+,,106_108,15.85
+,,110_112, 4.62
+,,112_114, 4.62
+,,114_116, 4.62
+,,142_144, 5.28
+,,144_146, 5.28
+,,146_148, 5.28
+,,148_150, 5.28
+,,150_152, 5.28
+,,152_154, 5.28
+,,154_156, 5.22
+,,156_158, 5.28
+,,158_160, 5.28
+,,160_162, 5.28
+,,172_174,41.61
+,,178_180, 4.62
+,,180_182, 4.62
+,,182_184, 4.62
+,,184_186, 5.28
+,,186_188, 5.28
+,,190_192, 4.62
+,,192_194, 4.62
+,,194_196, 4.62
+,,196_198, 4.62
+,,198_200, 4.62
+,,202_204, 4.62
+,,206_208, 4.62
+,,210_212, 4.62
+,,212_214, 4.62
+,,216_218, 4.62
+,,218_220, 4.62
+,,220_222, 4.62
+,,222_224, 4.62
+,,224_226, 4.62
+,,228_230, 4.62
+,,230_232, 4.62
+,,234_236, 4.62
+,,238_240, 5.28
+,,240_242, 4.62
+,,242_244, 4.62
+,,244_246, 4.62
+,,248_250, 4.62
+,,252_254, 4.62
+,,256_258, 4.62
+,,258_260, 4.62
+,,260_262, 4.62
+,,262_264, 4.62
+,,264_266, 4.62
+,,266_268, 4.62
+,,268_270, 4.62
+,,270_272, 4.62
+,,272_274, 4.62
+,,276_278, 4.62
+,,280_282, 4.62
+,,282_284, 4.62
+,,284_286, 4.62
+,,286_288, 4.62
+,,288_290, 4.62
+,,290_292, 4.62
+,,292_294, 4.62
+,,296_298, 4.62
+,,298_300, 4.62
+,,302_304, 4.62
+,,306_308, 4.62
+,,308_310, 4.62
+,,310_312, 4.62
+,,312_314, 4.62
+,,314_316, 4.62
+,,318_320, 4.62
+,,322_324, 4.62
+,,324_326, 4.62
+,,328_330, 4.62
+,,336_338, 4.62
+,,352_354, 4.62
+,,356_358, 5.28
+Category,Travel Time Bin (2 min Interval),Total Generalized Time:TT+Toll/VOT (min),
+,,10_12,11.71
+,,12_14,51.05
+,,14_16,44.96
+,,16_18,16.92
+,,18_20,19.38
+,,20_22,20.31
+,,22_24,91.40
+,,24_26,25.71
+,,26_28,162.56
+,,30_32,30.77
+,,32_34,98.50
+,,34_36,105.48
+,,36_38,74.48
+,,38_40,39.30
+,,40_42,41.78
+,,42_44,213.34
+,,46_48,138.95
+,,48_50,99.04
+,,56_58,171.57
+,,58_60,59.09
+,,60_62,60.73
+,,64_66,64.00
+,,74_76,74.09
+,,76_78,152.77
+,,80_82,162.88
+,,82_84,165.60
+,,94_96,285.08
+,,100_102,100.62
+,,104_106,211.08
+,,106_108,213.19
+,,110_112,111.69
+,,112_114,112.00
+,,114_116,114.31
+,,142_144,143.45
+,,144_146,144.91
+,,146_148,294.18
+,,148_150,149.27
+,,150_152,302.36
+,,152_154,457.82
+,,154_156,154.00
+,,156_158,157.45
+,,158_160,318.18
+,,160_162,322.18
+,,172_174,344.57
+,,178_180,179.11
+,,180_182,181.56
+,,182_184,183.11
+,,184_186,184.00
+,,186_188,373.47
+,,190_192,382.00
+,,192_194,385.27
+,,194_196,195.39
+,,196_198,196.57
+,,198_200,199.65
+,,202_204,407.20
+,,206_208,413.94
+,,210_212,421.58
+,,212_214,212.70
+,,216_218,434.67
+,,218_220,219.22
+,,220_222,220.71
+,,222_224,223.48
+,,224_226,225.74
+,,228_230,456.29
+,,230_232,461.91
+,,234_236,234.52
+,,238_240,477.24
+,,240_242,241.04
+,,242_244,243.30
+,,244_246,490.15
+,,248_250,498.68
+,,252_254,252.09
+,,256_258,256.35
+,,258_260,259.53
+,,260_262,260.61
+,,262_264,262.87
+,,264_266,265.43
+,,266_268,267.13
+,,268_270,269.39
+,,270_272,270.73
+,,272_274,546.12
+,,276_278,277.91
+,,280_282,280.17
+,,282_284,283.64
+,,284_286,853.85
+,,286_288,286.70
+,,288_290,289.43
+,,290_292,290.96
+,,292_294,293.22
+,,296_298,297.48
+,,298_300,598.09
+,,302_304,302.00
+,,306_308,306.26
+,,308_310,617.09
+,,310_312,311.29
+,,312_314,312.78
+,,314_316,315.04
+,,318_320,319.30
+,,322_324,646.71
+,,324_326,650.06
+,,328_330,329.84
+,,336_338,337.71
+,,352_354,352.29
+,,356_358,356.27
+Category,Travel Time Bin (2 min Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,10_12,11.71
+,,12_14,12.76
+,,14_16,14.99
+,,16_18,16.92
+,,18_20,19.38
+,,20_22,20.31
+,,22_24,22.85
+,,24_26,25.71
+,,26_28,27.09
+,,30_32,30.77
+,,32_34,32.83
+,,34_36,35.16
+,,36_38,37.24
+,,38_40,39.30
+,,40_42,41.78
+,,42_44,42.67
+,,46_48,46.32
+,,48_50,49.52
+,,56_58,57.19
+,,58_60,59.09
+,,60_62,60.73
+,,64_66,64.00
+,,74_76,74.09
+,,76_78,76.39
+,,80_82,81.44
+,,82_84,82.80
+,,94_96,95.03
+,,100_102,100.62
+,,104_106,105.54
+,,106_108,106.60
+,,110_112,111.69
+,,112_114,112.00
+,,114_116,114.31
+,,142_144,143.45
+,,144_146,144.91
+,,146_148,147.09
+,,148_150,149.27
+,,150_152,151.18
+,,152_154,152.61
+,,154_156,154.00
+,,156_158,157.45
+,,158_160,159.09
+,,160_162,161.09
+,,172_174,172.29
+,,178_180,179.11
+,,180_182,181.56
+,,182_184,183.11
+,,184_186,184.00
+,,186_188,186.74
+,,190_192,191.00
+,,192_194,192.63
+,,194_196,195.39
+,,196_198,196.57
+,,198_200,199.65
+,,202_204,203.60
+,,206_208,206.97
+,,210_212,210.79
+,,212_214,212.70
+,,216_218,217.34
+,,218_220,219.22
+,,220_222,220.71
+,,222_224,223.48
+,,224_226,225.74
+,,228_230,228.14
+,,230_232,230.95
+,,234_236,234.52
+,,238_240,238.62
+,,240_242,241.04
+,,242_244,243.30
+,,244_246,245.08
+,,248_250,249.34
+,,252_254,252.09
+,,256_258,256.35
+,,258_260,259.53
+,,260_262,260.61
+,,262_264,262.87
+,,264_266,265.43
+,,266_268,267.13
+,,268_270,269.39
+,,270_272,270.73
+,,272_274,273.06
+,,276_278,277.91
+,,280_282,280.17
+,,282_284,283.64
+,,284_286,284.62
+,,286_288,286.70
+,,288_290,289.43
+,,290_292,290.96
+,,292_294,293.22
+,,296_298,297.48
+,,298_300,299.05
+,,302_304,302.00
+,,306_308,306.26
+,,308_310,308.55
+,,310_312,311.29
+,,312_314,312.78
+,,314_316,315.04
+,,318_320,319.30
+,,322_324,323.35
+,,324_326,325.03
+,,328_330,329.84
+,,336_338,337.71
+,,352_354,352.29
+,,356_358,356.27
+Category,Travel Time Bin (2 min Interval),Total Energy (KJ),
+,,10_12,21033.87
+,,12_14,86709.92
+,,14_16,84071.05
+,,16_18,26523.42
+,,18_20,34509.87
+,,20_22,39843.67
+,,22_24,150832.80
+,,24_26,43398.62
+,,26_28,274772.44
+,,30_32,42201.18
+,,32_34,150958.70
+,,34_36,172858.41
+,,36_38,104739.45
+,,38_40,72731.13
+,,40_42,63311.28
+,,42_44,330291.34
+,,46_48,185557.28
+,,48_50,147706.69
+,,56_58,225848.44
+,,58_60,93508.48
+,,60_62,86506.08
+,,64_66,92248.66
+,,74_76,106871.15
+,,76_78,221139.95
+,,80_82,224321.00
+,,82_84,206017.13
+,,94_96,270600.81
+,,100_102,97943.85
+,,104_106,197847.41
+,,106_108,205992.05
+,,110_112,105698.05
+,,112_114,112035.57
+,,114_116,125848.98
+,,142_144,140663.28
+,,144_146,145051.95
+,,146_148,279498.94
+,,148_150,141633.73
+,,150_152,271347.88
+,,152_154,438181.81
+,,154_156,153992.83
+,,156_158,182393.19
+,,158_160,317031.53
+,,160_162,345350.84
+,,172_174,318105.88
+,,178_180,152431.41
+,,180_182,157313.02
+,,182_184,184956.70
+,,184_186,161908.59
+,,186_188,339490.09
+,,190_192,339068.88
+,,192_194,393613.63
+,,194_196,175093.09
+,,196_198,167292.94
+,,198_200,179236.42
+,,202_204,358417.50
+,,206_208,394243.63
+,,210_212,388985.44
+,,212_214,190782.58
+,,216_218,395307.75
+,,218_220,226915.17
+,,220_222,189556.23
+,,222_224,194896.52
+,,224_226,225457.38
+,,228_230,450229.19
+,,230_232,400958.69
+,,234_236,230906.81
+,,238_240,401851.00
+,,240_242,206121.47
+,,242_244,211355.72
+,,244_246,425805.84
+,,248_250,415791.78
+,,252_254,211559.64
+,,256_258,218987.64
+,,258_260,222097.31
+,,260_262,258397.41
+,,262_264,225272.45
+,,264_266,216016.20
+,,266_268,229293.11
+,,268_270,233938.64
+,,270_272,229640.78
+,,272_274,497680.88
+,,276_278,238885.84
+,,280_282,239718.25
+,,282_284,253828.44
+,,284_286,713945.75
+,,286_288,241367.72
+,,288_290,253728.78
+,,290_292,247144.70
+,,292_294,247338.23
+,,296_298,254336.67
+,,298_300,541227.25
+,,302_304,293681.84
+,,306_308,255956.56
+,,308_310,506002.94
+,,310_312,257652.30
+,,312_314,259197.52
+,,314_316,264535.28
+,,318_320,267652.50
+,,322_324,531634.81
+,,324_326,542048.25
+,,328_330,265618.56
+,,336_338,270506.34
+,,352_354,280091.56
+,,356_358,283358.69
+Category,Travel Time Bin (2 min Interval),Total CO2 (g),
+,,10_12,1511.63
+,,12_14,6231.55
+,,14_16,6041.90
+,,16_18,1906.15
+,,18_20,2480.11
+,,20_22,2863.43
+,,22_24,10839.85
+,,24_26,3118.91
+,,26_28,19746.97
+,,30_32,3032.86
+,,32_34,10848.90
+,,34_36,12422.75
+,,36_38,7527.28
+,,38_40,5226.94
+,,40_42,4549.97
+,,42_44,23736.94
+,,46_48,13335.38
+,,48_50,10615.19
+,,56_58,16230.97
+,,58_60,6720.14
+,,60_62,6216.90
+,,64_66,6629.60
+,,74_76,7680.47
+,,76_78,15892.58
+,,80_82,16121.20
+,,82_84,14805.76
+,,94_96,19447.18
+,,100_102,7038.90
+,,104_106,14218.63
+,,106_108,14803.96
+,,110_112,7596.17
+,,112_114,8051.62
+,,114_116,9044.34
+,,142_144,10109.00
+,,144_146,10424.40
+,,146_148,20086.66
+,,148_150,10178.75
+,,150_152,19500.87
+,,152_154,31490.67
+,,154_156,11066.95
+,,156_158,13107.98
+,,158_160,22784.00
+,,160_162,24819.20
+,,172_174,22861.21
+,,178_180,10954.74
+,,180_182,11305.56
+,,182_184,13292.21
+,,184_186,11635.83
+,,186_188,24398.02
+,,190_192,24367.75
+,,192_194,28287.68
+,,194_196,12583.36
+,,196_198,12022.79
+,,198_200,12881.12
+,,202_204,25758.27
+,,206_208,28332.96
+,,210_212,27955.07
+,,212_214,13710.91
+,,216_218,28409.44
+,,218_220,16307.62
+,,220_222,13622.78
+,,222_224,14006.57
+,,224_226,16202.86
+,,228_230,32356.44
+,,230_232,28815.57
+,,234_236,16594.49
+,,238_240,28879.70
+,,240_242,14813.26
+,,242_244,15189.43
+,,244_246,30601.24
+,,248_250,29881.57
+,,252_254,15204.09
+,,256_258,15737.92
+,,258_260,15961.39
+,,260_262,18570.14
+,,262_264,16189.58
+,,264_266,15524.37
+,,266_268,16478.53
+,,268_270,16812.39
+,,270_272,16503.52
+,,272_274,35766.65
+,,276_278,17167.93
+,,280_282,17227.76
+,,282_284,18241.80
+,,284_286,51308.91
+,,286_288,17346.29
+,,288_290,18234.64
+,,290_292,17761.47
+,,292_294,17775.37
+,,296_298,18278.32
+,,298_300,38896.18
+,,302_304,21105.91
+,,306_308,18394.74
+,,308_310,36364.74
+,,310_312,18516.61
+,,312_314,18627.66
+,,314_316,19011.27
+,,318_320,19235.29
+,,322_324,38206.82
+,,324_326,38955.21
+,,328_330,19089.13
+,,336_338,19440.39
+,,352_354,20129.25
+,,356_358,20364.04
+Category,Travel Time Bin (2 min Interval),Total NOx (g),
+,,10_12, 0.15
+,,12_14, 0.59
+,,14_16, 0.94
+,,16_18, 0.18
+,,18_20, 0.25
+,,20_22, 0.79
+,,22_24, 1.03
+,,24_26, 0.29
+,,26_28, 3.21
+,,30_32, 0.26
+,,32_34, 1.71
+,,34_36, 1.90
+,,36_38, 0.62
+,,38_40, 1.41
+,,40_42, 0.43
+,,42_44, 2.28
+,,46_48, 1.03
+,,48_50, 1.01
+,,56_58, 2.01
+,,58_60, 0.64
+,,60_62, 0.51
+,,64_66, 0.60
+,,74_76, 0.72
+,,76_78, 3.09
+,,80_82, 1.36
+,,82_84, 1.11
+,,94_96, 0.71
+,,100_102, 0.31
+,,104_106, 0.50
+,,106_108, 0.56
+,,110_112, 0.27
+,,112_114, 0.32
+,,114_116, 1.43
+,,142_144, 0.34
+,,144_146, 0.35
+,,146_148, 0.64
+,,148_150, 0.32
+,,150_152, 0.51
+,,152_154, 0.99
+,,154_156, 0.44
+,,156_158, 2.36
+,,158_160, 0.92
+,,160_162, 2.83
+,,172_174, 0.80
+,,178_180, 0.23
+,,180_182, 0.26
+,,182_184, 1.91
+,,184_186, 0.32
+,,186_188, 0.72
+,,190_192, 0.67
+,,192_194, 4.13
+,,194_196, 0.36
+,,196_198, 0.26
+,,198_200, 0.38
+,,202_204, 0.68
+,,206_208, 2.59
+,,210_212, 2.48
+,,212_214, 0.42
+,,216_218, 2.21
+,,218_220, 2.46
+,,220_222, 0.31
+,,222_224, 0.36
+,,224_226, 2.27
+,,228_230, 4.43
+,,230_232, 0.69
+,,234_236, 2.26
+,,238_240, 0.56
+,,240_242, 0.34
+,,242_244, 0.38
+,,244_246, 0.80
+,,248_250, 0.54
+,,252_254, 0.30
+,,256_258, 0.37
+,,258_260, 0.36
+,,260_262, 2.56
+,,262_264, 0.40
+,,264_266, 0.21
+,,266_268, 0.38
+,,268_270, 0.44
+,,270_272, 0.33
+,,272_274, 2.92
+,,276_278, 0.43
+,,280_282, 0.38
+,,282_284, 0.54
+,,284_286, 0.95
+,,286_288, 0.34
+,,288_290, 0.47
+,,290_292, 0.39
+,,292_294, 0.37
+,,296_298, 0.43
+,,298_300, 3.13
+,,302_304, 2.79
+,,306_308, 0.37
+,,308_310, 0.56
+,,310_312, 0.33
+,,312_314, 0.33
+,,314_316, 0.40
+,,318_320, 0.39
+,,322_324, 0.62
+,,324_326, 0.70
+,,328_330, 0.22
+,,336_338, 0.22
+,,352_354, 0.20
+,,356_358, 0.21
+Category,Travel Time Bin (2 min Interval),Total CO (g),
+,,10_12, 8.72
+,,12_14,35.33
+,,14_16,35.73
+,,16_18,11.14
+,,18_20,15.11
+,,20_22,17.11
+,,22_24,63.47
+,,24_26,18.48
+,,26_28,116.16
+,,30_32,16.87
+,,32_34,58.80
+,,34_36,71.77
+,,36_38,39.54
+,,38_40,30.28
+,,40_42,27.64
+,,42_44,144.83
+,,46_48,65.29
+,,48_50,62.15
+,,56_58,76.94
+,,58_60,39.99
+,,60_62,31.02
+,,64_66,38.23
+,,74_76,43.85
+,,76_78,81.36
+,,80_82,86.19
+,,82_84,72.56
+,,94_96,53.34
+,,100_102,22.47
+,,104_106,39.20
+,,106_108,39.98
+,,110_112,21.72
+,,112_114,22.13
+,,114_116,20.93
+,,142_144,23.67
+,,144_146,21.58
+,,146_148,46.26
+,,148_150,22.82
+,,150_152,42.55
+,,152_154,71.75
+,,154_156,31.02
+,,156_158,34.80
+,,158_160,67.04
+,,160_162,69.46
+,,172_174,66.66
+,,178_180,23.60
+,,180_182,24.28
+,,182_184,29.02
+,,184_186,28.38
+,,186_188,60.02
+,,190_192,59.93
+,,192_194,65.34
+,,194_196,31.99
+,,196_198,26.02
+,,198_200,33.27
+,,202_204,61.63
+,,206_208,64.38
+,,210_212,58.37
+,,212_214,35.54
+,,216_218,56.17
+,,218_220,37.77
+,,220_222,30.43
+,,222_224,33.04
+,,224_226,34.28
+,,228_230,66.52
+,,230_232,66.38
+,,234_236,32.37
+,,238_240,59.28
+,,240_242,32.08
+,,242_244,35.66
+,,244_246,72.06
+,,248_250,59.55
+,,252_254,32.18
+,,256_258,37.01
+,,258_260,35.77
+,,260_262,38.52
+,,262_264,37.55
+,,264_266,26.98
+,,266_268,36.87
+,,268_270,40.34
+,,270_272,34.59
+,,272_274,71.39
+,,276_278,39.61
+,,280_282,37.20
+,,282_284,46.93
+,,284_286,103.24
+,,286_288,36.22
+,,288_290,43.01
+,,290_292,38.86
+,,292_294,38.78
+,,296_298,41.77
+,,298_300,77.82
+,,302_304,40.65
+,,306_308,39.47
+,,308_310,67.87
+,,310_312,36.91
+,,312_314,37.69
+,,314_316,41.39
+,,318_320,40.69
+,,322_324,73.70
+,,324_326,78.24
+,,328_330,30.91
+,,336_338,31.99
+,,352_354,32.08
+,,356_358,32.07
+Category,Travel Time Bin (2 min Interval),Total HC (g),
+,,10_12, 0.06
+,,12_14, 0.24
+,,14_16, 0.31
+,,16_18, 0.08
+,,18_20, 0.11
+,,20_22, 0.22
+,,22_24, 0.43
+,,24_26, 0.13
+,,26_28, 1.03
+,,30_32, 0.11
+,,32_34, 0.54
+,,34_36, 0.64
+,,36_38, 0.26
+,,38_40, 0.39
+,,40_42, 0.19
+,,42_44, 0.98
+,,46_48, 0.42
+,,48_50, 0.42
+,,56_58, 0.69
+,,58_60, 0.27
+,,60_62, 0.20
+,,64_66, 0.26
+,,74_76, 0.30
+,,76_78, 0.89
+,,80_82, 0.57
+,,82_84, 0.47
+,,94_96, 0.26
+,,100_102, 0.12
+,,104_106, 0.19
+,,106_108, 0.20
+,,110_112, 0.11
+,,112_114, 0.11
+,,114_116, 0.43
+,,142_144, 0.11
+,,144_146, 0.09
+,,146_148, 0.20
+,,148_150, 0.10
+,,150_152, 0.17
+,,152_154, 0.32
+,,154_156, 0.16
+,,156_158, 0.66
+,,158_160, 0.35
+,,160_162, 0.85
+,,172_174, 0.33
+,,178_180, 0.09
+,,180_182, 0.09
+,,182_184, 0.59
+,,184_186, 0.12
+,,186_188, 0.27
+,,190_192, 0.26
+,,192_194, 1.29
+,,194_196, 0.14
+,,196_198, 0.10
+,,198_200, 0.15
+,,202_204, 0.26
+,,206_208, 0.82
+,,210_212, 0.78
+,,212_214, 0.16
+,,216_218, 0.73
+,,218_220, 0.74
+,,220_222, 0.12
+,,222_224, 0.14
+,,224_226, 0.72
+,,228_230, 1.41
+,,230_232, 0.27
+,,234_236, 0.72
+,,238_240, 0.21
+,,240_242, 0.12
+,,242_244, 0.15
+,,244_246, 0.29
+,,248_250, 0.20
+,,252_254, 0.12
+,,256_258, 0.15
+,,258_260, 0.14
+,,260_262, 0.82
+,,262_264, 0.15
+,,264_266, 0.07
+,,266_268, 0.14
+,,268_270, 0.17
+,,270_272, 0.12
+,,272_274, 0.95
+,,276_278, 0.16
+,,280_282, 0.14
+,,282_284, 0.21
+,,284_286, 0.35
+,,286_288, 0.13
+,,288_290, 0.18
+,,290_292, 0.15
+,,292_294, 0.15
+,,296_298, 0.17
+,,298_300, 1.03
+,,302_304, 0.90
+,,306_308, 0.14
+,,308_310, 0.20
+,,310_312, 0.12
+,,312_314, 0.13
+,,314_316, 0.15
+,,318_320, 0.15
+,,322_324, 0.23
+,,324_326, 0.26
+,,328_330, 0.07
+,,336_338, 0.07
+,,352_354, 0.06
+,,356_358, 0.06
+Category,Travel Time Bin (2 min Interval),Total Gallon,
+,,10_12, 0.17
+,,12_14, 0.71
+,,14_16, 0.69
+,,16_18, 0.22
+,,18_20, 0.28
+,,20_22, 0.33
+,,22_24, 1.24
+,,24_26, 0.36
+,,26_28, 2.26
+,,30_32, 0.35
+,,32_34, 1.24
+,,34_36, 1.42
+,,36_38, 0.86
+,,38_40, 0.60
+,,40_42, 0.52
+,,42_44, 2.71
+,,46_48, 1.52
+,,48_50, 1.21
+,,56_58, 1.86
+,,58_60, 0.77
+,,60_62, 0.71
+,,64_66, 0.76
+,,74_76, 0.88
+,,76_78, 1.82
+,,80_82, 1.84
+,,82_84, 1.69
+,,94_96, 2.22
+,,100_102, 0.80
+,,104_106, 1.63
+,,106_108, 1.69
+,,110_112, 0.87
+,,112_114, 0.92
+,,114_116, 1.03
+,,142_144, 1.16
+,,144_146, 1.19
+,,146_148, 2.30
+,,148_150, 1.16
+,,150_152, 2.23
+,,152_154, 3.60
+,,154_156, 1.27
+,,156_158, 1.50
+,,158_160, 2.61
+,,160_162, 2.84
+,,172_174, 2.61
+,,178_180, 1.25
+,,180_182, 1.29
+,,182_184, 1.52
+,,184_186, 1.33
+,,186_188, 2.79
+,,190_192, 2.79
+,,192_194, 3.23
+,,194_196, 1.44
+,,196_198, 1.37
+,,198_200, 1.47
+,,202_204, 2.95
+,,206_208, 3.24
+,,210_212, 3.20
+,,212_214, 1.57
+,,216_218, 3.25
+,,218_220, 1.86
+,,220_222, 1.56
+,,222_224, 1.60
+,,224_226, 1.85
+,,228_230, 3.70
+,,230_232, 3.29
+,,234_236, 1.90
+,,238_240, 3.30
+,,240_242, 1.69
+,,242_244, 1.74
+,,244_246, 3.50
+,,248_250, 3.42
+,,252_254, 1.74
+,,256_258, 1.80
+,,258_260, 1.82
+,,260_262, 2.12
+,,262_264, 1.85
+,,264_266, 1.77
+,,266_268, 1.88
+,,268_270, 1.92
+,,270_272, 1.89
+,,272_274, 4.09
+,,276_278, 1.96
+,,280_282, 1.97
+,,282_284, 2.09
+,,284_286, 5.87
+,,286_288, 1.98
+,,288_290, 2.08
+,,290_292, 2.03
+,,292_294, 2.03
+,,296_298, 2.09
+,,298_300, 4.45
+,,302_304, 2.41
+,,306_308, 2.10
+,,308_310, 4.16
+,,310_312, 2.12
+,,312_314, 2.13
+,,314_316, 2.17
+,,318_320, 2.20
+,,322_324, 4.37
+,,324_326, 4.45
+,,328_330, 2.18
+,,336_338, 2.22
+,,352_354, 2.30
+,,356_358, 2.33
+Category,Travel Time Bin (2 min Interval),Avg Energy (KJ/vehicle/mile),
+,,10_12,13893.83
+,,12_14,14318.96
+,,14_16,18510.92
+,,16_18,17519.93
+,,18_20,22795.34
+,,20_22,26318.56
+,,22_24,24907.99
+,,24_26,28666.77
+,,26_28,30249.96
+,,30_32,27875.80
+,,32_34,33238.37
+,,34_36,38060.29
+,,36_38,34592.59
+,,38_40,48042.23
+,,40_42,41819.99
+,,42_44,43634.50
+,,46_48,40856.35
+,,48_50,48783.50
+,,56_58,49727.73
+,,58_60,61766.62
+,,60_62,57141.21
+,,64_66,60934.45
+,,74_76,70593.27
+,,76_78,73036.52
+,,80_82,74087.13
+,,82_84,68041.86
+,,94_96,59581.39
+,,100_102,64696.38
+,,104_106,65343.62
+,,106_108,68033.58
+,,110_112,69818.39
+,,112_114,74004.61
+,,114_116,83128.99
+,,142_144,92914.52
+,,144_146,95813.44
+,,146_148,92310.91
+,,148_150,93555.55
+,,150_152,89618.83
+,,152_154,96479.70
+,,154_156,101719.29
+,,156_158,120479.02
+,,158_160,104706.90
+,,160_162,114060.00
+,,172_174,105061.73
+,,178_180,100687.90
+,,180_182,103912.43
+,,182_184,122172.34
+,,184_186,106948.02
+,,186_188,112124.35
+,,190_192,111985.23
+,,192_194,129999.88
+,,194_196,115656.98
+,,196_198,110504.63
+,,198_200,118393.84
+,,202_204,118375.56
+,,206_208,130207.95
+,,210_212,128471.32
+,,212_214,126020.60
+,,216_218,130559.41
+,,218_220,149887.83
+,,220_222,125210.55
+,,222_224,128738.05
+,,224_226,148924.89
+,,228_230,148698.47
+,,230_232,132425.75
+,,234_236,152524.48
+,,238_240,132720.47
+,,240_242,136152.64
+,,242_244,139610.09
+,,244_246,140632.09
+,,248_250,137324.72
+,,252_254,139744.80
+,,256_258,144651.33
+,,258_260,146705.41
+,,260_262,170683.28
+,,262_264,148802.73
+,,264_266,142688.56
+,,266_268,151458.56
+,,268_270,154527.16
+,,270_272,151688.22
+,,272_274,164370.47
+,,276_278,157795.00
+,,280_282,158344.84
+,,282_284,167665.27
+,,284_286,157197.92
+,,286_288,159434.39
+,,288_290,167599.44
+,,290_292,163250.36
+,,292_294,163378.19
+,,296_298,168000.98
+,,298_300,178752.66
+,,302_304,193990.27
+,,306_308,169071.00
+,,308_310,167119.02
+,,310_312,170191.11
+,,312_314,171211.80
+,,314_316,174737.63
+,,318_320,176796.69
+,,322_324,175584.53
+,,324_326,179023.81
+,,328_330,175453.19
+,,336_338,178681.78
+,,352_354,185013.27
+,,356_358,187171.34
+Category,Travel Time Bin (2 min Interval),Avg CO2 (g/vehicle/mile),
+,,10_12,998.50
+,,12_14,1029.06
+,,14_16,1330.32
+,,16_18,1259.10
+,,18_20,1638.23
+,,20_22,1891.43
+,,22_24,1790.05
+,,24_26,2060.19
+,,26_28,2173.96
+,,30_32,2003.34
+,,32_34,2388.73
+,,34_36,2735.27
+,,36_38,2486.05
+,,38_40,3452.63
+,,40_42,3005.46
+,,42_44,3135.87
+,,46_48,2936.21
+,,48_50,3505.91
+,,56_58,3573.76
+,,58_60,4438.96
+,,60_62,4106.55
+,,64_66,4379.16
+,,74_76,5073.30
+,,76_78,5248.89
+,,80_82,5324.40
+,,82_84,4889.94
+,,94_96,4281.92
+,,100_102,4649.52
+,,104_106,4696.03
+,,106_108,4889.35
+,,110_112,5017.62
+,,112_114,5318.46
+,,114_116,5974.20
+,,142_144,6677.46
+,,144_146,6885.79
+,,146_148,6634.08
+,,148_150,6723.53
+,,150_152,6440.61
+,,152_154,6933.67
+,,154_156,7310.23
+,,156_158,8658.42
+,,158_160,7524.94
+,,160_162,8197.11
+,,172_174,7550.44
+,,178_180,7236.10
+,,180_182,7467.84
+,,182_184,8780.11
+,,184_186,7686.00
+,,186_188,8058.00
+,,190_192,8048.01
+,,192_194,9342.65
+,,194_196,8311.88
+,,196_198,7941.60
+,,198_200,8508.57
+,,202_204,8507.26
+,,206_208,9357.61
+,,210_212,9232.80
+,,212_214,9056.68
+,,216_218,9382.87
+,,218_220,10771.93
+,,220_222,8998.47
+,,222_224,9251.98
+,,224_226,10702.73
+,,228_230,10686.45
+,,230_232,9517.00
+,,234_236,10961.42
+,,238_240,9538.18
+,,240_242,9784.84
+,,242_244,10033.31
+,,244_246,10106.76
+,,248_250,9869.07
+,,252_254,10042.99
+,,256_258,10395.61
+,,258_260,10543.23
+,,260_262,12266.43
+,,262_264,10693.96
+,,264_266,10254.55
+,,266_268,10884.82
+,,268_270,11105.35
+,,270_272,10901.33
+,,272_274,11812.75
+,,276_278,11340.20
+,,280_282,11379.72
+,,282_284,12049.54
+,,284_286,11297.29
+,,286_288,11458.02
+,,288_290,12044.82
+,,290_292,11732.26
+,,292_294,11741.45
+,,296_298,12073.67
+,,298_300,12846.35
+,,302_304,13941.42
+,,306_308,12150.57
+,,308_310,12010.29
+,,310_312,12231.07
+,,312_314,12304.42
+,,314_316,12557.81
+,,318_320,12705.79
+,,322_324,12618.67
+,,324_326,12865.85
+,,328_330,12609.24
+,,336_338,12841.26
+,,352_354,13296.29
+,,356_358,13451.38
+Category,Travel Time Bin (2 min Interval),Avg NOx (g/vehicle/mile),
+,,10_12, 0.10
+,,12_14, 0.10
+,,14_16, 0.21
+,,16_18, 0.12
+,,18_20, 0.17
+,,20_22, 0.52
+,,22_24, 0.17
+,,24_26, 0.19
+,,26_28, 0.35
+,,30_32, 0.17
+,,32_34, 0.38
+,,34_36, 0.42
+,,36_38, 0.20
+,,38_40, 0.93
+,,40_42, 0.28
+,,42_44, 0.30
+,,46_48, 0.23
+,,48_50, 0.33
+,,56_58, 0.44
+,,58_60, 0.42
+,,60_62, 0.33
+,,64_66, 0.40
+,,74_76, 0.48
+,,76_78, 1.02
+,,80_82, 0.45
+,,82_84, 0.37
+,,94_96, 0.16
+,,100_102, 0.20
+,,104_106, 0.17
+,,106_108, 0.18
+,,110_112, 0.18
+,,112_114, 0.21
+,,114_116, 0.94
+,,142_144, 0.23
+,,144_146, 0.23
+,,146_148, 0.21
+,,148_150, 0.21
+,,150_152, 0.17
+,,152_154, 0.22
+,,154_156, 0.29
+,,156_158, 1.56
+,,158_160, 0.30
+,,160_162, 0.93
+,,172_174, 0.26
+,,178_180, 0.15
+,,180_182, 0.17
+,,182_184, 1.26
+,,184_186, 0.21
+,,186_188, 0.24
+,,190_192, 0.22
+,,192_194, 1.36
+,,194_196, 0.24
+,,196_198, 0.17
+,,198_200, 0.25
+,,202_204, 0.22
+,,206_208, 0.86
+,,210_212, 0.82
+,,212_214, 0.28
+,,216_218, 0.73
+,,218_220, 1.62
+,,220_222, 0.21
+,,222_224, 0.24
+,,224_226, 1.50
+,,228_230, 1.46
+,,230_232, 0.23
+,,234_236, 1.49
+,,238_240, 0.18
+,,240_242, 0.22
+,,242_244, 0.25
+,,244_246, 0.26
+,,248_250, 0.18
+,,252_254, 0.20
+,,256_258, 0.25
+,,258_260, 0.24
+,,260_262, 1.69
+,,262_264, 0.26
+,,264_266, 0.14
+,,266_268, 0.25
+,,268_270, 0.29
+,,270_272, 0.22
+,,272_274, 0.96
+,,276_278, 0.29
+,,280_282, 0.25
+,,282_284, 0.36
+,,284_286, 0.21
+,,286_288, 0.23
+,,288_290, 0.31
+,,290_292, 0.26
+,,292_294, 0.24
+,,296_298, 0.29
+,,298_300, 1.03
+,,302_304, 1.85
+,,306_308, 0.24
+,,308_310, 0.19
+,,310_312, 0.22
+,,312_314, 0.22
+,,314_316, 0.26
+,,318_320, 0.26
+,,322_324, 0.20
+,,324_326, 0.23
+,,328_330, 0.14
+,,336_338, 0.15
+,,352_354, 0.13
+,,356_358, 0.14
+Category,Travel Time Bin (2 min Interval),Avg CO (g/vehicle/mile),
+,,10_12, 5.76
+,,12_14, 5.83
+,,14_16, 7.87
+,,16_18, 7.36
+,,18_20, 9.98
+,,20_22,11.30
+,,22_24,10.48
+,,24_26,12.20
+,,26_28,12.79
+,,30_32,11.14
+,,32_34,12.95
+,,34_36,15.80
+,,36_38,13.06
+,,38_40,20.00
+,,40_42,18.26
+,,42_44,19.13
+,,46_48,14.38
+,,48_50,20.53
+,,56_58,16.94
+,,58_60,26.42
+,,60_62,20.49
+,,64_66,25.25
+,,74_76,28.97
+,,76_78,26.87
+,,80_82,28.47
+,,82_84,23.96
+,,94_96,11.74
+,,100_102,14.84
+,,104_106,12.95
+,,106_108,13.20
+,,110_112,14.35
+,,112_114,14.62
+,,114_116,13.82
+,,142_144,15.64
+,,144_146,14.25
+,,146_148,15.28
+,,148_150,15.07
+,,150_152,14.05
+,,152_154,15.80
+,,154_156,20.49
+,,156_158,22.99
+,,158_160,22.14
+,,160_162,22.94
+,,172_174,22.02
+,,178_180,15.59
+,,180_182,16.04
+,,182_184,19.17
+,,184_186,18.74
+,,186_188,19.82
+,,190_192,19.79
+,,192_194,21.58
+,,194_196,21.13
+,,196_198,17.18
+,,198_200,21.98
+,,202_204,20.35
+,,206_208,21.26
+,,210_212,19.28
+,,212_214,23.48
+,,216_218,18.55
+,,218_220,24.95
+,,220_222,20.10
+,,222_224,21.83
+,,224_226,22.64
+,,228_230,21.97
+,,230_232,21.92
+,,234_236,21.38
+,,238_240,19.58
+,,240_242,21.19
+,,242_244,23.56
+,,244_246,23.80
+,,248_250,19.67
+,,252_254,21.26
+,,256_258,24.45
+,,258_260,23.62
+,,260_262,25.45
+,,262_264,24.80
+,,264_266,17.82
+,,266_268,24.35
+,,268_270,26.65
+,,270_272,22.85
+,,272_274,23.58
+,,276_278,26.16
+,,280_282,24.57
+,,282_284,31.00
+,,284_286,22.73
+,,286_288,23.93
+,,288_290,28.41
+,,290_292,25.67
+,,292_294,25.61
+,,296_298,27.59
+,,298_300,25.70
+,,302_304,26.85
+,,306_308,26.07
+,,308_310,22.41
+,,310_312,24.38
+,,312_314,24.90
+,,314_316,27.34
+,,318_320,26.88
+,,322_324,24.34
+,,324_326,25.84
+,,328_330,20.42
+,,336_338,21.13
+,,352_354,21.19
+,,356_358,21.18
+Category,Travel Time Bin (2 min Interval),Avg HC (g/vehicle/mile),
+,,10_12, 0.04
+,,12_14, 0.04
+,,14_16, 0.07
+,,16_18, 0.05
+,,18_20, 0.07
+,,20_22, 0.14
+,,22_24, 0.07
+,,24_26, 0.08
+,,26_28, 0.11
+,,30_32, 0.08
+,,32_34, 0.12
+,,34_36, 0.14
+,,36_38, 0.09
+,,38_40, 0.26
+,,40_42, 0.12
+,,42_44, 0.13
+,,46_48, 0.09
+,,48_50, 0.14
+,,56_58, 0.15
+,,58_60, 0.18
+,,60_62, 0.13
+,,64_66, 0.17
+,,74_76, 0.19
+,,76_78, 0.29
+,,80_82, 0.19
+,,82_84, 0.15
+,,94_96, 0.06
+,,100_102, 0.08
+,,104_106, 0.06
+,,106_108, 0.06
+,,110_112, 0.07
+,,112_114, 0.07
+,,114_116, 0.28
+,,142_144, 0.07
+,,144_146, 0.06
+,,146_148, 0.07
+,,148_150, 0.07
+,,150_152, 0.06
+,,152_154, 0.07
+,,154_156, 0.10
+,,156_158, 0.44
+,,158_160, 0.12
+,,160_162, 0.28
+,,172_174, 0.11
+,,178_180, 0.06
+,,180_182, 0.06
+,,182_184, 0.39
+,,184_186, 0.08
+,,186_188, 0.09
+,,190_192, 0.09
+,,192_194, 0.43
+,,194_196, 0.09
+,,196_198, 0.06
+,,198_200, 0.10
+,,202_204, 0.09
+,,206_208, 0.27
+,,210_212, 0.26
+,,212_214, 0.10
+,,216_218, 0.24
+,,218_220, 0.49
+,,220_222, 0.08
+,,222_224, 0.09
+,,224_226, 0.47
+,,228_230, 0.47
+,,230_232, 0.09
+,,234_236, 0.47
+,,238_240, 0.07
+,,240_242, 0.08
+,,242_244, 0.10
+,,244_246, 0.10
+,,248_250, 0.07
+,,252_254, 0.08
+,,256_258, 0.10
+,,258_260, 0.09
+,,260_262, 0.54
+,,262_264, 0.10
+,,264_266, 0.05
+,,266_268, 0.09
+,,268_270, 0.11
+,,270_272, 0.08
+,,272_274, 0.31
+,,276_278, 0.11
+,,280_282, 0.09
+,,282_284, 0.14
+,,284_286, 0.08
+,,286_288, 0.09
+,,288_290, 0.12
+,,290_292, 0.10
+,,292_294, 0.10
+,,296_298, 0.11
+,,298_300, 0.34
+,,302_304, 0.59
+,,306_308, 0.09
+,,308_310, 0.07
+,,310_312, 0.08
+,,312_314, 0.08
+,,314_316, 0.10
+,,318_320, 0.10
+,,322_324, 0.08
+,,324_326, 0.09
+,,328_330, 0.05
+,,336_338, 0.05
+,,352_354, 0.04
+,,356_358, 0.04
+Category,Travel Time Bin (2 min Interval),Avg Miles per Gallon,
+,,10_12, 1.51
+,,12_14, 6.06
+,,14_16, 4.54
+,,16_18, 1.51
+,,18_20, 1.51
+,,20_22, 1.51
+,,22_24, 4.89
+,,24_26, 1.51
+,,26_28, 4.02
+,,30_32, 1.51
+,,32_34, 3.66
+,,34_36, 3.20
+,,36_38, 3.03
+,,38_40, 1.51
+,,40_42, 1.51
+,,42_44, 2.79
+,,46_48, 2.98
+,,48_50, 2.49
+,,56_58, 2.45
+,,58_60, 1.51
+,,60_62, 1.51
+,,64_66, 1.51
+,,74_76, 1.51
+,,76_78, 1.67
+,,80_82, 1.64
+,,82_84, 1.79
+,,94_96, 2.04
+,,100_102, 1.51
+,,104_106, 1.86
+,,106_108, 1.79
+,,110_112, 1.51
+,,112_114, 1.51
+,,114_116, 1.46
+,,142_144, 1.31
+,,144_146, 1.27
+,,146_148, 1.32
+,,148_150, 1.30
+,,150_152, 1.36
+,,152_154, 1.26
+,,154_156, 1.20
+,,156_158, 1.01
+,,158_160, 1.16
+,,160_162, 1.07
+,,172_174, 1.16
+,,178_180, 1.21
+,,180_182, 1.17
+,,182_184, 1.00
+,,184_186, 1.14
+,,186_188, 1.09
+,,190_192, 1.09
+,,192_194, 0.94
+,,194_196, 1.05
+,,196_198, 1.10
+,,198_200, 1.03
+,,202_204, 1.03
+,,206_208, 0.93
+,,210_212, 0.95
+,,212_214, 0.97
+,,216_218, 0.93
+,,218_220, 0.81
+,,220_222, 0.97
+,,222_224, 0.95
+,,224_226, 0.82
+,,228_230, 0.82
+,,230_232, 0.92
+,,234_236, 0.80
+,,238_240, 0.92
+,,240_242, 0.89
+,,242_244, 0.87
+,,244_246, 0.87
+,,248_250, 0.89
+,,252_254, 0.87
+,,256_258, 0.84
+,,258_260, 0.83
+,,260_262, 0.71
+,,262_264, 0.82
+,,264_266, 0.85
+,,266_268, 0.80
+,,268_270, 0.79
+,,270_272, 0.80
+,,272_274, 0.74
+,,276_278, 0.77
+,,280_282, 0.77
+,,282_284, 0.73
+,,284_286, 0.77
+,,286_288, 0.76
+,,288_290, 0.73
+,,290_292, 0.75
+,,292_294, 0.74
+,,296_298, 0.72
+,,298_300, 0.68
+,,302_304, 0.63
+,,306_308, 0.72
+,,308_310, 0.73
+,,310_312, 0.72
+,,312_314, 0.71
+,,314_316, 0.70
+,,318_320, 0.69
+,,322_324, 0.69
+,,324_326, 0.68
+,,328_330, 0.69
+,,336_338, 0.68
+,,352_354, 0.66
+,,356_358, 0.65
+Category,Travel Time Bin (5 min Interval),Number of Vehicles,
+,,10_15, 6.00
+,,15_20, 4.00
+,,20_25, 5.00
+,,25_30, 7.00
+,,30_35, 5.00
+,,35_40, 5.00
+,,40_45, 6.00
+,,45_50, 5.00
+,,55_60, 4.00
+,,60_65, 2.00
+,,70_75, 1.00
+,,75_80, 2.00
+,,80_85, 4.00
+,,90_95, 1.00
+,,95_100, 2.00
+,,100_105, 1.00
+,,105_110, 4.00
+,,110_115, 3.00
+,,140_145, 2.00
+,,145_150, 3.00
+,,150_155, 6.00
+,,155_160, 3.00
+,,160_165, 2.00
+,,170_175, 2.00
+,,175_180, 1.00
+,,180_185, 3.00
+,,185_190, 2.00
+,,190_195, 4.00
+,,195_200, 3.00
+,,200_205, 2.00
+,,205_210, 2.00
+,,210_215, 3.00
+,,215_220, 3.00
+,,220_225, 2.00
+,,225_230, 3.00
+,,230_235, 3.00
+,,235_240, 2.00
+,,240_245, 3.00
+,,245_250, 3.00
+,,250_255, 1.00
+,,255_260, 2.00
+,,260_265, 2.00
+,,265_270, 3.00
+,,270_275, 3.00
+,,275_280, 1.00
+,,280_285, 4.00
+,,285_290, 3.00
+,,290_295, 2.00
+,,295_300, 3.00
+,,300_305, 1.00
+,,305_310, 3.00
+,,310_315, 2.00
+,,315_320, 2.00
+,,320_325, 3.00
+,,325_330, 2.00
+,,335_340, 1.00
+,,350_355, 1.00
+,,355_360, 1.00
+Category,Travel Time Bin (5 min Interval),Cumulative Number of Vehicles,
+,,10_15, 6.00
+,,15_20,10.00
+,,20_25,15.00
+,,25_30,22.00
+,,30_35,27.00
+,,35_40,32.00
+,,40_45,38.00
+,,45_50,43.00
+,,55_60,47.00
+,,60_65,49.00
+,,70_75,50.00
+,,75_80,52.00
+,,80_85,56.00
+,,90_95,57.00
+,,95_100,59.00
+,,100_105,60.00
+,,105_110,64.00
+,,110_115,67.00
+,,140_145,69.00
+,,145_150,72.00
+,,150_155,78.00
+,,155_160,81.00
+,,160_165,83.00
+,,170_175,85.00
+,,175_180,86.00
+,,180_185,89.00
+,,185_190,91.00
+,,190_195,95.00
+,,195_200,98.00
+,,200_205,100.00
+,,205_210,102.00
+,,210_215,105.00
+,,215_220,108.00
+,,220_225,110.00
+,,225_230,113.00
+,,230_235,116.00
+,,235_240,118.00
+,,240_245,121.00
+,,245_250,124.00
+,,250_255,125.00
+,,255_260,127.00
+,,260_265,129.00
+,,265_270,132.00
+,,270_275,135.00
+,,275_280,136.00
+,,280_285,140.00
+,,285_290,143.00
+,,290_295,145.00
+,,295_300,148.00
+,,300_305,149.00
+,,305_310,152.00
+,,310_315,154.00
+,,315_320,156.00
+,,320_325,159.00
+,,325_330,161.00
+,,335_340,162.00
+,,350_355,163.00
+,,355_360,164.00
+Category,Travel Time Bin (5 min Interval),Total Travel Time (min),
+,,10_15,45.00
+,,15_20,33.00
+,,20_25,52.90
+,,25_30,83.90
+,,30_35,84.00
+,,35_40,87.90
+,,40_45,106.10
+,,45_50,111.00
+,,55_60,73.10
+,,60_65,43.00
+,,70_75,22.00
+,,75_80,48.00
+,,80_85,95.00
+,,90_95, 7.00
+,,95_100,69.00
+,,100_105, 7.00
+,,105_110,45.00
+,,110_115,21.00
+,,140_145,16.00
+,,145_150,24.00
+,,150_155,47.70
+,,155_160,24.00
+,,160_165,15.90
+,,170_175,70.00
+,,175_180, 7.00
+,,180_185,22.00
+,,185_190,14.90
+,,190_195,27.90
+,,195_200,21.00
+,,200_205,14.00
+,,205_210,14.00
+,,210_215,21.00
+,,215_220,21.00
+,,220_225,14.00
+,,225_230,21.00
+,,230_235,21.00
+,,235_240,15.00
+,,240_245,21.00
+,,245_250,21.00
+,,250_255, 7.00
+,,255_260,14.00
+,,260_265,14.00
+,,265_270,21.00
+,,270_275,21.00
+,,275_280, 7.00
+,,280_285,28.00
+,,285_290,21.00
+,,290_295,14.00
+,,295_300,21.00
+,,300_305, 7.00
+,,305_310,21.00
+,,310_315,14.00
+,,315_320,14.00
+,,320_325,21.00
+,,325_330,14.00
+,,335_340, 7.00
+,,350_355, 7.00
+,,355_360, 8.00
+Category,Travel Time Bin (5 min Interval),Total Travel Distance (mile),
+,,10_15, 9.08
+,,15_20, 6.06
+,,20_25, 7.57
+,,25_30,10.60
+,,30_35, 7.57
+,,35_40, 7.57
+,,40_45, 9.08
+,,45_50, 7.57
+,,55_60, 6.06
+,,60_65, 3.03
+,,70_75, 1.51
+,,75_80, 3.03
+,,80_85, 6.06
+,,90_95, 1.51
+,,95_100, 3.03
+,,100_105, 1.51
+,,105_110, 6.06
+,,110_115, 4.54
+,,140_145, 3.03
+,,145_150, 4.54
+,,150_155, 9.08
+,,155_160, 4.54
+,,160_165, 3.03
+,,170_175, 3.03
+,,175_180, 1.51
+,,180_185, 4.54
+,,185_190, 3.03
+,,190_195, 6.06
+,,195_200, 4.54
+,,200_205, 3.03
+,,205_210, 3.03
+,,210_215, 4.54
+,,215_220, 4.54
+,,220_225, 3.03
+,,225_230, 4.54
+,,230_235, 4.54
+,,235_240, 3.03
+,,240_245, 4.54
+,,245_250, 4.54
+,,250_255, 1.51
+,,255_260, 3.03
+,,260_265, 3.03
+,,265_270, 4.54
+,,270_275, 4.54
+,,275_280, 1.51
+,,280_285, 6.06
+,,285_290, 4.54
+,,290_295, 3.03
+,,295_300, 4.54
+,,300_305, 1.51
+,,305_310, 4.54
+,,310_315, 3.03
+,,315_320, 3.03
+,,320_325, 4.54
+,,325_330, 3.03
+,,335_340, 1.51
+,,350_355, 1.51
+,,355_360, 1.51
+Category,Travel Time Bin (5 min Interval),Avg Travel Time (min),
+,,10_15, 7.50
+,,15_20, 8.25
+,,20_25,10.58
+,,25_30,11.99
+,,30_35,16.80
+,,35_40,17.58
+,,40_45,17.68
+,,45_50,22.20
+,,55_60,18.27
+,,60_65,21.50
+,,70_75,22.00
+,,75_80,24.00
+,,80_85,23.75
+,,90_95, 7.00
+,,95_100,34.50
+,,100_105, 7.00
+,,105_110,11.25
+,,110_115, 7.00
+,,140_145, 8.00
+,,145_150, 8.00
+,,150_155, 7.95
+,,155_160, 8.00
+,,160_165, 7.95
+,,170_175,35.00
+,,175_180, 7.00
+,,180_185, 7.33
+,,185_190, 7.45
+,,190_195, 6.98
+,,195_200, 7.00
+,,200_205, 7.00
+,,205_210, 7.00
+,,210_215, 7.00
+,,215_220, 7.00
+,,220_225, 7.00
+,,225_230, 7.00
+,,230_235, 7.00
+,,235_240, 7.50
+,,240_245, 7.00
+,,245_250, 7.00
+,,250_255, 7.00
+,,255_260, 7.00
+,,260_265, 7.00
+,,265_270, 7.00
+,,270_275, 7.00
+,,275_280, 7.00
+,,280_285, 7.00
+,,285_290, 7.00
+,,290_295, 7.00
+,,295_300, 7.00
+,,300_305, 7.00
+,,305_310, 7.00
+,,310_315, 7.00
+,,315_320, 7.00
+,,320_325, 7.00
+,,325_330, 7.00
+,,335_340, 7.00
+,,350_355, 7.00
+,,355_360, 8.00
+Category,Travel Time Bin (5 min Interval),Avg Travel Distance (mile),
+,,10_15, 1.51
+,,15_20, 1.51
+,,20_25, 1.51
+,,25_30, 1.51
+,,30_35, 1.51
+,,35_40, 1.51
+,,40_45, 1.51
+,,45_50, 1.51
+,,55_60, 1.51
+,,60_65, 1.51
+,,70_75, 1.51
+,,75_80, 1.51
+,,80_85, 1.51
+,,90_95, 1.51
+,,95_100, 1.51
+,,100_105, 1.51
+,,105_110, 1.51
+,,110_115, 1.51
+,,140_145, 1.51
+,,145_150, 1.51
+,,150_155, 1.51
+,,155_160, 1.51
+,,160_165, 1.51
+,,170_175, 1.51
+,,175_180, 1.51
+,,180_185, 1.51
+,,185_190, 1.51
+,,190_195, 1.51
+,,195_200, 1.51
+,,200_205, 1.51
+,,205_210, 1.51
+,,210_215, 1.51
+,,215_220, 1.51
+,,220_225, 1.51
+,,225_230, 1.51
+,,230_235, 1.51
+,,235_240, 1.51
+,,240_245, 1.51
+,,245_250, 1.51
+,,250_255, 1.51
+,,255_260, 1.51
+,,260_265, 1.51
+,,265_270, 1.51
+,,270_275, 1.51
+,,275_280, 1.51
+,,280_285, 1.51
+,,285_290, 1.51
+,,290_295, 1.51
+,,295_300, 1.51
+,,300_305, 1.51
+,,305_310, 1.51
+,,310_315, 1.51
+,,315_320, 1.51
+,,320_325, 1.51
+,,325_330, 1.51
+,,335_340, 1.51
+,,350_355, 1.51
+,,355_360, 1.51
+Category,Travel Time Bin (5 min Interval),Avg Speed (mile/hour),
+,,10_15,12.11
+,,15_20,11.01
+,,20_25, 8.59
+,,25_30, 7.58
+,,30_35, 5.41
+,,35_40, 5.17
+,,40_45, 5.14
+,,45_50, 4.09
+,,55_60, 4.97
+,,60_65, 4.22
+,,70_75, 4.13
+,,75_80, 3.78
+,,80_85, 3.82
+,,90_95,12.98
+,,95_100, 2.63
+,,100_105,12.98
+,,105_110, 8.07
+,,110_115,12.98
+,,140_145,11.35
+,,145_150,11.35
+,,150_155,11.43
+,,155_160,11.35
+,,160_165,11.43
+,,170_175, 2.60
+,,175_180,12.98
+,,180_185,12.39
+,,185_190,12.19
+,,190_195,13.02
+,,195_200,12.98
+,,200_205,12.98
+,,205_210,12.98
+,,210_215,12.98
+,,215_220,12.98
+,,220_225,12.98
+,,225_230,12.98
+,,230_235,12.98
+,,235_240,12.11
+,,240_245,12.98
+,,245_250,12.98
+,,250_255,12.98
+,,255_260,12.98
+,,260_265,12.98
+,,265_270,12.98
+,,270_275,12.98
+,,275_280,12.98
+,,280_285,12.98
+,,285_290,12.98
+,,290_295,12.98
+,,295_300,12.98
+,,300_305,12.98
+,,305_310,12.98
+,,310_315,12.98
+,,315_320,12.98
+,,320_325,12.98
+,,325_330,12.98
+,,335_340,12.98
+,,350_355,12.98
+,,355_360,11.35
+Category,Travel Time Bin (5 min Interval),Avg Travel Time Per Mile (min/mile),
+,,10_15, 4.95
+,,15_20, 5.45
+,,20_25, 6.99
+,,25_30, 7.92
+,,30_35,11.10
+,,35_40,11.61
+,,40_45,11.68
+,,45_50,14.66
+,,55_60,12.07
+,,60_65,14.20
+,,70_75,14.53
+,,75_80,15.85
+,,80_85,15.69
+,,90_95, 4.62
+,,95_100,22.79
+,,100_105, 4.62
+,,105_110, 7.43
+,,110_115, 4.62
+,,140_145, 5.28
+,,145_150, 5.28
+,,150_155, 5.25
+,,155_160, 5.28
+,,160_165, 5.25
+,,170_175,23.12
+,,175_180, 4.62
+,,180_185, 4.84
+,,185_190, 4.92
+,,190_195, 4.61
+,,195_200, 4.62
+,,200_205, 4.62
+,,205_210, 4.62
+,,210_215, 4.62
+,,215_220, 4.62
+,,220_225, 4.62
+,,225_230, 4.62
+,,230_235, 4.62
+,,235_240, 4.95
+,,240_245, 4.62
+,,245_250, 4.62
+,,250_255, 4.62
+,,255_260, 4.62
+,,260_265, 4.62
+,,265_270, 4.62
+,,270_275, 4.62
+,,275_280, 4.62
+,,280_285, 4.62
+,,285_290, 4.62
+,,290_295, 4.62
+,,295_300, 4.62
+,,300_305, 4.62
+,,305_310, 4.62
+,,310_315, 4.62
+,,315_320, 4.62
+,,320_325, 4.62
+,,325_330, 4.62
+,,335_340, 4.62
+,,350_355, 4.62
+,,355_360, 5.28
+Category,Travel Time Bin (5 min Interval),Travel Time Index: mean/FFTT,
+,,10_15, 2.97
+,,15_20, 3.27
+,,20_25, 4.19
+,,25_30, 4.75
+,,30_35, 6.66
+,,35_40, 6.97
+,,40_45, 7.01
+,,45_50, 8.80
+,,55_60, 7.24
+,,60_65, 8.52
+,,70_75, 8.72
+,,75_80, 9.51
+,,80_85, 9.41
+,,90_95, 2.77
+,,95_100,13.67
+,,100_105, 2.77
+,,105_110, 4.46
+,,110_115, 2.77
+,,140_145, 3.17
+,,145_150, 3.17
+,,150_155, 3.15
+,,155_160, 3.17
+,,160_165, 3.15
+,,170_175,13.87
+,,175_180, 2.77
+,,180_185, 2.91
+,,185_190, 2.95
+,,190_195, 2.76
+,,195_200, 2.77
+,,200_205, 2.77
+,,205_210, 2.77
+,,210_215, 2.77
+,,215_220, 2.77
+,,220_225, 2.77
+,,225_230, 2.77
+,,230_235, 2.77
+,,235_240, 2.97
+,,240_245, 2.77
+,,245_250, 2.77
+,,250_255, 2.77
+,,255_260, 2.77
+,,260_265, 2.77
+,,265_270, 2.77
+,,270_275, 2.77
+,,275_280, 2.77
+,,280_285, 2.77
+,,285_290, 2.77
+,,290_295, 2.77
+,,295_300, 2.77
+,,300_305, 2.77
+,,305_310, 2.77
+,,310_315, 2.77
+,,315_320, 2.77
+,,320_325, 2.77
+,,325_330, 2.77
+,,335_340, 2.77
+,,350_355, 2.77
+,,355_360, 3.17
+Category,Travel Time Bin (5 min Interval),Avg Travel Time STD (min),
+,,10_15, 0.50
+,,15_20, 1.64
+,,20_25, 3.90
+,,25_30, 4.01
+,,30_35, 5.79
+,,35_40, 5.66
+,,40_45, 4.95
+,,45_50, 7.65
+,,55_60, 1.33
+,,60_65, 0.50
+,,75_80, 2.00
+,,80_85, 2.77
+,,95_100,27.50
+,,105_110, 7.36
+,,150_155, 0.05
+,,160_165, 0.05
+,,170_175,28.00
+,,180_185, 0.47
+,,185_190, 0.55
+,,190_195, 0.04
+,,235_240, 0.50
+Category,Travel Time Bin (5 min Interval),95th Percentile Travel Time (min),
+,,10_15, 8.00
+,,15_20,11.00
+,,20_25,17.00
+,,25_30,17.90
+,,30_35,26.10
+,,35_40,27.00
+,,40_45,26.10
+,,45_50,35.00
+,,55_60,20.10
+,,60_65,22.00
+,,70_75,22.00
+,,75_80,26.00
+,,80_85,27.00
+,,90_95, 7.00
+,,95_100,62.00
+,,100_105, 7.00
+,,105_110,24.00
+,,110_115, 7.00
+,,140_145, 8.00
+,,145_150, 8.00
+,,150_155, 8.00
+,,155_160, 8.00
+,,160_165, 8.00
+,,170_175,63.00
+,,175_180, 7.00
+,,180_185, 8.00
+,,185_190, 8.00
+,,190_195, 7.00
+,,195_200, 7.00
+,,200_205, 7.00
+,,205_210, 7.00
+,,210_215, 7.00
+,,215_220, 7.00
+,,220_225, 7.00
+,,225_230, 7.00
+,,230_235, 7.00
+,,235_240, 8.00
+,,240_245, 7.00
+,,245_250, 7.00
+,,250_255, 7.00
+,,255_260, 7.00
+,,260_265, 7.00
+,,265_270, 7.00
+,,270_275, 7.00
+,,275_280, 7.00
+,,280_285, 7.00
+,,285_290, 7.00
+,,290_295, 7.00
+,,295_300, 7.00
+,,300_305, 7.00
+,,305_310, 7.00
+,,310_315, 7.00
+,,315_320, 7.00
+,,320_325, 7.00
+,,325_330, 7.00
+,,335_340, 7.00
+,,350_355, 7.00
+,,355_360, 8.00
+Category,Travel Time Bin (5 min Interval),90th Percentile Travel Time (min),
+,,10_15, 8.00
+,,15_20,11.00
+,,20_25,17.00
+,,25_30,17.90
+,,30_35,26.10
+,,35_40,27.00
+,,40_45,26.10
+,,45_50,35.00
+,,55_60,20.10
+,,60_65,22.00
+,,70_75,22.00
+,,75_80,26.00
+,,80_85,27.00
+,,90_95, 7.00
+,,95_100,62.00
+,,100_105, 7.00
+,,105_110,24.00
+,,110_115, 7.00
+,,140_145, 8.00
+,,145_150, 8.00
+,,150_155, 8.00
+,,155_160, 8.00
+,,160_165, 8.00
+,,170_175,63.00
+,,175_180, 7.00
+,,180_185, 8.00
+,,185_190, 8.00
+,,190_195, 7.00
+,,195_200, 7.00
+,,200_205, 7.00
+,,205_210, 7.00
+,,210_215, 7.00
+,,215_220, 7.00
+,,220_225, 7.00
+,,225_230, 7.00
+,,230_235, 7.00
+,,235_240, 8.00
+,,240_245, 7.00
+,,245_250, 7.00
+,,250_255, 7.00
+,,255_260, 7.00
+,,260_265, 7.00
+,,265_270, 7.00
+,,270_275, 7.00
+,,275_280, 7.00
+,,280_285, 7.00
+,,285_290, 7.00
+,,290_295, 7.00
+,,295_300, 7.00
+,,300_305, 7.00
+,,305_310, 7.00
+,,310_315, 7.00
+,,315_320, 7.00
+,,320_325, 7.00
+,,325_330, 7.00
+,,335_340, 7.00
+,,350_355, 7.00
+,,355_360, 8.00
+Category,Travel Time Bin (5 min Interval),80th Percentile Travel Time (min),
+,,10_15, 8.00
+,,15_20,11.00
+,,20_25,17.00
+,,25_30,17.00
+,,30_35,26.10
+,,35_40,27.00
+,,40_45,21.00
+,,45_50,35.00
+,,55_60,20.10
+,,60_65,22.00
+,,70_75,22.00
+,,75_80,26.00
+,,80_85,27.00
+,,90_95, 7.00
+,,95_100,62.00
+,,100_105, 7.00
+,,105_110,24.00
+,,110_115, 7.00
+,,140_145, 8.00
+,,145_150, 8.00
+,,150_155, 8.00
+,,155_160, 8.00
+,,160_165, 8.00
+,,170_175,63.00
+,,175_180, 7.00
+,,180_185, 8.00
+,,185_190, 8.00
+,,190_195, 7.00
+,,195_200, 7.00
+,,200_205, 7.00
+,,205_210, 7.00
+,,210_215, 7.00
+,,215_220, 7.00
+,,220_225, 7.00
+,,225_230, 7.00
+,,230_235, 7.00
+,,235_240, 8.00
+,,240_245, 7.00
+,,245_250, 7.00
+,,250_255, 7.00
+,,255_260, 7.00
+,,260_265, 7.00
+,,265_270, 7.00
+,,270_275, 7.00
+,,275_280, 7.00
+,,280_285, 7.00
+,,285_290, 7.00
+,,290_295, 7.00
+,,295_300, 7.00
+,,300_305, 7.00
+,,305_310, 7.00
+,,310_315, 7.00
+,,315_320, 7.00
+,,320_325, 7.00
+,,325_330, 7.00
+,,335_340, 7.00
+,,350_355, 7.00
+,,355_360, 8.00
+Category,Travel Time Bin (5 min Interval),Planning Time Index: 95th percentile/FFTT,
+,,10_15, 3.17
+,,15_20, 4.36
+,,20_25, 6.74
+,,25_30, 7.09
+,,30_35,10.34
+,,35_40,10.70
+,,40_45,10.34
+,,45_50,13.87
+,,55_60, 7.97
+,,60_65, 8.72
+,,70_75, 8.72
+,,75_80,10.30
+,,80_85,10.70
+,,90_95, 2.77
+,,95_100,24.57
+,,100_105, 2.77
+,,105_110, 9.51
+,,110_115, 2.77
+,,140_145, 3.17
+,,145_150, 3.17
+,,150_155, 3.17
+,,155_160, 3.17
+,,160_165, 3.17
+,,170_175,24.97
+,,175_180, 2.77
+,,180_185, 3.17
+,,185_190, 3.17
+,,190_195, 2.77
+,,195_200, 2.77
+,,200_205, 2.77
+,,205_210, 2.77
+,,210_215, 2.77
+,,215_220, 2.77
+,,220_225, 2.77
+,,225_230, 2.77
+,,230_235, 2.77
+,,235_240, 3.17
+,,240_245, 2.77
+,,245_250, 2.77
+,,250_255, 2.77
+,,255_260, 2.77
+,,260_265, 2.77
+,,265_270, 2.77
+,,270_275, 2.77
+,,275_280, 2.77
+,,280_285, 2.77
+,,285_290, 2.77
+,,290_295, 2.77
+,,295_300, 2.77
+,,300_305, 2.77
+,,305_310, 2.77
+,,310_315, 2.77
+,,315_320, 2.77
+,,320_325, 2.77
+,,325_330, 2.77
+,,335_340, 2.77
+,,350_355, 2.77
+,,355_360, 3.17
+Category,Travel Time Bin (5 min Interval),Buffer Index: (95th percentile - mean)/mean,
+,,10_15, 0.07
+,,15_20, 0.33
+,,20_25, 0.61
+,,25_30, 0.49
+,,30_35, 0.55
+,,35_40, 0.54
+,,40_45, 0.48
+,,45_50, 0.58
+,,55_60, 0.10
+,,60_65, 0.02
+,,75_80, 0.08
+,,80_85, 0.14
+,,95_100, 0.80
+,,105_110, 1.13
+,,170_175, 0.80
+,,180_185, 0.09
+,,185_190, 0.07
+,,235_240, 0.07
+Category,Travel Time Bin (5 min Interval),Skew Index: (90th %ile-median)/(median-10th %ile),
+,,15_20, 3.00
+,,20_25, 3.81
+,,25_30, 1.73
+,,30_35, 6.55
+,,35_40, 4.00
+,,40_45, 1.35
+,,45_50, 9.00
+,,55_60, 0.55
+,,80_85, 0.20
+,,105_110,1700.00
+,,180_185,100.00
+Category,Travel Time Bin (5 min Interval),Travel Time Per Mile STD (min/mile),
+,,10_15, 0.33
+,,15_20, 1.08
+,,20_25, 2.57
+,,25_30, 2.65
+,,30_35, 3.82
+,,35_40, 3.74
+,,40_45, 3.27
+,,45_50, 5.05
+,,55_60, 0.88
+,,60_65, 0.33
+,,75_80, 1.32
+,,80_85, 1.83
+,,95_100,18.17
+,,105_110, 4.86
+,,150_155, 0.03
+,,160_165, 0.03
+,,170_175,18.50
+,,180_185, 0.31
+,,185_190, 0.36
+,,190_195, 0.03
+,,235_240, 0.33
+Category,Travel Time Bin (5 min Interval),95th Percentile Travel Time Per Mile (min/mile),
+,,10_15, 5.28
+,,15_20, 7.27
+,,20_25,11.23
+,,25_30,11.82
+,,30_35,17.24
+,,35_40,17.83
+,,40_45,17.24
+,,45_50,23.12
+,,55_60,13.28
+,,60_65,14.53
+,,70_75,14.53
+,,75_80,17.17
+,,80_85,17.83
+,,90_95, 4.62
+,,95_100,40.95
+,,100_105, 4.62
+,,105_110,15.85
+,,110_115, 4.62
+,,140_145, 5.28
+,,145_150, 5.28
+,,150_155, 5.28
+,,155_160, 5.28
+,,160_165, 5.28
+,,170_175,41.61
+,,175_180, 4.62
+,,180_185, 5.28
+,,185_190, 5.28
+,,190_195, 4.62
+,,195_200, 4.62
+,,200_205, 4.62
+,,205_210, 4.62
+,,210_215, 4.62
+,,215_220, 4.62
+,,220_225, 4.62
+,,225_230, 4.62
+,,230_235, 4.62
+,,235_240, 5.28
+,,240_245, 4.62
+,,245_250, 4.62
+,,250_255, 4.62
+,,255_260, 4.62
+,,260_265, 4.62
+,,265_270, 4.62
+,,270_275, 4.62
+,,275_280, 4.62
+,,280_285, 4.62
+,,285_290, 4.62
+,,290_295, 4.62
+,,295_300, 4.62
+,,300_305, 4.62
+,,305_310, 4.62
+,,310_315, 4.62
+,,315_320, 4.62
+,,320_325, 4.62
+,,325_330, 4.62
+,,335_340, 4.62
+,,350_355, 4.62
+,,355_360, 5.28
+Category,Travel Time Bin (5 min Interval),90th Percentile Travel Time Per Mile (min/mile),
+,,10_15, 5.28
+,,15_20, 7.27
+,,20_25,11.23
+,,25_30,11.82
+,,30_35,17.24
+,,35_40,17.83
+,,40_45,17.24
+,,45_50,23.12
+,,55_60,13.28
+,,60_65,14.53
+,,70_75,14.53
+,,75_80,17.17
+,,80_85,17.83
+,,90_95, 4.62
+,,95_100,40.95
+,,100_105, 4.62
+,,105_110,15.85
+,,110_115, 4.62
+,,140_145, 5.28
+,,145_150, 5.28
+,,150_155, 5.28
+,,155_160, 5.28
+,,160_165, 5.28
+,,170_175,41.61
+,,175_180, 4.62
+,,180_185, 5.28
+,,185_190, 5.28
+,,190_195, 4.62
+,,195_200, 4.62
+,,200_205, 4.62
+,,205_210, 4.62
+,,210_215, 4.62
+,,215_220, 4.62
+,,220_225, 4.62
+,,225_230, 4.62
+,,230_235, 4.62
+,,235_240, 5.28
+,,240_245, 4.62
+,,245_250, 4.62
+,,250_255, 4.62
+,,255_260, 4.62
+,,260_265, 4.62
+,,265_270, 4.62
+,,270_275, 4.62
+,,275_280, 4.62
+,,280_285, 4.62
+,,285_290, 4.62
+,,290_295, 4.62
+,,295_300, 4.62
+,,300_305, 4.62
+,,305_310, 4.62
+,,310_315, 4.62
+,,315_320, 4.62
+,,320_325, 4.62
+,,325_330, 4.62
+,,335_340, 4.62
+,,350_355, 4.62
+,,355_360, 5.28
+Category,Travel Time Bin (5 min Interval),80th Percentile Travel Time Per Mile (min/mile),
+,,10_15, 5.28
+,,15_20, 7.27
+,,20_25,11.23
+,,25_30,11.23
+,,30_35,17.24
+,,35_40,17.83
+,,40_45,13.87
+,,45_50,23.12
+,,55_60,13.28
+,,60_65,14.53
+,,70_75,14.53
+,,75_80,17.17
+,,80_85,17.83
+,,90_95, 4.62
+,,95_100,40.95
+,,100_105, 4.62
+,,105_110,15.85
+,,110_115, 4.62
+,,140_145, 5.28
+,,145_150, 5.28
+,,150_155, 5.28
+,,155_160, 5.28
+,,160_165, 5.28
+,,170_175,41.61
+,,175_180, 4.62
+,,180_185, 5.28
+,,185_190, 5.28
+,,190_195, 4.62
+,,195_200, 4.62
+,,200_205, 4.62
+,,205_210, 4.62
+,,210_215, 4.62
+,,215_220, 4.62
+,,220_225, 4.62
+,,225_230, 4.62
+,,230_235, 4.62
+,,235_240, 5.28
+,,240_245, 4.62
+,,245_250, 4.62
+,,250_255, 4.62
+,,255_260, 4.62
+,,260_265, 4.62
+,,265_270, 4.62
+,,270_275, 4.62
+,,275_280, 4.62
+,,280_285, 4.62
+,,285_290, 4.62
+,,290_295, 4.62
+,,295_300, 4.62
+,,300_305, 4.62
+,,305_310, 4.62
+,,310_315, 4.62
+,,315_320, 4.62
+,,320_325, 4.62
+,,325_330, 4.62
+,,335_340, 4.62
+,,350_355, 4.62
+,,355_360, 5.28
+Category,Travel Time Bin (5 min Interval),Total Generalized Time:TT+Toll/VOT (min),
+,,10_15,77.31
+,,15_20,66.72
+,,20_25,111.71
+,,25_30,188.27
+,,30_35,164.21
+,,35_40,184.33
+,,40_45,255.12
+,,45_50,237.99
+,,55_60,230.66
+,,60_65,124.73
+,,70_75,74.09
+,,75_80,152.77
+,,80_85,328.49
+,,90_95,94.46
+,,95_100,190.62
+,,100_105,100.62
+,,105_110,424.27
+,,110_115,338.00
+,,140_145,288.36
+,,145_150,443.45
+,,150_155,914.18
+,,155_160,475.64
+,,160_165,322.18
+,,170_175,344.57
+,,175_180,179.11
+,,180_185,548.67
+,,185_190,373.47
+,,190_195,767.27
+,,195_200,591.61
+,,200_205,407.20
+,,205_210,413.94
+,,210_215,634.27
+,,215_220,653.89
+,,220_225,444.18
+,,225_230,682.02
+,,230_235,696.43
+,,235_240,477.24
+,,240_245,728.94
+,,245_250,744.25
+,,250_255,252.09
+,,255_260,515.88
+,,260_265,523.48
+,,265_270,801.95
+,,270_275,816.85
+,,275_280,277.91
+,,280_285,1132.25
+,,285_290,861.54
+,,290_295,584.17
+,,295_300,895.57
+,,300_305,302.00
+,,305_310,923.35
+,,310_315,624.08
+,,315_320,634.35
+,,320_325,970.94
+,,325_330,655.66
+,,335_340,337.71
+,,350_355,352.29
+,,355_360,356.27
+Category,Travel Time Bin (5 min Interval),Avg Generalized Travel Time:TT+Toll/VOT (min),
+,,10_15,12.88
+,,15_20,16.68
+,,20_25,22.34
+,,25_30,26.90
+,,30_35,32.84
+,,35_40,36.87
+,,40_45,42.52
+,,45_50,47.60
+,,55_60,57.67
+,,60_65,62.36
+,,70_75,74.09
+,,75_80,76.39
+,,80_85,82.12
+,,90_95,94.46
+,,95_100,95.31
+,,100_105,100.62
+,,105_110,106.07
+,,110_115,112.67
+,,140_145,144.18
+,,145_150,147.82
+,,150_155,152.36
+,,155_160,158.55
+,,160_165,161.09
+,,170_175,172.29
+,,175_180,179.11
+,,180_185,182.89
+,,185_190,186.74
+,,190_195,191.82
+,,195_200,197.20
+,,200_205,203.60
+,,205_210,206.97
+,,210_215,211.42
+,,215_220,217.96
+,,220_225,222.09
+,,225_230,227.34
+,,230_235,232.14
+,,235_240,238.62
+,,240_245,242.98
+,,245_250,248.08
+,,250_255,252.09
+,,255_260,257.94
+,,260_265,261.74
+,,265_270,267.32
+,,270_275,272.28
+,,275_280,277.91
+,,280_285,283.06
+,,285_290,287.18
+,,290_295,292.09
+,,295_300,298.52
+,,300_305,302.00
+,,305_310,307.78
+,,310_315,312.04
+,,315_320,317.17
+,,320_325,323.65
+,,325_330,327.83
+,,335_340,337.71
+,,350_355,352.29
+,,355_360,356.27
+Category,Travel Time Bin (5 min Interval),Total Energy (KJ),
+,,10_15,133952.91
+,,15_20,118895.22
+,,20_25,190676.47
+,,25_30,318171.06
+,,30_35,254741.88
+,,35_40,288747.00
+,,40_45,393602.66
+,,45_50,333263.97
+,,55_60,319356.91
+,,60_65,178754.73
+,,70_75,106871.15
+,,75_80,221139.95
+,,80_85,430338.13
+,,90_95,92326.88
+,,95_100,178273.95
+,,100_105,97943.85
+,,105_110,403839.44
+,,110_115,343582.59
+,,140_145,285715.25
+,,145_150,421132.69
+,,150_155,863522.56
+,,155_160,499424.72
+,,160_165,345350.84
+,,170_175,318105.88
+,,175_180,152431.41
+,,180_185,504178.31
+,,185_190,339490.09
+,,190_195,732682.50
+,,195_200,521622.44
+,,200_205,358417.50
+,,205_210,394243.63
+,,210_215,579768.00
+,,215_220,622222.94
+,,220_225,384452.75
+,,225_230,675686.56
+,,230_235,631865.50
+,,235_240,401851.00
+,,240_245,631766.88
+,,245_250,627307.94
+,,250_255,211559.64
+,,255_260,441084.94
+,,260_265,483669.88
+,,265_270,679247.94
+,,270_275,727321.63
+,,275_280,238885.84
+,,280_285,963958.38
+,,285_290,738630.63
+,,290_295,494482.94
+,,295_300,795563.94
+,,300_305,293681.84
+,,305_310,761959.50
+,,310_315,516849.81
+,,315_320,532187.75
+,,320_325,800334.50
+,,325_330,538967.19
+,,335_340,270506.34
+,,350_355,280091.56
+,,355_360,283358.69
+Category,Travel Time Bin (5 min Interval),Total CO2 (g),
+,,10_15,9626.75
+,,15_20,8544.60
+,,20_25,13703.28
+,,25_30,22865.89
+,,30_35,18307.44
+,,35_40,20751.28
+,,40_45,28286.91
+,,45_50,23950.57
+,,55_60,22951.11
+,,60_65,12846.51
+,,70_75,7680.47
+,,75_80,15892.58
+,,80_85,30926.97
+,,90_95,6635.23
+,,95_100,12811.96
+,,100_105,7038.90
+,,105_110,29022.60
+,,110_115,24692.13
+,,140_145,20533.40
+,,145_150,30265.41
+,,150_155,62058.49
+,,155_160,35891.98
+,,160_165,24819.20
+,,170_175,22861.21
+,,175_180,10954.74
+,,180_185,36233.60
+,,185_190,24398.02
+,,190_195,52655.43
+,,195_200,37487.27
+,,200_205,25758.27
+,,205_210,28332.96
+,,210_215,41665.98
+,,215_220,44717.06
+,,220_225,27629.34
+,,225_230,48559.30
+,,230_235,45410.05
+,,235_240,28879.70
+,,240_245,45402.98
+,,245_250,45082.53
+,,250_255,15204.09
+,,255_260,31699.31
+,,260_265,34759.72
+,,265_270,48815.29
+,,270_275,52270.16
+,,275_280,17167.93
+,,280_285,69276.48
+,,285_290,53082.92
+,,290_295,35536.84
+,,295_300,57174.51
+,,300_305,21105.91
+,,305_310,54759.48
+,,310_315,37144.27
+,,315_320,38246.57
+,,320_325,57517.37
+,,325_330,38733.78
+,,335_340,19440.39
+,,350_355,20129.25
+,,355_360,20364.04
+Category,Travel Time Bin (5 min Interval),Total NOx (g),
+,,10_15, 1.24
+,,15_20, 0.87
+,,20_25, 1.81
+,,25_30, 3.50
+,,30_35, 3.12
+,,35_40, 2.79
+,,40_45, 2.71
+,,45_50, 2.03
+,,55_60, 2.64
+,,60_65, 1.11
+,,70_75, 0.72
+,,75_80, 3.09
+,,80_85, 2.46
+,,90_95, 0.27
+,,95_100, 0.44
+,,100_105, 0.31
+,,105_110, 1.06
+,,110_115, 2.02
+,,140_145, 0.69
+,,145_150, 0.96
+,,150_155, 1.94
+,,155_160, 3.28
+,,160_165, 2.83
+,,170_175, 0.80
+,,175_180, 0.23
+,,180_185, 2.49
+,,185_190, 0.72
+,,190_195, 4.79
+,,195_200, 1.00
+,,200_205, 0.68
+,,205_210, 2.59
+,,210_215, 2.90
+,,215_220, 4.67
+,,220_225, 0.68
+,,225_230, 6.70
+,,230_235, 2.95
+,,235_240, 0.56
+,,240_245, 1.12
+,,245_250, 0.93
+,,250_255, 0.30
+,,255_260, 0.74
+,,260_265, 2.95
+,,265_270, 1.03
+,,270_275, 3.25
+,,275_280, 0.43
+,,280_285, 1.49
+,,285_290, 1.20
+,,290_295, 0.76
+,,295_300, 3.57
+,,300_305, 2.79
+,,305_310, 0.93
+,,310_315, 0.66
+,,315_320, 0.79
+,,320_325, 0.94
+,,325_330, 0.60
+,,335_340, 0.22
+,,350_355, 0.20
+,,355_360, 0.21
+Category,Travel Time Bin (5 min Interval),Total CO (g),
+,,10_15,53.48
+,,15_20,52.56
+,,20_25,80.58
+,,25_30,134.63
+,,30_35,100.63
+,,35_40,116.63
+,,40_45,172.47
+,,45_50,127.44
+,,55_60,116.93
+,,60_65,69.25
+,,70_75,43.85
+,,75_80,81.36
+,,80_85,158.75
+,,90_95,18.94
+,,95_100,34.40
+,,100_105,22.47
+,,105_110,79.18
+,,110_115,64.78
+,,140_145,45.25
+,,145_150,69.08
+,,150_155,145.32
+,,155_160,101.84
+,,160_165,69.46
+,,170_175,66.66
+,,175_180,23.60
+,,180_185,81.67
+,,185_190,60.02
+,,190_195,125.27
+,,195_200,91.27
+,,200_205,61.63
+,,205_210,64.38
+,,210_215,93.91
+,,215_220,93.94
+,,220_225,63.47
+,,225_230,100.80
+,,230_235,98.75
+,,235_240,59.28
+,,240_245,103.86
+,,245_250,95.50
+,,250_255,32.18
+,,255_260,72.77
+,,260_265,76.07
+,,265_270,104.19
+,,270_275,105.99
+,,275_280,39.61
+,,280_285,148.54
+,,285_290,118.05
+,,290_295,77.64
+,,295_300,119.58
+,,300_305,40.65
+,,305_310,107.34
+,,310_315,74.61
+,,315_320,82.08
+,,320_325,110.92
+,,325_330,71.94
+,,335_340,31.99
+,,350_355,32.08
+,,355_360,32.07
+Category,Travel Time Bin (5 min Interval),Total HC (g),
+,,10_15, 0.43
+,,15_20, 0.37
+,,20_25, 0.65
+,,25_30, 1.16
+,,30_35, 0.98
+,,35_40, 0.97
+,,40_45, 1.17
+,,45_50, 0.84
+,,55_60, 0.97
+,,60_65, 0.46
+,,70_75, 0.30
+,,75_80, 0.89
+,,80_85, 1.04
+,,90_95, 0.10
+,,95_100, 0.16
+,,100_105, 0.12
+,,105_110, 0.38
+,,110_115, 0.65
+,,140_145, 0.20
+,,145_150, 0.30
+,,150_155, 0.65
+,,155_160, 1.01
+,,160_165, 0.85
+,,170_175, 0.33
+,,175_180, 0.09
+,,180_185, 0.81
+,,185_190, 0.27
+,,190_195, 1.55
+,,195_200, 0.39
+,,200_205, 0.26
+,,205_210, 0.82
+,,210_215, 0.94
+,,215_220, 1.47
+,,220_225, 0.25
+,,225_230, 2.13
+,,230_235, 0.98
+,,235_240, 0.21
+,,240_245, 0.42
+,,245_250, 0.34
+,,250_255, 0.12
+,,255_260, 0.29
+,,260_265, 0.97
+,,265_270, 0.38
+,,270_275, 1.07
+,,275_280, 0.16
+,,280_285, 0.55
+,,285_290, 0.46
+,,290_295, 0.29
+,,295_300, 1.20
+,,300_305, 0.90
+,,305_310, 0.34
+,,310_315, 0.25
+,,315_320, 0.30
+,,320_325, 0.35
+,,325_330, 0.21
+,,335_340, 0.07
+,,350_355, 0.06
+,,355_360, 0.06
+Category,Travel Time Bin (5 min Interval),Total Gallon,
+,,10_15, 1.10
+,,15_20, 0.98
+,,20_25, 1.57
+,,25_30, 2.61
+,,30_35, 2.09
+,,35_40, 2.37
+,,40_45, 3.23
+,,45_50, 2.74
+,,55_60, 2.62
+,,60_65, 1.47
+,,70_75, 0.88
+,,75_80, 1.82
+,,80_85, 3.54
+,,90_95, 0.76
+,,95_100, 1.46
+,,100_105, 0.80
+,,105_110, 3.32
+,,110_115, 2.82
+,,140_145, 2.35
+,,145_150, 3.46
+,,150_155, 7.10
+,,155_160, 4.10
+,,160_165, 2.84
+,,170_175, 2.61
+,,175_180, 1.25
+,,180_185, 4.14
+,,185_190, 2.79
+,,190_195, 6.02
+,,195_200, 4.29
+,,200_205, 2.95
+,,205_210, 3.24
+,,210_215, 4.76
+,,215_220, 5.11
+,,220_225, 3.16
+,,225_230, 5.55
+,,230_235, 5.19
+,,235_240, 3.30
+,,240_245, 5.19
+,,245_250, 5.15
+,,250_255, 1.74
+,,255_260, 3.62
+,,260_265, 3.97
+,,265_270, 5.58
+,,270_275, 5.98
+,,275_280, 1.96
+,,280_285, 7.92
+,,285_290, 6.07
+,,290_295, 4.06
+,,295_300, 6.54
+,,300_305, 2.41
+,,305_310, 6.26
+,,310_315, 4.25
+,,315_320, 4.37
+,,320_325, 6.58
+,,325_330, 4.43
+,,335_340, 2.22
+,,350_355, 2.30
+,,355_360, 2.33
+Category,Travel Time Bin (5 min Interval),Avg Energy (KJ/vehicle/mile),
+,,10_15,14747.00
+,,15_20,19633.93
+,,20_25,25190.10
+,,25_30,30023.79
+,,30_35,33653.73
+,,35_40,38146.12
+,,40_45,43332.09
+,,45_50,44027.21
+,,55_60,52737.45
+,,60_65,59037.83
+,,70_75,70593.27
+,,75_80,73036.52
+,,80_85,71064.49
+,,90_95,60986.11
+,,95_100,58879.04
+,,100_105,64696.38
+,,105_110,66688.59
+,,110_115,75650.66
+,,140_145,94363.98
+,,145_150,92725.78
+,,150_155,95066.01
+,,155_160,109964.27
+,,160_165,114060.00
+,,170_175,105061.73
+,,175_180,100687.90
+,,180_185,111010.93
+,,185_190,112124.35
+,,190_195,120992.55
+,,195_200,114851.80
+,,200_205,118375.56
+,,205_210,130207.95
+,,210_215,127654.41
+,,215_220,137002.22
+,,220_225,126974.30
+,,225_230,148773.94
+,,230_235,139125.33
+,,235_240,132720.47
+,,240_245,139103.61
+,,245_250,138121.84
+,,250_255,139744.80
+,,255_260,145678.36
+,,260_265,159743.02
+,,265_270,149558.08
+,,270_275,160143.05
+,,275_280,157795.00
+,,280_285,159184.63
+,,285_290,162633.08
+,,290_295,163314.28
+,,295_300,175168.77
+,,300_305,193990.27
+,,305_310,167769.67
+,,310_315,170701.45
+,,315_320,175767.16
+,,320_325,176219.16
+,,325_330,178006.22
+,,335_340,178681.78
+,,350_355,185013.27
+,,355_360,187171.34
+Category,Travel Time Bin (5 min Interval),Avg CO2 (g/vehicle/mile),
+,,10_15,1059.82
+,,15_20,1411.03
+,,20_25,1810.33
+,,25_30,2157.71
+,,30_35,2418.58
+,,35_40,2741.43
+,,40_45,3114.13
+,,45_50,3164.09
+,,55_60,3790.06
+,,60_65,4242.85
+,,70_75,5073.30
+,,75_80,5248.89
+,,80_85,5107.17
+,,90_95,4382.87
+,,95_100,4231.44
+,,100_105,4649.52
+,,105_110,4792.69
+,,110_115,5436.76
+,,140_145,6781.62
+,,145_150,6663.89
+,,150_155,6832.08
+,,155_160,7902.76
+,,160_165,8197.11
+,,170_175,7550.44
+,,175_180,7236.10
+,,180_185,7977.98
+,,185_190,8058.00
+,,190_195,8695.33
+,,195_200,8254.02
+,,200_205,8507.26
+,,205_210,9357.61
+,,210_215,9174.09
+,,215_220,9845.89
+,,220_225,9125.22
+,,225_230,10691.88
+,,230_235,9998.47
+,,235_240,9538.18
+,,240_245,9996.91
+,,245_250,9926.36
+,,250_255,10042.99
+,,255_260,10469.42
+,,260_265,11480.19
+,,265_270,10748.24
+,,270_275,11508.94
+,,275_280,11340.20
+,,280_285,11440.07
+,,285_290,11687.90
+,,290_295,11736.85
+,,295_300,12588.79
+,,300_305,13941.42
+,,305_310,12057.05
+,,310_315,12267.74
+,,315_320,12631.80
+,,320_325,12664.28
+,,325_330,12792.71
+,,335_340,12841.26
+,,350_355,13296.29
+,,355_360,13451.38
+Category,Travel Time Bin (5 min Interval),Avg NOx (g/vehicle/mile),
+,,10_15, 0.14
+,,15_20, 0.14
+,,20_25, 0.24
+,,25_30, 0.33
+,,30_35, 0.41
+,,35_40, 0.37
+,,40_45, 0.30
+,,45_50, 0.27
+,,55_60, 0.44
+,,60_65, 0.37
+,,70_75, 0.48
+,,75_80, 1.02
+,,80_85, 0.41
+,,90_95, 0.18
+,,95_100, 0.15
+,,100_105, 0.20
+,,105_110, 0.18
+,,110_115, 0.44
+,,140_145, 0.23
+,,145_150, 0.21
+,,150_155, 0.21
+,,155_160, 0.72
+,,160_165, 0.93
+,,170_175, 0.26
+,,175_180, 0.15
+,,180_185, 0.55
+,,185_190, 0.24
+,,190_195, 0.79
+,,195_200, 0.22
+,,200_205, 0.22
+,,205_210, 0.86
+,,210_215, 0.64
+,,215_220, 1.03
+,,220_225, 0.22
+,,225_230, 1.48
+,,230_235, 0.65
+,,235_240, 0.18
+,,240_245, 0.25
+,,245_250, 0.21
+,,250_255, 0.20
+,,255_260, 0.24
+,,260_265, 0.97
+,,265_270, 0.23
+,,270_275, 0.72
+,,275_280, 0.29
+,,280_285, 0.25
+,,285_290, 0.26
+,,290_295, 0.25
+,,295_300, 0.79
+,,300_305, 1.85
+,,305_310, 0.20
+,,310_315, 0.22
+,,315_320, 0.26
+,,320_325, 0.21
+,,325_330, 0.20
+,,335_340, 0.15
+,,350_355, 0.13
+,,355_360, 0.14
+Category,Travel Time Bin (5 min Interval),Avg CO (g/vehicle/mile),
+,,10_15, 5.89
+,,15_20, 8.68
+,,20_25,10.65
+,,25_30,12.70
+,,30_35,13.29
+,,35_40,15.41
+,,40_45,18.99
+,,45_50,16.84
+,,55_60,19.31
+,,60_65,22.87
+,,70_75,28.97
+,,75_80,26.87
+,,80_85,26.22
+,,90_95,12.51
+,,95_100,11.36
+,,100_105,14.84
+,,105_110,13.08
+,,110_115,14.26
+,,140_145,14.94
+,,145_150,15.21
+,,150_155,16.00
+,,155_160,22.42
+,,160_165,22.94
+,,170_175,22.02
+,,175_180,15.59
+,,180_185,17.98
+,,185_190,19.82
+,,190_195,20.69
+,,195_200,20.10
+,,200_205,20.35
+,,205_210,21.26
+,,210_215,20.68
+,,215_220,20.68
+,,220_225,20.96
+,,225_230,22.19
+,,230_235,21.74
+,,235_240,19.58
+,,240_245,22.87
+,,245_250,21.03
+,,250_255,21.26
+,,255_260,24.04
+,,260_265,25.12
+,,265_270,22.94
+,,270_275,23.34
+,,275_280,26.16
+,,280_285,24.53
+,,285_290,25.99
+,,290_295,25.64
+,,295_300,26.33
+,,300_305,26.85
+,,305_310,23.63
+,,310_315,24.64
+,,315_320,27.11
+,,320_325,24.42
+,,325_330,23.76
+,,335_340,21.13
+,,350_355,21.19
+,,355_360,21.18
+Category,Travel Time Bin (5 min Interval),Avg HC (g/vehicle/mile),
+,,10_15, 0.05
+,,15_20, 0.06
+,,20_25, 0.09
+,,25_30, 0.11
+,,30_35, 0.13
+,,35_40, 0.13
+,,40_45, 0.13
+,,45_50, 0.11
+,,55_60, 0.16
+,,60_65, 0.15
+,,70_75, 0.19
+,,75_80, 0.29
+,,80_85, 0.17
+,,90_95, 0.06
+,,95_100, 0.05
+,,100_105, 0.08
+,,105_110, 0.06
+,,110_115, 0.14
+,,140_145, 0.07
+,,145_150, 0.07
+,,150_155, 0.07
+,,155_160, 0.22
+,,160_165, 0.28
+,,170_175, 0.11
+,,175_180, 0.06
+,,180_185, 0.18
+,,185_190, 0.09
+,,190_195, 0.26
+,,195_200, 0.09
+,,200_205, 0.09
+,,205_210, 0.27
+,,210_215, 0.21
+,,215_220, 0.32
+,,220_225, 0.08
+,,225_230, 0.47
+,,230_235, 0.22
+,,235_240, 0.07
+,,240_245, 0.09
+,,245_250, 0.08
+,,250_255, 0.08
+,,255_260, 0.10
+,,260_265, 0.32
+,,265_270, 0.08
+,,270_275, 0.24
+,,275_280, 0.11
+,,280_285, 0.09
+,,285_290, 0.10
+,,290_295, 0.10
+,,295_300, 0.26
+,,300_305, 0.59
+,,305_310, 0.08
+,,310_315, 0.08
+,,315_320, 0.10
+,,320_325, 0.08
+,,325_330, 0.07
+,,335_340, 0.05
+,,350_355, 0.04
+,,355_360, 0.04
+Category,Travel Time Bin (5 min Interval),Avg Miles per Gallon,
+,,10_15, 8.25
+,,15_20, 6.06
+,,20_25, 4.83
+,,25_30, 4.05
+,,30_35, 3.62
+,,35_40, 3.19
+,,40_45, 2.81
+,,45_50, 2.76
+,,55_60, 2.31
+,,60_65, 2.06
+,,70_75, 1.51
+,,75_80, 1.67
+,,80_85, 1.71
+,,90_95, 1.51
+,,95_100, 2.07
+,,100_105, 1.51
+,,105_110, 1.82
+,,110_115, 1.61
+,,140_145, 1.29
+,,145_150, 1.31
+,,150_155, 1.28
+,,155_160, 1.11
+,,160_165, 1.07
+,,170_175, 1.16
+,,175_180, 1.21
+,,180_185, 1.10
+,,185_190, 1.09
+,,190_195, 1.01
+,,195_200, 1.06
+,,200_205, 1.03
+,,205_210, 0.93
+,,210_215, 0.95
+,,215_220, 0.89
+,,220_225, 0.96
+,,225_230, 0.82
+,,230_235, 0.87
+,,235_240, 0.92
+,,240_245, 0.87
+,,245_250, 0.88
+,,250_255, 0.87
+,,255_260, 0.84
+,,260_265, 0.76
+,,265_270, 0.81
+,,270_275, 0.76
+,,275_280, 0.77
+,,280_285, 0.76
+,,285_290, 0.75
+,,290_295, 0.75
+,,295_300, 0.69
+,,300_305, 0.63
+,,305_310, 0.73
+,,310_315, 0.71
+,,315_320, 0.69
+,,320_325, 0.69
+,,325_330, 0.68
+,,335_340, 0.68
+,,350_355, 0.66
+,,355_360, 0.65

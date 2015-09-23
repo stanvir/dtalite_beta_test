@@ -1,0 +1,219 @@
+--- Current Directory: C:\Software_release\sample_data_sets\1.Introduction_to_Traffic_Modeling_Lession1.1_West_Jordan\Salt_Lake_City_West_Jordan ---
+
+---DTALite: A Fast Open-Source DTA Simulation Engine---
+Version 1.1.0, Release Date Jun  8 2015.
+Simulation Horizon (min) = 1350
+Departure Time Interval (min) = 15
+Number of Iterations = 1
+Continuous Flow with Link Capacity Constrai
+Traffic Flow Model =  Newell's Cumulative Flow Count Model + Emissions Output
+Step 1: Reading file input_node.csv...
+Step 2: Reading file input_link_type.csv..
+Step 3: Reading file input_link.csv...
+Step 5: Reading file input_activity_location.csv...
+1 -> 5577
+2 -> 11123
+3 -> 11159
+4 -> 11180
+5 -> 11282
+6 -> 5238
+7 -> 11281
+8 -> 10847
+9 -> 5356
+10 -> 5929
+11 -> 5119
+12 -> 11151
+13 -> 5034
+14 -> 5037
+15 -> 4899
+16 -> 11827
+17 -> 1289
+18 -> 1286
+19 -> 1352
+20 -> 1356
+20 -> 1357
+21 -> 6253
+22 -> 3689
+23 -> 1361
+24 -> 1325
+25 -> 1354
+25 -> 1355
+26 -> 1323
+27 -> 1346
+27 -> 1348
+28 -> 1359
+29 -> 3002
+30 -> 1360
+31 -> 1314
+31 -> 1316
+31 -> 1318
+31 -> 8002
+31 -> 8116
+32 -> 1285
+33 -> 1351
+34 -> 1319
+34 -> 1320
+34 -> 1322
+35 -> 1290
+36 -> 1299
+37 -> 1349
+37 -> 1353
+38 -> 1397
+39 -> 1404
+40 -> 1296
+41 -> 5578
+Zone 31 has a maximum of5 connectors:
+Step 6: Reading file input_vehicle_type.csv...
+Step 7.1: Reading file input_demand_type.csv...
+The following freeway/highway bottlenecks are identified.
+Reading file sensor_count.csv and sensor_speed.csv with 78 valid sensor records.
+Step 10: Reading files  based on user settings in  meta database file...
+ -- zone-specific demand data -- 
+Zone 1,demand =951.000, agent count =951
+Zone 2,demand =713.000, agent count =713
+Zone 3,demand =1417.000, agent count =1417
+Zone 4,demand =69.000, agent count =69
+Zone 5,demand =496.000, agent count =496
+Zone 6,demand =665.000, agent count =665
+Zone 7,demand =469.000, agent count =469
+Zone 8,demand =73.000, agent count =73
+Zone 9,demand =335.000, agent count =335
+Zone 10,demand =28.000, agent count =28
+Zone 11,demand =433.000, agent count =433
+Zone 12,demand =316.000, agent count =316
+Zone 13,demand =231.000, agent count =231
+Zone 14,demand =280.000, agent count =280
+Zone 15,demand =113.000, agent count =113
+Zone 16,demand =133.000, agent count =133
+Zone 17,demand =723.000, agent count =723
+Zone 18,demand =379.000, agent count =379
+Zone 19,demand =254.000, agent count =254
+Zone 20,demand =194.000, agent count =194
+Zone 21,demand =187.000, agent count =187
+Zone 24,demand =92.000, agent count =92
+Zone 25,demand =260.000, agent count =260
+Zone 26,demand =213.000, agent count =213
+Zone 27,demand =447.000, agent count =447
+Zone 28,demand =296.000, agent count =296
+Zone 30,demand =4.000, agent count =4
+Zone 31,demand =496.000, agent count =496
+Zone 32,demand =426.000, agent count =426
+Zone 33,demand =155.000, agent count =155
+Zone 34,demand =529.000, agent count =529
+Zone 35,demand =193.000, agent count =193
+Zone 36,demand =86.000, agent count =86
+Zone 37,demand =490.000, agent count =490
+Zone 38,demand =34.000, agent count =34
+Zone 39,demand =23.000, agent count =23
+Zone 40,demand =3.000, agent count =3
+Zone 41,demand =432.000, agent count =432
+Number of Zones = 41
+Number of Nodes = 149
+Number of Links = 378
+Number of Vehicles to be Simulated = 12638
+Demand Loading Period = 930 min -> 1050 min.
+Number of Vehicle Types = 5
+Number of Demand Types = 4
+Number of VOT records = 0
+Reading file Scenario_Incident.csv
+incident records = 0
+Reading file Scenario_Work_Zone.csv
+work zone records = 0
+Reading file Scenario_Ramp_Meter.csv
+ramp meter records = 0
+Reading file Scenario_Dynamic_Message_Sign.csv
+VMS records = 0
+:: start assignment CPU Clock: 00:00:26 --
+simulation clock: 15:30, # of vehicles  -- Generated: 3, In network: 3
+ -- CPU Clock: 00:00:26 --
+simulation clock: 15:35, # of vehicles  -- Generated: 314, In network: 277
+simulation clock: 15:40, # of vehicles  -- Generated: 884, In network: 621
+simulation clock: 15:45, # of vehicles  -- Generated: 1420, In network: 751
+simulation clock: 15:50, # of vehicles  -- Generated: 1967, In network: 865
+simulation clock: 15:55, # of vehicles  -- Generated: 2515, In network: 1008
+simulation clock: 16:00, # of vehicles  -- Generated: 3082, In network: 1165
+simulation clock: 16:05, # of vehicles  -- Generated: 3600, In network: 1267
+simulation clock: 16:10, # of vehicles  -- Generated: 4186, In network: 1440
+simulation clock: 16:15, # of vehicles  -- Generated: 4692, In network: 1553
+simulation clock: 16:20, # of vehicles  -- Generated: 5225, In network: 1682
+simulation clock: 16:25, # of vehicles  -- Generated: 5776, In network: 1857
+simulation clock: 16:30, # of vehicles  -- Generated: 6380, In network: 2042
+ -- CPU Clock: 00:00:36 --
+simulation clock: 16:35, # of vehicles  -- Generated: 6834, In network: 2125
+simulation clock: 16:40, # of vehicles  -- Generated: 7422, In network: 2326
+simulation clock: 16:45, # of vehicles  -- Generated: 7936, In network: 2491
+simulation clock: 16:50, # of vehicles  -- Generated: 8546, In network: 2792
+simulation clock: 16:55, # of vehicles  -- Generated: 9031, In network: 2955
+simulation clock: 17:00, # of vehicles  -- Generated: 9668, In network: 3254
+simulation clock: 17:05, # of vehicles  -- Generated: 10139, In network: 3387
+simulation clock: 17:10, # of vehicles  -- Generated: 10723, In network: 3659
+simulation clock: 17:15, # of vehicles  -- Generated: 11265, In network: 3900
+simulation clock: 17:20, # of vehicles  -- Generated: 11820, In network: 4144
+simulation clock: 17:25, # of vehicles  -- Generated: 12351, In network: 4380
+simulation clock: 17:30, # of vehicles  -- Generated: 12638, In network: 4373
+ -- CPU Clock: 00:00:39 --
+simulation clock: 17:35, # of vehicles  -- Generated: 12638, In network: 4089
+simulation clock: 17:40, # of vehicles  -- Generated: 12638, In network: 3819
+simulation clock: 17:45, # of vehicles  -- Generated: 12638, In network: 3578
+simulation clock: 17:50, # of vehicles  -- Generated: 12638, In network: 3313
+simulation clock: 17:55, # of vehicles  -- Generated: 12638, In network: 3044
+simulation clock: 18:00, # of vehicles  -- Generated: 12638, In network: 2794
+simulation clock: 18:05, # of vehicles  -- Generated: 12638, In network: 2534
+simulation clock: 18:10, # of vehicles  -- Generated: 12638, In network: 2280
+simulation clock: 18:15, # of vehicles  -- Generated: 12638, In network: 2034
+simulation clock: 18:20, # of vehicles  -- Generated: 12638, In network: 1817
+simulation clock: 18:25, # of vehicles  -- Generated: 12638, In network: 1592
+simulation clock: 18:30, # of vehicles  -- Generated: 12638, In network: 1362
+ -- CPU Clock: 00:00:41 --
+simulation clock: 18:35, # of vehicles  -- Generated: 12638, In network: 974
+simulation clock: 18:40, # of vehicles  -- Generated: 12638, In network: 625
+simulation clock: 18:45, # of vehicles  -- Generated: 12638, In network: 369
+simulation clock: 18:50, # of vehicles  -- Generated: 12638, In network: 140
+simulation clock: 18:55, # of vehicles  -- Generated: 12638, In network: 2
+simulation clock: 19:00, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:05, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:10, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:15, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:20, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:25, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:30, # of vehicles  -- Generated: 12638, In network: 0
+ -- CPU Clock: 00:00:58 --
+simulation clock: 19:35, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:40, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:45, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:50, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 19:55, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:00, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:05, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:10, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:15, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:20, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:25, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:30, # of vehicles  -- Generated: 12638, In network: 0
+ -- CPU Clock: 00:01:01 --
+simulation clock: 20:35, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:40, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:45, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:50, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 20:55, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:00, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:05, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:10, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:15, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:20, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:25, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:30, # of vehicles  -- Generated: 12638, In network: 0
+ -- CPU Clock: 00:01:02 --
+simulation clock: 21:35, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:40, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:45, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:50, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 21:55, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:00, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:05, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:10, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:15, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:20, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:25, # of vehicles  -- Generated: 12638, In network: 0
+simulation clock: 22:30, # of vehicles  -- Generated: 12638, In network: 0
+ -- CPU Clock: 00:01:04 --

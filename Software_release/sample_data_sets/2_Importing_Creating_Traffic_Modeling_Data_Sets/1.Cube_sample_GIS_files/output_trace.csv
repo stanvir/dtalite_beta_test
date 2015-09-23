@@ -1,0 +1,1 @@
+trace_id,trip_id,from_zone_id,to_zone_id,departure_time_in_min,arrival_time_in_min,trip_time_in_min,distance,number_of_nodes,node_sequence_node:timestamp,link_sequence_linkid_travel_time,GPS_geometry,geometry,demand_type,pricing_type,vehicle_type,information_type,value_of_time
