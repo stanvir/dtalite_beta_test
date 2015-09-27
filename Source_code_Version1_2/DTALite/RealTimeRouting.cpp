@@ -1233,7 +1233,7 @@ void g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(int VehicleID)
 void g_ReadRealTimeSimulationSettingsFile()
 {
 	CCSVParser parser_RTSimulation_settings;
-	if (parser_RTSimulation_settings.OpenCSVFile("input_simulation_schedule.csv", false))
+	if (parser_RTSimulation_settings.OpenCSVFile("input_scenario_settings.csv", false))
 	{
 
 		// we enable information updating for real-time simulation mode
@@ -1259,90 +1259,37 @@ void g_ReadRealTimeSimulationSettingsFile()
 
 			int day_no = 0;
 
-			int start_time_in_min = 0;
-			int end_time_in_min = 0;
+			int start_time_in_second = g_DemandLoadingStartTimeInMin * 60;
+			int end_time_in_second = g_DemandLoadingEndTimeInMin * 60;
 
+			int real_time_data_frequency_in_second = 1;
 
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("start_time_in_min", start_time_in_min);
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("end_time_in_min", end_time_in_min);
-
-			int start_time_in_second = start_time_in_min*60;
-			int end_time_in_second = end_time_in_min*60;
-
-			int RT_Output_LinkMOE = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Output_LinkMOE", RT_Output_LinkMOE);
-
+			parser_RTSimulation_settings.GetValueByFieldNameRequired("real_time_data_frequency_in_second", real_time_data_frequency_in_second);
+			int RT_Input_LinkAttribute = real_time_data_frequency_in_second;
+			int RT_Input_Update_Agent  = real_time_data_frequency_in_second;
+			
+			int RT_Output_LinkMOE = real_time_data_frequency_in_second;
 			_proxy_ABM_log(0, "-- output link MOE every %d (min)\n", RT_Output_LinkMOE/60);
 
-			int RT_Output_PathMOE = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Output_PathMOE", RT_Output_PathMOE);
-
-			int RT_Output_ODMOE = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Output_ODMOE", RT_Output_ODMOE);
-
-			int RT_Output_Complete_Agent = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Output_Complete_Trip_Agent", RT_Output_Complete_Agent);
-
-			int RT_Output_Tagged_Agent = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Output_Tagged_Agent", RT_Output_Tagged_Agent);
-
-			int RT_Input_LinkAttribute = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Input_LinkAttribute", RT_Input_LinkAttribute);
-
-			int RT_Input_Update_Agent = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Input_Update_Agent", RT_Input_Update_Agent);
-
-			int RT_Input_DMS = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Input_DMS", RT_Input_DMS);
-
-			int RT_Input_Routing_Policy = 1;
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("RT_Input_Routing_Policy", RT_Input_Routing_Policy);
+			int RT_Output_PathMOE = 15 * 60;
+			int RT_Output_ODMOE = 15 * 60;
+			int RT_Input_Routing_Policy = 15*60;
+			int RT_Output_Complete_Agent = real_time_data_frequency_in_second;
+			int RT_Output_Tagged_Agent = real_time_data_frequency_in_second;
+			int RT_Input_DMS = -1;
 
 			_proxy_ABM_log(0, "Real time link MOE output time period: %d->%d (sec),  %d->%d (min), for every %d sec \n", 
 				start_time_in_second, end_time_in_second, start_time_in_second / 60, end_time_in_second / 60, RT_Output_LinkMOE);
 
 			_proxy_ABM_log(0, "Real time path MOE output for every %d sec (%d min) \n", RT_Output_PathMOE, RT_Output_PathMOE / 60);
-
-			if (RT_Output_ODMOE ==0)
-				_proxy_ABM_log(0, "Real time OD MOE output: not used. Parameter  RT_Output_ODMOE=0\n");
-			else 
-				_proxy_ABM_log(0, "Real time OD MOE output for every %d sec  (%d min) \n", RT_Output_ODMOE , RT_Output_ODMOE / 60);
-
-			if (RT_Output_Complete_Agent ==0)
-				_proxy_ABM_log(0, "Real time trip-complete agent output: not used. Parameter RT_Output_Complete_Agent = 0\n");
-			else
-				_proxy_ABM_log(0, "Real time trip-complete agent output for every %d sec  (%d min) \n", RT_Output_Complete_Agent, RT_Output_Complete_Agent / 60);
-			
-			
+			_proxy_ABM_log(0, "Real time OD MOE output for every %d sec  (%d min) \n", RT_Output_ODMOE , RT_Output_ODMOE / 60);
+			_proxy_ABM_log(0, "Real time trip-complete agent output for every %d sec  (%d min) \n", RT_Output_Complete_Agent, RT_Output_Complete_Agent / 60);
 			_proxy_ABM_log(0, "Real time tagged agent output (based on input_tag_settings.csv)  for every %d sec  (%d min) \n", RT_Output_Tagged_Agent, RT_Output_Tagged_Agent / 60);
-
-			if (RT_Input_LinkAttribute > 0)
-			{
-		
 			_proxy_ABM_log(0, "Real time link attribute input for every %d sec  (%d min) \n", RT_Input_LinkAttribute, RT_Input_LinkAttribute / 60);
 			_proxy_ABM_log(0, "Real time link attribute input: Accepted Field: from_node_id,to_node_id,link_outflow_capacity,link_storage_capacity,speed_limit,demand_type1,demand_type2,demand_typeX\n");
-			}
-			else
-			{
-				_proxy_ABM_log(0, "Real time link attribute input: Not used as Parameter RT_Input_LinkAttribute = 0");
-			}
-
-			if (RT_Input_Update_Agent ==0)
-				_proxy_ABM_log(0, "Real time agent input: Not used as Parameter RT_Input_Update_Agent = %d \n");
-			else
-				_proxy_ABM_log(0, "Real time agent input for every %d sec  (%d min) \n", RT_Input_Update_Agent, RT_Input_Update_Agent / 60);
-
-
-			if (RT_Input_DMS == 0)
-				_proxy_ABM_log(0, "Real time DMS input: Not used as Parameter RT_Input_DMS = %d \n");
-			else
-				_proxy_ABM_log(0, "Real time DMS input for every %d sec  (%d min) \n", RT_Input_DMS, RT_Input_DMS / 60);
-	
-			if (RT_Input_Routing_Policy == 0)
-				_proxy_ABM_log(0, "Real time routing policy input: Not used as Parameter RT_Input_Routing_Policy = %d \n");
-			else
-				_proxy_ABM_log(0, "Real time routing policy  input for every %d sec  (%d min) \n", RT_Input_Routing_Policy, RT_Input_Routing_Policy / 60);
-
+			_proxy_ABM_log(0, "Real time agent input for every %d sec  (%d min) \n", RT_Input_Update_Agent, RT_Input_Update_Agent / 60);
+			_proxy_ABM_log(0, "Real time DMS input for every %d sec  (%d min) \n", RT_Input_DMS, RT_Input_DMS / 60);
+			_proxy_ABM_log(0, "Real time routing policy  input for every %d sec  (%d min) \n", RT_Input_Routing_Policy, RT_Input_Routing_Policy / 60);
 
 			for (int timestamp_in_second = start_time_in_second; timestamp_in_second <= end_time_in_second; timestamp_in_second++)
 			{

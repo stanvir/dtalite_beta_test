@@ -295,10 +295,6 @@ void g_AgentBasedAssisnment()  // this is an adaptation of OD trip based assignm
 
 		NetworkLoadingOutput SimuOutput;
 
-		if (g_EmissionDataOutputFlag >= 1 && iteration == g_NumberOfIterations)  // last iteration
-		{
-			g_DTASimulationInterval = 0.1;
-		}
 
 
 		SimuOutput = g_NetworkLoading(g_TrafficFlowModelFlag, 0, iteration);
@@ -1577,7 +1573,7 @@ void g_GenerateSimulationSummary(int iteration, bool NotConverged, int TotalNumO
 	if (g_AssignmentMOEVector.size() == 0)  // no assignment being involved
 		return;
 
-	if (g_EmissionDataOutputFlag==2)   //output emission for each iteration 
+	if (g_EmissionDataOutputFlag == 2 || (g_EmissionDataOutputFlag >= 1 && iteration == g_NumberOfIterations))   //output emission for each iteration 
 		g_CalculateEmissionMOE();
 
 	TotalNumOfVehiclesGenerated = p_SimuOutput->NumberofVehiclesGenerated; // need this to compute avg gap
