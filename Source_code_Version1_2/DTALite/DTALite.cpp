@@ -408,7 +408,7 @@ void _proxy_emission_log(int level, int debug_agent_id, const char *fmt, ...) {
 	if (g_emission_log_file != NULL)
 	{
 		if (debug_agent_id >= 0)
-			fprintf(g_simulation_log_file, "debug_agent_id=%d,", debug_agent_id);
+			fprintf(g_emission_log_file, "debug_agent_id=%d,", debug_agent_id);
 
 		vfprintf(g_emission_log_file, fmt, arg);
 	}
@@ -6402,7 +6402,11 @@ void g_ReadDemandFileBasedOnMetaDatabase()
 			else if (format_type.find("agent_csv") != string::npos)
 			{
 				g_AgentBasedAssignmentFlag = 1;
-				g_ReadTripCSVFile(file_name,false);
+				if (g_ReadTripCSVFile(file_name, false) == false)
+				{
+					cout << "input agent file " << file_name << " is missing. Please check." << endl;
+					g_ProgramStop();
+				}
 				return;
 			}
 			else if (format_type.find("agent_bin") != string::npos)
@@ -6522,7 +6526,12 @@ void g_ReadDemandFileBasedOnMetaDatabase()
 				int number_of_vehicles = 0;
 				cout << "Reading file no." << file_sequence_no << ": " << file_name << " ... " << endl;
 
-				g_ReadTripCSVFile(file_name, false);
+				if (g_ReadTripCSVFile(file_name, false) == false)
+				{
+					cout << "input agent file " << file_name << " is missing. Please check." << endl;
+					g_ProgramStop();
+
+				}
 				total_demand_in_demand_file += number_of_vehicles;
 			}
 			else if (format_type.find("transims_trip_file") != string::npos)
