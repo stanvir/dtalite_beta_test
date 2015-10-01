@@ -1,0 +1,1 @@
+from_zone_id,to_zone_id,demand_type,departure_start_time_in_min,departure_end_time_in_min,path_no,ratio,node_sequence,node_sum_reference,distance_reference,travel_time_reference

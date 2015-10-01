@@ -125,6 +125,7 @@ menu -> project -> property -> configuraiton -> debugging -> setup working direc
 FILE *g_simulation_log_file = NULL;
 int g_simulation_log_level = 0;
 
+//This is an additional log file for generating debug_emissions
 FILE *g_emission_log_file = NULL;
 int g_emission_log_level = 0;
 
