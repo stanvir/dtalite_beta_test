@@ -1,0 +1,12 @@
+Simu Clock 00:00:00--read configuration from input_simulation_schedule.csv.Simu Clock 00:00:00---- output link MOE every 1 (min)
+Simu Clock 00:00:00--Real time link MOE output time period: 25200->32400 (sec),  420->540 (min), for every 60 sec 
+Simu Clock 00:00:00--Real time path MOE output for every 900 sec (15 min) 
+Simu Clock 00:00:00--Real time OD MOE output for every 900 sec  (15 min) 
+Simu Clock 00:00:00--Real time trip-complete agent output for every 60 sec  (1 min) 
+Simu Clock 00:00:00--Real time tagged agent output (based on input_tag_settings.csv)  for every 60 sec  (1 min) 
+Simu Clock 00:00:00--Real time link attribute input for every 60 sec  (1 min) 
+Simu Clock 00:00:00--Real time link attribute input: Accepted Field: from_node_id,to_node_id,link_outflow_capacity,link_storage_capacity,speed_limit,demand_type1,demand_type2,demand_typeX
+Simu Clock 00:00:00--Real time agent input for every 60 sec  (1 min) 
+Simu Clock 00:00:00--Real time DMS input for every -1 sec  (0 min) 
+Simu Clock 00:00:00--Real time routing policy  input for every 900 sec  (15 min) 
+Simu Clock 00:00:00--Allocate memory for 6 zones and 28 SP calculation intervals.
