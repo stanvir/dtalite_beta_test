@@ -41,3 +41,4 @@ ipch/
 .mr.developer.cfg
 *.suo
 *.user
+*.sdf
