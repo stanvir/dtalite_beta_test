@@ -1232,18 +1232,12 @@ void g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(int VehicleID)
 }
 void g_ReadRealTimeSimulationSettingsFile()
 {
-	CCSVParser parser_RTSimulation_settings;
-	if (parser_RTSimulation_settings.OpenCSVFile("input_scenario_settings.csv", false))
-	{
 
 		// we enable information updating for real-time simulation mode
 		g_bInformationUpdatingAndReroutingFlag = true;
 
 		int record_count = 0;
-
-		while (parser_RTSimulation_settings.ReadRecord())
-		{
-			_proxy_ABM_log(0, "read configuration from input_simulation_schedule.csv.");
+			_proxy_ABM_log(0, "read configuration from DTASettings.ini.");
 
 		std:string timestamp_in_string;
 			std::string  break_point_flag;
@@ -1262,20 +1256,17 @@ void g_ReadRealTimeSimulationSettingsFile()
 			int start_time_in_second = g_DemandLoadingStartTimeInMin * 60;
 			int end_time_in_second = g_DemandLoadingEndTimeInMin * 60;
 
-			int real_time_data_frequency_in_second = 1;
+			int RT_Input_LinkAttribute = g_GetPrivateProfileInt("ABM_integration", "RT_Input_LinkAttribute_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Input_Update_Agent = g_GetPrivateProfileInt("ABM_integration", "RT_Input_Agent_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Input_Routing_Policy = g_GetPrivateProfileInt("ABM_integration", "RT_Input_Routing_Policy_Frequency_in_Seconds", 0, g_DTASettingFileName);
 
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("real_time_data_frequency_in_second", real_time_data_frequency_in_second);
-			int RT_Input_LinkAttribute = real_time_data_frequency_in_second;
-			int RT_Input_Update_Agent  = real_time_data_frequency_in_second;
-			
-			int RT_Output_LinkMOE = real_time_data_frequency_in_second;
+			int RT_Output_LinkMOE = g_GetPrivateProfileInt("ABM_integration", "RT_Output_LinkMOE_Frequency_in_Seconds", 0, g_DTASettingFileName);
 			_proxy_ABM_log(0, "-- output link MOE every %d (min)\n", RT_Output_LinkMOE/60);
 
 			int RT_Output_PathMOE = 15 * 60;
 			int RT_Output_ODMOE = 15 * 60;
-			int RT_Input_Routing_Policy = 15*60;
-			int RT_Output_Complete_Agent = real_time_data_frequency_in_second;
-			int RT_Output_Tagged_Agent = real_time_data_frequency_in_second;
+			int RT_Output_Complete_Agent = g_GetPrivateProfileInt("ABM_integration", "RT_Output_Complete_Agent_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Output_Tagged_Agent = g_GetPrivateProfileInt("ABM_integration", "RT_Output_Tagged_Agent_Frequency_in_Seconds", 0, g_DTASettingFileName);;
 			int RT_Input_DMS = -1;
 
 			_proxy_ABM_log(0, "Real time link MOE output time period: %d->%d (sec),  %d->%d (min), for every %d sec \n", 
@@ -1301,9 +1292,14 @@ void g_ReadRealTimeSimulationSettingsFile()
 
 				}
 
-				CString time_str;
-				time_str.Format("_sec%d", timestamp_in_second);
+				int hour = timestamp_in_second / 3600;
+				int min = (timestamp_in_second - hour * 3600)/60;
+				int sec = timestamp_in_second - hour * 3600 - min * 60;
 
+
+
+				CString time_str;
+				time_str.Format("_%02dh%02dm%02ds", hour, min, sec);
 
 				string timestamp_str = CString2StdString(time_str);
 
@@ -1333,7 +1329,7 @@ void g_ReadRealTimeSimulationSettingsFile()
 				}
 				if (RT_Input_Update_Agent >= 1 && timestamp_in_second%RT_Input_Update_Agent == 0)  // time resolution
 				{
-					g_RealTimeSimulationSettingsMap[timestamp_in_second].update_trip_file = "RT_Input_Update_Agent" + timestamp_str + ".csv";
+					g_RealTimeSimulationSettingsMap[timestamp_in_second].update_trip_file = "RT_Input_Agent" + timestamp_str + ".csv";
 				}
 				if (RT_Input_DMS >= 1 && timestamp_in_second%RT_Input_DMS == 0)  // time resolution
 				{
@@ -1351,8 +1347,6 @@ void g_ReadRealTimeSimulationSettingsFile()
 			//cout << "File input_simulation_schedule.csv has " << record_count << " file records." << endl;
 			//g_LogFile << "File input_simulation_schedule.csv has " << record_count << " file records." << endl;
 
-		}
-	}
 }
 
 bool g_ReadDMSScenarioFile(string FileName)

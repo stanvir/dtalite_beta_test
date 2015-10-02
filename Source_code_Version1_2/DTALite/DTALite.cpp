@@ -2225,20 +2225,7 @@ void g_ReadInputFiles()
 	{
 
 		CCSVParser parser_RTSimulation_settings;
-		if (parser_RTSimulation_settings.OpenCSVFile("input_simulation_schedule.csv", false) == true)
-		{
 			_proxy_ABM_log(0, "There are %d agents in the memory.\n", g_VehicleVector.size());
-
-			parser_RTSimulation_settings.CloseCSVFile();
-		}
-		else
-		{
-			cout << "assignment method = 4 requires file input_simulation_schedule.csv, which is missing now." << endl;
-			g_ProgramStop();
-
-		}
-
-
 	}
 
 

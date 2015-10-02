@@ -1695,8 +1695,8 @@ void g_AccessibilityMatrixGenerationForAllDemandTypes(string FileName, bool bTim
 
 	cout << "------05---------" << endl;
 	for (int d = 1; d <= total_demand_type; d++)
-	for (int i = 1; i <= g_ODZoneIDSize; i++)
-	for (int j = 1; j <= g_ODZoneIDSize; j++)
+	for (int i = 0; i <= g_ODZoneIDSize; i++)
+	for (int j = 0; j <= g_ODZoneIDSize; j++)
 	for (int t = 0; t < StatisticsIntervalSize; t++)
 	{   
 		if (i == j)
@@ -1707,9 +1707,9 @@ void g_AccessibilityMatrixGenerationForAllDemandTypes(string FileName, bool bTim
 		}
 		else
 		{  
-			ODTravelTime[d][i][j][t] = -1;
-			ODDistance[d][i][j][t] = -1;
-			ODDollarCost[d][i][j][t] = -1;
+			ODTravelTime[d][i][j][t] = 0;
+			ODDistance[d][i][j][t] = 0;
+			ODDollarCost[d][i][j][t] = 0;
 		}
 	}
 	cout << "------07---------" << endl;
@@ -1744,19 +1744,18 @@ void g_AccessibilityMatrixGenerationForAllDemandTypes(string FileName, bool bTim
 			g_TimeDependentNetwork_MP[id].BuildPhysicalNetwork(0, -1, g_TrafficFlowModelFlag, bUseCurrentInformation, CurrentTime);  // build network for this zone, because different zones have different connectors...
 		}
 
-		for (int demand_type = 1; demand_type <= total_demand_type; demand_type++)
-		{
-
 			// from each origin zone
 			for (std::map<int, DTAZone>::iterator iterZone = g_ZoneMap.begin(); iterZone != g_ZoneMap.end(); iterZone++)
 			{
 
 				if ((iterZone->first%number_of_threads) == ProcessID)
 				{ // if the remainder of a zone id (devided by the total number of processsors) equals to the processor id, then this zone id is 
-
 					int origin_node_indx = iterZone->second.GetRandomOriginNodeIDInZone((0) / 100.0f);  // use pVehicle->m_AgentID/100.0f as random number between 0 and 1, so we can reproduce the results easily
 
 					if (origin_node_indx >= 0) // convert node number to internal node id
+					{
+
+					for (int demand_type = 1; demand_type <= total_demand_type; demand_type++)
 					{
 
 						bDistanceCost = false;
@@ -1831,11 +1830,11 @@ void g_AccessibilityMatrixGenerationForAllDemandTypes(string FileName, bool bTim
 							} //for each destination zone
 						}  // departure time
 					}  // with origin node numbers 
+					} // each demand type 
 				} // current thread	
 
 			}  // origin zone
 
-		} // each demand type 
 
 	}  // multiple threads
 
@@ -1867,11 +1866,6 @@ void g_AccessibilityMatrixGenerationForAllDemandTypes(string FileName, bool bTim
 		}
 
 
-		for (int demand_type = 1; demand_type <= total_demand_type; demand_type++)
-		{
-			str.Format("DT%d_path_node_sequence,", demand_type);
-			fprintf(st, str);
-		}
 		//str.Format("demand_type_%d_generalized_travel_time_diff,demand_type_%d_distance_diff,demand_type_%d_dollar_cost_diff,", total_demand_type, total_demand_type, total_demand_type);
 
 
@@ -1915,21 +1909,6 @@ void g_AccessibilityMatrixGenerationForAllDemandTypes(string FileName, bool bTim
 
 						for (int demand_type = 1; demand_type <= total_demand_type; demand_type++)
 							fprintf(st, "%4.2f,", ODDollarCost[demand_type][iterZone->second.m_ZoneSequentialNo][iterZone2->second.m_ZoneSequentialNo][time_interval_no]);
-
-						for (int demand_type = 1; demand_type <= total_demand_type; demand_type++)
-						{
-							std::vector<int> node_sequence =
-								ODPathNodeSequence[demand_type][iterZone->second.m_ZoneSequentialNo][iterZone2->second.m_ZoneSequentialNo][time_interval_no].m_node_sequence;
-
-							for (int ni = node_sequence.size() - 1; ni >= 0; ni--)
-							{
-								fprintf(st, "%d;", node_sequence[ni]);
-
-							}
-							fprintf(st, ",");
-
-						}
-
 
 						fprintf(st, "\n");
 
