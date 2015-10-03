@@ -2947,6 +2947,8 @@ public:
 	unsigned short m_NumberOfSamples;  // when switch a new path, the number of samples starts with 0
 
 	std::vector<GDPoint> m_ShapePoints;
+
+	std::vector<int> m_alt_path_node_sequence;
 	//void StorePath(int DayNo)
 	//{
 
@@ -3733,12 +3735,12 @@ public:
 	bool TDLabelCorrecting_DoubleQueue_PerDemandType_Movement(int CurZoneID, int origin, int departure_time, int demand_type, float VOT, bool bDistanceCost, bool debug_flag);   // Pointer to previous node (node)
 
 	//movement based shortest path
-	int FindBestPathWithVOT_Movement(int origin_zone, int origin, int departure_time,  int destination_zone, int destination, int demand_type, float VOT,int PathLinkList[MAX_NODE_SIZE_IN_A_PATH],float &TotalCost, bool bGeneralizedCostFlag, bool debug_flag);
+	int FindBestPathWithVOT_Movement(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, bool debug_flag, float PerceptionErrorRatio = 0);
 
 	int FindOptimalNodePath_TDLabelCorrecting_DQ(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, float TargetTravelTime, float &OptimialTravelTimeInMin, bool bDebugFlag = false);
 	int FindOptimalLinkPath_TDLabelCorrecting_DQ(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, float TargetTravelTime, float &OptimialTravelTimeInMin, bool bDebugFlag = false);
 	int  FindOptimalSolution(int origin, int departure_time, int destination, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float TargetTravelTime, float &TotalCost, float &OptimialTravelTimeInMin);  // the last pointer is used to get the node array;
-	int  FindBestPathWithVOT(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT,int PathLinkList[MAX_NODE_SIZE_IN_A_PATH],float &TotalCost, bool bGeneralizedCostFlag, bool ResponseToRadioMessage=false, bool bDebugFlag = false);
+	int  FindBestPathWithVOT(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, bool bDebugFlag = false, float PerceptionErrorRatio = 0);
 	int  FindBestSystemOptimalPathWithVOT(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, bool ResponseToRadioMessage = false, bool bDebugFlag = false);
 	int  FindOptimalLinkPathSolution(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, bool ResponseToRadioMessage = false, bool bDebugFlag = false);
 
@@ -4448,8 +4450,6 @@ extern CString g_GetAppRunningTimePerIteration(bool with_title = true);
 
 
 
-
-extern float g_UserClassPerceptionErrorRatio[MAX_SIZE_INFO_USERS];
 extern int g_output_OD_path_MOE_file;
 extern int g_output_OD_TD_path_MOE_file;
 extern int g_output_OD_path_MOE_cutoff_volume;

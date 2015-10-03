@@ -1171,7 +1171,7 @@ void DTANetworkForSP::HistInfoZoneBasedPathAssignment(int zone, int departure_ti
 			if (pVeh->m_InformationClass == 0 && pVeh->m_NodeSize >=2)  // skip updating the path from assignment 
 				continue;
 
-			BuildHistoricalInfoNetwork(zone, pVeh->m_DepartureTime, g_UserClassPerceptionErrorRatio[1]);  // build network for this zone, because different zones have different connectors...
+			BuildHistoricalInfoNetwork(zone, pVeh->m_DepartureTime, 0);  // build network for this zone, because different zones have different connectors...
 			//using historical short-term travel time
 			TDLabelCorrecting_DoubleQueue(g_NodeVector.size(), 0, pVeh->m_DepartureTime, pVeh->m_DemandType, pVeh->m_VOT, false, false, false);  // g_NodeVector.size() is the node ID corresponding to CurZoneNo
 

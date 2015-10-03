@@ -879,7 +879,7 @@ bool DTANetworkForSP::TDLabelCorrecting_DoubleQueue(int origin, int origin_zone,
 
 
 
-int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT,int PathLinkList[MAX_NODE_SIZE_IN_A_PATH],float &TotalCost, bool bGeneralizedCostFlag, bool ResponseToRadioMessage, bool debug_flag)   // Pointer to previous node (node)
+int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, bool debug_flag, float PerceptionErrorRatio)   // Pointer to previous node (node)
 // time-dependent label correcting algorithm with deque implementation
 {
 
@@ -894,7 +894,7 @@ int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int depart
 
 
 	if(g_ShortestPathWithMovementDelayFlag)
-	return FindBestPathWithVOT_Movement(origin_zone, origin, departure_time, destination_zone, destination, demand_type, VOT, PathLinkList, TotalCost,bGeneralizedCostFlag, debug_flag);
+		return FindBestPathWithVOT_Movement(origin_zone, origin, departure_time, destination_zone, destination, demand_type, VOT, PathLinkList, TotalCost, bGeneralizedCostFlag, debug_flag, PerceptionErrorRatio);
 
 	if(demand_type == 0) // unknown type
 		demand_type = 1; 
@@ -930,11 +930,11 @@ int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int depart
 
 	}
 
-	if(g_UserClassPerceptionErrorRatio[1]>=0.001)  //probit loading 
+	if (PerceptionErrorRatio >= 0.001)  //probit loading 
 	{
 		for(i=0; i <m_LinkSize; i++) // Initialization for all links
 		{
-			m_LinkTDTimePerceptionErrorAry[i] =  m_LinkFFTTAry[i]* g_RNNOF()* g_UserClassPerceptionErrorRatio[1];
+			m_LinkTDTimePerceptionErrorAry[i] = m_LinkFFTTAry[i] * g_RNNOF()* PerceptionErrorRatio;
 		}
 	}
 	// Initialization for origin node
@@ -1178,13 +1178,6 @@ int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int depart
 
 		}
 
-		if (g_UserClassPerceptionErrorRatio[1] >= 0.001)  //probit loading 
-		{
-			for (i = 0; i <m_LinkSize; i++) // Initialization for all links
-			{
-				m_LinkTDTimePerceptionErrorAry[i] = m_LinkFFTTAry[i] * g_RNNOF()* g_UserClassPerceptionErrorRatio[1];
-			}
-		}
 		// Initialization for origin node
 		LabelTimeAry[origin] = float(departure_time);
 		LabelCostAry[origin] = 0;
@@ -1369,7 +1362,7 @@ int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int depart
 	}
 
 
-	int DTANetworkForSP::FindBestPathWithVOT_Movement(int origin_zone, int origin, int departure_time,  int destination_zone, int destination, int demand_type, float VOT,int PathLinkList[MAX_NODE_SIZE_IN_A_PATH],float &TotalCost, bool bGeneralizedCostFlag, bool debug_flag=false)
+	int DTANetworkForSP::FindBestPathWithVOT_Movement(int origin_zone, int origin, int departure_time, int destination_zone, int destination, int demand_type, float VOT, int PathLinkList[MAX_NODE_SIZE_IN_A_PATH], float &TotalCost, bool bGeneralizedCostFlag, bool debug_flag = false, float PerceptionErrorRatio)
 		// time -dependent label correcting algorithm with deque implementation
 	{
 
@@ -1401,10 +1394,11 @@ int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int depart
 			LinkLabelTimeAry[i] = MAX_SPLABEL;
 			LinkLabelCostAry[i] = MAX_SPLABEL;
 
-		if(g_UserClassPerceptionErrorRatio[1]>=0.001)  //probit loading 
+			if (PerceptionErrorRatio >= 0.001)  //probit loading 
 		{	
-			m_LinkTDTimePerceptionErrorAry[i] =  m_LinkFFTTAry[i]* g_RNNOF()* g_UserClassPerceptionErrorRatio[1];
+			m_LinkTDTimePerceptionErrorAry[i] = m_LinkFFTTAry[i] * g_RNNOF()* PerceptionErrorRatio;
 		}
+
 		}
 
 		// Initialization for origin node: for all outgoing links from origin node
@@ -1732,10 +1726,6 @@ int DTANetworkForSP::FindBestPathWithVOT(int origin_zone, int origin, int depart
 			LinkLabelTimeAry[i] = MAX_SPLABEL;
 			LabelCostVectorPerType[demand_type][i] = MAX_SPLABEL;
 
-			//if (g_UserClassPerceptionErrorRatio[1] >= 0.001)  //probit loading 
-			//{
-			//	m_LinkTDTimePerceptionErrorAry[i] = m_LinkFFTTAry[i] * g_RNNOF()* g_UserClassPerceptionErrorRatio[1];
-			//}
 		}
 
 		// Initialization for origin node: for all outgoing links from origin node

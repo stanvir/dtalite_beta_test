@@ -244,7 +244,6 @@ float g_TotalDemandDeviation = 0;
 float g_UpdatedDemandPrintOutThreshold = 5;
 float g_TotalMeasurementDeviation = 0;
 
-float g_UserClassPerceptionErrorRatio[MAX_SIZE_INFO_USERS] = { 0 };
 int g_output_OD_path_MOE_file = 1;
 int g_output_OD_TD_path_MOE_file = 1;
 int g_output_OD_path_MOE_cutoff_volume = 1;
@@ -4789,18 +4788,7 @@ void g_ReadDTALiteSettings()
 
 	g_start_iteration_for_MOEoutput = g_GetPrivateProfileInt("output", "start_iteration_for_MOE", -1, g_DTASettingFileName);
 
-	g_UserClassPerceptionErrorRatio[1] = g_GetPrivateProfileFloat("traveler_information", "coefficient_of_variation_of_historical_info_travelers_perception_error", 0.3f, g_DTASettingFileName);
 
-	if (g_UserClassPerceptionErrorRatio[1] <= -0.01 || g_UserClassPerceptionErrorRatio[1] >= 1.0)
-	{
-
-		cout << "Input error: coefficient_of_variation_of_historical_info_travelers_perception_error should be between 0 and 1." << endl << "The current value in configuration file DTASettings.txt is " << g_UserClassPerceptionErrorRatio[1] << endl;
-		g_ProgramStop();
-
-	}
-
-	g_UserClassPerceptionErrorRatio[2] = g_GetPrivateProfileFloat("traveler_information", "coefficient_of_variation_of_pretrip_info_travelers_perception_error", 0.05f, g_DTASettingFileName);
-	g_UserClassPerceptionErrorRatio[3] = g_GetPrivateProfileFloat("traveler_information", "coefficient_of_variation_of_en-route_info_travelers_perception_error", 0.05f, g_DTASettingFileName);
 
 
 	g_SystemOptimalStartingTimeinMin = g_GetPrivateProfileInt("system_optimal_assignment", "re_routing_start_time_in_min", 0, g_DTASettingFileName);
