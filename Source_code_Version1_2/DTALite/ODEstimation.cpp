@@ -1284,7 +1284,7 @@ void g_GenerateVehicleData_ODEstimation()
 
 
 			pVehicle->m_DemandType	= kvhc->m_DemandType;
-			pVehicle->m_InformationClass = kvhc->m_InformationClass;
+			pVehicle->m_InformationType = kvhc->m_InformationType;
 			pVehicle->m_DemandType 	= kvhc->m_DemandType ;
 			pVehicle->m_VehicleType = kvhc->m_VehicleType;
 			pVehicle->m_PCE = g_VehicleTypeVector[pVehicle->m_VehicleType-1].PCE;

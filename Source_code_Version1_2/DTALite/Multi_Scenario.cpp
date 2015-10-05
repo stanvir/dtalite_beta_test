@@ -679,7 +679,6 @@ void g_MultiScenarioTrafficAssignment()
 			if (line_no == 1)  // read it once
 			{
 				g_ReadInputFiles();
-				g_ShortestPathDataMemoryAllocation();
 
 
 			}

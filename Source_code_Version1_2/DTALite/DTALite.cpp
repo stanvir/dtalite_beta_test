@@ -2133,6 +2133,12 @@ void g_ReadInputFiles()
 
 
 
+	g_ShortestPathDataMemoryAllocation();
+	int LinkSizeForLinkCostArray = g_LinkVector.size() + g_NodeVector.size(); // double the size to account for artificial connectors
+	g_LinkTDCostAry = AllocateDynamicArray<DTALinkToll>(LinkSizeForLinkCostArray, g_NumberOfSPCalculationPeriods);
+
+	if (g_use_global_path_set_flag == 1)
+		g_BuildGlobalPathSet();
 
 	if (g_UEAssignmentMethod != analysis_real_time_simulation)
 	{
@@ -2352,8 +2358,6 @@ void g_ReadInputFiles()
 		ReadFractionOfOperatingModeForBaseCycle();
 		SetupOperatingModeVector();
 	}
-	int LinkSizeForLinkCostArray = g_LinkVector.size() + g_NodeVector.size(); // double the size to account for artificial connectors
-	g_LinkTDCostAry = AllocateDynamicArray<DTALinkToll>(LinkSizeForLinkCostArray, g_NumberOfSPCalculationPeriods);
 
 
 }
@@ -2411,7 +2415,7 @@ int CreateVehicles(int origin_zone, int destination_zone, float number_of_vehicl
 				g_SystemDemand.AddValue(origin_zone, destination_zone, time_interval, 1); // to store the initial table as hist database
 		}
 
-		g_GetVehicleAttributes(vhc.m_DemandType, vhc.m_VehicleType, vhc.m_InformationClass, vhc.m_VOT, vhc.m_Age);
+		g_GetVehicleAttributes(vhc.m_DemandType, vhc.m_VehicleType, vhc.m_InformationType, vhc.m_VOT, vhc.m_Age);
 
 
 		g_SimulationResult.number_of_vehicles_DemandType[vhc.m_DemandType]++;
@@ -2537,7 +2541,7 @@ void g_ConvertDemandToVehicles()
 
 			pVehicle->m_PCE = g_VehicleTypeVector[pVehicle->m_VehicleType - 1].PCE;
 
-			pVehicle->m_InformationClass = kvhc->m_InformationClass;
+			pVehicle->m_InformationType = kvhc->m_InformationType;
 			pVehicle->m_VOT = kvhc->m_VOT;
 			pVehicle->m_Age = kvhc->m_Age;
 
@@ -2545,11 +2549,6 @@ void g_ConvertDemandToVehicles()
 			g_VehicleVector.push_back(pVehicle);
 			g_AddVehicleID2ListBasedonDepartureTime(pVehicle);
 			g_VehicleMap[i] = pVehicle;
-
-			if (g_use_routing_policy_from_external_input == 1 )
-			{
-				g_UseExternalPath(pVehicle);  // apply routing policy to agents that are just generated. 
-			} //else we will generate shortest path in the assignment module 
 
 			int AssignmentInterval = g_FindAssignmentIntervalIndexFromTime(pVehicle->m_DepartureTime);
 			g_TDOVehicleArray[g_ZoneMap[pVehicle->m_OriginZoneID].m_ZoneSequentialNo][AssignmentInterval].VehicleArray.push_back(i);
@@ -6985,7 +6984,7 @@ bool g_ReadTransitTripCSVFile()
 				else
 					pVehicle->m_PCE = 1;
 				
-				pVehicle->m_InformationClass = 0;
+				pVehicle->m_InformationType = 0;
 
 				pVehicle->m_VOT = 10;
 				pVehicle->m_Age = 5;

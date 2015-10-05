@@ -506,7 +506,7 @@ extern vector<float> ParseLineToFloat(string line);
 extern bool g_ReadTimeDependentRoutingPolicyData(std::string file_name, int DemandLoadingStartTimeInMin);
 extern int g_use_routing_policy_from_external_input;
 extern int g_output_routing_policy_file;
-extern void g_UseExternalPath(DTAVehicle* pVehicle);
+extern bool g_UseExternalPathDefinedInRoutingPolicy(DTAVehicle* pVehicle);
 extern void g_ApplyExternalPathInput(int departure_time_begin);
 extern void g_WriteUserDefinedMOE(CCSVWriter  &csv_output, int day_no);
 

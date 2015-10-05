@@ -2886,7 +2886,7 @@ public:
 
 	int m_DemandType;     // 1: passenger,  2, HOV, 3, truck, 3: bus
 	int m_VehicleType;    // for emissions analysis
-	int m_InformationClass;
+	int m_InformationType;
 	 
 	bool m_transit_service_flag;  // = 1 for transit vehicle
 	// 0: historical path (no change), --> fixed route flag
@@ -3031,7 +3031,7 @@ public:
 		m_LinkAry = NULL;
 		m_NodeSize	= 0;
 		m_bImpacted = false; 
-		m_InformationClass = learning_from_hist_travel_time;
+		m_InformationType = learning_from_hist_travel_time;
 		m_DemandType = 1;
 		m_VehicleType = 1;
 		m_DemandType = 0;
@@ -3118,7 +3118,7 @@ public:
 	m_DemandType = 1;
 	m_VehicleType = 1;
 	m_DemandType = 1;
-	m_InformationClass = info_hist_based_on_routing_policy;
+	m_InformationType = info_hist_based_on_routing_policy;
 	m_Age = 0;
 	m_TimeToRetrieveInfo = 0;
 
@@ -3132,7 +3132,7 @@ public:
 	int m_DemandType;
 	int m_DepartureTimeIndex;
 	int m_VehicleType;
-	int m_InformationClass;
+	int m_InformationType;
 	int m_Age;
 
 	float    m_DepartureTime;

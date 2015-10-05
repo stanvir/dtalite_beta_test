@@ -168,7 +168,7 @@ void g_ReadDSPVehicleFile(string file_name)
 			//information class  
 			pVehicle->m_PCE = g_VehicleTypeVector[pVehicle->m_VehicleType - 1].PCE;
 
-			pVehicle->m_InformationClass = g_read_integer(st);
+			pVehicle->m_InformationType = g_read_integer(st);
 
 
 			//#ONode 
@@ -326,18 +326,18 @@ bool AddPathToVehicle(DTAVehicle * pVehicle, std::vector<int> path_node_sequence
 }
 
 
-void g_UseExternalPath(DTAVehicle* pVehicle)
+bool g_UseExternalPathDefinedInRoutingPolicy(DTAVehicle* pVehicle)
 {
 
 	if (g_ODPathSetVector == NULL)
-		return;
+		return false;
 
 	int OrgZoneSequentialNo = g_ZoneMap[pVehicle->m_OriginZoneID].m_ZoneSequentialNo;
 	int DestZoneSequentialNo = g_ZoneMap[pVehicle->m_DestinationZoneID].m_ZoneSequentialNo;
 
 	float random_value = pVehicle->GetRandomRatio();
 
-	int information_type = pVehicle->m_InformationClass;
+	int information_type = pVehicle->m_InformationType;
 
 	if (information_type >= 2) // for enroute and pretrip infor users, we do not have information yet, so we default their paths to the learning from the previous day
 		information_type = 1;
@@ -362,10 +362,23 @@ void g_UseExternalPath(DTAVehicle* pVehicle)
 		if (i == g_ODPathSetVector[OrgZoneSequentialNo][DestZoneSequentialNo][information_type].PathSet.size())
 			i = g_ODPathSetVector[OrgZoneSequentialNo][DestZoneSequentialNo][information_type].PathSet.size() - 1;
 
+		_proxy_ABM_log(0, "--apply routing policy for agent %d from zone %d to zone %d information type %d\n", 
+			pVehicle->m_AgentID ,
+			pVehicle->m_OriginZoneID,
+			pVehicle->m_DestinationZoneID,
+			information_type);
+
+		for (int n = 0; n < g_ODPathSetVector[OrgZoneSequentialNo][DestZoneSequentialNo][information_type].PathSet[i].m_NodeNumberArray.size(); n++)
+		{
+			_proxy_ABM_log(0, "node %d\n", g_ODPathSetVector[OrgZoneSequentialNo][DestZoneSequentialNo][information_type].PathSet[i].m_NodeNumberArray[n]);
+
+
+		}
 		AddPathToVehicle(pVehicle, g_ODPathSetVector[OrgZoneSequentialNo][DestZoneSequentialNo][information_type].PathSet[i].m_NodeNumberArray, NULL);
 
+		return true;
 	}
-
+	return false;
 }
 
 bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
@@ -403,7 +416,7 @@ bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
 
 		int count_for_sameOD = 0;
 		int count_for_not_defined_zones = 0;
-
+		int information_type = 0;
 		while (parser_agent.ReadRecord())
 		{
 
@@ -655,7 +668,7 @@ bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
 				_proxy_ABM_log(0, "--step 7: read demand_type = %d\n",
 					demand_type);
 
-				g_GetVehicleAttributes(pVehicle->m_DemandType, pVehicle->m_VehicleType, pVehicle->m_InformationClass, pVehicle->m_VOT, pVehicle->m_Age);
+				g_GetVehicleAttributes(pVehicle->m_DemandType, pVehicle->m_VehicleType, pVehicle->m_InformationType, pVehicle->m_VOT, pVehicle->m_Age);
 
 				// if there are values in the file, then update the related attributes; 
 				int VOT = 0;
@@ -675,22 +688,22 @@ bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
 					pVehicle->m_VehicleType = VehicleType;
 				}
 
-				int information_type = pVehicle->m_InformationClass;
+				 information_type = pVehicle->m_InformationType;
 
 				parser_agent.GetValueByFieldNameRequired("information_type", information_type); //default is 0;
 
 				_proxy_ABM_log(0, "--step 8: read information_type = %d\n",
 					information_type);
-				if (information_type != pVehicle->m_InformationClass)
+				if (information_type != pVehicle->m_InformationType)
 				{
 					_proxy_ABM_log(0, "--step 8.2: update information_type = %d->%d\n",
-						pVehicle->m_InformationClass, information_type);
+						pVehicle->m_InformationType, information_type);
 
-					g_LogFile << " UPDATE Agent Data: information type =  " << pVehicle->m_InformationClass << "-> " << information_type << endl;
+					g_LogFile << " UPDATE Agent Data: information type =  " << pVehicle->m_InformationType << "-> " << information_type << endl;
 
 				}
 
-				if (pVehicle->m_InformationClass >= 3)  // enroute info
+				if (pVehicle->m_InformationType == 3)  // enroute info
 				{
 
 					double time_to_start_information_retrieval = -1.0;
@@ -732,6 +745,8 @@ bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
 
 			}
 
+			int sub_path_switch_flag = 0;
+
 			if (bCreateNewAgent == true)
 			{
 
@@ -748,16 +763,18 @@ bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
 				pVehicle->m_NodeNumberSum = 0;
 				pVehicle->m_Distance = 0;
 
-			}
-			if (bUpdatePath)
-			{
-				_proxy_ABM_log(0, "--step 11: update path as the destination or departure time is changed\n");
+				pVehicle->m_InformationType = information_type;
 
-				g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(pVehicle->m_AgentID);
+				//add vehicle data into memory
+				g_VehicleVector.push_back(pVehicle);
+				g_VehicleTDListMap[(int)pVehicle->m_DepartureTime * 10].m_AgentIDVector.push_back(pVehicle->m_AgentID);
+				g_VehicleMap[pVehicle->m_AgentID] = pVehicle;
+				int AssignmentInterval = g_FindAssignmentIntervalIndexFromTime(pVehicle->m_DepartureTime);
+				ASSERT(pVehicle->m_OriginZoneID <= g_ODZoneNumberSize);
+				g_TDOVehicleArray[g_ZoneMap[pVehicle->m_OriginZoneID].m_ZoneSequentialNo][AssignmentInterval].VehicleArray.push_back(pVehicle->m_AgentID);
 
-			}
-			else
-			{
+
+				_proxy_ABM_log(0, "--step 11: create new path\n");
 
 				std::vector<int> path_node_sequence;
 				string path_node_sequence_str;
@@ -766,91 +783,57 @@ bool g_ReadTripCSVFile(string file_name, bool bOutputLogFlag)
 				path_node_sequence = ParseLineToIntegers(path_node_sequence_str);
 				if (path_node_sequence.size() >= 2)
 				{
-					_proxy_ABM_log(0, "--step 11: read and add path_node_sequence = %s\n", path_node_sequence_str.c_str());
+					_proxy_ABM_log(0, "--step 11.1: read and add path_node_sequence = %s\n", path_node_sequence_str.c_str());
 					AddPathToVehicle(pVehicle, path_node_sequence, file_name.c_str());
 
 				}
 				else
 				{
-					_proxy_ABM_log(0, "--step 11: no input for path_node_sequence, create shortest path\n");
 
-				
+					g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(pVehicle->m_AgentID);
+						_proxy_ABM_log(0, "--step 11.2: no routing policy, create shortest path based on prevailing traffic time\n");
 
-				int sub_path_switch_flag = 0;
-				if (parser_agent.GetValueByFieldName("sub_path_switch_flag", sub_path_switch_flag))
-				{
-					if (sub_path_switch_flag >= 1)  // if the user defines  path_switch_flag >=1
+				}
+
+			} else if (bUpdatePath)
+			{
+				_proxy_ABM_log(0, "--step 12: update existing new path (which has not been used before the trip starts) if the destination or departure time is changed\n");
+
+				g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(pVehicle->m_AgentID);
+
+			} else if (parser_agent.GetValueByFieldName("path_switch_flag", sub_path_switch_flag))
+			{
+				if (sub_path_switch_flag >= 1)  // if the user defines  path_switch_flag >=1
 					{
-						_proxy_ABM_log(0, "--step 12: sub_path_switch_flag=1 for subpath starting from current link\n");
+						_proxy_ABM_log(0, "--step 13: path_switch_flag=1 for starting from current link\n");
 
 						//first, check if m_alt_path_node_sequence has been defined in the memory
 						std::vector<int> sub_path_node_sequence = pVehicle->m_alt_path_node_sequence;
-						_proxy_ABM_log(0, "--step 12.1: size of in memory alternative path node sequence = %d\n", pVehicle->m_alt_path_node_sequence.size());
+						_proxy_ABM_log(0, "--step 13.1: size of in memory alternative path node sequence = %d\n", pVehicle->m_alt_path_node_sequence.size());
 
 						string detour_node_sequence_str;
-						if (parser_agent.GetValueByFieldName("sub_path_node_sequence", detour_node_sequence_str) == true)
+						if (parser_agent.GetValueByFieldName("alt_path_node_sequence", detour_node_sequence_str) == true)
 						{
 							//second, rewrite alt_path_node_sequence if the user defines the node sequence in the input agent text file, again
 
 							sub_path_node_sequence = ParseLineToIntegers(detour_node_sequence_str);
-							_proxy_ABM_log(0, "--step 12.2: size of alternative path node sequence in input agent file = %d\n", sub_path_node_sequence);
+							_proxy_ABM_log(0, "--step 13.2: size of alternative path node sequence in input agent file = %d\n", sub_path_node_sequence);
 						}
 
 						if (sub_path_node_sequence.size() > 0)
 						{
 
 							g_UpdateAgentPathBasedOnDetour(pVehicle->m_AgentID, sub_path_node_sequence);
+							_proxy_ABM_log(0, "--step 13.3: switch to alternative path\n");
 						}
 					}
-				}
-				else
-				{
-					_proxy_ABM_log(0, "--step 11: create a new path \n");
-
-					g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(pVehicle->m_AgentID);
-
-					if (pVehicle->m_InformationClass == info_hist_based_on_routing_policy)
-					{
-						g_UseExternalPath(pVehicle);
-					}
-
-				}
-
-				}
-
-
 			}
-		
-
+				
 			int number_of_agents = 1;
 
 			float ending_departure_time = 0;
 
-			if (bCreateNewAgent == true)
-			{
 
-				g_VehicleVector.push_back(pVehicle);
-
-				if (pVehicle->m_AgentID == 19)
-				{
-					TRACE("");
-
-				}
-				g_VehicleTDListMap[(int)pVehicle->m_DepartureTime * 10].m_AgentIDVector.push_back(pVehicle->m_AgentID);
-
-				if (bOutputDebugLogFile)
-				{
-					fprintf(g_DebugLogFile, "adding vehicle: total size =%d\n", g_VehicleVector.size());
-				}
-				g_VehicleMap[pVehicle->m_AgentID] = pVehicle;
-
-				int AssignmentInterval = g_FindAssignmentIntervalIndexFromTime(pVehicle->m_DepartureTime);
-
-				ASSERT(pVehicle->m_OriginZoneID <= g_ODZoneNumberSize);
-
-				g_TDOVehicleArray[g_ZoneMap[pVehicle->m_OriginZoneID].m_ZoneSequentialNo][AssignmentInterval].VehicleArray.push_back(pVehicle->m_AgentID);
-
-			}
 			i++;
 		}
 
@@ -998,7 +981,7 @@ bool g_ReadTRANSIMSTripFile(string file_name, bool bOutputLogFlag)
 			//parser_agent.GetValueByFieldName("demand_type",pVehicle->m_DemandType);
 
 			//parser_agent.GetValueByFieldName("vehicle_type",pVehicle->m_VehicleType);
-			//parser_agent.GetValueByFieldName("information_type",pVehicle->m_InformationClass);
+			//parser_agent.GetValueByFieldName("information_type",pVehicle->m_InformationType);
 			//parser_agent.GetValueByFieldName("value_of_time",pVehicle->m_VOT);
 			//parser_agent.GetValueByFieldName("vehicle_age",pVehicle->m_Age );
 
@@ -1038,7 +1021,7 @@ bool g_ReadTRANSIMSTripFile(string file_name, bool bOutputLogFlag)
 			vhc.m_DemandType = demand_type;
 
 
-			g_GetVehicleAttributes(vhc.m_DemandType, vhc.m_VehicleType, vhc.m_InformationClass, vhc.m_VOT, vhc.m_Age);
+			g_GetVehicleAttributes(vhc.m_DemandType, vhc.m_VehicleType, vhc.m_InformationType, vhc.m_VOT, vhc.m_Age);
 
 			g_simple_vector_vehicles.push_back(vhc);
 
@@ -1429,7 +1412,7 @@ bool g_ReadAgentBinFile(string file_name, bool b_with_updated_demand_type_info)
 
 			pVehicle->m_VehicleType = header.vehicle_type;
 			pVehicle->m_PCE = g_VehicleTypeVector[pVehicle->m_VehicleType - 1].PCE;
-			pVehicle->m_InformationClass = header.information_type;
+			pVehicle->m_InformationType = header.information_type;
 			pVehicle->m_VOT = header.value_of_time;
 			pVehicle->m_Age = header.age;
 
@@ -1470,7 +1453,7 @@ bool g_ReadAgentBinFile(string file_name, bool b_with_updated_demand_type_info)
 
 				pVehicle->m_DemandType = demand_type;
 
-				g_GetVehicleAttributes(pVehicle->m_DemandType, pVehicle->m_VehicleType, pVehicle->m_InformationClass, pVehicle->m_VOT, pVehicle->m_Age);
+				g_GetVehicleAttributes(pVehicle->m_DemandType, pVehicle->m_VehicleType, pVehicle->m_InformationType, pVehicle->m_VOT, pVehicle->m_Age);
 
 
 			}
@@ -1597,8 +1580,6 @@ bool g_ReadAgentBinFile(string file_name, bool b_with_updated_demand_type_info)
 		}
 		g_ResetVehicleAttributeUsingDemandType();
 
-		if (g_use_global_path_set_flag == 1)
-			g_BuildGlobalPathSet();
 
 
 		fclose(st);
@@ -1622,7 +1603,7 @@ void g_ResetVehicleType()
 	for (iterVM = g_VehicleMap.begin(); iterVM != g_VehicleMap.end(); iterVM++)
 	{
 		DTAVehicle* pVehicle = iterVM->second;
-		pVehicle->m_InformationClass = info_hist_based_on_routing_policy;
+		pVehicle->m_InformationType = info_hist_based_on_routing_policy;
 		double RandomPercentage = g_GetRandomRatio() * 100;
 		for (int in = 0; in < MAX_INFO_CLASS_SIZE; in++)
 		{
@@ -1630,7 +1611,7 @@ void g_ResetVehicleType()
 
 			if (RandomPercentage >= g_DemandTypeVector[demand_type_no].cumulative_info_class_percentage[in - 1] &&
 				RandomPercentage < g_DemandTypeVector[demand_type_no].cumulative_info_class_percentage[in])
-				pVehicle->m_InformationClass = in + 1; // return pretrip as 2 or enoute as 3
+				pVehicle->m_InformationType = in + 1; // return pretrip as 2 or enoute as 3
 		}
 	}
 
@@ -1643,7 +1624,7 @@ void g_ResetVehicleAttributeUsingDemandType()
 	{
 		DTAVehicle* pVehicle = iterVM->second;
 
-		g_GetVehicleAttributes(pVehicle->m_DemandType, pVehicle->m_VehicleType, pVehicle->m_InformationClass, pVehicle->m_VOT, pVehicle->m_Age);
+		g_GetVehicleAttributes(pVehicle->m_DemandType, pVehicle->m_VehicleType, pVehicle->m_InformationType, pVehicle->m_VOT, pVehicle->m_Age);
 
 	}
 }
