@@ -520,16 +520,6 @@ void g_MultiScenarioTrafficAssignment()
 					g_SummaryStatFile.WriteParameterValue("Assignment method", "Real time simulation without with automatically generated routing policy");
 				}
 
-				if (parser_RTSimulation_settings.OpenCSVFile("input_simulation_schedule.csv", false) == false)
-				{
-					cout << "Assignment method = Real time simulation (specified in input_scenario_settings.csv)" << endl;
-					cout << "File input_simulation_schedule.csv is required for real time simulation mode." << endl;
-					g_ProgramStop();
-				}
-				else
-				{
-					parser_RTSimulation_settings.CloseCSVFile();
-				}
 
 				if (g_UEAssignmentMethod == analysis_real_time_simulation)
 				{
@@ -566,7 +556,11 @@ void g_MultiScenarioTrafficAssignment()
 
 			}
 
-			g_ReadRealTimeSimulationSettingsFile();
+			
+			if (g_UEAssignmentMethod == analysis_ABM_integration)
+			{
+				g_ReadRealTimeSimulationSettingsFile();
+			}
 
 
 			if (g_UEAssignmentMethod == analysis_real_time_simulation)
@@ -685,7 +679,6 @@ void g_MultiScenarioTrafficAssignment()
 			if (line_no == 1)  // read it once
 			{
 				g_ReadInputFiles();
-				g_ShortestPathDataMemoryAllocation();
 
 
 			}

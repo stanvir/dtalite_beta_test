@@ -5,7 +5,11 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+<<<<<<< HEAD
     <LocalDebuggerWorkingDirectory>..\..\DataSets\emission_test_network</LocalDebuggerWorkingDirectory>
+=======
+    <LocalDebuggerWorkingDirectory>C:\Standard Data Set\ABM_test model</LocalDebuggerWorkingDirectory>
+>>>>>>> xzhou99/master
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

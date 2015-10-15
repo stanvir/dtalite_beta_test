@@ -95,7 +95,7 @@ void DTANetworkForSP::AgentBasedPathAdjustment(
 				pVeh->m_DestinationZoneID  = pVeh->m_DestinationZoneID_Updated;
 				pVeh->m_DestinationNodeID =  g_ZoneMap[pVeh->m_DestinationZoneID].GetRandomDestinationIDInZone ((pVeh->m_AgentID%100)/100.0f); 
 
-				pVeh->m_InformationClass = info_en_route_and_pre_trip; // 3, so all the vehicles will access real-time information 
+				pVeh->m_InformationType = info_en_route_and_pre_trip; // 3, so all the vehicles will access real-time information 
 				pVeh->m_TimeToRetrieveInfo = 99999; // no more update
 
 				b_switch_flag = true;
@@ -111,7 +111,7 @@ void DTANetworkForSP::AgentBasedPathAdjustment(
 
 		// pVeh->m_DepartureTime +1: assume we access pre trip information one min before the trip
 
-		if(pVeh->m_InformationClass == info_pre_trip 
+		if(pVeh->m_InformationType == info_pre_trip 
 			&& int(pVeh->m_DepartureTime +1) > current_time /* if the departure time rounds up to the current time (min by min), then perforom pre-trip routing  */
 			&& int(pVeh->m_TimeToRetrieveInfo) <= current_time)
 		{
@@ -126,7 +126,7 @@ void DTANetworkForSP::AgentBasedPathAdjustment(
 		}
 
 		// if this is an enroute info vehicle, 
-		if(pVeh->m_InformationClass == info_en_route_and_pre_trip && pVeh->m_bLoaded == true &&
+		if(pVeh->m_InformationType == info_en_route_and_pre_trip && pVeh->m_bLoaded == true &&
 			int(pVeh->m_DepartureTime) < current_time &&
 			(int)(pVeh->m_TimeToRetrieveInfo) <= current_time && pVeh ->m_bComplete == false)
 		{
@@ -155,7 +155,7 @@ void DTANetworkForSP::AgentBasedPathAdjustment(
 
 		int StartingNodeID = pVeh->m_OriginNodeID;
 
-		if(pVeh->m_InformationClass == info_en_route_and_pre_trip  && pVeh->m_bLoaded == true )  // en route info, has not reached destination yet
+		if(pVeh->m_InformationType == info_en_route_and_pre_trip  && pVeh->m_bLoaded == true )  // en route info, has not reached destination yet
 		{
 			int CurrentLinkID = pVeh->m_LinkAry[pVeh->m_SimLinkSequenceNo].LinkNo;
 			StartingNodeID = g_LinkVector[CurrentLinkID]->m_ToNodeID;
@@ -180,10 +180,11 @@ void DTANetworkForSP::AgentBasedPathAdjustment(
 		// step 2: call function BuildPhysicalNetwork again to use m_prevailing_travel_time to overwrite link travel time data
 		// step 3: use link travel time data in agent-based routing 
 
+
 		NodeSize = FindBestPathWithVOT(pVeh->m_OriginZoneID, StartingNodeID , pVeh->m_DepartureTime , pVeh->m_DestinationZoneID , pVeh->m_DestinationNodeID, pVeh->m_DemandType , pVeh->m_VOT, PathLinkList, TotalCost,bGeneralizedCostFlag, bDebugFlag);
 
 
-	if(pVeh->m_InformationClass == info_en_route_and_pre_trip && pVeh->m_bLoaded == true )  // en route info
+	if(pVeh->m_InformationType == info_en_route_and_pre_trip && pVeh->m_bLoaded == true )  // en route info
 	{
 
 		int count = pVeh->m_SimLinkSequenceNo;
@@ -280,9 +281,9 @@ void g_ApplyExternalPathInput(int departure_time_begin)
 			int VehicleID = g_TDOVehicleArray[origin_zone_index][AssignmentInterval].VehicleArray[vi];
 			DTAVehicle* pVeh  = g_VehicleMap[VehicleID];
 			
-			if (pVeh->m_InformationClass == info_hist_based_on_routing_policy)
+			if (pVeh->m_InformationType == info_hist_based_on_routing_policy || pVeh->m_InformationType == learning_from_hist_travel_time)
 			{
-				g_UseExternalPath(pVeh);
+				g_UseExternalPathDefinedInRoutingPolicy(pVeh);
 			}
 		} // for each vehicle on this OD pair
 	}
@@ -1232,18 +1233,12 @@ void g_UpdateAgentPathBasedOnNewDestinationOrDepartureTime(int VehicleID)
 }
 void g_ReadRealTimeSimulationSettingsFile()
 {
-	CCSVParser parser_RTSimulation_settings;
-	if (parser_RTSimulation_settings.OpenCSVFile("input_scenario_settings.csv", false))
-	{
 
 		// we enable information updating for real-time simulation mode
 		g_bInformationUpdatingAndReroutingFlag = true;
 
 		int record_count = 0;
-
-		while (parser_RTSimulation_settings.ReadRecord())
-		{
-			_proxy_ABM_log(0, "read configuration from input_simulation_schedule.csv.");
+			_proxy_ABM_log(0, "read configuration from DTASettings.ini.");
 
 		std:string timestamp_in_string;
 			std::string  break_point_flag;
@@ -1262,20 +1257,20 @@ void g_ReadRealTimeSimulationSettingsFile()
 			int start_time_in_second = g_DemandLoadingStartTimeInMin * 60;
 			int end_time_in_second = g_DemandLoadingEndTimeInMin * 60;
 
-			int real_time_data_frequency_in_second = 1;
+			int RT_Input_LinkAttribute = g_GetPrivateProfileInt("ABM_integration", "RT_Input_LinkAttribute_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Input_Update_Agent = g_GetPrivateProfileInt("ABM_integration", "RT_Input_Agent_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Input_Routing_Policy = g_GetPrivateProfileInt("ABM_integration", "RT_Input_Routing_Policy_Frequency_in_Seconds", 0, g_DTASettingFileName);
 
-			parser_RTSimulation_settings.GetValueByFieldNameRequired("real_time_data_frequency_in_second", real_time_data_frequency_in_second);
-			int RT_Input_LinkAttribute = real_time_data_frequency_in_second;
-			int RT_Input_Update_Agent  = real_time_data_frequency_in_second;
-			
-			int RT_Output_LinkMOE = real_time_data_frequency_in_second;
+			if (RT_Input_Routing_Policy > 0 )
+				g_use_global_path_set_flag = 1;
+
+			int RT_Output_LinkMOE = g_GetPrivateProfileInt("ABM_integration", "RT_Output_LinkMOE_Frequency_in_Seconds", 0, g_DTASettingFileName);
 			_proxy_ABM_log(0, "-- output link MOE every %d (min)\n", RT_Output_LinkMOE/60);
 
 			int RT_Output_PathMOE = 15 * 60;
-			int RT_Output_ODMOE = 15 * 60;
-			int RT_Input_Routing_Policy = 15*60;
-			int RT_Output_Complete_Agent = real_time_data_frequency_in_second;
-			int RT_Output_Tagged_Agent = real_time_data_frequency_in_second;
+			int RT_Output_ODMOE = g_GetPrivateProfileInt("ABM_integration", "RT_Output_Routing_Policy_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Output_Complete_Agent = g_GetPrivateProfileInt("ABM_integration", "RT_Output_Complete_Agent_Frequency_in_Seconds", 0, g_DTASettingFileName);
+			int RT_Output_Tagged_Agent = g_GetPrivateProfileInt("ABM_integration", "RT_Output_Tagged_Agent_Frequency_in_Seconds", 0, g_DTASettingFileName);;
 			int RT_Input_DMS = -1;
 
 			_proxy_ABM_log(0, "Real time link MOE output time period: %d->%d (sec),  %d->%d (min), for every %d sec \n", 
@@ -1301,9 +1296,14 @@ void g_ReadRealTimeSimulationSettingsFile()
 
 				}
 
-				CString time_str;
-				time_str.Format("_sec%d", timestamp_in_second);
+				int hour = timestamp_in_second / 3600;
+				int min = (timestamp_in_second - hour * 3600)/60;
+				int sec = timestamp_in_second - hour * 3600 - min * 60;
 
+
+
+				CString time_str;
+				time_str.Format("_%02dh%02dm%02ds", hour, min, sec);
 
 				string timestamp_str = CString2StdString(time_str);
 
@@ -1333,7 +1333,7 @@ void g_ReadRealTimeSimulationSettingsFile()
 				}
 				if (RT_Input_Update_Agent >= 1 && timestamp_in_second%RT_Input_Update_Agent == 0)  // time resolution
 				{
-					g_RealTimeSimulationSettingsMap[timestamp_in_second].update_trip_file = "RT_Input_Update_Agent" + timestamp_str + ".csv";
+					g_RealTimeSimulationSettingsMap[timestamp_in_second].update_trip_file = "RT_Input_Agent" + timestamp_str + ".csv";
 				}
 				if (RT_Input_DMS >= 1 && timestamp_in_second%RT_Input_DMS == 0)  // time resolution
 				{
@@ -1351,8 +1351,6 @@ void g_ReadRealTimeSimulationSettingsFile()
 			//cout << "File input_simulation_schedule.csv has " << record_count << " file records." << endl;
 			//g_LogFile << "File input_simulation_schedule.csv has " << record_count << " file records." << endl;
 
-		}
-	}
 }
 
 bool g_ReadDMSScenarioFile(string FileName)

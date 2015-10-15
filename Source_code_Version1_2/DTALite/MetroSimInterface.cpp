@@ -195,54 +195,7 @@ void g_OutputCurrentGlobalPathSet(int SimulationTimeInMin)
 		}
 	}
 
-	ofstream output_path_file;
 
-	CString file_name;
-	file_name.Format("DEX_DTA_PATH_MIN_%d.csv", SimulationTimeInMin);
-
-	output_path_file.open(file_name, ios::out);
-
-	if (output_path_file.is_open())
-	{
-		cout << "outputing file " << file_name << "... " << endl;
-
-		output_path_file << "start_link_id,end_link_id,number_of_links,hourly_volume,route_id," << endl;
-			
-		for (int i = 0; i < g_ODZoneIDSize; i++)
-		for (int j = 0; j < g_ODZoneIDSize; j++)
-		{
-			int route_id = 1;
-			for (std::vector<PathStatistics>::iterator IterPS = g_ODPathSetVector[i][j][0].PathSet.begin(); IterPS != g_ODPathSetVector[i][j][0].PathSet.end(); IterPS++)
-			{
-
-				int hourly_volume = IterPS->TotalVehicleSize * 4;
-
-				output_path_file
-					<< IterPS->m_LinkIDArray[0] << ","
-					<< IterPS->m_LinkIDArray[IterPS->m_LinkIDArray.size() - 1] << ","
-					<< IterPS->m_LinkIDArray.size() << ","
-					<< hourly_volume << ","
-					<< route_id << ",";
-
-
-				for (int n = 0; n < IterPS->m_LinkIDArray.size(); n++)
-				{
-					output_path_file << IterPS->m_LinkIDArray[n] << ",";
-				}
-
-
-				output_path_file << endl;
-				route_id++;
-			}
-		}
-
-		output_path_file.close();
-	}
-	else
-	{
-		cout << "File " << file_name << " cannot be opened. Please check." << endl;
-	
-	}
 }
 
 void g_ExchangeVISSIM_RealTime_Link_Status(int meso_simulation_time_interval_no)

@@ -180,8 +180,8 @@ bool g_VehicularSimulation(int DayNo, double CurrentTime, int meso_simulation_ti
 		if (pVeh->m_bLoaded == false)  // not being loaded
 		{
 
-			if (pVeh->m_InformationClass == info_pre_trip ||
-				pVeh->m_InformationClass == info_en_route_and_pre_trip)
+			if (pVeh->m_InformationType == info_pre_trip ||
+				pVeh->m_InformationType == info_en_route_and_pre_trip)
 			{  // vehicle rerouting
 				computation_element.veh_id = pVeh->m_AgentID;
 				computation_element.current_time_stamp = CurrentTime;
@@ -1536,12 +1536,12 @@ bool g_VehicularSimulation(int DayNo, double CurrentTime, int meso_simulation_ti
 						if (NextNodeID != pVehicle->m_DestinationNodeID)  // you will reach the destination (on the last link).
 						{
 
-							if (pVehicle->m_InformationClass == 2)
+							if (pVehicle->m_InformationType == 2)
 							{
 								int cc = 1;
 							}
 
-							if (pVehicle->m_InformationClass == info_en_route_and_pre_trip ||
+							if (pVehicle->m_InformationType == info_en_route_and_pre_trip ||
 								(IS_id >= 0 && p_Nextlink->MessageSignVector[IS_id].NumberOfSubpaths >= 1) ||
 								(bRadioMessageActive && pVehicle->GetRandomRatio() * 100 < network_wide_RadioMessageResponsePercentage))
 							{  // vehicle rerouting
@@ -1962,7 +1962,7 @@ NetworkLoadingOutput g_NetworkLoading(e_traffic_flow_model TrafficFlowModelFlag 
 		DTAVehicle* pVeh = (*iterVehicle);
 		pVeh->PreTripReset();
 
-		if (pVeh->m_InformationClass >= info_pre_trip)  // with real-time information group
+		if (pVeh->m_InformationType >= info_pre_trip)  // with real-time information group
 		{
 			g_bInformationUpdatingAndReroutingFlag = true;
 		}

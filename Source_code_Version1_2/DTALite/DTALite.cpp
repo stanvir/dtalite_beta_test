@@ -245,7 +245,6 @@ float g_TotalDemandDeviation = 0;
 float g_UpdatedDemandPrintOutThreshold = 5;
 float g_TotalMeasurementDeviation = 0;
 
-float g_UserClassPerceptionErrorRatio[MAX_SIZE_INFO_USERS] = { 0 };
 int g_output_OD_path_MOE_file = 1;
 int g_output_OD_TD_path_MOE_file = 1;
 int g_output_OD_path_MOE_cutoff_volume = 1;
@@ -2135,6 +2134,12 @@ void g_ReadInputFiles()
 
 
 
+	g_ShortestPathDataMemoryAllocation();
+	int LinkSizeForLinkCostArray = g_LinkVector.size() + g_NodeVector.size(); // double the size to account for artificial connectors
+	g_LinkTDCostAry = AllocateDynamicArray<DTALinkToll>(LinkSizeForLinkCostArray, g_NumberOfSPCalculationPeriods);
+
+	if (g_use_global_path_set_flag == 1)
+		g_BuildGlobalPathSet();
 
 	if (g_UEAssignmentMethod != analysis_real_time_simulation)
 	{
@@ -2226,20 +2231,7 @@ void g_ReadInputFiles()
 	{
 
 		CCSVParser parser_RTSimulation_settings;
-		if (parser_RTSimulation_settings.OpenCSVFile("input_simulation_schedule.csv", false) == true)
-		{
 			_proxy_ABM_log(0, "There are %d agents in the memory.\n", g_VehicleVector.size());
-
-			parser_RTSimulation_settings.CloseCSVFile();
-		}
-		else
-		{
-			cout << "assignment method = 4 requires file input_simulation_schedule.csv, which is missing now." << endl;
-			g_ProgramStop();
-
-		}
-
-
 	}
 
 
@@ -2367,8 +2359,6 @@ void g_ReadInputFiles()
 		ReadFractionOfOperatingModeForBaseCycle();
 		SetupOperatingModeVector();
 	}
-	int LinkSizeForLinkCostArray = g_LinkVector.size() + g_NodeVector.size(); // double the size to account for artificial connectors
-	g_LinkTDCostAry = AllocateDynamicArray<DTALinkToll>(LinkSizeForLinkCostArray, g_NumberOfSPCalculationPeriods);
 
 
 }
@@ -2426,7 +2416,7 @@ int CreateVehicles(int origin_zone, int destination_zone, float number_of_vehicl
 				g_SystemDemand.AddValue(origin_zone, destination_zone, time_interval, 1); // to store the initial table as hist database
 		}
 
-		g_GetVehicleAttributes(vhc.m_DemandType, vhc.m_VehicleType, vhc.m_InformationClass, vhc.m_VOT, vhc.m_Age);
+		g_GetVehicleAttributes(vhc.m_DemandType, vhc.m_VehicleType, vhc.m_InformationType, vhc.m_VOT, vhc.m_Age);
 
 
 		g_SimulationResult.number_of_vehicles_DemandType[vhc.m_DemandType]++;
@@ -2552,7 +2542,7 @@ void g_ConvertDemandToVehicles()
 
 			pVehicle->m_PCE = g_VehicleTypeVector[pVehicle->m_VehicleType - 1].PCE;
 
-			pVehicle->m_InformationClass = kvhc->m_InformationClass;
+			pVehicle->m_InformationType = kvhc->m_InformationType;
 			pVehicle->m_VOT = kvhc->m_VOT;
 			pVehicle->m_Age = kvhc->m_Age;
 
@@ -2560,11 +2550,6 @@ void g_ConvertDemandToVehicles()
 			g_VehicleVector.push_back(pVehicle);
 			g_AddVehicleID2ListBasedonDepartureTime(pVehicle);
 			g_VehicleMap[i] = pVehicle;
-
-			if (g_use_routing_policy_from_external_input == 1 )
-			{
-				g_UseExternalPath(pVehicle);  // apply routing policy to agents that are just generated. 
-			} //else we will generate shortest path in the assignment module 
 
 			int AssignmentInterval = g_FindAssignmentIntervalIndexFromTime(pVehicle->m_DepartureTime);
 			g_TDOVehicleArray[g_ZoneMap[pVehicle->m_OriginZoneID].m_ZoneSequentialNo][AssignmentInterval].VehicleArray.push_back(i);
@@ -4803,18 +4788,7 @@ void g_ReadDTALiteSettings()
 
 	g_start_iteration_for_MOEoutput = g_GetPrivateProfileInt("output", "start_iteration_for_MOE", -1, g_DTASettingFileName);
 
-	g_UserClassPerceptionErrorRatio[1] = g_GetPrivateProfileFloat("traveler_information", "coefficient_of_variation_of_historical_info_travelers_perception_error", 0.3f, g_DTASettingFileName);
 
-	if (g_UserClassPerceptionErrorRatio[1] <= -0.01 || g_UserClassPerceptionErrorRatio[1] >= 1.0)
-	{
-
-		cout << "Input error: coefficient_of_variation_of_historical_info_travelers_perception_error should be between 0 and 1." << endl << "The current value in configuration file DTASettings.txt is " << g_UserClassPerceptionErrorRatio[1] << endl;
-		g_ProgramStop();
-
-	}
-
-	g_UserClassPerceptionErrorRatio[2] = g_GetPrivateProfileFloat("traveler_information", "coefficient_of_variation_of_pretrip_info_travelers_perception_error", 0.05f, g_DTASettingFileName);
-	g_UserClassPerceptionErrorRatio[3] = g_GetPrivateProfileFloat("traveler_information", "coefficient_of_variation_of_en-route_info_travelers_perception_error", 0.05f, g_DTASettingFileName);
 
 
 	g_SystemOptimalStartingTimeinMin = g_GetPrivateProfileInt("system_optimal_assignment", "re_routing_start_time_in_min", 0, g_DTASettingFileName);
@@ -7011,7 +6985,7 @@ bool g_ReadTransitTripCSVFile()
 				else
 					pVehicle->m_PCE = 1;
 				
-				pVehicle->m_InformationClass = 0;
+				pVehicle->m_InformationType = 0;
 
 				pVehicle->m_VOT = 10;
 				pVehicle->m_Age = 5;

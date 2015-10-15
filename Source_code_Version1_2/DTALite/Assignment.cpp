@@ -350,7 +350,7 @@ float DTANetworkForSP::AgentBasedPathFindingAssignment(int zone, int departure_t
 		pVeh->m_bConsiderToSwitch = false;
 		pVeh->m_bSwitch = false;
 
-		if (pVeh->m_InformationClass == 0 && pVeh->m_NodeSize >= 2)  // skip updating the path from assignment 
+		if (pVeh->m_InformationType == 0 && pVeh->m_NodeSize >= 2)  // skip updating the path from assignment 
 			continue; 
 		/// finding optimal path 
 		bool bDebugFlag = false;
@@ -442,7 +442,7 @@ float DTANetworkForSP::AgentBasedPathFindingAssignment(int zone, int departure_t
 				if (g_UEAssignmentMethod == analysis_system_optimal )
 				{
 
-					if (pVeh->m_ArrivalTime > g_SystemOptimalStartingTimeinMin && (pVeh->m_InformationClass == info_personalized_info || pVeh->m_InformationClass == info_eco_so))  // personalized eco so users
+					if (pVeh->m_ArrivalTime > g_SystemOptimalStartingTimeinMin && (pVeh->m_InformationType == info_personalized_info || pVeh->m_InformationType == info_eco_so))  // personalized eco so users
 					{
 						// step 1: copy existing link numbers
 						int  current_link_count = 0;
@@ -481,13 +481,13 @@ float DTANetworkForSP::AgentBasedPathFindingAssignment(int zone, int departure_t
 							TRACE("\n current node: %d", g_NodeVector[starting_node_id].m_NodeNumber );
 
 
-							if (pVeh->m_InformationClass == info_personalized_info)
+							if (pVeh->m_InformationType == info_personalized_info)
 							{
 								bGeneralizedCostFlag = false;
 								NodeSize = FindBestPathWithVOT(pVeh->m_OriginZoneID, starting_node_id, starting_time_in_min, pVeh->m_DestinationZoneID, pVeh->m_DestinationNodeID, pVeh->m_DemandType, pVeh->m_VOT, PathLinkList, TotalCost, bGeneralizedCostFlag, bDebugFlag);
 							}
 
-							if (pVeh->m_InformationClass == info_eco_so)
+							if (pVeh->m_InformationType == info_eco_so)
 							{
 								bGeneralizedCostFlag = true;
 								NodeSize = FindBestPathWithVOT(pVeh->m_OriginZoneID, starting_node_id, starting_time_in_min, pVeh->m_DestinationZoneID, pVeh->m_DestinationNodeID, pVeh->m_DemandType, pVeh->m_VOT, PathLinkList, TotalCost, bGeneralizedCostFlag, bDebugFlag);
@@ -723,7 +723,7 @@ void DTANetworkForSP::ZoneBasedPathAssignment(int zone, int departure_time_begin
 		int destination_zone_no = g_ZoneMap[pVeh->m_DestinationZoneID].m_ZoneSequentialNo;
 		int DestinationCentriod = m_PhysicalNodeSize + 1+ destination_zone_no;  // map m_ZoneSequentialNo to DestinationCentriod
 
-		if (pVeh->m_InformationClass == 0  && pVeh->m_NodeSize >=2)  // skip updating the path from assignment 
+		if (pVeh->m_InformationType == 0  && pVeh->m_NodeSize >=2)  // skip updating the path from assignment 
 			continue;
 
 		double TotalCost =  MAX_SPLABEL;
@@ -780,7 +780,7 @@ void DTANetworkForSP::ZoneBasedPathAssignment(int zone, int departure_time_begin
 		pVeh->m_bSwitch = false;
 
 
-		if (iteration > 0 && pVeh->m_InformationClass != 0) // update path assignments -> determine whether or not the vehicle will switch
+		if (iteration > 0 && pVeh->m_InformationType != 0) // update path assignments -> determine whether or not the vehicle will switch
 		{
 
 
@@ -1168,10 +1168,10 @@ void DTANetworkForSP::HistInfoZoneBasedPathAssignment(int zone, int departure_ti
 			if (pVeh->m_NodeSize >0) // path assigned (from input_agent.csv)
 				continue;
 
-			if (pVeh->m_InformationClass == 0 && pVeh->m_NodeSize >=2)  // skip updating the path from assignment 
+			if (pVeh->m_InformationType == 0 && pVeh->m_NodeSize >=2)  // skip updating the path from assignment 
 				continue;
 
-			BuildHistoricalInfoNetwork(zone, pVeh->m_DepartureTime, g_UserClassPerceptionErrorRatio[1]);  // build network for this zone, because different zones have different connectors...
+			BuildHistoricalInfoNetwork(zone, pVeh->m_DepartureTime, 0);  // build network for this zone, because different zones have different connectors...
 			//using historical short-term travel time
 			TDLabelCorrecting_DoubleQueue(g_NodeVector.size(), 0, pVeh->m_DepartureTime, pVeh->m_DemandType, pVeh->m_VOT, false, false, false);  // g_NodeVector.size() is the node ID corresponding to CurZoneNo
 
