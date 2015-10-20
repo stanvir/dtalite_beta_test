@@ -1,9 +1,7 @@
 *.opensdf
-Source_code_Version1_2/DTALite/DTALite.sdf
-*.suo
-*.suo
-Source_code_Version1_2/DTALite/DTALite.v12.suo
-*.suo
+*.sdf
 *.vcxproj
-Source_code_Version1_2/DTALite/DTALite.vcxproj.user
+bin/
+obj/
 *.suo
+*.user
