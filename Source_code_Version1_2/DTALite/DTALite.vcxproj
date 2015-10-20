@@ -191,6 +191,7 @@
     <ResourceCompile Include="DTALite.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="ClassDiagram1.cd" />
     <None Include="..\..\NEXTA_RELEASE\NEXTA_for_DTALite\vcomp90.dll" />
   </ItemGroup>
