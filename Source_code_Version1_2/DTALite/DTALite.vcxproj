@@ -87,7 +87,7 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>C:\NEXTA_DTALite_SoftwareRelease</OutDir>
+    <OutDir>..\..\Software_release</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>DTALite_64</TargetName>
@@ -191,6 +191,7 @@
     <ResourceCompile Include="DTALite.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram.cd" />
     <None Include="ClassDiagram1.cd" />
     <None Include="..\..\NEXTA_RELEASE\NEXTA_for_DTALite\vcomp90.dll" />
   </ItemGroup>

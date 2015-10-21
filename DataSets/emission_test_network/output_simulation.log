@@ -1,0 +1,31 @@
+--- Current Directory: C:\Standard Data Set\emission_test_network ---
+
+---DTALite: A Fast Open-Source DTA Simulation Engine---
+Version 1.1.0, Release Date Sep 24 2015.
+Simulation Horizon (min) = 840
+Departure Time Interval (min) = 15
+Number of Iterations = 1
+Continuous Flow with Link Capacity Constrai
+Traffic Flow Model =  Newell's Cumulative Flow Count Model
+Step 1: Reading file input_node.csv...(Used RAM 0 MB)
+Step 2: Reading file input_link_type.csv..(Used RAM 8 MB)
+Step 3: Reading file input_link.csv...(Used RAM 15 MB)
+Step 5: Reading file input_activity_location.csv...(Used RAM 21 MB)
+1 -> 1
+2 -> 2
+38 -> 38
+39 -> 39
+40 -> 40
+41 -> 41
+Zone 1 has a maximum of1 connectors:
+Step 6: Reading file input_vehicle_type.csv...(Used RAM 21 MB)
+Step 7.1: Reading file input_demand_type.csv...(Used RAM 21 MB)
+The following freeway/highway bottlenecks are identified.
+lane drop:8 ->9
+merge into freeway with multiple freeway/ramps:No.0 29 -> 2 with 3 lanes and in flow capacity split 0.333
+merge into freeway with multiple freeway/ramps:No.1 12 -> 2 with 4 lanes and in flow capacity split 0.444
+merge into freeway with multiple freeway/ramps:No.2 34 -> 2 with 2 lanes and in flow capacity split 0.222
+Reading file sensor_count.csv and sensor_speed.csv with 0 valid sensor records.
+Step 10: Reading files  based on user settings in  meta database file...(Used RAM 21 MB)
+Total demand volume = 7200.000(Used RAM 21 MB)
+Total number of vehicles to be simulated = 7200
