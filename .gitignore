@@ -1,6 +1,5 @@
 *.opensdf
 *.sdf
-*.vcxproj
 bin/
 obj/
 *.suo
